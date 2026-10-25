@@ -1,0 +1,16 @@
+# M2A-1 — MONDO crosswalk + disease families (spec §6.2.2)
+mondo_obo: data/raw/mondo/mondo.obo
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+out_dir: data/processed/m2
+report_path: reports/m2a/mondo_crosswalk.md
+manifest_path: data/processed/m2/crosswalk_manifest.json
+families_config: configs/disease_families.yaml
+# External id schemes seen on Track-D disease nodes (M2 characterization)
+xref_prefixes: [EFO, DOID, Orphanet, OTAR, OBI, NCIT, MP, PATO, OBA, OMIM, UMLS]
+families:
+  - key: alzheimer
+    root: "MONDO:0004975"
+    root_name: Alzheimer disease
+  - key: parkinson
+    root: "MONDO:0005180"
+    root_name: Parkinson disease

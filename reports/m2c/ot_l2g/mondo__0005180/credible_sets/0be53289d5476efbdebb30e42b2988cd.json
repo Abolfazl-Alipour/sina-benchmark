@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.138189435005188,
+    "target": {
+     "approvedSymbol": "SLC50A1",
+     "id": "ENSG00000169241"
+    }
+   },
+   {
+    "score": 0.0630531832575798,
+    "target": {
+     "approvedSymbol": "TRIM46",
+     "id": "ENSG00000163462"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST009325",
+ "studyLocusId": "0be53289d5476efbdebb30e42b2988cd",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_155162560_G_A",
+  "position": 155162560
+ }
+}

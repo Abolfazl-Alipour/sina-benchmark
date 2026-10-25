@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6729374527931213,
+    "target": {
+     "approvedSymbol": "TENM2",
+     "id": "ENSG00000145934"
+    }
+   },
+   {
+    "score": 0.18953904509544373,
+    "target": {
+     "approvedSymbol": "WWC1",
+     "id": "ENSG00000113645"
+    }
+   },
+   {
+    "score": 0.0673513188958168,
+    "target": {
+     "approvedSymbol": "SLIT3",
+     "id": "ENSG00000184347"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9db12aea112333944be2c48d00baf765",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_168253671_C_A",
+  "position": 168253671
+ }
+}

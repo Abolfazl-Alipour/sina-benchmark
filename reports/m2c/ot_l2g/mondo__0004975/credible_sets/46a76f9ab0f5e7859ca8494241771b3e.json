@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8369693160057068,
+    "target": {
+     "approvedSymbol": "BCL11A",
+     "id": "ENSG00000119866"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "46a76f9ab0f5e7859ca8494241771b3e",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_60491212_C_T",
+  "position": 60491212
+ }
+}

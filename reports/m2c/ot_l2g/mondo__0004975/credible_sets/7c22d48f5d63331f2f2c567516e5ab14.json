@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.6308742165565491,
+    "target": {
+     "approvedSymbol": "LRBA",
+     "id": "ENSG00000198589"
+    }
+   },
+   {
+    "score": 0.06756004691123962,
+    "target": {
+     "approvedSymbol": "SH3D19",
+     "id": "ENSG00000109686"
+    }
+   },
+   {
+    "score": 0.05812791734933853,
+    "target": {
+     "approvedSymbol": "MAB21L2",
+     "id": "ENSG00000181541"
+    }
+   },
+   {
+    "score": 0.054018642753362656,
+    "target": {
+     "approvedSymbol": "PRSS48",
+     "id": "ENSG00000189099"
+    }
+   },
+   {
+    "score": 0.05286130681633949,
+    "target": {
+     "approvedSymbol": "RPS3A",
+     "id": "ENSG00000145425"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "7c22d48f5d63331f2f2c567516e5ab14",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_150840447_A_G",
+  "position": 150840447
+ }
+}

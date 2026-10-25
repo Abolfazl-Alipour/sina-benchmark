@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.4465904235839844,
+    "target": {
+     "approvedSymbol": "BCAM",
+     "id": "ENSG00000187244"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "800357667c5cf248839a01d6188b5ca9",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_44820881_G_A",
+  "position": 44820881
+ }
+}

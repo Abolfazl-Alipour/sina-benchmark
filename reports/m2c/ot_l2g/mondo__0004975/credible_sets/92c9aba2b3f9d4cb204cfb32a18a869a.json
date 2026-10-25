@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.8016744256019592,
+    "target": {
+     "approvedSymbol": "ALPL",
+     "id": "ENSG00000162551"
+    }
+   },
+   {
+    "score": 0.1821400672197342,
+    "target": {
+     "approvedSymbol": "NBPF3",
+     "id": "ENSG00000142794"
+    }
+   },
+   {
+    "score": 0.055588554590940475,
+    "target": {
+     "approvedSymbol": "ENSG00000289715",
+     "id": "ENSG00000289715"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "92c9aba2b3f9d4cb204cfb32a18a869a",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_21496799_C_T",
+  "position": 21496799
+ }
+}

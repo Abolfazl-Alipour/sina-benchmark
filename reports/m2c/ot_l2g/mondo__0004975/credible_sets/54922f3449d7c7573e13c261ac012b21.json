@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.573209822177887,
+    "target": {
+     "approvedSymbol": "CHN2",
+     "id": "ENSG00000106069"
+    }
+   },
+   {
+    "score": 0.19699648022651672,
+    "target": {
+     "approvedSymbol": "PRR15",
+     "id": "ENSG00000176532"
+    }
+   },
+   {
+    "score": 0.057673368602991104,
+    "target": {
+     "approvedSymbol": "SCRN1",
+     "id": "ENSG00000136193"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "54922f3449d7c7573e13c261ac012b21",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_29496676_T_A",
+  "position": 29496676
+ }
+}

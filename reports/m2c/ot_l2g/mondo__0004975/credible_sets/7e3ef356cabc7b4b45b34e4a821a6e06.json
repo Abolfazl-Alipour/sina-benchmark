@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3560412526130676,
+    "target": {
+     "approvedSymbol": "VEGFA",
+     "id": "ENSG00000112715"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "7e3ef356cabc7b4b45b34e4a821a6e06",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_43738216_C_T",
+  "position": 43738216
+ }
+}

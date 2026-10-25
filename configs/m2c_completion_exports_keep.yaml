@@ -1,0 +1,16 @@
+# Phase 1 — Completion-track exports (within-disease 95/5) — KEEP BRG
+# Adapts m2_lodo_exports_keep.yaml; new file per directive (do not edit LODO script)
+# Output: data/processed/m2c/completion_exports/<unit>/
+supervision: data/processed/m2/trimmed/supervision.parquet
+brg: data/processed/m2/trimmed/brg.parquet
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+output_dir: data/processed/m2c/completion_exports
+report_path: reports/m2c/completion_exports_keep.md
+manifest_path: data/raw/manifests/m2c_completion_exports.json
+split_seed: 1337
+valid_fraction: 0.15
+completion_test_fraction: 0.05
+drop_brg_labels: []
+units:
+  - {curie: mondo:0004975, name: Alzheimer disease, tier: completion_main}
+  - {curie: mondo:0005180, name: Parkinson disease, tier: completion_main}

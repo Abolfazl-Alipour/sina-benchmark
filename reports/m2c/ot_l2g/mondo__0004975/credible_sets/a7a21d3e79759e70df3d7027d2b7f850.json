@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.12159368395805359,
+    "target": {
+     "approvedSymbol": "ZBTB45",
+     "id": "ENSG00000119574"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "a7a21d3e79759e70df3d7027d2b7f850",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_58524353_A_T",
+  "position": 58524353
+ }
+}

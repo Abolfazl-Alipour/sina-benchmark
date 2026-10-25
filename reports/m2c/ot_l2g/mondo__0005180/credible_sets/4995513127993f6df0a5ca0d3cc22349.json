@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6153914928436279,
+    "target": {
+     "approvedSymbol": "COMMD1",
+     "id": "ENSG00000173163"
+    }
+   },
+   {
+    "score": 0.1837722361087799,
+    "target": {
+     "approvedSymbol": "B3GNT2",
+     "id": "ENSG00000170340"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90479727",
+ "studyLocusId": "4995513127993f6df0a5ca0d3cc22349",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_62072723_C_T",
+  "position": 62072723
+ }
+}

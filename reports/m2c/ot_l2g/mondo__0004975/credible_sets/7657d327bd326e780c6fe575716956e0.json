@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.2274041771888733,
+    "target": {
+     "approvedSymbol": "SRA1",
+     "id": "ENSG00000213523"
+    }
+   },
+   {
+    "score": 0.15681418776512146,
+    "target": {
+     "approvedSymbol": "SLC4A9",
+     "id": "ENSG00000113073"
+    }
+   },
+   {
+    "score": 0.05077440291643143,
+    "target": {
+     "approvedSymbol": "HBEGF",
+     "id": "ENSG00000113070"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "7657d327bd326e780c6fe575716956e0",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_140361785_C_A",
+  "position": 140361785
+ }
+}

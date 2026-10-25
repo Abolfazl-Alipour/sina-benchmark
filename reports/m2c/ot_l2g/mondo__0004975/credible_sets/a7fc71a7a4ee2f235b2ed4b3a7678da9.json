@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6532272100448608,
+    "target": {
+     "approvedSymbol": "BCAS3",
+     "id": "ENSG00000141376"
+    }
+   },
+   {
+    "score": 0.2951147258281708,
+    "target": {
+     "approvedSymbol": "TBX2",
+     "id": "ENSG00000121068"
+    }
+   },
+   {
+    "score": 0.10311759263277054,
+    "target": {
+     "approvedSymbol": "TBX4",
+     "id": "ENSG00000121075"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001915",
+ "studyLocusId": "a7fc71a7a4ee2f235b2ed4b3a7678da9",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_61215075_A_C",
+  "position": 61215075
+ }
+}

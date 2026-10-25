@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5093598961830139,
+    "target": {
+     "approvedSymbol": "MVK",
+     "id": "ENSG00000110921"
+    }
+   },
+   {
+    "score": 0.4057237505912781,
+    "target": {
+     "approvedSymbol": "UBE3B",
+     "id": "ENSG00000151148"
+    }
+   },
+   {
+    "score": 0.3070283532142639,
+    "target": {
+     "approvedSymbol": "MMAB",
+     "id": "ENSG00000139428"
+    }
+   },
+   {
+    "score": 0.11921241879463196,
+    "target": {
+     "approvedSymbol": "KCTD10",
+     "id": "ENSG00000110906"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "d78dd7aaba616d64dcef2c14dfd86b38",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_109613344_G_A",
+  "position": 109613344
+ }
+}

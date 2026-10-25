@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.20939017832279205,
+    "target": {
+     "approvedSymbol": "PEX2",
+     "id": "ENSG00000164751"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "99b37921ca9f6f76229f795722f5ca7a",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_77546638_T_C",
+  "position": 77546638
+ }
+}

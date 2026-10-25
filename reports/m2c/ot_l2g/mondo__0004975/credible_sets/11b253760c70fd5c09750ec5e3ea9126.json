@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.4981909990310669,
+    "target": {
+     "approvedSymbol": "SIX2",
+     "id": "ENSG00000170577"
+    }
+   },
+   {
+    "score": 0.12369466572999954,
+    "target": {
+     "approvedSymbol": "SRBD1",
+     "id": "ENSG00000068784"
+    }
+   },
+   {
+    "score": 0.06484240293502808,
+    "target": {
+     "approvedSymbol": "PRKCE",
+     "id": "ENSG00000171132"
+    }
+   },
+   {
+    "score": 0.05687592178583145,
+    "target": {
+     "approvedSymbol": "SIX3",
+     "id": "ENSG00000138083"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "11b253760c70fd5c09750ec5e3ea9126",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_45269949_A_C",
+  "position": 45269949
+ }
+}

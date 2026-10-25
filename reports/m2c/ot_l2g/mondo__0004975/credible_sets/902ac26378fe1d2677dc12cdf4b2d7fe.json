@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.46847003698349,
+    "target": {
+     "approvedSymbol": "ARMH3",
+     "id": "ENSG00000120029"
+    }
+   },
+   {
+    "score": 0.39125481247901917,
+    "target": {
+     "approvedSymbol": "KCNIP2",
+     "id": "ENSG00000120049"
+    }
+   },
+   {
+    "score": 0.16006895899772644,
+    "target": {
+     "approvedSymbol": "OGA",
+     "id": "ENSG00000198408"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "902ac26378fe1d2677dc12cdf4b2d7fe",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_102042651_A_G",
+  "position": 102042651
+ }
+}

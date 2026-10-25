@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7355960607528687,
+    "target": {
+     "approvedSymbol": "CCDC62",
+     "id": "ENSG00000130783"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST010991",
+ "studyLocusId": "1ebd855eeabc8c6a7dfd445260051503",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_122807956_A_C",
+  "position": 122807956
+ }
+}

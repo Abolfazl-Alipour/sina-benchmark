@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6370770931243896,
+    "target": {
+     "approvedSymbol": "TGFB2",
+     "id": "ENSG00000092969"
+    }
+   },
+   {
+    "score": 0.14809678494930267,
+    "target": {
+     "approvedSymbol": "RRP15",
+     "id": "ENSG00000067533"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "08cc96d7370570eab333a834da485f5e",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_218561848_G_C",
+  "position": 218561848
+ }
+}

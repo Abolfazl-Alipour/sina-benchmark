@@ -1,0 +1,61 @@
+{
+  "bootstrap": 1000,
+  "candidates": 11256,
+  "cutoff": 2020,
+  "eval": "filtered pinned 17448, candidates = pinned minus train2/valid positives (post-cutoff genes stay candidates: unknown at cutoff), optimistic-tie rank",
+  "generated_at": "2026-09-05T23:23:55Z",
+  "limitation": "first-reported clock is genetics-only (GWAS Catalog); literature-only genes carry no year and stay in G_pre \u2014 generous to the null, so a collapse is decisive",
+  "loci_json": "reports/m2c/gwas_loci_mondo__0005180.json",
+  "seed": 1337,
+  "test_eval_n": 82,
+  "test_mode": "all_post",
+  "test_n": 339,
+  "test_post_direct_n": 4,
+  "test_post_n": 6,
+  "train_positives": 5278,
+  "unit": "mondo__0005180",
+  "variants": {
+    "FULL": {
+      "g_size": 5278,
+      "h10": 0.04878048780487805,
+      "h10_ci": [
+        0.012195121951219513,
+        0.0975609756097561
+      ],
+      "mrr": 0.012383272404570616,
+      "mrr_ci": [
+        0.004967649032941838,
+        0.023394754771487523
+      ],
+      "n": 82
+    },
+    "PRE_ALL": {
+      "g_size": 5237,
+      "h10": 0.0,
+      "h10_ci": [
+        0.0,
+        0.0
+      ],
+      "mrr": 8.949346697691068e-05,
+      "mrr_ci": [
+        8.949346697691068e-05,
+        8.949346697691068e-05
+      ],
+      "n": 82
+    },
+    "PRE_DIRECT": {
+      "g_size": 5246,
+      "h10": 0.0,
+      "h10_ci": [
+        0.0,
+        0.0
+      ],
+      "mrr": 8.949346697691068e-05,
+      "mrr_ci": [
+        8.949346697691068e-05,
+        8.949346697691068e-05
+      ],
+      "n": 82
+    }
+  }
+}

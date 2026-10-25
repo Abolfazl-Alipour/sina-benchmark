@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6072044372558594,
+    "target": {
+     "approvedSymbol": "TBXAS1",
+     "id": "ENSG00000059377"
+    }
+   },
+   {
+    "score": 0.13425013422966003,
+    "target": {
+     "approvedSymbol": "PARP12",
+     "id": "ENSG00000059378"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90480731",
+ "studyLocusId": "cc1fd193360e6b0769afa299fc35d399",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_139971504_C_T",
+  "position": 139971504
+ }
+}

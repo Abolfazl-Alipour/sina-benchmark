@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.582892119884491,
+    "target": {
+     "approvedSymbol": "TENT5A",
+     "id": "ENSG00000112773"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003452",
+ "studyLocusId": "7a588fbdfe03c62a23635fde88d357c6",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_81418166_A_G",
+  "position": 81418166
+ }
+}

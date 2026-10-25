@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6476448178291321,
+    "target": {
+     "approvedSymbol": "DDAH1",
+     "id": "ENSG00000153904"
+    }
+   },
+   {
+    "score": 0.0835161805152893,
+    "target": {
+     "approvedSymbol": "BCL10",
+     "id": "ENSG00000142867"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "32b2edde2cf2d40eef2c71f94a8c2349",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_85367115_G_A",
+  "position": 85367115
+ }
+}

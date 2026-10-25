@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.4982132613658905,
+    "target": {
+     "approvedSymbol": "NFAT5",
+     "id": "ENSG00000102908"
+    }
+   },
+   {
+    "score": 0.282552570104599,
+    "target": {
+     "approvedSymbol": "NOB1",
+     "id": "ENSG00000141101"
+    }
+   },
+   {
+    "score": 0.13057531416416168,
+    "target": {
+     "approvedSymbol": "WWP2",
+     "id": "ENSG00000198373"
+    }
+   },
+   {
+    "score": 0.05277390405535698,
+    "target": {
+     "approvedSymbol": "NQO1",
+     "id": "ENSG00000181019"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "fd042e213662c98cb26992fb60694d2d",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_69635752_G_C",
+  "position": 69635752
+ }
+}

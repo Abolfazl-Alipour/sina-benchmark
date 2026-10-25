@@ -1,0 +1,30 @@
+# M4B tabular baseline — frozen run config (mirrors script defaults).
+# Reproduce: scripts/m4b/tabular_baseline.py positives panels features train --view both
+seeds: [1337, 1339, 5027]
+features_all: [dist_kb, degree, loeuf, pli]
+features_tmp: [dist_kb, loeuf, pli]
+# V2 pre-registered 2026-09-12 BEFORE any v2 number: single run, report
+# whatever comes out. Drop constraint (v1 ablation: +0.039 without it);
+# add disgen_degree (DIS-GEN-only literature prior) and vep_sev (VEP
+# coding severity 0-3 of lead SNP on each panel gene; gold labels skew
+# coding per OT's own paper). No further feature rounds without a new
+# pre-registered amendment.
+features_v2: [dist_kb, degree, disgen_degree, vep_sev]
+# V3 amendment 2026-09-12 (owner-ordered, BEFORE any v3 number): add
+# disease-anchored network propagation (ppr from mapped EFO trait nodes;
+# 120/280 gold traits map exactly, rest NaN) + phenotype/GO degree.
+# Single run, report whatever comes out. PPR on the DISGENET-free full
+# graph (11.5M edges, alpha 0.15).
+features_v3: [dist_kb, degree, disgen_degree, vep_sev, phe_degree, go_degree, ppr]
+panel: tss_within_500kb
+panel_half_window: 500000
+cv_folds: 5
+cv_fold_seed: 1337
+bootstrap_resamples: 1000
+bootstrap_seed: 1337
+tmp_cutoffs: [2020, 2015]
+flames_year_assumed: 2018
+lightgbm: {objective: binary, metric: average_precision, learning_rate: 0.05,
+  num_leaves: 31, min_child_samples: 20, feature_fraction: 0.9,
+  bagging_fraction: 0.9, bagging_freq: 1, num_boost_round: 2000,
+  early_stopping_rounds: 100, num_threads: 4, deterministic: true}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.18475408852100372,
+    "target": {
+     "approvedSymbol": "HROB",
+     "id": "ENSG00000125319"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "a681b953a53d4d28bf0ac74deffe2d26",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_44139757_G_A",
+  "position": 44139757
+ }
+}

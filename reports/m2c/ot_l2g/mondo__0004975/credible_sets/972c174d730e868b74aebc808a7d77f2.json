@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8415920734405518,
+    "target": {
+     "approvedSymbol": "DIRAS2",
+     "id": "ENSG00000165023"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "972c174d730e868b74aebc808a7d77f2",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_90629006_C_T",
+  "position": 90629006
+ }
+}

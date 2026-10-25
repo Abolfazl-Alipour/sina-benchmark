@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.36478063464164734,
+    "target": {
+     "approvedSymbol": "CEP44",
+     "id": "ENSG00000164118"
+    }
+   },
+   {
+    "score": 0.32256510853767395,
+    "target": {
+     "approvedSymbol": "FBXO8",
+     "id": "ENSG00000164117"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "492e5d24298921806d1b51d6e2967c21",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_174174724_A_G",
+  "position": 174174724
+ }
+}

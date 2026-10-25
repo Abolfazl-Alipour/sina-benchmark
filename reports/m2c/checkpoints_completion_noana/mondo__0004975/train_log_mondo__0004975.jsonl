@@ -1,0 +1,9 @@
+{"kind": "hourly_val", "epoch": 1, "batch": 228, "val_loss": 0.005425641074178861, "val_mrr": 0.010944988628645756, "val_hits10": 0.026567481402763018, "elapsed_s": 3937.4, "wall_iso": "2026-09-05T19:51:42Z"}
+{"kind": "hourly_val", "epoch": 1, "batch": 458, "val_loss": 0.0070212275051095155, "val_mrr": 0.010953271980199963, "val_hits10": 0.02922422954303932, "elapsed_s": 7884.5, "wall_iso": "2026-09-05T20:57:29Z"}
+{"kind": "hourly_val", "epoch": 1, "batch": 688, "val_loss": 0.010187041513002246, "val_mrr": 0.010460653565208507, "val_hits10": 0.02975557917109458, "elapsed_s": 11833.0, "wall_iso": "2026-09-05T22:03:18Z"}
+{"kind": "hourly_val", "epoch": 1, "batch": 918, "val_loss": 0.02341207982447715, "val_mrr": 0.011123140677253946, "val_hits10": 0.0281615302869288, "elapsed_s": 15779.3, "wall_iso": "2026-09-05T23:09:04Z"}
+{"kind": "hourly_val", "epoch": 1, "batch": 1146, "val_loss": 0.03754558927487427, "val_mrr": 0.011556818507342522, "val_hits10": 0.023910733262486716, "elapsed_s": 19718.5, "wall_iso": "2026-09-06T00:14:43Z"}
+{"kind": "hourly_val", "epoch": 1, "batch": 1376, "val_loss": 0.029850152999115167, "val_mrr": 0.011035802448634691, "val_hits10": 0.02497343251859724, "elapsed_s": 23666.4, "wall_iso": "2026-09-06T01:20:31Z"}
+{"kind": "hourly_val", "epoch": 1, "batch": 1605, "val_loss": 0.0714520434873707, "val_mrr": 0.011171944367134512, "val_hits10": 0.026036131774707757, "elapsed_s": 27598.7, "wall_iso": "2026-09-06T02:26:04Z"}
+{"kind": "hourly_val", "epoch": 1, "batch": 1835, "val_loss": 0.03969004503812534, "val_mrr": 0.010783816190354125, "val_hits10": 0.024442082890541977, "elapsed_s": 31548.9, "wall_iso": "2026-09-06T03:31:54Z"}
+{"epoch": 1, "train_loss": 2.885961924821856, "val_loss": 0.07845378321507405, "val_mrr": 0.012135283980739457, "val_hits10": 0.030818278427205102, "peak_vram_gb": 90.46, "ms_per_batch": 15731.082173233784, "epoch_seconds": 32481.5, "num_train_batches": 1895, "wall_iso": "2026-09-06T03:53:01Z"}

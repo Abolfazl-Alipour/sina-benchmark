@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.505795955657959,
+    "target": {
+     "approvedSymbol": "SPON1",
+     "id": "ENSG00000262655"
+    }
+   },
+   {
+    "score": 0.2299378216266632,
+    "target": {
+     "approvedSymbol": "RRAS2",
+     "id": "ENSG00000133818"
+    }
+   },
+   {
+    "score": 0.05118735879659653,
+    "target": {
+     "approvedSymbol": "PDE3B",
+     "id": "ENSG00000152270"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001915",
+ "studyLocusId": "95972b8d9c01f444cdf1a1a23f3bbae1",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_14202800_G_A",
+  "position": 14202800
+ }
+}

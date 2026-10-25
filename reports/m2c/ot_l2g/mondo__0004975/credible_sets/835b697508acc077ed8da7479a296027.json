@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7046790719032288,
+    "target": {
+     "approvedSymbol": "WDR70",
+     "id": "ENSG00000082068"
+    }
+   },
+   {
+    "score": 0.31542980670928955,
+    "target": {
+     "approvedSymbol": "NUP155",
+     "id": "ENSG00000113569"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "835b697508acc077ed8da7479a296027",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_37486551_T_G",
+  "position": 37486551
+ }
+}

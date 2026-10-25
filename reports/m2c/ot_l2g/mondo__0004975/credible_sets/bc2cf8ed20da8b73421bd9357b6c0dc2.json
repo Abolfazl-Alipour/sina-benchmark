@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7017816305160522,
+    "target": {
+     "approvedSymbol": "SLC38A9",
+     "id": "ENSG00000177058"
+    }
+   },
+   {
+    "score": 0.05302990600466728,
+    "target": {
+     "approvedSymbol": "DDX4",
+     "id": "ENSG00000152670"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "bc2cf8ed20da8b73421bd9357b6c0dc2",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_55688573_G_T",
+  "position": 55688573
+ }
+}

@@ -1,0 +1,23 @@
+# KEEP-graph variant of m2_lodo_shuffles.yaml (CHANGES/0024: DIS-PHE KEEP won
+# Step 0b Part 1, so the dual-shuffle negative controls must be re-generated on
+# the model's actual training graph — train1 WITH the 11,850 DIS-PHE edges).
+# Sources from <unit>_keep_disphe/ exports, writes <unit>_keep_shuffle_<mode>/.
+# Same guards, seed and units as configs/m2_lodo_shuffles.yaml.
+
+exports_dir: data/processed/m2/lodo_exports
+report_path: reports/m2b/lodo_shuffles_keep.md
+manifest_path: data/raw/manifests/m2_lodo_shuffles_keep.json
+
+units:
+  - mondo:0010196  # Werner syndrome (primary)
+  - mondo:0008310  # Hutchinson-Gilford progeria syndrome (primary)
+  - mondo:0007669  # renal cysts and diabetes syndrome (primary)
+
+modes: [across_disease, within_disease]
+
+seed: 1337
+max_attempts: 1000
+disease_pool: pooled
+
+source_suffix: "_keep_disphe"
+output_suffix: "_keep"

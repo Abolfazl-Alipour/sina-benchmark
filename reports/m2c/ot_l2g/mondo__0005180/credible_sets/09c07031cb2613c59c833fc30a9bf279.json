@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.33092764019966125,
+    "target": {
+     "approvedSymbol": "HSD3B7",
+     "id": "ENSG00000099377"
+    }
+   },
+   {
+    "score": 0.13322843611240387,
+    "target": {
+     "approvedSymbol": "CTF1",
+     "id": "ENSG00000150281"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "09c07031cb2613c59c833fc30a9bf279",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_30959620_T_C",
+  "position": 30959620
+ }
+}

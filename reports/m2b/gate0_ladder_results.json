@@ -1,0 +1,68 @@
+{
+  "script": "scripts/pod/gate0_ladder.py",
+  "change": "CHANGES/0022",
+  "git_ref": "7fd5dbd569de97d7f9806e4f14f72311750f5e01",
+  "timestamp": "2026-08-15T01:44:40.548003+00:00",
+  "gpu_name": "NVIDIA L40S",
+  "torch_version": "2.0.1+cu118",
+  "config": "configs/m2b_gate0_ladder.yaml",
+  "dataset_path": "/opt/sina/data/processed/m2/lodo_exports/mondo__0010196",
+  "num_train2_triples": 59454,
+  "warmup_batches": 1,
+  "timed_batches": 3,
+  "rungs": [
+    {
+      "batch_size": 64,
+      "status": "oom",
+      "peak_vram_gb": 44.45
+    },
+    {
+      "batch_size": 32,
+      "status": "ok",
+      "ms_per_batch": 3158.1,
+      "per_batch_ms": [
+        3152.5,
+        3162.2,
+        3159.7
+      ],
+      "pass_minutes": 97.8,
+      "peak_vram_gb": 29.28
+    },
+    {
+      "batch_size": 16,
+      "status": "ok",
+      "ms_per_batch": 1718.6,
+      "per_batch_ms": [
+        1718.2,
+        1718.9,
+        1718.6
+      ],
+      "pass_minutes": 106.4,
+      "peak_vram_gb": 15.82
+    },
+    {
+      "batch_size": 8,
+      "status": "ok",
+      "ms_per_batch": 1001.6,
+      "per_batch_ms": [
+        1000.0,
+        1002.5,
+        1002.3
+      ],
+      "pass_minutes": 124.1,
+      "peak_vram_gb": 9.12
+    },
+    {
+      "batch_size": 4,
+      "status": "ok",
+      "ms_per_batch": 737.4,
+      "per_batch_ms": [
+        737.8,
+        737.7,
+        736.7
+      ],
+      "pass_minutes": 182.7,
+      "peak_vram_gb": 5.77
+    }
+  ]
+}

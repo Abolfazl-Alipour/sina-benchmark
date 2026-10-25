@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5067607760429382,
+    "target": {
+     "approvedSymbol": "PLEKHG4B",
+     "id": "ENSG00000153404"
+    }
+   },
+   {
+    "score": 0.05732368677854538,
+    "target": {
+     "approvedSymbol": "LRRC14B",
+     "id": "ENSG00000185028"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e9f25b9a5aa364dd160a58aca83e7452",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_158748_T_G",
+  "position": 158748
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.338687926530838,
+    "target": {
+     "approvedSymbol": "CANX",
+     "id": "ENSG00000127022"
+    }
+   },
+   {
+    "score": 0.08400330692529678,
+    "target": {
+     "approvedSymbol": "CBY3",
+     "id": "ENSG00000204659"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e3d25064d619c8b8cb07a6c4461c7ce5",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_179696514_A_T",
+  "position": 179696514
+ }
+}

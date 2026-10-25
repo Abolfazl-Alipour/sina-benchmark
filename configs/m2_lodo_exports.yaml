@@ -1,0 +1,94 @@
+# M2 LODO export builder (v5.1 Phase F; CHANGES/0020 freeze package).
+# One BioPathNet-format export per graded disease unit under output_dir:
+#   train1.txt = BRG (trimmed BRG minus DIS-PHE; freeze §5 DROP) — identical
+#                across units (unit context edges retained, freeze §6)
+#   train2.txt = supervision pool minus the co-holdout cluster's keys minus
+#                ancestor-strip minus sibling-strip (freeze §3, §12 D2)
+#   valid.txt/test.txt = the unit's own key split 15/85 by evidence_group_id
+#                (freeze §6; sha1 group assignment, twins co-assigned)
+# Roster, tiers, clusters, and the D2 strip list are FROZEN (CHANGES/0020
+# §2/§3/§12) and inlined here verbatim — do not edit without a new CHANGES entry.
+
+supervision: data/processed/m2/trimmed/supervision.parquet
+brg: data/processed/m2/trimmed/brg.parquet
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+overlap_matrix: data/processed/m2/lodo_audits/overlap_matrix.parquet  # frozen, 218,791 pairs
+unit_audit: data/processed/m2/lodo_audits/unit_audit.parquet          # frozen key/ctx values (guards)
+
+output_dir: data/processed/m2/lodo_exports
+report_path: reports/m2b/lodo_exports.md
+manifest_path: data/raw/manifests/m2_build_lodo_exports.json
+
+split_seed: 1337              # freeze §6 seeds {1337, 1339, 5027}; split drawn once at 1337
+valid_fraction: 0.15          # freeze §6: 15% valid / 85% test on evidence-group IDs
+drop_brg_labels: [DIS-PHE]    # freeze §5: DIS-PHE dropped from the export BRG
+
+# freeze §3: sibling-strip rule (overlap coefficient >= 0.3 AND intersection >= 20
+# vs the graded unit, from the frozen matrix); 0.15-0.3 disclosed, not stripped.
+sibling_coefficient_min: 0.3
+sibling_intersection_min: 20
+disclose_coefficient_min: 0.15
+
+# Frozen co-holdout clusters (CHANGES/0020 §3; each = ONE statistical unit).
+# mondo:0014265 (AD18) is supervision-only but a cluster-2 member: its keys are
+# withheld whenever a cluster-2 unit is graded.
+clusters:
+  c1_progeria: [mondo:0010196, mondo:0019321, mondo:0008310, mondo:0018203, mondo:0012853, efo:0005422]
+  c2_ad_familial: [mondo:0100087, mondo:0015140, mondo:0011913, mondo:0007088, mondo:0014265]
+  c3_pd: [mondo:0000828, mondo:0017279, mondo:0008199, mondo:0957576]
+  c4_mody: [mondo:0018911, mondo:0007669]
+  c5_ndm: [mondo:0012192, mondo:0012522, mondo:0020525, mondo:0012480, mondo:0030089, mondo:0100164, mondo:0100165]
+  c6_singletons: [mondo:0014157, mondo:0010785, mondo:0013523, mondo:0011150, orphanet:75496, mondo:0014527]
+
+# Frozen graded roster (CHANGES/0020 §2, owner decision D1 — 29 diseases;
+# context-only and supervision-only units are NEVER exported).
+units:
+  # primary panel (13) — confirmatory
+  - {curie: mondo:0010196, name: Werner syndrome, tier: primary, cluster: c1_progeria}
+  - {curie: mondo:0008310, name: Hutchinson-Gilford progeria syndrome, tier: primary, cluster: c1_progeria}
+  - {curie: mondo:0012853, name: Fontaine progeroid syndrome, tier: primary, cluster: c1_progeria}
+  - {curie: mondo:0014157, name: mandibular hypoplasia-deafness-progeroid syndrome, tier: primary, cluster: c6_singletons}
+  - {curie: mondo:0011913, name: Alzheimer disease 3, tier: primary, cluster: c2_ad_familial}
+  - {curie: mondo:0008199, name: late-onset Parkinson disease, tier: primary, cluster: c3_pd}
+  - {curie: mondo:0957576, name: parkinson disease 25 autosomal recessive, tier: primary, cluster: c3_pd}
+  - {curie: mondo:0007669, name: renal cysts and diabetes syndrome, tier: primary, cluster: c4_mody}
+  - {curie: mondo:0010785, name: maternally-inherited diabetes and deafness, tier: primary, cluster: c6_singletons}
+  - {curie: mondo:0012192, name: permanent neonatal diabetes mellitus-pancreatic and cerebellar agenesis, tier: primary, cluster: c5_ndm}
+  - {curie: mondo:0012522, name: diabetes mellitus transient neonatal 3, tier: primary, cluster: c5_ndm}
+  - {curie: mondo:0100164, name: permanent neonatal diabetes mellitus, tier: primary, cluster: c5_ndm}
+  - {curie: mondo:0100165, name: permanent neonatal diabetes mellitus 1, tier: primary, cluster: c5_ndm}
+  # secondary panel — evidence band (5), descriptive
+  - {curie: mondo:0007088, name: Alzheimer disease type 1, tier: secondary_evidence, cluster: c2_ad_familial}
+  - {curie: mondo:0011150, name: acroosteolysis-keloid-like lesions-premature aging syndrome, tier: secondary_evidence, cluster: c6_singletons}
+  - {curie: mondo:0013523, name: Nestor-Guillermo progeria syndrome, tier: secondary_evidence, cluster: c6_singletons}
+  - {curie: mondo:0014527, name: progeroid features-hepatocellular carcinoma predisposition, tier: secondary_evidence, cluster: c6_singletons}
+  - {curie: orphanet:75496, name: Ehlers-Danlos syndrome progeroid type, tier: secondary_evidence, cluster: c6_singletons}
+  # secondary panel — low-context (9+2; last two are double-secondary), descriptive
+  - {curie: mondo:0000828, name: juvenile-onset Parkinson disease, tier: secondary_low_context, cluster: c3_pd}
+  - {curie: mondo:0017279, name: young-onset Parkinson disease, tier: secondary_low_context, cluster: c3_pd}
+  - {curie: mondo:0100087, name: familial Alzheimer disease, tier: secondary_low_context, cluster: c2_ad_familial}
+  - {curie: mondo:0015140, name: early-onset autosomal dominant Alzheimer disease, tier: secondary_low_context, cluster: c2_ad_familial}
+  - {curie: mondo:0018911, name: maturity-onset diabetes of the young, tier: secondary_low_context, cluster: c4_mody}
+  - {curie: mondo:0020525, name: transient neonatal diabetes mellitus, tier: secondary_low_context, cluster: c5_ndm}
+  - {curie: mondo:0012480, name: diabetes mellitus transient neonatal 2, tier: secondary_low_context, cluster: c5_ndm}
+  - {curie: mondo:0030089, name: diabetes mellitus permanent neonatal 4, tier: secondary_low_context, cluster: c5_ndm}
+  - {curie: efo:0005422, name: skin aging, tier: secondary_low_context, cluster: c1_progeria}
+  - {curie: mondo:0018203, name: LMNA-related cardiocutaneous progeria syndrome, tier: secondary_low_context, cluster: c1_progeria}
+  - {curie: mondo:0019321, name: atypical Werner syndrome, tier: secondary_low_context, cluster: c1_progeria}
+
+# Owner decision D2 (CHANGES/0020 §12): parkinsonism-plus sibling-strip.
+# mondo:0011706 (Kufor-Rakeb, coefficient 0.556-1.0 vs the PD units) is also
+# caught by the overlap rule for all four PD units; mondo:0009839
+# (PSP-parkinsonism, coefficient 1.0 but intersection 1 < 20) is NOT reachable
+# by the rule and is stripped here explicitly when grading PD units.
+explicit_sibling_strips:
+  mondo:0000828: [mondo:0011706, mondo:0009839]
+  mondo:0017279: [mondo:0011706, mondo:0009839]
+  mondo:0008199: [mondo:0011706, mondo:0009839]
+  mondo:0957576: [mondo:0011706, mondo:0009839]
+
+# Hard guard (freeze §6 Phase-F guards): grading Werner must strip the three
+# named trap terms (via cluster-member MONDO ancestors; progeria comes from
+# HGPS's ancestor list). The build aborts if any is missing.
+expected_ancestor_strips:
+  mondo:0010196: [mondo:0019303, mondo:0015333, mondo:0020732]

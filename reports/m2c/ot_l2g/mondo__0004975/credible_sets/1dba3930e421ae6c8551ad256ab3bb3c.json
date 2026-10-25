@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.6786971092224121,
+    "target": {
+     "approvedSymbol": "ZSWIM2",
+     "id": "ENSG00000163012"
+    }
+   },
+   {
+    "score": 0.06525417417287827,
+    "target": {
+     "approvedSymbol": "CALCRL",
+     "id": "ENSG00000064989"
+    }
+   },
+   {
+    "score": 0.06179427355527878,
+    "target": {
+     "approvedSymbol": "ZC3H15",
+     "id": "ENSG00000065548"
+    }
+   },
+   {
+    "score": 0.05325842648744583,
+    "target": {
+     "approvedSymbol": "FAM171B",
+     "id": "ENSG00000144369"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "1dba3930e421ae6c8551ad256ab3bb3c",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_186934061_T_G",
+  "position": 186934061
+ }
+}

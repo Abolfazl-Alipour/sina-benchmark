@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7160765528678894,
+    "target": {
+     "approvedSymbol": "ASXL3",
+     "id": "ENSG00000141431"
+    }
+   },
+   {
+    "score": 0.09212552011013031,
+    "target": {
+     "approvedSymbol": "CCDC178",
+     "id": "ENSG00000166960"
+    }
+   },
+   {
+    "score": 0.06011878699064255,
+    "target": {
+     "approvedSymbol": "NOL4",
+     "id": "ENSG00000101746"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "2f9e25d1a8195d90781eb14bac1b9e04",
+ "variant": {
+  "chromosome": "18",
+  "id": "18_33779450_T_C",
+  "position": 33779450
+ }
+}

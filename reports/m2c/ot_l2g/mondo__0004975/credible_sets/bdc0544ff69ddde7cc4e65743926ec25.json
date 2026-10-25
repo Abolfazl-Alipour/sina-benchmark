@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8203584551811218,
+    "target": {
+     "approvedSymbol": "PLCG2",
+     "id": "ENSG00000197943"
+    }
+   },
+   {
+    "score": 0.081566222012043,
+    "target": {
+     "approvedSymbol": "CMIP",
+     "id": "ENSG00000153815"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "bdc0544ff69ddde7cc4e65743926ec25",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_81740211_A_T",
+  "position": 81740211
+ }
+}

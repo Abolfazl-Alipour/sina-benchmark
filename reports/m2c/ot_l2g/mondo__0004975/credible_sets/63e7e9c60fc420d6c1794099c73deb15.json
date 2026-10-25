@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5637606382369995,
+    "target": {
+     "approvedSymbol": "TMEM132C",
+     "id": "ENSG00000181234"
+    }
+   },
+   {
+    "score": 0.19751673936843872,
+    "target": {
+     "approvedSymbol": "GLT1D1",
+     "id": "ENSG00000151948"
+    }
+   },
+   {
+    "score": 0.18487592041492462,
+    "target": {
+     "approvedSymbol": "SLC15A4",
+     "id": "ENSG00000139370"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "63e7e9c60fc420d6c1794099c73deb15",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_128596108_G_A",
+  "position": 128596108
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.22658754885196686,
+    "target": {
+     "approvedSymbol": "DCAKD",
+     "id": "ENSG00000172992"
+    }
+   },
+   {
+    "score": 0.22348277270793915,
+    "target": {
+     "approvedSymbol": "NMT1",
+     "id": "ENSG00000136448"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "fa66201cab6af3d7c36d920f7d90c464",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_45057514_G_C",
+  "position": 45057514
+ }
+}

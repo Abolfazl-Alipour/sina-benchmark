@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6345168352127075,
+    "target": {
+     "approvedSymbol": "GPR141",
+     "id": "ENSG00000187037"
+    }
+   },
+   {
+    "score": 0.33601614832878113,
+    "target": {
+     "approvedSymbol": "ELMO1",
+     "id": "ENSG00000155849"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "f9caa4ce6bca091f99d67fb3a80b1b33",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_37579541_T_C",
+  "position": 37579541
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6529043912887573,
+    "target": {
+     "approvedSymbol": "MTMR2",
+     "id": "ENSG00000087053"
+    }
+   },
+   {
+    "score": 0.31320920586586,
+    "target": {
+     "approvedSymbol": "CEP57",
+     "id": "ENSG00000166037"
+    }
+   },
+   {
+    "score": 0.16388966143131256,
+    "target": {
+     "approvedSymbol": "FAM76B",
+     "id": "ENSG00000077458"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "aa7516d53ee13e58baadb75d00a7f30a",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_95923947_T_G",
+  "position": 95923947
+ }
+}

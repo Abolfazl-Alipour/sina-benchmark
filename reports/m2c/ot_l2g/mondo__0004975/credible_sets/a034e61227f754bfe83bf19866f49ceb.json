@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5509751439094543,
+    "target": {
+     "approvedSymbol": "DAB1",
+     "id": "ENSG00000173406"
+    }
+   },
+   {
+    "score": 0.2650963366031647,
+    "target": {
+     "approvedSymbol": "C8B",
+     "id": "ENSG00000021852"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134645",
+ "studyLocusId": "a034e61227f754bfe83bf19866f49ceb",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_57182042_C_T",
+  "position": 57182042
+ }
+}

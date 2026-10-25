@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3872065246105194,
+    "target": {
+     "approvedSymbol": "TOMM40",
+     "id": "ENSG00000130204"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000682",
+ "studyLocusId": "c91894462c98624f3e644394610196bd",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_44892362_A_G",
+  "position": 44892362
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6474328637123108,
+    "target": {
+     "approvedSymbol": "PARD6G",
+     "id": "ENSG00000178184"
+    }
+   },
+   {
+    "score": 0.0873379334807396,
+    "target": {
+     "approvedSymbol": "ADNP2",
+     "id": "ENSG00000101544"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "4d0d74b975a215f764e78d5cd62ab55a",
+ "variant": {
+  "chromosome": "18",
+  "id": "18_80185678_A_G",
+  "position": 80185678
+ }
+}

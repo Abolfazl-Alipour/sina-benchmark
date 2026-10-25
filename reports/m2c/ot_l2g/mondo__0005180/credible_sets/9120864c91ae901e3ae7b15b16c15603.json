@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8844435214996338,
+    "target": {
+     "approvedSymbol": "GPNMB",
+     "id": "ENSG00000136235"
+    }
+   },
+   {
+    "score": 0.07110121846199036,
+    "target": {
+     "approvedSymbol": "NUP42",
+     "id": "ENSG00000136243"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "9120864c91ae901e3ae7b15b16c15603",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_23260430_A_C",
+  "position": 23260430
+ }
+}

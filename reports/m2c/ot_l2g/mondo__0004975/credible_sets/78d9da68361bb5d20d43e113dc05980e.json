@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.3737909495830536,
+    "target": {
+     "approvedSymbol": "UCP1",
+     "id": "ENSG00000109424"
+    }
+   },
+   {
+    "score": 0.052728570997714996,
+    "target": {
+     "approvedSymbol": "MGAT4D",
+     "id": "ENSG00000205301"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "78d9da68361bb5d20d43e113dc05980e",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_140579551_C_T",
+  "position": 140579551
+ }
+}

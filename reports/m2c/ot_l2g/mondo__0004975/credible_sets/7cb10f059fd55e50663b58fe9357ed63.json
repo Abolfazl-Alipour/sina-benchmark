@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.0909365564584732,
+    "target": {
+     "approvedSymbol": "ERP29",
+     "id": "ENSG00000089248"
+    }
+   },
+   {
+    "score": 0.09003830701112747,
+    "target": {
+     "approvedSymbol": "TMEM116",
+     "id": "ENSG00000198270"
+    }
+   },
+   {
+    "score": 0.0812203586101532,
+    "target": {
+     "approvedSymbol": "MAPKAPK5",
+     "id": "ENSG00000089022"
+    }
+   },
+   {
+    "score": 0.07727861404418945,
+    "target": {
+     "approvedSymbol": "ENSG00000292259",
+     "id": "ENSG00000292259"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "7cb10f059fd55e50663b58fe9357ed63",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_111929280_G_A",
+  "position": 111929280
+ }
+}

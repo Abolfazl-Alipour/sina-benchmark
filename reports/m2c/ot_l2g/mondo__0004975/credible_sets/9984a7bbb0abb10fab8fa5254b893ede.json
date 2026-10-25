@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8230520486831665,
+    "target": {
+     "approvedSymbol": "SDK1",
+     "id": "ENSG00000146555"
+    }
+   },
+   {
+    "score": 0.06121017038822174,
+    "target": {
+     "approvedSymbol": "CARD11",
+     "id": "ENSG00000198286"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "9984a7bbb0abb10fab8fa5254b893ede",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_3471861_A_G",
+  "position": 3471861
+ }
+}

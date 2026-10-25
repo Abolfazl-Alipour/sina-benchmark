@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8957930207252502,
+    "target": {
+     "approvedSymbol": "BARHL2",
+     "id": "ENSG00000143032"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "825c265e5559684e57b900b30b6584a5",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_90724174_C_T",
+  "position": 90724174
+ }
+}

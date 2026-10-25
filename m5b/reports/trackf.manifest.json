@@ -1,0 +1,7 @@
+{
+ "n_loci_sets": 512,
+ "n_rows": 34592,
+ "frac_rows_with_signal": 0.0602,
+ "window": 100000,
+ "pp_min": 0.01
+}

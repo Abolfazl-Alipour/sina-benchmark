@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8552510738372803,
+    "target": {
+     "approvedSymbol": "RIT2",
+     "id": "ENSG00000152214"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001430",
+ "studyLocusId": "23c7c062333e1002956e7477bbeeb6b9",
+ "variant": {
+  "chromosome": "18",
+  "id": "18_43093415_A_G",
+  "position": 43093415
+ }
+}

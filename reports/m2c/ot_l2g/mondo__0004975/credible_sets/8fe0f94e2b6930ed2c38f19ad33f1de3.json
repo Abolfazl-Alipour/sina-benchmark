@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.686739981174469,
+    "target": {
+     "approvedSymbol": "BIN1",
+     "id": "ENSG00000136717"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90654655",
+ "studyLocusId": "8fe0f94e2b6930ed2c38f19ad33f1de3",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_127135234_C_T",
+  "position": 127135234
+ }
+}

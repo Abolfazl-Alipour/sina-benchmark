@@ -1,0 +1,25 @@
+# M2A-3 — KGE pilot configuration (spec §6.3)
+# Small-scale pilot to measure PyKEEN throughput on Track-R family holdout.
+
+splits_dir: data/processed/m2/splits
+output_dir: data/processed/m2/kge
+report_path: reports/m2a/kge_pilot_report.md
+manifest_path: data/raw/manifests/m2_kge_pilot.json
+
+splits:
+  trackr_family:
+    query_col: dst_id
+    query_type: disease
+    candidate_type: gene/protein
+    eval_relation: disease_protein
+    relation_col: relation
+
+models:
+  - name: TransE
+    embedding_dim: 64
+    epochs: 1
+    seed: 1337
+
+device: cpu
+batch_size: 1024
+rss_limit_gb: 45.0

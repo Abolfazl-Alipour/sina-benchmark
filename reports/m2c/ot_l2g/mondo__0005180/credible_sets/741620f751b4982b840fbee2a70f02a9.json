@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3287704586982727,
+    "target": {
+     "approvedSymbol": "GCH1",
+     "id": "ENSG00000131979"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003984",
+ "studyLocusId": "741620f751b4982b840fbee2a70f02a9",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_54882151_C_T",
+  "position": 54882151
+ }
+}

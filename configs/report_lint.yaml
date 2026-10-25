@@ -1,0 +1,29 @@
+# Report language lint configuration (plan §13.11 and §13.13).
+# Matched case-insensitively on word boundaries against every *.md file in reports/.
+
+# §13.11 — claim-ceiling lint: these terms may never appear in generated reports.
+forbidden_terms:
+  - "target discovery"
+  - "validated target"
+  - "safe"
+  - "cleared"
+  - "drug-discovery engine"
+  - "drug discovery engine"
+
+# §13.13 — narrative separation: files tagged <!-- track_scope: benchmark --> must
+# not carry commercialization language; files tagged <!-- track_scope: commercial -->
+# must not carry benchmark-claim language. Untagged files get the forbidden-terms
+# lint only.
+benchmark_forbidden_terms:
+  - "commercial"
+  - "commercialization"
+  - "SBIR"
+  - "revenue"
+  - "monetization"
+
+commercial_forbidden_terms:
+  - "zero-shot"
+  - "MRR"
+  - "Hits@"
+  - "AUROC"
+  - "AUPRC"

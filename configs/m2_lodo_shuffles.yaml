@@ -1,0 +1,26 @@
+# M2 LODO dual-shuffles negative-control generator (Directives v2 Phase B3;
+# CHANGES/0022 Light Gate 0 permutation control). For each unit x mode, rewrites
+# ONLY train2.txt of the LODO export into <unit>_shuffle_<mode>/ under
+# exports_dir; all other export files are copied unchanged. Hard leakage
+# guards (no duplicate tuples, valid/test tuple disjointness, exact preserved
+# marginal) live in src/sina/lodo_shuffles.py.
+
+exports_dir: data/processed/m2/lodo_exports
+report_path: reports/m2b/lodo_shuffles.md
+manifest_path: data/raw/manifests/m2_lodo_shuffles.json
+
+# Plan default 3 units (CHANGES/0022 runbook): Werner syndrome, HGPS, renal
+# cysts and diabetes syndrome.
+units:
+  - mondo:0010196  # Werner syndrome (primary)
+  - mondo:0008310  # Hutchinson-Gilford progeria syndrome (primary)
+  - mondo:0007669  # renal cysts and diabetes syndrome (primary)
+
+modes: [across_disease, within_disease]
+
+seed: 1337                # Gate 0 single seed (Light Gate 0 plan, seeds decision)
+max_attempts: 1000        # per-edge collision resamples before hard failure
+
+# across_disease disease roster: 'pooled' = diseases present in train2 across
+# ALL configured units pooled; 'per_unit' = only the unit's own train2 diseases.
+disease_pool: pooled

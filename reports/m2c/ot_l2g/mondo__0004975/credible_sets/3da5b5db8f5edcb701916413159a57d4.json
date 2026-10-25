@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5983318090438843,
+    "target": {
+     "approvedSymbol": "ITGAX",
+     "id": "ENSG00000140678"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "3da5b5db8f5edcb701916413159a57d4",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_31356857_T_C",
+  "position": 31356857
+ }
+}

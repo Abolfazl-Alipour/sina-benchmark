@@ -1,0 +1,29 @@
+{
+  "script": "m2c_e1_preflight",
+  "unit": "mondo__0005180",
+  "batch_size": 32,
+  "batches": 50,
+  "seed": 1337,
+  "node": "g7e.2xlarge RTX PRO 6000 Blackwell 96GB sm_120",
+  "env": "bpn120 torch 2.7.1+cu128 (owner-authorized divergence, CHANGES/0026)",
+  "dataset_load_sec": 2.7,
+  "train_seconds": 301.0,
+  "ms_per_batch": 6019.0,
+  "train_peak_vram_gb": 0.66,
+  "valid_metrics": {
+    "mr": 70.35677352834266,
+    "mrr": 0.5385599284901861,
+    "hits@1": 0.49844881081655085,
+    "hits@3": 0.5599793175383709,
+    "hits@10": 0.6070320579727039,
+    "hits@100": 0.7926577041782785,
+    "hits@20": 0.6359875905476781,
+    "hits@50": 0.7192347467007287,
+    "auroc": 0.9990951396070321,
+    "ap": 0.9991527962216177
+  },
+  "valid_seconds": 206.9,
+  "peak_vram_gb": 2.36,
+  "started_at": "2026-08-31T18:08:56Z",
+  "finished_at": "2026-08-31T18:17:27Z"
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8994671702384949,
+    "target": {
+     "approvedSymbol": "SH3GL2",
+     "id": "ENSG00000107295"
+    }
+   },
+   {
+    "score": 0.05925454571843147,
+    "target": {
+     "approvedSymbol": "CNTLN",
+     "id": "ENSG00000044459"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "1d050957d0bcfbfc986f88f4ae76cd6d",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_17579692_T_G",
+  "position": 17579692
+ }
+}

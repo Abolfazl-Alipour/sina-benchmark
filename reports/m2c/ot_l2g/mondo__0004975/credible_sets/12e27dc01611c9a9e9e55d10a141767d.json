@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.11878781020641327,
+    "target": {
+     "approvedSymbol": "METAP1",
+     "id": "ENSG00000164024"
+    }
+   },
+   {
+    "score": 0.07164321094751358,
+    "target": {
+     "approvedSymbol": "EIF4E",
+     "id": "ENSG00000151247"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "12e27dc01611c9a9e9e55d10a141767d",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_98971324_A_G",
+  "position": 98971324
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7134110331535339,
+    "target": {
+     "approvedSymbol": "SLC2A13",
+     "id": "ENSG00000151229"
+    }
+   },
+   {
+    "score": 0.20985880494117737,
+    "target": {
+     "approvedSymbol": "LRRK2",
+     "id": "ENSG00000188906"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST010991",
+ "studyLocusId": "b34e54ed94024aee54f2662e16bbe4b7",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_40019503_C_A",
+  "position": 40019503
+ }
+}

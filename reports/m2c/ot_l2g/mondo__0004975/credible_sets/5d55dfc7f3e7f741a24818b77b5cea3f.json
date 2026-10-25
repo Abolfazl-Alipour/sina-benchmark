@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6890405416488647,
+    "target": {
+     "approvedSymbol": "PCLAF",
+     "id": "ENSG00000166803"
+    }
+   },
+   {
+    "score": 0.11497844010591507,
+    "target": {
+     "approvedSymbol": "TRIP4",
+     "id": "ENSG00000103671"
+    }
+   },
+   {
+    "score": 0.11497844010591507,
+    "target": {
+     "approvedSymbol": "CSNK1G1",
+     "id": "ENSG00000169118"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "5d55dfc7f3e7f741a24818b77b5cea3f",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_64372438_C_T",
+  "position": 64372438
+ }
+}

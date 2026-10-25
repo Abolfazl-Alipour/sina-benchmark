@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2283039093017578,
+    "target": {
+     "approvedSymbol": "HS2ST1",
+     "id": "ENSG00000153936"
+    }
+   },
+   {
+    "score": 0.16489435732364655,
+    "target": {
+     "approvedSymbol": "SELENOF",
+     "id": "ENSG00000183291"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "ba7cc9341eb78d7702341d2f612930f3",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_86848155_A_T",
+  "position": 86848155
+ }
+}

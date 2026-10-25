@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7671087980270386,
+    "target": {
+     "approvedSymbol": "TESC",
+     "id": "ENSG00000088992"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "6176ebb6780b83301f105c3274f71422",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_117081702_G_T",
+  "position": 117081702
+ }
+}

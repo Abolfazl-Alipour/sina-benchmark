@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7352348566055298,
+    "target": {
+     "approvedSymbol": "RPH3A",
+     "id": "ENSG00000089169"
+    }
+   },
+   {
+    "score": 0.06269272416830063,
+    "target": {
+     "approvedSymbol": "OAS1",
+     "id": "ENSG00000089127"
+    }
+   },
+   {
+    "score": 0.052887726575136185,
+    "target": {
+     "approvedSymbol": "RITA1",
+     "id": "ENSG00000139405"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "1c2bc83445631a2f9db5aa319314ac90",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_112778888_G_A",
+  "position": 112778888
+ }
+}

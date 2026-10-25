@@ -1,0 +1,24 @@
+{
+  "run_id": "20260815T014440Z",
+  "script": "gate0_ladder",
+  "config": {
+    "config": "configs/m2b_gate0_ladder.yaml",
+    "rungs": [
+      64,
+      32,
+      16,
+      8,
+      4
+    ],
+    "gpus": [
+      0
+    ]
+  },
+  "git_ref": "7fd5dbd569de97d7f9806e4f14f72311750f5e01",
+  "started_at": "2026-08-15T01:44:07.692218+00:00",
+  "finished_at": "2026-08-15T01:44:40.548344+00:00",
+  "status": "done",
+  "outputs": {
+    "/home/ubuntu/sina-platform/reports/m2b/gate0_ladder_results.json": "6c0ceace1d86d1f1e6d06eda7c7691186b2b79b48ab27e1a97af62f71a417d5d"
+  }
+}

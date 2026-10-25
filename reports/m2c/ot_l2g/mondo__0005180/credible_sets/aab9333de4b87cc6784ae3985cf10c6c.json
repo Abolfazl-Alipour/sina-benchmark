@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6929708123207092,
+    "target": {
+     "approvedSymbol": "NUCKS1",
+     "id": "ENSG00000069275"
+    }
+   },
+   {
+    "score": 0.47883176803588867,
+    "target": {
+     "approvedSymbol": "RAB29",
+     "id": "ENSG00000117280"
+    }
+   },
+   {
+    "score": 0.0508112870156765,
+    "target": {
+     "approvedSymbol": "SLC41A1",
+     "id": "ENSG00000133065"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003984",
+ "studyLocusId": "aab9333de4b87cc6784ae3985cf10c6c",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_205754444_C_T",
+  "position": 205754444
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6925460696220398,
+    "target": {
+     "approvedSymbol": "BORCS5",
+     "id": "ENSG00000165714"
+    }
+   },
+   {
+    "score": 0.09927720576524734,
+    "target": {
+     "approvedSymbol": "MANSC1",
+     "id": "ENSG00000111261"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "1b461c21bcd907b3889de114c61494a1",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_12363724_A_G",
+  "position": 12363724
+ }
+}

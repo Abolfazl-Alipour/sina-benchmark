@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.16047003865242004,
+    "target": {
+     "approvedSymbol": "DDX51",
+     "id": "ENSG00000185163"
+    }
+   },
+   {
+    "score": 0.13596820831298828,
+    "target": {
+     "approvedSymbol": "NOC4L",
+     "id": "ENSG00000184967"
+    }
+   },
+   {
+    "score": 0.12624326348304749,
+    "target": {
+     "approvedSymbol": "GALNT9",
+     "id": "ENSG00000182870"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "9fad871a7f2dcb36f6e1c03d9abea490",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_132180126_G_A",
+  "position": 132180126
+ }
+}

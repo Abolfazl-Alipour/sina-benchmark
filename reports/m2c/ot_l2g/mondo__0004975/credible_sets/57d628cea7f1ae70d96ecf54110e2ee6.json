@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.2702952027320862,
+    "target": {
+     "approvedSymbol": "SPIRE2",
+     "id": "ENSG00000204991"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "57d628cea7f1ae70d96ecf54110e2ee6",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_89831610_A_G",
+  "position": 89831610
+ }
+}

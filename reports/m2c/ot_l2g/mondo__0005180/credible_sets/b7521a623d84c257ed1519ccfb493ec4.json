@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8712173104286194,
+    "target": {
+     "approvedSymbol": "FCGR2A",
+     "id": "ENSG00000143226"
+    }
+   },
+   {
+    "score": 0.10461467504501343,
+    "target": {
+     "approvedSymbol": "FCGR2B",
+     "id": "ENSG00000072694"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "b7521a623d84c257ed1519ccfb493ec4",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_161499264_G_C",
+  "position": 161499264
+ }
+}

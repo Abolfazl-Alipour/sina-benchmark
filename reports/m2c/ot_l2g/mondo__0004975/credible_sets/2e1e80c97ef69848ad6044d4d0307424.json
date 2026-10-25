@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.4135133922100067,
+    "target": {
+     "approvedSymbol": "EFCAB3",
+     "id": "ENSG00000172421"
+    }
+   },
+   {
+    "score": 0.08229032903909683,
+    "target": {
+     "approvedSymbol": "MED13",
+     "id": "ENSG00000108510"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "2e1e80c97ef69848ad6044d4d0307424",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_62235981_T_C",
+  "position": 62235981
+ }
+}

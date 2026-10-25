@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.26695045828819275,
+    "target": {
+     "approvedSymbol": "SIT1",
+     "id": "ENSG00000137078"
+    }
+   },
+   {
+    "score": 0.15326903760433197,
+    "target": {
+     "approvedSymbol": "ARHGEF39",
+     "id": "ENSG00000137135"
+    }
+   },
+   {
+    "score": 0.09154575318098068,
+    "target": {
+     "approvedSymbol": "CCDC107",
+     "id": "ENSG00000159884"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "0cae380e7e9ceeb3b9ea53c0749b427b",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_35648011_A_G",
+  "position": 35648011
+ }
+}

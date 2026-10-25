@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6484422087669373,
+    "target": {
+     "approvedSymbol": "HCN1",
+     "id": "ENSG00000164588"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "d6f272d1e8b4eeb89924b970a8cf05f9",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_45333758_T_C",
+  "position": 45333758
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.4207899868488312,
+    "target": {
+     "approvedSymbol": "CDK2AP1",
+     "id": "ENSG00000111328"
+    }
+   },
+   {
+    "score": 0.3952072262763977,
+    "target": {
+     "approvedSymbol": "MTRFR",
+     "id": "ENSG00000130921"
+    }
+   },
+   {
+    "score": 0.270770788192749,
+    "target": {
+     "approvedSymbol": "MPHOSPH9",
+     "id": "ENSG00000051825"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "f56a3ff38efb577caa52a7585ca7340d",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_123257514_G_A",
+  "position": 123257514
+ }
+}

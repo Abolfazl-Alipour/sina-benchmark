@@ -1,0 +1,33 @@
+# M1 Track-D — OptimusKG ingest (spec §5.2)
+track: D
+raw_dir: data/raw/optimuskg/doi_10_7910_DVN_IYNGEV/2.0
+out_dir: data/processed/m1/trackd
+interim_dir: data/interim/trackd
+report_path: reports/m1/trackd_characterization.md
+manifest_path: data/processed/m1/trackd/manifest.json
+# §5.5: OptimusKG reconciles EXACTLY (counts published to the edge)
+published_counts:
+  nodes: 190531
+  edges: 21813816
+tolerance: 0.0
+# §5.2.2: canonical CURIE prefixes for OptimusKG's native id schemes
+source_prefix_map:
+  MONDO: mondo
+  EFO: efo
+  DOID: doid
+  OBA: oba
+  Orphanet: orphanet
+  OTAR: otar
+  OBI: obi
+  NCIT: ncit
+  MP: mp
+  PATO: pato
+  UBERON: uberon
+  GO: go
+  HP: hp
+  CHEMBL: chembl
+  MESH: mesh
+  REACT: reactome
+  ENSG: ensembl
+# Appendix D assumption 5: temporal split downgrades below this DIS-GEN coverage
+temporal_coverage_threshold: 0.5

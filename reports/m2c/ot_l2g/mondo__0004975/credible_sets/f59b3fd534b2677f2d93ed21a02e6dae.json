@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.9498903751373291,
+    "target": {
+     "approvedSymbol": "APOE",
+     "id": "ENSG00000130203"
+    }
+   },
+   {
+    "score": 0.3489843010902405,
+    "target": {
+     "approvedSymbol": "APOC1",
+     "id": "ENSG00000130208"
+    }
+   },
+   {
+    "score": 0.07396863400936127,
+    "target": {
+     "approvedSymbol": "APOC4",
+     "id": "ENSG00000267467"
+    }
+   },
+   {
+    "score": 0.07396863400936127,
+    "target": {
+     "approvedSymbol": "APOC2",
+     "id": "ENSG00000234906"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90244026",
+ "studyLocusId": "f59b3fd534b2677f2d93ed21a02e6dae",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_44908684_T_C",
+  "position": 44908684
+ }
+}

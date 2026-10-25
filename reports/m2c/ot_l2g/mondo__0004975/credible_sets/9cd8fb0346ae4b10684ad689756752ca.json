@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7236538529396057,
+    "target": {
+     "approvedSymbol": "TRIM48",
+     "id": "ENSG00000150244"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9cd8fb0346ae4b10684ad689756752ca",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_55233749_T_C",
+  "position": 55233749
+ }
+}

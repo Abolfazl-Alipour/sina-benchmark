@@ -1,0 +1,24 @@
+name: sina
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.*
+  - openjdk=21.*
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - pydantic==2.13.4
+      - pyyaml==6.0.3
+      - structlog==26.1.0
+      - polars==1.43.0
+      - duckdb==1.5.5
+      - pyarrow==25.0.0
+      - httpx==0.28.1
+      - tenacity==9.1.4
+      - psutil==7.2.2
+      - pytest==9.1.1
+      - ruff==0.16.0
+      - optimuskg==1.0.0
+      - torch==2.13.0+cpu
+      - pykeen==1.11.1
+      - scipy==1.18.0

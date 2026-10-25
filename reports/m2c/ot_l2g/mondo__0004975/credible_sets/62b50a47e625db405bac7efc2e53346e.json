@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7746637463569641,
+    "target": {
+     "approvedSymbol": "CHRNA2",
+     "id": "ENSG00000120903"
+    }
+   },
+   {
+    "score": 0.07203160226345062,
+    "target": {
+     "approvedSymbol": "EPHX2",
+     "id": "ENSG00000120915"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90654655",
+ "studyLocusId": "62b50a47e625db405bac7efc2e53346e",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_27472579_C_T",
+  "position": 27472579
+ }
+}

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sina"
+version = "0.1.0"
+description = "SINA — hypothesis-generation and falsification platform (executed per SINA_Implementation_Plan_v4_FINAL.md)"
+requires-python = ">=3.12,<3.13"
+# Runtime dependencies are environment-managed via environment.yml / environment.lock.yml.
+# See docs/preflight/dependency_matrix.md for the full pinned matrix incl. deferred phases.
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["sina"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+# Legacy frozen pipeline scripts carry 107 pre-existing violations (repo standard:
+# parity — add none). These files are exempt; all other code is fully linted.
+"scripts/m2c_build_ana_cns.py" = ["E501", "F401", "I001", "F541", "B905", "F841", "E401", "F811", "RUF059", "SIM117"]
+"scripts/m2c_completion_baselines.py" = ["E501", "F401", "I001", "F541", "B905", "F841", "E401", "F811", "RUF059", "SIM117"]
+"scripts/m2_build_completion_exports.py" = ["E501", "F401", "I001", "F541", "B905", "F841", "E401", "F811", "RUF059", "SIM117"]
+"tests/unit/test_m2_build_completion_exports.py" = ["E501", "F401", "I001", "F541", "B905", "F841", "E401", "F811", "RUF059", "SIM117"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+markers = [
+    "unit: fast unit tests",
+    "integration: integration tests (fixtures / subsamples only)",
+    "guard: scientific guard tests (CI-blocking per plan §13)",
+]

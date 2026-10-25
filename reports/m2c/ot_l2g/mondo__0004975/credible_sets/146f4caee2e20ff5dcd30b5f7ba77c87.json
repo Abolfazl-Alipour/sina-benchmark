@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5846818685531616,
+    "target": {
+     "approvedSymbol": "HNF4G",
+     "id": "ENSG00000164749"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "146f4caee2e20ff5dcd30b5f7ba77c87",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_75905029_C_T",
+  "position": 75905029
+ }
+}

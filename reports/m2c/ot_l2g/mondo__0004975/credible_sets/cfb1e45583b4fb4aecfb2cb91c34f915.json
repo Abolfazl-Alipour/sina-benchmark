@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6508648991584778,
+    "target": {
+     "approvedSymbol": "MIOS",
+     "id": "ENSG00000164654"
+    }
+   },
+   {
+    "score": 0.2499236762523651,
+    "target": {
+     "approvedSymbol": "COL28A1",
+     "id": "ENSG00000215018"
+    }
+   },
+   {
+    "score": 0.06348557770252228,
+    "target": {
+     "approvedSymbol": "UMAD1",
+     "id": "ENSG00000219545"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "cfb1e45583b4fb4aecfb2cb91c34f915",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_7565025_G_A",
+  "position": 7565025
+ }
+}

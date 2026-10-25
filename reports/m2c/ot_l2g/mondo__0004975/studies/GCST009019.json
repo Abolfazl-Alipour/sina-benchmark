@@ -1,0 +1,42 @@
+[
+ {
+  "studyId": "GCST009019",
+  "studyLocusId": "2d3837c1ab829359546feb28700e6ecc",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "19",
+   "id": "19_44908684_T_C",
+   "position": 44908684
+  }
+ },
+ {
+  "studyId": "GCST009019",
+  "studyLocusId": "4a29350ac7ccd5c2744fbe7b569b8c27",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "5",
+   "id": "5_75072429_T_C",
+   "position": 75072429
+  }
+ },
+ {
+  "studyId": "GCST009019",
+  "studyLocusId": "a27021fb55bc5de0194529da5dfa52af",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "11",
+   "id": "11_86156833_A_G",
+   "position": 86156833
+  }
+ },
+ {
+  "studyId": "GCST009019",
+  "studyLocusId": "b2dbbfe22413ef07360d2ffa093273b6",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "2",
+   "id": "2_127135234_C_T",
+   "position": 127135234
+  }
+ }
+]

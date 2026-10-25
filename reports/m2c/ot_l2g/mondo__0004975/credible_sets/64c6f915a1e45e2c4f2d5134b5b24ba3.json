@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.43958261609077454,
+    "target": {
+     "approvedSymbol": "TMED10",
+     "id": "ENSG00000170348"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90480731",
+ "studyLocusId": "64c6f915a1e45e2c4f2d5134b5b24ba3",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_75164616_T_G",
+  "position": 75164616
+ }
+}

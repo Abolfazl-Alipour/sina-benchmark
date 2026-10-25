@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8798125386238098,
+    "target": {
+     "approvedSymbol": "HIP1R",
+     "id": "ENSG00000130787"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST009325",
+ "studyLocusId": "fe17ed0b22b9ccf86eadf6ad41c60fe9",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_122842051_G_T",
+  "position": 122842051
+ }
+}

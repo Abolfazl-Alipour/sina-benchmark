@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.47682204842567444,
+    "target": {
+     "approvedSymbol": "SLC1A4",
+     "id": "ENSG00000115902"
+    }
+   },
+   {
+    "score": 0.4187205135822296,
+    "target": {
+     "approvedSymbol": "SERTAD2",
+     "id": "ENSG00000179833"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "d1846b75d284f62515454ac526c6bdc7",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_64826054_G_A",
+  "position": 64826054
+ }
+}

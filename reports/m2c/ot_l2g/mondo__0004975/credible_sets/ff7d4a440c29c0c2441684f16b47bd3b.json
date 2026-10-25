@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.355226069688797,
+    "target": {
+     "approvedSymbol": "CEP170B",
+     "id": "ENSG00000099814"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "ff7d4a440c29c0c2441684f16b47bd3b",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_104847993_G_A",
+  "position": 104847993
+ }
+}

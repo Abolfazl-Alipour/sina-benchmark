@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7538833618164062,
+    "target": {
+     "approvedSymbol": "SPRY4",
+     "id": "ENSG00000187678"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "987139112ca37b91e173965f210d9b85",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_142336719_C_A",
+  "position": 142336719
+ }
+}

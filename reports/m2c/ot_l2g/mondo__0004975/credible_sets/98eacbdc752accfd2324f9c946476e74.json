@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7964521050453186,
+    "target": {
+     "approvedSymbol": "MB21D2",
+     "id": "ENSG00000180611"
+    }
+   },
+   {
+    "score": 0.06378781050443649,
+    "target": {
+     "approvedSymbol": "ATP13A5",
+     "id": "ENSG00000187527"
+    }
+   },
+   {
+    "score": 0.05752360820770264,
+    "target": {
+     "approvedSymbol": "FGF12",
+     "id": "ENSG00000114279"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "98eacbdc752accfd2324f9c946476e74",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_192900736_T_G",
+  "position": 192900736
+ }
+}

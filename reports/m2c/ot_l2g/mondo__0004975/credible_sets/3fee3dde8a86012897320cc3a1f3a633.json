@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8216505646705627,
+    "target": {
+     "approvedSymbol": "TEAD1",
+     "id": "ENSG00000187079"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "3fee3dde8a86012897320cc3a1f3a633",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_12737220_C_G",
+  "position": 12737220
+ }
+}

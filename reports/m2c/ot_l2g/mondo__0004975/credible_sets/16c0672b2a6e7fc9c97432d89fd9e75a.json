@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.43925899267196655,
+    "target": {
+     "approvedSymbol": "ABCA7",
+     "id": "ENSG00000064687"
+    }
+   },
+   {
+    "score": 0.25885578989982605,
+    "target": {
+     "approvedSymbol": "CNN2",
+     "id": "ENSG00000064666"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "16c0672b2a6e7fc9c97432d89fd9e75a",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_1043639_C_T",
+  "position": 1043639
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8517471551895142,
+    "target": {
+     "approvedSymbol": "RHOH",
+     "id": "ENSG00000168421"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "b28fcf04fc44d3084312ea613cdc43fb",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_40197226_G_C",
+  "position": 40197226
+ }
+}

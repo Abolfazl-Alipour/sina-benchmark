@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7276461720466614,
+    "target": {
+     "approvedSymbol": "TOX3",
+     "id": "ENSG00000103460"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "fff01aee854c10480f3e04fbb440d230",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_52597550_A_G",
+  "position": 52597550
+ }
+}

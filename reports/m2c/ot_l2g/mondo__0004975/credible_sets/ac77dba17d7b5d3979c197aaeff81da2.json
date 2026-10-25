@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2760120928287506,
+    "target": {
+     "approvedSymbol": "TMEM167A",
+     "id": "ENSG00000174695"
+    }
+   },
+   {
+    "score": 0.2692212164402008,
+    "target": {
+     "approvedSymbol": "XRCC4",
+     "id": "ENSG00000152422"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "ac77dba17d7b5d3979c197aaeff81da2",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_82973288_G_T",
+  "position": 82973288
+ }
+}

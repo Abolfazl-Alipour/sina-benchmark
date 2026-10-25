@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.2512582838535309,
+    "target": {
+     "approvedSymbol": "ABHD1",
+     "id": "ENSG00000143994"
+    }
+   },
+   {
+    "score": 0.10041062533855438,
+    "target": {
+     "approvedSymbol": "PREB",
+     "id": "ENSG00000138073"
+    }
+   },
+   {
+    "score": 0.05496097356081009,
+    "target": {
+     "approvedSymbol": "CGREF1",
+     "id": "ENSG00000138028"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "73ab62114343a51d8bf03c942df50b3d",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_27126918_A_G",
+  "position": 27126918
+ }
+}

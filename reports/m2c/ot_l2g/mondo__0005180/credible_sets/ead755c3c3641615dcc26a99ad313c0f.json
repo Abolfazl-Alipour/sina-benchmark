@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5770121216773987,
+    "target": {
+     "approvedSymbol": "USP25",
+     "id": "ENSG00000155313"
+    }
+   },
+   {
+    "score": 0.30748385190963745,
+    "target": {
+     "approvedSymbol": "NRIP1",
+     "id": "ENSG00000180530"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "ead755c3c3641615dcc26a99ad313c0f",
+ "variant": {
+  "chromosome": "21",
+  "id": "21_15440233_C_A",
+  "position": 15440233
+ }
+}

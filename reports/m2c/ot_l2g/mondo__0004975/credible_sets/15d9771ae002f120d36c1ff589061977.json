@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.6830942630767822,
+    "target": {
+     "approvedSymbol": "SUN3",
+     "id": "ENSG00000164744"
+    }
+   },
+   {
+    "score": 0.12862639129161835,
+    "target": {
+     "approvedSymbol": "HUS1",
+     "id": "ENSG00000136273"
+    }
+   },
+   {
+    "score": 0.12862639129161835,
+    "target": {
+     "approvedSymbol": "C7orf57",
+     "id": "ENSG00000164746"
+    }
+   },
+   {
+    "score": 0.09055768698453903,
+    "target": {
+     "approvedSymbol": "PKD1L1",
+     "id": "ENSG00000158683"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "15d9771ae002f120d36c1ff589061977",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_48002361_T_C",
+  "position": 48002361
+ }
+}

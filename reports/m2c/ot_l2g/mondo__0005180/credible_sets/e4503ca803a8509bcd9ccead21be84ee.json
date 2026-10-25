@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.9000048637390137,
+    "target": {
+     "approvedSymbol": "GPNMB",
+     "id": "ENSG00000136235"
+    }
+   },
+   {
+    "score": 0.0720280185341835,
+    "target": {
+     "approvedSymbol": "NUP42",
+     "id": "ENSG00000136243"
+    }
+   },
+   {
+    "score": 0.05920155346393585,
+    "target": {
+     "approvedSymbol": "KLHL7",
+     "id": "ENSG00000122550"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST002544",
+ "studyLocusId": "e4503ca803a8509bcd9ccead21be84ee",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_23254127_A_G",
+  "position": 23254127
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7457651495933533,
+    "target": {
+     "approvedSymbol": "TSPAN14",
+     "id": "ENSG00000108219"
+    }
+   },
+   {
+    "score": 0.09664422273635864,
+    "target": {
+     "approvedSymbol": "SH2D4B",
+     "id": "ENSG00000178217"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "fafc96499127bfa7e17e7d2801de6d8d",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_80494228_C_T",
+  "position": 80494228
+ }
+}

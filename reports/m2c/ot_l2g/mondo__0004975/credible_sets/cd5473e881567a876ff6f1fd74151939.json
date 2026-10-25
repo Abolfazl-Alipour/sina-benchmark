@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.623953104019165,
+    "target": {
+     "approvedSymbol": "MIB1",
+     "id": "ENSG00000101752"
+    }
+   },
+   {
+    "score": 0.06963469088077545,
+    "target": {
+     "approvedSymbol": "ABHD3",
+     "id": "ENSG00000158201"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "cd5473e881567a876ff6f1fd74151939",
+ "variant": {
+  "chromosome": "18",
+  "id": "18_21731482_C_A",
+  "position": 21731482
+ }
+}

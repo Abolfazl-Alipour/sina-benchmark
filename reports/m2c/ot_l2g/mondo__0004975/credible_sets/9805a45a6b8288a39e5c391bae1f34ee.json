@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7711316347122192,
+    "target": {
+     "approvedSymbol": "CEP170",
+     "id": "ENSG00000143702"
+    }
+   },
+   {
+    "score": 0.7049288153648376,
+    "target": {
+     "approvedSymbol": "SDCCAG8",
+     "id": "ENSG00000054282"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "9805a45a6b8288a39e5c391bae1f34ee",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_243254880_C_T",
+  "position": 243254880
+ }
+}

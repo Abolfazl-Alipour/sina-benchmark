@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.13652022182941437,
+    "target": {
+     "approvedSymbol": "SLC45A3",
+     "id": "ENSG00000158715"
+    }
+   },
+   {
+    "score": 0.10082591325044632,
+    "target": {
+     "approvedSymbol": "NUCKS1",
+     "id": "ENSG00000069275"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "8bae19697cbddf937ba849a52978d268",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_205694350_A_G",
+  "position": 205694350
+ }
+}

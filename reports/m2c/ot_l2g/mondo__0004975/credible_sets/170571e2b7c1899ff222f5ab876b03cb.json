@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.8290740847587585,
+    "target": {
+     "approvedSymbol": "SHARPIN",
+     "id": "ENSG00000179526"
+    }
+   },
+   {
+    "score": 0.13023242354393005,
+    "target": {
+     "approvedSymbol": "MAF1",
+     "id": "ENSG00000179632"
+    }
+   },
+   {
+    "score": 0.0768483355641365,
+    "target": {
+     "approvedSymbol": "WDR97",
+     "id": "ENSG00000179698"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90027158",
+ "studyLocusId": "170571e2b7c1899ff222f5ab876b03cb",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_144103704_G_A",
+  "position": 144103704
+ }
+}

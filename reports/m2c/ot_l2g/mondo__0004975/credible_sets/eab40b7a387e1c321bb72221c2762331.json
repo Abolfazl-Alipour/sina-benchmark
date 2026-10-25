@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6844895482063293,
+    "target": {
+     "approvedSymbol": "PPIG",
+     "id": "ENSG00000138398"
+    }
+   },
+   {
+    "score": 0.05993584915995598,
+    "target": {
+     "approvedSymbol": "FASTKD1",
+     "id": "ENSG00000138399"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "eab40b7a387e1c321bb72221c2762331",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_169608315_G_C",
+  "position": 169608315
+ }
+}

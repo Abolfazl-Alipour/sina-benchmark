@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.40895742177963257,
+    "target": {
+     "approvedSymbol": "PARP9",
+     "id": "ENSG00000138496"
+    }
+   },
+   {
+    "score": 0.39573222398757935,
+    "target": {
+     "approvedSymbol": "KPNA1",
+     "id": "ENSG00000114030"
+    }
+   },
+   {
+    "score": 0.12368926405906677,
+    "target": {
+     "approvedSymbol": "DTX3L",
+     "id": "ENSG00000163840"
+    }
+   },
+   {
+    "score": 0.07097943872213364,
+    "target": {
+     "approvedSymbol": "WDR5B",
+     "id": "ENSG00000196981"
+    }
+   },
+   {
+    "score": 0.06169930472970009,
+    "target": {
+     "approvedSymbol": "MIX23",
+     "id": "ENSG00000160124"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "1b2b435b10f0de149a177f702c0afad0",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_122535800_C_T",
+  "position": 122535800
+ }
+}

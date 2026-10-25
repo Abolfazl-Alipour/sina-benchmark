@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7063793540000916,
+    "target": {
+     "approvedSymbol": "SPATA6",
+     "id": "ENSG00000132122"
+    }
+   },
+   {
+    "score": 0.1305486410856247,
+    "target": {
+     "approvedSymbol": "SLC5A9",
+     "id": "ENSG00000117834"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90480008",
+ "studyLocusId": "6c07ab35b45d3c2fad90cc74c901eb92",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_48345118_A_G",
+  "position": 48345118
+ }
+}

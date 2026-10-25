@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.4285878539085388,
+    "target": {
+     "approvedSymbol": "SHCBP1",
+     "id": "ENSG00000171241"
+    }
+   },
+   {
+    "score": 0.13604912161827087,
+    "target": {
+     "approvedSymbol": "ORC6",
+     "id": "ENSG00000091651"
+    }
+   },
+   {
+    "score": 0.08644979447126389,
+    "target": {
+     "approvedSymbol": "VPS35",
+     "id": "ENSG00000069329"
+    }
+   },
+   {
+    "score": 0.074159637093544,
+    "target": {
+     "approvedSymbol": "C16orf87",
+     "id": "ENSG00000155330"
+    }
+   },
+   {
+    "score": 0.05615448206663132,
+    "target": {
+     "approvedSymbol": "GPT2",
+     "id": "ENSG00000166123"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "86e8012089b389345eb2ae9f47bde181",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_46395604_C_A",
+  "position": 46395604
+ }
+}

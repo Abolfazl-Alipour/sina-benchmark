@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.47817158699035645,
+    "target": {
+     "approvedSymbol": "KDM2A",
+     "id": "ENSG00000173120"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "7804d2fc3b4b73ee7f26c2efe2d7944f",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_67157185_T_C",
+  "position": 67157185
+ }
+}

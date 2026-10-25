@@ -1,0 +1,124 @@
+{
+ "culprits": [
+  {
+   "chr": "1",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000170382",
+   "lead_snp": "rs11588857",
+   "locus": "mondo__0004975_locus056",
+   "n_genes": 3,
+   "novel": false
+  },
+  {
+   "chr": "11",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000110077",
+   "lead_snp": "rs7232",
+   "locus": "mondo__0004975_locus136",
+   "n_genes": 6,
+   "novel": false
+  },
+  {
+   "chr": "11",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000087053",
+   "lead_snp": "rs3824874",
+   "locus": "mondo__0004975_locus154",
+   "n_genes": 2,
+   "novel": false
+  },
+  {
+   "chr": "15",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000138613",
+   "lead_snp": "rs117618017",
+   "locus": "mondo__0004975_locus277",
+   "n_genes": 7,
+   "novel": false
+  },
+  {
+   "chr": "17",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000108798",
+   "lead_snp": "rs616338",
+   "locus": "mondo__0004975_locus348",
+   "n_genes": 2,
+   "novel": false
+  },
+  {
+   "chr": "19",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000130203",
+   "lead_snp": "rs429358",
+   "locus": "mondo__0004975_locus405",
+   "n_genes": 49,
+   "novel": false
+  },
+  {
+   "chr": "3",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000144648",
+   "lead_snp": "rs2228467",
+   "locus": "mondo__0004975_locus551",
+   "n_genes": 2,
+   "novel": false
+  },
+  {
+   "chr": "5",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000253910",
+   "lead_snp": "rs13171859",
+   "locus": "mondo__0004975_locus676",
+   "n_genes": 6,
+   "novel": false
+  },
+  {
+   "chr": "6",
+   "consequences": [
+    "missense_variant"
+   ],
+   "culprit": "ensembl:ENSG00000095970",
+   "lead_snp": "rs75932628",
+   "locus": "mondo__0004975_locus708",
+   "n_genes": 11,
+   "novel": false
+  }
+ ],
+ "generated_at": "2026-09-06T00:21:10Z",
+ "n_lead_snps": 869,
+ "n_loci": 869,
+ "n_novel_culprit_loci": 0,
+ "n_single_coding_loci": 9,
+ "power_ok": false,
+ "strict_coding": [
+  "frameshift_variant",
+  "inframe_deletion",
+  "inframe_insertion",
+  "missense_variant",
+  "protein_altering_variant",
+  "splice_acceptor_variant",
+  "splice_donor_variant",
+  "start_lost",
+  "stop_gained",
+  "stop_lost",
+  "transcript_ablation"
+ ],
+ "unit": "mondo__0004975",
+ "vep": "https://rest.ensembl.org/vep/human/id"
+}

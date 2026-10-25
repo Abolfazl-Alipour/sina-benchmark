@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7538920640945435,
+    "target": {
+     "approvedSymbol": "KCNJ3",
+     "id": "ENSG00000162989"
+    }
+   },
+   {
+    "score": 0.07069890946149826,
+    "target": {
+     "approvedSymbol": "GALNT13",
+     "id": "ENSG00000144278"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "9e72f1dd8fda8f4bfd568e8787d4f03b",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_154811564_T_C",
+  "position": 154811564
+ }
+}

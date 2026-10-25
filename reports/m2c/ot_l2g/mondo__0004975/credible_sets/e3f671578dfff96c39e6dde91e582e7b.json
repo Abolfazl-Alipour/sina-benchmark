@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.641807496547699,
+    "target": {
+     "approvedSymbol": "MYOCOS",
+     "id": "ENSG00000283683"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e3f671578dfff96c39e6dde91e582e7b",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_171621582_A_G",
+  "position": 171621582
+ }
+}

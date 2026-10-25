@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.37559399008750916,
+    "target": {
+     "approvedSymbol": "RBM26",
+     "id": "ENSG00000139746"
+    }
+   },
+   {
+    "score": 0.10381654649972916,
+    "target": {
+     "approvedSymbol": "NDFIP2",
+     "id": "ENSG00000102471"
+    }
+   },
+   {
+    "score": 0.10009335726499557,
+    "target": {
+     "approvedSymbol": "OBI1",
+     "id": "ENSG00000152193"
+    }
+   },
+   {
+    "score": 0.05615448206663132,
+    "target": {
+     "approvedSymbol": "POU4F1",
+     "id": "ENSG00000152192"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "75300538ed858017db884d30e6b1b73c",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_79091376_A_G",
+  "position": 79091376
+ }
+}

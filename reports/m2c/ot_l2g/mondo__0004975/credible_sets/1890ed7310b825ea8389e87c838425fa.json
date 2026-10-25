@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5803428292274475,
+    "target": {
+     "approvedSymbol": "TRANK1",
+     "id": "ENSG00000168016"
+    }
+   },
+   {
+    "score": 0.21309398114681244,
+    "target": {
+     "approvedSymbol": "MLH1",
+     "id": "ENSG00000076242"
+    }
+   },
+   {
+    "score": 0.08174845576286316,
+    "target": {
+     "approvedSymbol": "EPM2AIP1",
+     "id": "ENSG00000178567"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "1890ed7310b825ea8389e87c838425fa",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_36963928_C_T",
+  "position": 36963928
+ }
+}

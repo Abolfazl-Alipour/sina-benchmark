@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5686053037643433,
+    "target": {
+     "approvedSymbol": "HSF2",
+     "id": "ENSG00000025156"
+    }
+   },
+   {
+    "score": 0.093599833548069,
+    "target": {
+     "approvedSymbol": "SERINC1",
+     "id": "ENSG00000111897"
+    }
+   },
+   {
+    "score": 0.06707292050123215,
+    "target": {
+     "approvedSymbol": "PKIB",
+     "id": "ENSG00000135549"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "d457fcaca16e44b64167b74977f4846a",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_122138733_G_T",
+  "position": 122138733
+ }
+}

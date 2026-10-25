@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6483567357063293,
+    "target": {
+     "approvedSymbol": "PTPRN2",
+     "id": "ENSG00000155093"
+    }
+   },
+   {
+    "score": 0.16404306888580322,
+    "target": {
+     "approvedSymbol": "DNAJB6",
+     "id": "ENSG00000105993"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e89f547cb87bd93f48ee7c840e83194b",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_157725209_C_T",
+  "position": 157725209
+ }
+}

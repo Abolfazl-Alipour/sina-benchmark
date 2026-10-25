@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.4343917667865753,
+    "target": {
+     "approvedSymbol": "FAM227A",
+     "id": "ENSG00000184949"
+    }
+   },
+   {
+    "score": 0.1149979829788208,
+    "target": {
+     "approvedSymbol": "CBY1",
+     "id": "ENSG00000100211"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "fd44474d10174b80edfac294e0c2524a",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_38654128_G_T",
+  "position": 38654128
+ }
+}

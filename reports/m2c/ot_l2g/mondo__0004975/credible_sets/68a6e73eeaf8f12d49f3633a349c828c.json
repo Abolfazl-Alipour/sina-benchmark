@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8187412023544312,
+    "target": {
+     "approvedSymbol": "TET2",
+     "id": "ENSG00000168769"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "68a6e73eeaf8f12d49f3633a349c828c",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_105223578_A_C",
+  "position": 105223578
+ }
+}

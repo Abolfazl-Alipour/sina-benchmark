@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.6146194934844971,
+    "target": {
+     "approvedSymbol": "DGKQ",
+     "id": "ENSG00000145214"
+    }
+   },
+   {
+    "score": 0.48658350110054016,
+    "target": {
+     "approvedSymbol": "IDUA",
+     "id": "ENSG00000127415"
+    }
+   },
+   {
+    "score": 0.09044547379016876,
+    "target": {
+     "approvedSymbol": "GAK",
+     "id": "ENSG00000178950"
+    }
+   },
+   {
+    "score": 0.05498559772968292,
+    "target": {
+     "approvedSymbol": "TMEM175",
+     "id": "ENSG00000127419"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001430",
+ "studyLocusId": "f2c2513c658d00b13fe7a3679ce0db5c",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_970571_C_T",
+  "position": 970571
+ }
+}

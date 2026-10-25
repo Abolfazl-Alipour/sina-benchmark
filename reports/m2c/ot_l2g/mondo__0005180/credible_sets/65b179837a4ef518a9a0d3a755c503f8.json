@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2858431041240692,
+    "target": {
+     "approvedSymbol": "VPS13C",
+     "id": "ENSG00000129003"
+    }
+   },
+   {
+    "score": 0.23008497059345245,
+    "target": {
+     "approvedSymbol": "C2CD4A",
+     "id": "ENSG00000198535"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST002544",
+ "studyLocusId": "65b179837a4ef518a9a0d3a755c503f8",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_61701935_G_A",
+  "position": 61701935
+ }
+}

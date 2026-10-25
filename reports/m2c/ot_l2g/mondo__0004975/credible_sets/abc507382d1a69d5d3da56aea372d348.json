@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.8335739374160767,
+    "target": {
+     "approvedSymbol": "DIO2",
+     "id": "ENSG00000211448"
+    }
+   },
+   {
+    "score": 0.08253561705350876,
+    "target": {
+     "approvedSymbol": "CEP128",
+     "id": "ENSG00000100629"
+    }
+   },
+   {
+    "score": 0.07541145384311676,
+    "target": {
+     "approvedSymbol": "NRXN3",
+     "id": "ENSG00000021645"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "abc507382d1a69d5d3da56aea372d348",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_80234008_G_A",
+  "position": 80234008
+ }
+}

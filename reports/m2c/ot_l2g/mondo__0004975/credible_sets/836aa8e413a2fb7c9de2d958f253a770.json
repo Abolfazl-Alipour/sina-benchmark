@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.666313111782074,
+    "target": {
+     "approvedSymbol": "HSD17B12",
+     "id": "ENSG00000149084"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "836aa8e413a2fb7c9de2d958f253a770",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_43611658_C_T",
+  "position": 43611658
+ }
+}

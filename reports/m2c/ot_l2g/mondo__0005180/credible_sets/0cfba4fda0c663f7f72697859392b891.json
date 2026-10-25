@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.3540419638156891,
+    "target": {
+     "approvedSymbol": "NCKIPSD",
+     "id": "ENSG00000213672"
+    }
+   },
+   {
+    "score": 0.10205084830522537,
+    "target": {
+     "approvedSymbol": "IP6K2",
+     "id": "ENSG00000068745"
+    }
+   },
+   {
+    "score": 0.08188063651323318,
+    "target": {
+     "approvedSymbol": "P4HTM",
+     "id": "ENSG00000178467"
+    }
+   },
+   {
+    "score": 0.06194010004401207,
+    "target": {
+     "approvedSymbol": "ARIH2",
+     "id": "ENSG00000177479"
+    }
+   },
+   {
+    "score": 0.05703031271696091,
+    "target": {
+     "approvedSymbol": "WDR6",
+     "id": "ENSG00000178252"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST004902",
+ "studyLocusId": "0cfba4fda0c663f7f72697859392b891",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_48711556_G_T",
+  "position": 48711556
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6020295023918152,
+    "target": {
+     "approvedSymbol": "KLC3",
+     "id": "ENSG00000104892"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134603",
+ "studyLocusId": "e3aaf611f25d4ca02ccd3f3a430c8175",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_45338038_G_A",
+  "position": 45338038
+ }
+}

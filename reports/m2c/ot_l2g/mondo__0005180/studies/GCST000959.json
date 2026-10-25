@@ -1,0 +1,102 @@
+[
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "1ebe48641eb6fcd662bd026ffbdc3508",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "4",
+   "id": "4_945299_C_T",
+   "position": 945299
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "3e049b82426986ef1dad2f56d5c561c8",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "12",
+   "id": "12_122811747_G_A",
+   "position": 122811747
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "5e9a66b205e4aa474bb86338a769669e",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "1",
+   "id": "1_156060246_C_T",
+   "position": 156060246
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "5fbcd47917947172603cf37f695c7db1",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "17",
+   "id": "17_45637484_G_A",
+   "position": 45637484
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "692e90dd151f32df27cfb8d4f723e477",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "3",
+   "id": "3_183103487_G_A",
+   "position": 183103487
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "991dd39c7ecb2f20615e010ed8b29fb0",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "4",
+   "id": "4_15735478_C_A",
+   "position": 15735478
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "b05952a2480a368362ac4b27b87308eb",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "2",
+   "id": "2_168260515_G_T",
+   "position": 168260515
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "c9d3193dbb44d863772cbeba788ed764",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "12",
+   "id": "12_40227006_C_G",
+   "position": 40227006
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "cca6b10520d093b2d0d262f18fab2707",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "2",
+   "id": "2_134834811_G_A",
+   "position": 134834811
+  }
+ },
+ {
+  "studyId": "GCST000959",
+  "studyLocusId": "e3ef1431cd8937b8782e30e3b8ccf2eb",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "4",
+   "id": "4_89716450_G_A",
+   "position": 89716450
+  }
+ }
+]

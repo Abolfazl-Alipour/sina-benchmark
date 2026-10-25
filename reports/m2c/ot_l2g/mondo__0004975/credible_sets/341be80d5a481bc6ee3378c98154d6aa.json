@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2679566442966461,
+    "target": {
+     "approvedSymbol": "EP300",
+     "id": "ENSG00000100393"
+    }
+   },
+   {
+    "score": 0.07781144231557846,
+    "target": {
+     "approvedSymbol": "L3MBTL2",
+     "id": "ENSG00000100395"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "341be80d5a481bc6ee3378c98154d6aa",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_41191552_T_A",
+  "position": 41191552
+ }
+}

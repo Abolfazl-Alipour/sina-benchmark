@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6806052327156067,
+    "target": {
+     "approvedSymbol": "DENND3",
+     "id": "ENSG00000105339"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "bd4fbdaa5459b6947020cfe0259fd0c2",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_141167152_G_A",
+  "position": 141167152
+ }
+}

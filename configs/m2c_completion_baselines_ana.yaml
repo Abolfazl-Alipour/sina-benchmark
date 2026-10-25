@@ -1,0 +1,17 @@
+completion_exports_dir: data/processed/m2c/completion_exports_ana
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+output_dir: data/processed/m2c/completion_baselines_ana
+report_path: reports/m2c/completion_baselines_ana.md
+manifest_path: data/raw/manifests/m2c_completion_baselines_ana.json
+pinned_genes: data/processed/m2c/pinned_genes_17448.txt
+null_resamples: 100
+ppr_alpha: 0.5
+ppr_max_iter: 100
+ppr_tol: 1e-06
+seed: 1337
+metapaths:
+  - ["DIS-PHE", "PHE-GEN"]
+  - ["DIS-DIS", "DIS-GEN"]
+  - ["DIS-GEN", "GEN-GEN"]
+damping: 0.5
+damping_sensitivity: [0.3, 0.5, 0.7]

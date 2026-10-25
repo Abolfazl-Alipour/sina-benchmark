@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.39374110102653503,
+    "target": {
+     "approvedSymbol": "DGAT2",
+     "id": "ENSG00000062282"
+    }
+   },
+   {
+    "score": 0.08174845576286316,
+    "target": {
+     "approvedSymbol": "MOGAT2",
+     "id": "ENSG00000166391"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "bd0af8fa60692a448622e280f3cc5277",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_75748028_T_C",
+  "position": 75748028
+ }
+}

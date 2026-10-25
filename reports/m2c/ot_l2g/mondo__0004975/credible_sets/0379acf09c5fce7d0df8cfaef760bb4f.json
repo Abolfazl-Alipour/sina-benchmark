@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.11747653037309647,
+    "target": {
+     "approvedSymbol": "ENSA",
+     "id": "ENSG00000143420"
+    }
+   },
+   {
+    "score": 0.1055576354265213,
+    "target": {
+     "approvedSymbol": "MCL1",
+     "id": "ENSG00000143384"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "0379acf09c5fce7d0df8cfaef760bb4f",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_150636177_C_G",
+  "position": 150636177
+ }
+}

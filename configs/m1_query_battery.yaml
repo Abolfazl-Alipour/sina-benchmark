@@ -1,0 +1,13 @@
+# M1 DuckDB query battery (spec §5.2.5) — identical battery per track
+report_path: reports/m1/query_battery.md
+manifest_path: data/processed/m1/query_battery/manifest.json
+top_k: 10
+tracks:
+  trackr:
+    label: Track-R (PrimeKG)
+    nodes: data/processed/m1/trackr/nodes.parquet
+    edges: data/processed/m1/trackr/edges.parquet
+  trackd:
+    label: Track-D (OptimusKG)
+    nodes: data/processed/m1/trackd/nodes.parquet
+    edges: data/processed/m1/trackd/edges.parquet

@@ -1,0 +1,5 @@
+lodo_exports_dir: data/processed/m2/lodo_exports
+lodo_baselines: data/processed/m2/lodo_baselines/lodo_baselines.parquet
+output_dir: data/processed/m2/lodo_audits
+report_path: reports/m2b/triviality_audit.md
+manifest_path: data/raw/manifests/m2_triviality_audit.json

@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.31349778175354004,
+    "target": {
+     "approvedSymbol": "RBM23",
+     "id": "ENSG00000100461"
+    }
+   },
+   {
+    "score": 0.10802724957466125,
+    "target": {
+     "approvedSymbol": "AJUBA",
+     "id": "ENSG00000129474"
+    }
+   },
+   {
+    "score": 0.07461567968130112,
+    "target": {
+     "approvedSymbol": "PRMT5",
+     "id": "ENSG00000100462"
+    }
+   },
+   {
+    "score": 0.06364186853170395,
+    "target": {
+     "approvedSymbol": "HAUS4",
+     "id": "ENSG00000092036"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "8207bc2ac1a76a493ce27d17a3463f6e",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_22918376_A_G",
+  "position": 22918376
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2600909173488617,
+    "target": {
+     "approvedSymbol": "DUSP6",
+     "id": "ENSG00000139318"
+    }
+   },
+   {
+    "score": 0.051489539444446564,
+    "target": {
+     "approvedSymbol": "POC1B",
+     "id": "ENSG00000139323"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "c089fc55abbdf26622462848dfbbb705",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_89389651_G_T",
+  "position": 89389651
+ }
+}

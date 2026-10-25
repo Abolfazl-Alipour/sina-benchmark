@@ -1,0 +1,13 @@
+{
+ "l2GPredictions": {
+  "count": 0,
+  "rows": []
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "5ce8c01d7b4ce7b6334d28e221cabace",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_98101925_A_C",
+  "position": 98101925
+ }
+}

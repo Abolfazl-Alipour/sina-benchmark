@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7957037091255188,
+    "target": {
+     "approvedSymbol": "TMEM175",
+     "id": "ENSG00000127419"
+    }
+   },
+   {
+    "score": 0.24875988066196442,
+    "target": {
+     "approvedSymbol": "DGKQ",
+     "id": "ENSG00000145214"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST012431",
+ "studyLocusId": "9adb57a6760a33ed776d39c33510ec54",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_958159_T_C",
+  "position": 958159
+ }
+}

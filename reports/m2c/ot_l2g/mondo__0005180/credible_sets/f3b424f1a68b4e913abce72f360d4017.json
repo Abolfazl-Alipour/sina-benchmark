@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.34757164120674133,
+    "target": {
+     "approvedSymbol": "PRSS53",
+     "id": "ENSG00000151006"
+    }
+   },
+   {
+    "score": 0.15454357862472534,
+    "target": {
+     "approvedSymbol": "STX1B",
+     "id": "ENSG00000099365"
+    }
+   },
+   {
+    "score": 0.060114167630672455,
+    "target": {
+     "approvedSymbol": "STX4",
+     "id": "ENSG00000103496"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST010991",
+ "studyLocusId": "f3b424f1a68b4e913abce72f360d4017",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_31010559_G_T",
+  "position": 31010559
+ }
+}

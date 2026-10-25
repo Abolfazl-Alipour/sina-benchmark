@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.738615870475769,
+    "target": {
+     "approvedSymbol": "PROK2",
+     "id": "ENSG00000163421"
+    }
+   },
+   {
+    "score": 0.07005865126848221,
+    "target": {
+     "approvedSymbol": "GPR27",
+     "id": "ENSG00000170837"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "40a6fdc5077b0c8e83f3ed30c6786655",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_71800545_A_G",
+  "position": 71800545
+ }
+}

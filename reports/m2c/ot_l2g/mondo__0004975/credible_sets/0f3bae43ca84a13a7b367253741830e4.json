@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6636674404144287,
+    "target": {
+     "approvedSymbol": "EPRS1",
+     "id": "ENSG00000136628"
+    }
+   },
+   {
+    "score": 0.069825179874897,
+    "target": {
+     "approvedSymbol": "BPNT1",
+     "id": "ENSG00000162813"
+    }
+   },
+   {
+    "score": 0.05566248297691345,
+    "target": {
+     "approvedSymbol": "IARS2",
+     "id": "ENSG00000067704"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "0f3bae43ca84a13a7b367253741830e4",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_220048860_C_T",
+  "position": 220048860
+ }
+}

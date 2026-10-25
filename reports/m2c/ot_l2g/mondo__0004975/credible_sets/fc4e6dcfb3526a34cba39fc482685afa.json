@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.39970502257347107,
+    "target": {
+     "approvedSymbol": "ABCA7",
+     "id": "ENSG00000064687"
+    }
+   },
+   {
+    "score": 0.16125339269638062,
+    "target": {
+     "approvedSymbol": "TMEM259",
+     "id": "ENSG00000182087"
+    }
+   },
+   {
+    "score": 0.05197634547948837,
+    "target": {
+     "approvedSymbol": "GRIN3B",
+     "id": "ENSG00000116032"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001963",
+ "studyLocusId": "fc4e6dcfb3526a34cba39fc482685afa",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_1050421_A_G",
+  "position": 1050421
+ }
+}

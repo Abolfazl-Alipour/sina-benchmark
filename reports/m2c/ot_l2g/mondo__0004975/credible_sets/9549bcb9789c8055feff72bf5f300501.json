@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6736621856689453,
+    "target": {
+     "approvedSymbol": "CHD1",
+     "id": "ENSG00000153922"
+    }
+   },
+   {
+    "score": 0.0788751170039177,
+    "target": {
+     "approvedSymbol": "ENSG00000206356",
+     "id": "ENSG00000206356"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "9549bcb9789c8055feff72bf5f300501",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_99112013_T_C",
+  "position": 99112013
+ }
+}

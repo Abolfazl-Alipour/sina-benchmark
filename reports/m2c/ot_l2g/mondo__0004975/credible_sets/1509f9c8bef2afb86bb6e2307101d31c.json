@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.6053345799446106,
+    "target": {
+     "approvedSymbol": "ISM1",
+     "id": "ENSG00000101230"
+    }
+   },
+   {
+    "score": 0.0965481624007225,
+    "target": {
+     "approvedSymbol": "NDUFAF5",
+     "id": "ENSG00000101247"
+    }
+   },
+   {
+    "score": 0.09635820984840393,
+    "target": {
+     "approvedSymbol": "TASP1",
+     "id": "ENSG00000089123"
+    }
+   },
+   {
+    "score": 0.0714205801486969,
+    "target": {
+     "approvedSymbol": "ESF1",
+     "id": "ENSG00000089048"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "1509f9c8bef2afb86bb6e2307101d31c",
+ "variant": {
+  "chromosome": "20",
+  "id": "20_13349551_G_A",
+  "position": 13349551
+ }
+}

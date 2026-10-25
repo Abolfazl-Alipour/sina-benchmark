@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7105726003646851,
+    "target": {
+     "approvedSymbol": "SLC52A3",
+     "id": "ENSG00000101276"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90558104",
+ "studyLocusId": "c0a1db356de2b09b61b1f86b796619fa",
+ "variant": {
+  "chromosome": "20",
+  "id": "20_772666_G_A",
+  "position": 772666
+ }
+}

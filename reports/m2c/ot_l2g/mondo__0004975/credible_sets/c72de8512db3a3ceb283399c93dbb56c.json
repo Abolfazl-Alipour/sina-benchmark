@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.47553664445877075,
+    "target": {
+     "approvedSymbol": "P4HA3",
+     "id": "ENSG00000149380"
+    }
+   },
+   {
+    "score": 0.16159707307815552,
+    "target": {
+     "approvedSymbol": "PGM2L1",
+     "id": "ENSG00000165434"
+    }
+   },
+   {
+    "score": 0.08263429254293442,
+    "target": {
+     "approvedSymbol": "C2CD3",
+     "id": "ENSG00000168014"
+    }
+   },
+   {
+    "score": 0.07194783538579941,
+    "target": {
+     "approvedSymbol": "PPME1",
+     "id": "ENSG00000214517"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "c72de8512db3a3ceb283399c93dbb56c",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_74271404_C_T",
+  "position": 74271404
+ }
+}

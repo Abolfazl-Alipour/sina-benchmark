@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6017059087753296,
+    "target": {
+     "approvedSymbol": "FERMT2",
+     "id": "ENSG00000073712"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "177193284156e0e2ae0a9df80c2fcd56",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_52924962_A_G",
+  "position": 52924962
+ }
+}

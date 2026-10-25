@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.2702952027320862,
+    "target": {
+     "approvedSymbol": "ARIH2",
+     "id": "ENSG00000177479"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "36b68e277c41522e5a42cccc66c6fa5b",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_48925935_C_G",
+  "position": 48925935
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5826132297515869,
+    "target": {
+     "approvedSymbol": "CDC14C",
+     "id": "ENSG00000218305"
+    }
+   },
+   {
+    "score": 0.29428616166114807,
+    "target": {
+     "approvedSymbol": "ABCA13",
+     "id": "ENSG00000179869"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "979f2e78d7fc622d1bec8fbba22f5f8c",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_48740701_G_A",
+  "position": 48740701
+ }
+}

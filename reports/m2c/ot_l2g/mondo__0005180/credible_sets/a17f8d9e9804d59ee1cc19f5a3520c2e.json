@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6596932411193848,
+    "target": {
+     "approvedSymbol": "LDLRAD4",
+     "id": "ENSG00000168675"
+    }
+   },
+   {
+    "score": 0.05940147489309311,
+    "target": {
+     "approvedSymbol": "RNMT",
+     "id": "ENSG00000101654"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90479727",
+ "studyLocusId": "a17f8d9e9804d59ee1cc19f5a3520c2e",
+ "variant": {
+  "chromosome": "18",
+  "id": "18_13651014_G_A",
+  "position": 13651014
+ }
+}

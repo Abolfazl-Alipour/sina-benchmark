@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.780642569065094,
+    "target": {
+     "approvedSymbol": "TACC2",
+     "id": "ENSG00000138162"
+    }
+   },
+   {
+    "score": 0.11490264534950256,
+    "target": {
+     "approvedSymbol": "NSMCE4A",
+     "id": "ENSG00000107672"
+    }
+   },
+   {
+    "score": 0.07216041535139084,
+    "target": {
+     "approvedSymbol": "ATE1",
+     "id": "ENSG00000107669"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "5048127620b4d109ffa9d8f1c63da692",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_122021619_G_A",
+  "position": 122021619
+ }
+}

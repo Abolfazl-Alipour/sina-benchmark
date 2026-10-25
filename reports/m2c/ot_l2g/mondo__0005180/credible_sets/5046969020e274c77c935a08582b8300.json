@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.19329074025154114,
+    "target": {
+     "approvedSymbol": "MCM2",
+     "id": "ENSG00000073111"
+    }
+   },
+   {
+    "score": 0.14019502699375153,
+    "target": {
+     "approvedSymbol": "TPRA1",
+     "id": "ENSG00000163870"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90479727",
+ "studyLocusId": "5046969020e274c77c935a08582b8300",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_127563982_C_T",
+  "position": 127563982
+ }
+}

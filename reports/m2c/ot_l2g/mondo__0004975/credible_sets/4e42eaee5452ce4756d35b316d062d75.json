@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5957077145576477,
+    "target": {
+     "approvedSymbol": "PGPEP1L",
+     "id": "ENSG00000183571"
+    }
+   },
+   {
+    "score": 0.053488679230213165,
+    "target": {
+     "approvedSymbol": "SYNM",
+     "id": "ENSG00000182253"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "4e42eaee5452ce4756d35b316d062d75",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_99043874_T_C",
+  "position": 99043874
+ }
+}

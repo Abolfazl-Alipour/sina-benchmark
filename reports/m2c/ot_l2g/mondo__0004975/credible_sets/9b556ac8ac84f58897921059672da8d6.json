@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5686053037643433,
+    "target": {
+     "approvedSymbol": "SEL1L",
+     "id": "ENSG00000071537"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9b556ac8ac84f58897921059672da8d6",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_81923556_A_G",
+  "position": 81923556
+ }
+}

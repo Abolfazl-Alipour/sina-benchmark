@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5293464064598083,
+    "target": {
+     "approvedSymbol": "BLCAP",
+     "id": "ENSG00000166619"
+    }
+   },
+   {
+    "score": 0.5174940824508667,
+    "target": {
+     "approvedSymbol": "CTNNBL1",
+     "id": "ENSG00000132792"
+    }
+   },
+   {
+    "score": 0.17133618891239166,
+    "target": {
+     "approvedSymbol": "NNAT",
+     "id": "ENSG00000053438"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "06f16122e8acaa131445ced7d65c5842",
+ "variant": {
+  "chromosome": "20",
+  "id": "20_37611619_G_A",
+  "position": 37611619
+ }
+}

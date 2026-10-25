@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5182191133499146,
+    "target": {
+     "approvedSymbol": "EPHA1",
+     "id": "ENSG00000146904"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "0f73d9636b79c4add161779db8d53381",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_143413669_G_A",
+  "position": 143413669
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.3416188061237335,
+    "target": {
+     "approvedSymbol": "CHSY3",
+     "id": "ENSG00000198108"
+    }
+   },
+   {
+    "score": 0.05818231403827667,
+    "target": {
+     "approvedSymbol": "HINT1",
+     "id": "ENSG00000169567"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "20a0b2828bb83fbad9a06a3b47e499d1",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_130538107_G_T",
+  "position": 130538107
+ }
+}

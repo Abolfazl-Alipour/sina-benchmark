@@ -1,0 +1,16 @@
+# KEEP-graph LODO baseline battery (CHANGES/0024: DIS-PHE KEEP won Step 0b
+# Part 1 — baselines must be re-run on the model's actual training graph).
+# Same degree/PPR/degree-matched-null battery as configs/m2_lodo_baselines.yaml,
+# over a staging dir holding symlinks to all 29 *_keep_disphe exports
+# only. Every baseline sees exactly the model's training graph for that unit
+# (train1 with DIS-PHE + train2), so Wave 1 comparisons are same-graph fair.
+
+lodo_exports_dir: data/processed/m2/lodo_exports_keep
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+output_dir: data/processed/m2/lodo_baselines_keep
+report_path: reports/m2b/lodo_baselines_keep.md
+manifest_path: data/raw/manifests/m2_lodo_baselines_keep.json
+null_resamples: 100
+ppr_alpha: 0.5
+ppr_max_iter: 100
+ppr_tol: 1.0e-06

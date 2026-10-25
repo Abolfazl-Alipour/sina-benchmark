@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.23517000675201416,
+    "target": {
+     "approvedSymbol": "BCL3",
+     "id": "ENSG00000069399"
+    }
+   },
+   {
+    "score": 0.12281260639429092,
+    "target": {
+     "approvedSymbol": "CBLC",
+     "id": "ENSG00000142273"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134604",
+ "studyLocusId": "3e7214274054114bc7e1ee0b64bd1187",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_44753944_G_T",
+  "position": 44753944
+ }
+}

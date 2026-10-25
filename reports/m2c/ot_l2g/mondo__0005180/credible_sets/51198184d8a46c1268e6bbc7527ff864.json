@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6116034984588623,
+    "target": {
+     "approvedSymbol": "CNTN1",
+     "id": "ENSG00000018236"
+    }
+   },
+   {
+    "score": 0.31803882122039795,
+    "target": {
+     "approvedSymbol": "PDZRN4",
+     "id": "ENSG00000165966"
+    }
+   },
+   {
+    "score": 0.0641341581940651,
+    "target": {
+     "approvedSymbol": "MUC19",
+     "id": "ENSG00000205592"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST002455",
+ "studyLocusId": "51198184d8a46c1268e6bbc7527ff864",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_40971838_G_A",
+  "position": 40971838
+ }
+}

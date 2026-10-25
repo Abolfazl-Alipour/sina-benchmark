@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.3835880160331726,
+    "target": {
+     "approvedSymbol": "MSL2",
+     "id": "ENSG00000174579"
+    }
+   },
+   {
+    "score": 0.2097603678703308,
+    "target": {
+     "approvedSymbol": "PPP2R3A",
+     "id": "ENSG00000073711"
+    }
+   },
+   {
+    "score": 0.19444534182548523,
+    "target": {
+     "approvedSymbol": "PCCB",
+     "id": "ENSG00000114054"
+    }
+   },
+   {
+    "score": 0.09705586731433868,
+    "target": {
+     "approvedSymbol": "STAG1",
+     "id": "ENSG00000118007"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "671f0ccb92926c98a27065bd4b30b764",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_136079554_G_A",
+  "position": 136079554
+ }
+}

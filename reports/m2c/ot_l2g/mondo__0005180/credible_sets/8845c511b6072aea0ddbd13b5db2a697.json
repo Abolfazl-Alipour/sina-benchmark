@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.17899936437606812,
+    "target": {
+     "approvedSymbol": "INTS2",
+     "id": "ENSG00000108506"
+    }
+   },
+   {
+    "score": 0.1776958703994751,
+    "target": {
+     "approvedSymbol": "MED13",
+     "id": "ENSG00000108510"
+    }
+   },
+   {
+    "score": 0.14872059226036072,
+    "target": {
+     "approvedSymbol": "BRIP1",
+     "id": "ENSG00000136492"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "8845c511b6072aea0ddbd13b5db2a697",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_61840005_C_T",
+  "position": 61840005
+ }
+}

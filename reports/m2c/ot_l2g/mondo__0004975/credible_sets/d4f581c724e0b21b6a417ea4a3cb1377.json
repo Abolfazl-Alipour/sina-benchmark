@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.5786440372467041,
+    "target": {
+     "approvedSymbol": "ZC3H12A",
+     "id": "ENSG00000163874"
+    }
+   },
+   {
+    "score": 0.1426510214805603,
+    "target": {
+     "approvedSymbol": "GRIK3",
+     "id": "ENSG00000163873"
+    }
+   },
+   {
+    "score": 0.11264419555664062,
+    "target": {
+     "approvedSymbol": "MEAF6",
+     "id": "ENSG00000163875"
+    }
+   },
+   {
+    "score": 0.06966980546712875,
+    "target": {
+     "approvedSymbol": "DNALI1",
+     "id": "ENSG00000163879"
+    }
+   },
+   {
+    "score": 0.05042450129985809,
+    "target": {
+     "approvedSymbol": "SNIP1",
+     "id": "ENSG00000163877"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "d4f581c724e0b21b6a417ea4a3cb1377",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_37287106_G_A",
+  "position": 37287106
+ }
+}

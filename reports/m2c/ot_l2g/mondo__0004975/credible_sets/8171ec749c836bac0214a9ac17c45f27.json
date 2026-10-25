@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.3519286513328552,
+    "target": {
+     "approvedSymbol": "KDM2B",
+     "id": "ENSG00000089094"
+    }
+   },
+   {
+    "score": 0.12908872961997986,
+    "target": {
+     "approvedSymbol": "MORN3",
+     "id": "ENSG00000139714"
+    }
+   },
+   {
+    "score": 0.0700029730796814,
+    "target": {
+     "approvedSymbol": "ORAI1",
+     "id": "ENSG00000276045"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "8171ec749c836bac0214a9ac17c45f27",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_121590999_C_A",
+  "position": 121590999
+ }
+}

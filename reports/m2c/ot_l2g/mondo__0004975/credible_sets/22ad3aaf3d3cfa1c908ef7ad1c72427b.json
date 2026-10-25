@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6353301405906677,
+    "target": {
+     "approvedSymbol": "DLG2",
+     "id": "ENSG00000150672"
+    }
+   },
+   {
+    "score": 0.19470089673995972,
+    "target": {
+     "approvedSymbol": "TMEM126A",
+     "id": "ENSG00000171202"
+    }
+   },
+   {
+    "score": 0.1910879760980606,
+    "target": {
+     "approvedSymbol": "TMEM126B",
+     "id": "ENSG00000171204"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "22ad3aaf3d3cfa1c908ef7ad1c72427b",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_85479290_C_A",
+  "position": 85479290
+ }
+}

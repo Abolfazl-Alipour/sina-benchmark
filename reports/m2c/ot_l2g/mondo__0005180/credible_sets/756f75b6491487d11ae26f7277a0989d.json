@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5610139966011047,
+    "target": {
+     "approvedSymbol": "PIK3CA",
+     "id": "ENSG00000121879"
+    }
+   },
+   {
+    "score": 0.47344475984573364,
+    "target": {
+     "approvedSymbol": "KCNMB3",
+     "id": "ENSG00000171121"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "756f75b6491487d11ae26f7277a0989d",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_179143629_T_C",
+  "position": 179143629
+ }
+}

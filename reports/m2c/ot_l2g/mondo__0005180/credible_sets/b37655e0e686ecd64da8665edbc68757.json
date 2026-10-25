@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8972069621086121,
+    "target": {
+     "approvedSymbol": "TMEM175",
+     "id": "ENSG00000127419"
+    }
+   },
+   {
+    "score": 0.22416694462299347,
+    "target": {
+     "approvedSymbol": "GAK",
+     "id": "ENSG00000178950"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST010991",
+ "studyLocusId": "b37655e0e686ecd64da8665edbc68757",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_950422_A_C",
+  "position": 950422
+ }
+}

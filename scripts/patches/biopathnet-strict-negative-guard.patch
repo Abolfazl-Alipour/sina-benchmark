@@ -1,0 +1,34 @@
+diff --git a/biopathnet/task.py b/biopathnet/task.py
+index 557cc36..2b73a8a 100644
+--- a/biopathnet/task.py
++++ b/biopathnet/task.py
+@@ -392,6 +392,15 @@ class KnowledgeGraphCompletionBiomed(tasks.KnowledgeGraphCompletion, core.Config
+             neg_t_candidate = t_mask.nonzero()[:, 1]
+             # get number of candidates belonging to each triplet
+             num_t_candidate = t_mask.sum(dim=-1)
++            # guard: rows with zero valid candidates make variadic_sample read
++            # out of bounds and fault the CUDA context; fall back to uniform
++            # negatives (minus positives) for those rows only
++            t_empty = num_t_candidate == 0
++            if t_empty.any():
++                t_mask[t_empty] = True
++                t_mask[pos_index, t_truth_index] = 0
++                neg_t_candidate = t_mask.nonzero()[:, 1]
++                num_t_candidate = t_mask.sum(dim=-1)
+             # sample num_negative from candidate list, knowing (over neg_t_candidate) how many belong to each triplet
+             neg_t_index = functional.variadic_sample(neg_t_candidate, num_t_candidate, self.num_negative)
+ 
+@@ -434,6 +443,13 @@ class KnowledgeGraphCompletionBiomed(tasks.KnowledgeGraphCompletion, core.Config
+         else: # variadic sampling of negatives uniformly
+             neg_h_candidate = h_mask.nonzero()[:, 1]
+             num_h_candidate = h_mask.sum(dim=-1)
++            # guard: zero-candidate rows fault the CUDA context (see tails)
++            h_empty = num_h_candidate == 0
++            if h_empty.any():
++                h_mask[h_empty] = True
++                h_mask[pos_index, h_truth_index] = 0
++                neg_h_candidate = h_mask.nonzero()[:, 1]
++                num_h_candidate = h_mask.sum(dim=-1)
+             neg_h_index = functional.variadic_sample(neg_h_candidate, num_h_candidate, self.num_negative)
+         
+         neg_index = torch.cat([neg_t_index, neg_h_index])

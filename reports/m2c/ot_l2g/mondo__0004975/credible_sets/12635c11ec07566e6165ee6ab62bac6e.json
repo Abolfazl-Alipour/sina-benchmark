@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.42745450139045715,
+    "target": {
+     "approvedSymbol": "CCDC33",
+     "id": "ENSG00000140481"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "12635c11ec07566e6165ee6ab62bac6e",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_74268022_G_C",
+  "position": 74268022
+ }
+}

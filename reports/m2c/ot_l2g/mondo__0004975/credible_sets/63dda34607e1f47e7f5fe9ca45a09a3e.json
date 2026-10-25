@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5254622101783752,
+    "target": {
+     "approvedSymbol": "PRSS12",
+     "id": "ENSG00000164099"
+    }
+   },
+   {
+    "score": 0.12868157029151917,
+    "target": {
+     "approvedSymbol": "NDST3",
+     "id": "ENSG00000164100"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "63dda34607e1f47e7f5fe9ca45a09a3e",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_118306104_T_C",
+  "position": 118306104
+ }
+}

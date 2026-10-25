@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5686053037643433,
+    "target": {
+     "approvedSymbol": "KIF2A",
+     "id": "ENSG00000068796"
+    }
+   },
+   {
+    "score": 0.0954228937625885,
+    "target": {
+     "approvedSymbol": "IPO11",
+     "id": "ENSG00000086200"
+    }
+   },
+   {
+    "score": 0.09125100076198578,
+    "target": {
+     "approvedSymbol": "DIMT1",
+     "id": "ENSG00000086189"
+    }
+   },
+   {
+    "score": 0.0767214223742485,
+    "target": {
+     "approvedSymbol": "ZSWIM6",
+     "id": "ENSG00000130449"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "0e0ed32adf0de81ef53b04050a195003",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_61953687_A_G",
+  "position": 61953687
+ }
+}

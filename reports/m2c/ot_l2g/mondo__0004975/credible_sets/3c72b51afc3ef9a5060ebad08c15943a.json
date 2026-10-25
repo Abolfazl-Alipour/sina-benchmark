@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6576372981071472,
+    "target": {
+     "approvedSymbol": "CD2AP",
+     "id": "ENSG00000198087"
+    }
+   },
+   {
+    "score": 0.11043905466794968,
+    "target": {
+     "approvedSymbol": "TNFRSF21",
+     "id": "ENSG00000146072"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90267627",
+ "studyLocusId": "3c72b51afc3ef9a5060ebad08c15943a",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_47427663_T_C",
+  "position": 47427663
+ }
+}

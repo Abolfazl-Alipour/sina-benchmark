@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.9335397481918335,
+    "target": {
+     "approvedSymbol": "ATP8B4",
+     "id": "ENSG00000104043"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90027158",
+ "studyLocusId": "75b459ed769d08198e1c04ff18dee3ef",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_49972642_C_T",
+  "position": 49972642
+ }
+}

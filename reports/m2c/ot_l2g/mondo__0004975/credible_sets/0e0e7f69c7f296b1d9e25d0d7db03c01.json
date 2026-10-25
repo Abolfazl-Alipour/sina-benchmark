@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7293734550476074,
+    "target": {
+     "approvedSymbol": "CLXN",
+     "id": "ENSG00000034239"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "0e0e7f69c7f296b1d9e25d0d7db03c01",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_48692031_T_C",
+  "position": 48692031
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6833562254905701,
+    "target": {
+     "approvedSymbol": "TANK",
+     "id": "ENSG00000136560"
+    }
+   },
+   {
+    "score": 0.0825960636138916,
+    "target": {
+     "approvedSymbol": "PSMD14",
+     "id": "ENSG00000115233"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "eaf87978d2fe7e3cbf0facb3e5a463a4",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_161064373_T_C",
+  "position": 161064373
+ }
+}

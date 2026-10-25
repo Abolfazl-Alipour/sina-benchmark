@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.16461288928985596,
+    "target": {
+     "approvedSymbol": "REL",
+     "id": "ENSG00000162924"
+    }
+   },
+   {
+    "score": 0.06278574466705322,
+    "target": {
+     "approvedSymbol": "PAPOLG",
+     "id": "ENSG00000115421"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "2bb269ee116e61602edadb78af5cf8bf",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_60832908_A_G",
+  "position": 60832908
+ }
+}

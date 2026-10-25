@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.2784154415130615,
+    "target": {
+     "approvedSymbol": "MYBL1",
+     "id": "ENSG00000185697"
+    }
+   },
+   {
+    "score": 0.19747130572795868,
+    "target": {
+     "approvedSymbol": "VCPIP1",
+     "id": "ENSG00000175073"
+    }
+   },
+   {
+    "score": 0.136089488863945,
+    "target": {
+     "approvedSymbol": "SGK3",
+     "id": "ENSG00000104205"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e3dc1c03c8f00dc8150fb89cdb299862",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_66708539_C_A",
+  "position": 66708539
+ }
+}

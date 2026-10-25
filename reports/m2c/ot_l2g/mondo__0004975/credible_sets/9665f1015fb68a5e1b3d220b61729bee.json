@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.649416446685791,
+    "target": {
+     "approvedSymbol": "CCR7",
+     "id": "ENSG00000126353"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9665f1015fb68a5e1b3d220b61729bee",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_40544234_G_A",
+  "position": 40544234
+ }
+}

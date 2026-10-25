@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6466432213783264,
+    "target": {
+     "approvedSymbol": "KIF3B",
+     "id": "ENSG00000101350"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "2f4cf0e2e7a7523a1e7f8d8531543243",
+ "variant": {
+  "chromosome": "20",
+  "id": "20_32296095_C_T",
+  "position": 32296095
+ }
+}

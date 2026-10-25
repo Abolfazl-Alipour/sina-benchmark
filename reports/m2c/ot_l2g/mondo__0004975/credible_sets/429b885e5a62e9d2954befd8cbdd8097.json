@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.694556474685669,
+    "target": {
+     "approvedSymbol": "STK24",
+     "id": "ENSG00000102572"
+    }
+   },
+   {
+    "score": 0.3858470320701599,
+    "target": {
+     "approvedSymbol": "FARP1",
+     "id": "ENSG00000152767"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "429b885e5a62e9d2954befd8cbdd8097",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_98447792_C_T",
+  "position": 98447792
+ }
+}

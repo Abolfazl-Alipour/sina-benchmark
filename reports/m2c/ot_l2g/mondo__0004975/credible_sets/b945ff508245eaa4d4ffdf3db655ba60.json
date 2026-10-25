@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.48405855894088745,
+    "target": {
+     "approvedSymbol": "TEKT5",
+     "id": "ENSG00000153060"
+    }
+   },
+   {
+    "score": 0.05219128727912903,
+    "target": {
+     "approvedSymbol": "EMP2",
+     "id": "ENSG00000213853"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "b945ff508245eaa4d4ffdf3db655ba60",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_10645333_A_G",
+  "position": 10645333
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7890439033508301,
+    "target": {
+     "approvedSymbol": "TPM1",
+     "id": "ENSG00000140416"
+    }
+   },
+   {
+    "score": 0.05534732714295387,
+    "target": {
+     "approvedSymbol": "LACTB",
+     "id": "ENSG00000103642"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003652",
+ "studyLocusId": "540174df0d8402eec1f81e337f50655a",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_63054177_T_A",
+  "position": 63054177
+ }
+}

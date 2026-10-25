@@ -1,0 +1,20 @@
+# M1 Track-R — PrimeKG ingest (spec §5.1)
+track: R
+input_csv: data/raw/primekg/kg.csv
+out_dir: data/processed/m1/trackr
+interim_dir: data/interim/trackr
+report_path: reports/m1/trackr_characterization.md
+manifest_path: data/processed/m1/trackr/manifest.json
+# Published counts (Chandak, Huang & Zitnik, Scientific Data 2023) — §5.5: ±1%
+published_counts:
+  nodes: 129375
+  edges: 8100498  # directed rows in kg.csv (4,050,249 undirected)
+tolerance: 0.01
+# A relation is treated as symmetric (undirected) when ≥ this fraction of its
+# edges have their reverse twin also present (empirical reciprocal audit).
+reciprocal_threshold: 0.99
+# Map PrimeKG x_source/y_source values to canonical CURIE prefixes.
+source_prefix_map:
+  NCBI: ncbigene
+  MONDO: mondo
+  DrugBank: drugbank

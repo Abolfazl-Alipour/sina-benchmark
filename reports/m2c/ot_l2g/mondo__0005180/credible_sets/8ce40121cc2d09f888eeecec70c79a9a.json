@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5374543070793152,
+    "target": {
+     "approvedSymbol": "GBA1",
+     "id": "ENSG00000177628"
+    }
+   },
+   {
+    "score": 0.07052522152662277,
+    "target": {
+     "approvedSymbol": "MTX1",
+     "id": "ENSG00000173171"
+    }
+   },
+   {
+    "score": 0.053456369787454605,
+    "target": {
+     "approvedSymbol": "ENTREP3",
+     "id": "ENSG00000160767"
+    }
+   },
+   {
+    "score": 0.050972819328308105,
+    "target": {
+     "approvedSymbol": "THBS3",
+     "id": "ENSG00000169231"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90320242",
+ "studyLocusId": "8ce40121cc2d09f888eeecec70c79a9a",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_155235878_G_T",
+  "position": 155235878
+ }
+}

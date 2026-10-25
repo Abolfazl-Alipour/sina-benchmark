@@ -1,0 +1,311 @@
+{
+  "built_at": "2026-09-05T21:12:46Z",
+  "units": {
+    "mondo__0004975": {
+      "generators": {
+        "drug_indication": {
+          "n_scored": 36,
+          "panels": {
+            "100": {
+              "sha256": "afa018a0351457cc9d099beee8ac50cc2532bd621a71596fb00b420f445ebbc7",
+              "test_coverage": 0.028985507246376812,
+              "test_hits_in_panel": 18
+            },
+            "200": {
+              "sha256": "afa018a0351457cc9d099beee8ac50cc2532bd621a71596fb00b420f445ebbc7",
+              "test_coverage": 0.028985507246376812,
+              "test_hits_in_panel": 18
+            },
+            "500": {
+              "sha256": "afa018a0351457cc9d099beee8ac50cc2532bd621a71596fb00b420f445ebbc7",
+              "test_coverage": 0.028985507246376812,
+              "test_hits_in_panel": 18
+            }
+          }
+        },
+        "ot_functional": {
+          "n_scored": 306,
+          "panels": {
+            "100": {
+              "sha256": "08d6fe7352b1bc400b83abb016420585f9b58c61eb3ac050db627bc024018ae1",
+              "test_coverage": 0.07729468599033816,
+              "test_hits_in_panel": 48
+            },
+            "200": {
+              "sha256": "e7f5a017f4757f637400efa2b3fd63fbc79499853ae16b6c815c586f5177c4c6",
+              "test_coverage": 0.15942028985507245,
+              "test_hits_in_panel": 99
+            },
+            "500": {
+              "sha256": "b836dff3335f149e2d6e7017eb2c486260a36ffc70e7f6b324ae69148725d317",
+              "test_coverage": 0.3188405797101449,
+              "test_hits_in_panel": 198
+            }
+          }
+        },
+        "ot_genetics": {
+          "n_scored": 256,
+          "panels": {
+            "100": {
+              "sha256": "7fa49de9a537b7e14ca579dca2d86055ed522e1b110a327daed6ed79a48cb3c3",
+              "test_coverage": 0.04186795491143317,
+              "test_hits_in_panel": 26
+            },
+            "200": {
+              "sha256": "38c7cc0371e91ded4647c4345e54f113e054c4c9e9d119fcb8316576b69c529e",
+              "test_coverage": 0.07568438003220612,
+              "test_hits_in_panel": 47
+            },
+            "500": {
+              "sha256": "e2239e915f7b96f4f4dc1c40f5e2f31b2a2cb9ca9f7016d06af6ad531b9b563f",
+              "test_coverage": 0.0966183574879227,
+              "test_hits_in_panel": 60
+            }
+          }
+        },
+        "ot_literature": {
+          "n_scored": 1405,
+          "panels": {
+            "100": {
+              "sha256": "5cc17661f8815adb84d08bf1907b00cf6ae20c3762098e7e3244fd349ca3ad00",
+              "test_coverage": 0.15136876006441224,
+              "test_hits_in_panel": 94
+            },
+            "200": {
+              "sha256": "65341aa0ad68a3eb678bb13cbf46590decf144e044fbe96baf5151d4a8371795",
+              "test_coverage": 0.286634460547504,
+              "test_hits_in_panel": 178
+            },
+            "500": {
+              "sha256": "5518f01fc7592727e0cf15d381a1fc4a4961fce199ca4a3691284faa7d288c1f",
+              "test_coverage": 0.5700483091787439,
+              "test_hits_in_panel": 354
+            }
+          }
+        },
+        "ot_overall": {
+          "n_scored": 1662,
+          "panels": {
+            "100": {
+              "sha256": "045c20fc570348e1cd34bb1b3236d6c8fbe9d4e4584182f4bd2efc48979122dc",
+              "test_coverage": 0.08373590982286634,
+              "test_hits_in_panel": 52
+            },
+            "200": {
+              "sha256": "ace4d40b0e4bc412caaf4240454fceaf18bfba1f2518374aeceef171ef32e7e6",
+              "test_coverage": 0.178743961352657,
+              "test_hits_in_panel": 111
+            },
+            "500": {
+              "sha256": "15eba8ecfac2d553c5797260e8faddddff92678f8c1f4416a760480b609e8324",
+              "test_coverage": 0.3784219001610306,
+              "test_hits_in_panel": 235
+            }
+          }
+        },
+        "pheno_shared": {
+          "n_scored": 251,
+          "panels": {
+            "100": {
+              "sha256": "894ee0ba36356b90d790833d849727204b17d5dfbb88bdb7ff2f1391eb2a3c81",
+              "test_coverage": 0.12238325281803543,
+              "test_hits_in_panel": 76
+            },
+            "200": {
+              "sha256": "2180f6b085cb21c9635a554050293a883fdf8ce8e0a55ad629576e54d6a9b030",
+              "test_coverage": 0.20450885668276972,
+              "test_hits_in_panel": 127
+            },
+            "500": {
+              "sha256": "7b406b0823f7a6b536da38d7764fd33ac98efbd1f8b2374b9002c34b99e10e6f",
+              "test_coverage": 0.23510466988727857,
+              "test_hits_in_panel": 146
+            }
+          }
+        },
+        "union_best": {
+          "n_scored": 1748,
+          "panels": {
+            "100": {
+              "sha256": "6da9ac916ba3d57ecaa78f6b84849a845f926f72379779232cb5589ca95b57f8",
+              "test_coverage": 0.10628019323671498,
+              "test_hits_in_panel": 66
+            },
+            "200": {
+              "sha256": "8e2866278aca21323d95b0dcf2d6852628042ea5c1eb7eb01bfbb991c7927326",
+              "test_coverage": 0.1964573268921095,
+              "test_hits_in_panel": 122
+            },
+            "500": {
+              "sha256": "0832576c58f0558bdb67a92137af91ad113a6a295f6f98963f87f58d8661d7cb",
+              "test_coverage": 0.391304347826087,
+              "test_hits_in_panel": 243
+            }
+          }
+        }
+      },
+      "graph_stats": {
+        "disease_phenotypes": 16,
+        "genes_sharing_ge1": 251,
+        "genes_targeted_by_indicated": 36,
+        "genes_with_any_phenotype": 15879,
+        "indicated_drugs": 313
+      },
+      "knowns_excluded": 11793,
+      "label": "AD"
+    },
+    "mondo__0005180": {
+      "generators": {
+        "drug_indication": {
+          "n_scored": 73,
+          "panels": {
+            "100": {
+              "sha256": "0efc14aadec0ceb915b83094c6d6fe21c6cf154c701bca6d487c4727104c4b18",
+              "test_coverage": 0.035398230088495575,
+              "test_hits_in_panel": 12
+            },
+            "200": {
+              "sha256": "0efc14aadec0ceb915b83094c6d6fe21c6cf154c701bca6d487c4727104c4b18",
+              "test_coverage": 0.035398230088495575,
+              "test_hits_in_panel": 12
+            },
+            "500": {
+              "sha256": "0efc14aadec0ceb915b83094c6d6fe21c6cf154c701bca6d487c4727104c4b18",
+              "test_coverage": 0.035398230088495575,
+              "test_hits_in_panel": 12
+            }
+          }
+        },
+        "ot_functional": {
+          "n_scored": 855,
+          "panels": {
+            "100": {
+              "sha256": "bb7a808226892edc4a3df88c405528cd91b53ef598fe650dde97671469758a89",
+              "test_coverage": 0.13274336283185842,
+              "test_hits_in_panel": 45
+            },
+            "200": {
+              "sha256": "ccbb4b0364eff62f9b8d303034459b032d7fdbf59c147486da5b9f1cca30b101",
+              "test_coverage": 0.17404129793510326,
+              "test_hits_in_panel": 59
+            },
+            "500": {
+              "sha256": "dfe4023753cfa9c5c50949f012c4afcf81dea2ae67e3c119e139d4bcbf1f2cee",
+              "test_coverage": 0.26253687315634217,
+              "test_hits_in_panel": 89
+            }
+          }
+        },
+        "ot_genetics": {
+          "n_scored": 72,
+          "panels": {
+            "100": {
+              "sha256": "ac94d7d8c388280eb0281ec2790d70492d850a87c8a4252634d28870b5fdba87",
+              "test_coverage": 0.07669616519174041,
+              "test_hits_in_panel": 26
+            },
+            "200": {
+              "sha256": "ac94d7d8c388280eb0281ec2790d70492d850a87c8a4252634d28870b5fdba87",
+              "test_coverage": 0.07669616519174041,
+              "test_hits_in_panel": 26
+            },
+            "500": {
+              "sha256": "ac94d7d8c388280eb0281ec2790d70492d850a87c8a4252634d28870b5fdba87",
+              "test_coverage": 0.07669616519174041,
+              "test_hits_in_panel": 26
+            }
+          }
+        },
+        "ot_literature": {
+          "n_scored": 2271,
+          "panels": {
+            "100": {
+              "sha256": "88648b455829bbe49b1beeaf02fa836dc108ef3f2c5c50ad632e8dea67ee1e63",
+              "test_coverage": 0.19174041297935104,
+              "test_hits_in_panel": 65
+            },
+            "200": {
+              "sha256": "64c5c38fb5643a1fbf273014ce36dcd681a15b674e28abb3c176bf75a17bc343",
+              "test_coverage": 0.2831858407079646,
+              "test_hits_in_panel": 96
+            },
+            "500": {
+              "sha256": "4f20fad1304e6628f76fecd450a4af94547787ba4d2b2b55753600be4b9625f9",
+              "test_coverage": 0.45132743362831856,
+              "test_hits_in_panel": 153
+            }
+          }
+        },
+        "ot_overall": {
+          "n_scored": 2860,
+          "panels": {
+            "100": {
+              "sha256": "e39853b76ab87bc4711565db26425956ee0c7829d6858461cd1110eb277f1d4c",
+              "test_coverage": 0.25663716814159293,
+              "test_hits_in_panel": 87
+            },
+            "200": {
+              "sha256": "0e4e2bc61107647ef7344cec8972f06f7b885dc575e6384e83289780432a9fd1",
+              "test_coverage": 0.31268436578171094,
+              "test_hits_in_panel": 106
+            },
+            "500": {
+              "sha256": "95e77a67a37710ba6b77bae455cdc2a571be3c04dd3c2879fc0ea38a1752c984",
+              "test_coverage": 0.415929203539823,
+              "test_hits_in_panel": 141
+            }
+          }
+        },
+        "pheno_shared": {
+          "n_scored": 976,
+          "panels": {
+            "100": {
+              "sha256": "885d138ba2c1e9ebc42d39f2a691b05cf179ea1d736b3cf86e81d11316c0e940",
+              "test_coverage": 0.12684365781710916,
+              "test_hits_in_panel": 43
+            },
+            "200": {
+              "sha256": "bb5c7c41ecf6b35ef0cc237fab12c1d4932ea72b868724ff9d20c333d33a782a",
+              "test_coverage": 0.18584070796460178,
+              "test_hits_in_panel": 63
+            },
+            "500": {
+              "sha256": "bc81357cf488d598ed581c55f1e8056af452ca9ace639086f71f3eb6c9583fa9",
+              "test_coverage": 0.2890855457227139,
+              "test_hits_in_panel": 98
+            }
+          }
+        },
+        "union_best": {
+          "n_scored": 3320,
+          "panels": {
+            "100": {
+              "sha256": "ff1bb9e12da53124cc936925538ea7348bc5f5650b856ec90c59b1d9f0b44f89",
+              "test_coverage": 0.19469026548672566,
+              "test_hits_in_panel": 66
+            },
+            "200": {
+              "sha256": "16994fbb7954429aa55f8ec60e2d3788e3f6e32f88703554a6600f36fbe270ef",
+              "test_coverage": 0.30678466076696165,
+              "test_hits_in_panel": 104
+            },
+            "500": {
+              "sha256": "92665a0a74b8c73845cc2dd7f35886b350c18ccc75dd4c8898a0a91a21755855",
+              "test_coverage": 0.49262536873156343,
+              "test_hits_in_panel": 167
+            }
+          }
+        }
+      },
+      "graph_stats": {
+        "disease_phenotypes": 37,
+        "genes_sharing_ge1": 976,
+        "genes_targeted_by_indicated": 73,
+        "genes_with_any_phenotype": 15879,
+        "indicated_drugs": 246
+      },
+      "knowns_excluded": 6245,
+      "label": "PD"
+    }
+  }
+}

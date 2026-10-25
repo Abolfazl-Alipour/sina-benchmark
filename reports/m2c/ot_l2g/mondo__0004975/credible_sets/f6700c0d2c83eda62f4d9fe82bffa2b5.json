@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7184141278266907,
+    "target": {
+     "approvedSymbol": "LRRC37A",
+     "id": "ENSG00000176681"
+    }
+   },
+   {
+    "score": 0.057097844779491425,
+    "target": {
+     "approvedSymbol": "KANSL1",
+     "id": "ENSG00000120071"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST002817",
+ "studyLocusId": "f6700c0d2c83eda62f4d9fe82bffa2b5",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_46275856_T_G",
+  "position": 46275856
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3689585328102112,
+    "target": {
+     "approvedSymbol": "MPHOSPH9",
+     "id": "ENSG00000051825"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "3834235dd65cf391725e132b05725c83",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_123173111_A_G",
+  "position": 123173111
+ }
+}

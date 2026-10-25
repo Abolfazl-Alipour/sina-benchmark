@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6598021388053894,
+    "target": {
+     "approvedSymbol": "TPTE",
+     "id": "ENSG00000274391"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "29c75398e5f7b22e9654cb93b1fa1dd4",
+ "variant": {
+  "chromosome": "21",
+  "id": "21_10717092_C_A",
+  "position": 10717092
+ }
+}

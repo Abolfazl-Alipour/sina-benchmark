@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.571494460105896,
+    "target": {
+     "approvedSymbol": "RAB29",
+     "id": "ENSG00000117280"
+    }
+   },
+   {
+    "score": 0.5099217891693115,
+    "target": {
+     "approvedSymbol": "PM20D1",
+     "id": "ENSG00000162877"
+    }
+   },
+   {
+    "score": 0.14794719219207764,
+    "target": {
+     "approvedSymbol": "SLC41A1",
+     "id": "ENSG00000133065"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90828116",
+ "studyLocusId": "686d1604a8356add36adf7ad79a8d3bf",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_205784749_C_A",
+  "position": 205784749
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.33531704545021057,
+    "target": {
+     "approvedSymbol": "EBLN2",
+     "id": "ENSG00000255423"
+    }
+   },
+   {
+    "score": 0.1876210868358612,
+    "target": {
+     "approvedSymbol": "PPP4R2",
+     "id": "ENSG00000163605"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "2248f92dae3846cd1ba45964eb8a2066",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_73151147_G_A",
+  "position": 73151147
+ }
+}

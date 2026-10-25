@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3929908275604248,
+    "target": {
+     "approvedSymbol": "TCERG1L",
+     "id": "ENSG00000176769"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "38c7d68c43773efd7fdaab4ddef97926",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_130671390_C_A",
+  "position": 130671390
+ }
+}

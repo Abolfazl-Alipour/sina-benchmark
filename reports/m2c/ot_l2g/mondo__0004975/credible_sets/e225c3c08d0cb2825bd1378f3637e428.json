@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6580857038497925,
+    "target": {
+     "approvedSymbol": "MARCKS",
+     "id": "ENSG00000277443"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "e225c3c08d0cb2825bd1378f3637e428",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_113711824_G_A",
+  "position": 113711824
+ }
+}

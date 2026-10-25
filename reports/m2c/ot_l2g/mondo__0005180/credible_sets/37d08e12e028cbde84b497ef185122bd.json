@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.4807567894458771,
+    "target": {
+     "approvedSymbol": "ITPA",
+     "id": "ENSG00000125877"
+    }
+   },
+   {
+    "score": 0.3598359227180481,
+    "target": {
+     "approvedSymbol": "LZTS3",
+     "id": "ENSG00000088899"
+    }
+   },
+   {
+    "score": 0.1576443612575531,
+    "target": {
+     "approvedSymbol": "DDRGK1",
+     "id": "ENSG00000198171"
+    }
+   },
+   {
+    "score": 0.08850500732660294,
+    "target": {
+     "approvedSymbol": "FASTKD5",
+     "id": "ENSG00000215251"
+    }
+   },
+   {
+    "score": 0.08850500732660294,
+    "target": {
+     "approvedSymbol": "UBOX5",
+     "id": "ENSG00000185019"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "37d08e12e028cbde84b497ef185122bd",
+ "variant": {
+  "chromosome": "20",
+  "id": "20_3186025_C_T",
+  "position": 3186025
+ }
+}

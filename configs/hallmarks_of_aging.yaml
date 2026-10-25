@@ -1,0 +1,59 @@
+hallmarks_of_aging:
+  # 12 Hallmarks of Aging (López-Otín et al. 2013/2023) + MSigDB Hallmarks crosswalk
+  # Each hallmark lists member GO: / Reactome: IDs — used only for clustering extracted paths, never for training.
+  # Weight ≤0.15 in composite per §8.4B — reported separately, exploratory.
+  - name: "Genomic instability / DNA damage response"
+    id: "HALLMARK_DNA_REPAIR"
+    go: ["GO:0006281", "GO:0006974", "GO:0006302"]
+    reactome: ["R-HSA-73894", "R-HSA-5693532"]
+  - name: "Telomere attrition"
+    id: "HALLMARK_TELOMERE"
+    go: ["GO:0032200", "GO:0000723"]
+    reactome: ["R-HSA-180786"]
+  - name: "Epigenetic alterations"
+    id: "HALLMARK_EPIGENETIC"
+    go: ["GO:0006325", "GO:0016570"]
+    reactome: ["R-HSA-3214847"]
+  - name: "Loss of proteostasis / Autophagy"
+    id: "HALLMARK_PROTEOSTASIS"
+    go: ["GO:0006914", "GO:0006508", "GO:0030163"]
+    reactome: ["R-HSA-9619665", "R-HSA-983168"]
+  - name: "Disabled macroautophagy"
+    id: "HALLMARK_AUTOPHAGY"
+    go: ["GO:0016236", "GO:0000422"]
+    reactome: ["R-HSA-1632852"]
+  - name: "Deregulated nutrient sensing"
+    id: "HALLMARK_NUTRIENT_SENSING"
+    go: ["GO:0032006", "GO:0045717"]
+    reactome: ["R-HSA-165159", "R-HSA-381715"]
+  - name: "Mitochondrial dysfunction"
+    id: "HALLMARK_MITOCHONDRIA"
+    go: ["GO:0007005", "GO:0006120"]
+    reactome: ["R-HSA-1428517"]
+  - name: "Cellular senescence / SASP"
+    id: "HALLMARK_SENESCENCE"
+    go: ["GO:0090398", "GO:0006954", "GO:0070555"]
+    reactome: ["R-HSA-2559583", "R-HSA-2559580"]
+  - name: "Stem cell exhaustion"
+    id: "HALLMARK_STEM_CELL"
+    go: ["GO:0048863", "GO:0035019"]
+    reactome: ["R-HSA-452303"]
+  - name: "Altered intercellular communication / Inflammation"
+    id: "HALLMARK_INFLAMMATION"
+    go: ["GO:0006954", "GO:0034097"]
+    reactome: ["R-HSA-6785807"]
+  - name: "Chronic inflammation / Inflammaging"
+    id: "HALLMARK_INFLAMMAGING"
+    go: ["GO:0006954", "GO:0050727"]
+    reactome: ["R-HSA-449147"]
+  - name: "Dysbiosis / Microbiome"
+    id: "HALLMARK_DYSBIOSIS"
+    go: ["GO:0042742"]
+    reactome: ["R-HSA-8984722"]
+
+# Crosswalk provenance
+provenance:
+  go_source: "optimuskg_nodes_biological_process.parquet"
+  reactome_source: "optimuskg_nodes_pathway.parquet"
+  curation: "blinded, 25% double-curation, ≤0.15 weight per §8.4B"
+  note: "IDs are examples — enrich from BPO/PWY nodes present in BRG; add ANA-GEN tissue as post-hoc annotation only."

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5758057832717896,
+    "target": {
+     "approvedSymbol": "SV2C",
+     "id": "ENSG00000122012"
+    }
+   },
+   {
+    "score": 0.12376750260591507,
+    "target": {
+     "approvedSymbol": "IQGAP2",
+     "id": "ENSG00000145703"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "6a25b7b9810bfcdb7a432396e5937024",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_76303351_G_C",
+  "position": 76303351
+ }
+}

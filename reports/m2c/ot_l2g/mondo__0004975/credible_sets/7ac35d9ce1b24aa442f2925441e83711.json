@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.48508182168006897,
+    "target": {
+     "approvedSymbol": "TOMM40",
+     "id": "ENSG00000130204"
+    }
+   },
+   {
+    "score": 0.4479970335960388,
+    "target": {
+     "approvedSymbol": "APOE",
+     "id": "ENSG00000130203"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000313",
+ "studyLocusId": "7ac35d9ce1b24aa442f2925441e83711",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_44892009_G_A",
+  "position": 44892009
+ }
+}

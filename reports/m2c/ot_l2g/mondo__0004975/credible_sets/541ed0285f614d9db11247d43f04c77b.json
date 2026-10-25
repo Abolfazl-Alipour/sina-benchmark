@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.4206066131591797,
+    "target": {
+     "approvedSymbol": "SCIMP",
+     "id": "ENSG00000161929"
+    }
+   },
+   {
+    "score": 0.20461049675941467,
+    "target": {
+     "approvedSymbol": "RABEP1",
+     "id": "ENSG00000029725"
+    }
+   },
+   {
+    "score": 0.06287765502929688,
+    "target": {
+     "approvedSymbol": "NUP88",
+     "id": "ENSG00000108559"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST005922",
+ "studyLocusId": "541ed0285f614d9db11247d43f04c77b",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_5233752_G_A",
+  "position": 5233752
+ }
+}

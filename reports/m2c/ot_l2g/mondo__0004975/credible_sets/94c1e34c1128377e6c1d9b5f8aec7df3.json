@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.4531620740890503,
+    "target": {
+     "approvedSymbol": "TMEM64",
+     "id": "ENSG00000180694"
+    }
+   },
+   {
+    "score": 0.08958681672811508,
+    "target": {
+     "approvedSymbol": "CALB1",
+     "id": "ENSG00000104327"
+    }
+   },
+   {
+    "score": 0.0748823806643486,
+    "target": {
+     "approvedSymbol": "NECAB1",
+     "id": "ENSG00000123119"
+    }
+   },
+   {
+    "score": 0.051965001970529556,
+    "target": {
+     "approvedSymbol": "C8orf88",
+     "id": "ENSG00000253250"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "94c1e34c1128377e6c1d9b5f8aec7df3",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_90506149_C_A",
+  "position": 90506149
+ }
+}

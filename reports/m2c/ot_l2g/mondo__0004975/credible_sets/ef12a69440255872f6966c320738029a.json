@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5691199898719788,
+    "target": {
+     "approvedSymbol": "SMARCA2",
+     "id": "ENSG00000080503"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "ef12a69440255872f6966c320738029a",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_1751550_A_G",
+  "position": 1751550
+ }
+}

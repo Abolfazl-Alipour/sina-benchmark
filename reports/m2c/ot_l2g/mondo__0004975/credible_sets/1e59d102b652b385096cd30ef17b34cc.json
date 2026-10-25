@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7016047835350037,
+    "target": {
+     "approvedSymbol": "TJP1",
+     "id": "ENSG00000104067"
+    }
+   },
+   {
+    "score": 0.07365436851978302,
+    "target": {
+     "approvedSymbol": "ENTREP2",
+     "id": "ENSG00000104059"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "1e59d102b652b385096cd30ef17b34cc",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_29739562_G_A",
+  "position": 29739562
+ }
+}

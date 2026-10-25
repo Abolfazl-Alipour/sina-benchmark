@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.42170220613479614,
+    "target": {
+     "approvedSymbol": "EPB42",
+     "id": "ENSG00000166947"
+    }
+   },
+   {
+    "score": 0.24406346678733826,
+    "target": {
+     "approvedSymbol": "CCNDBP1",
+     "id": "ENSG00000166946"
+    }
+   },
+   {
+    "score": 0.09058521687984467,
+    "target": {
+     "approvedSymbol": "UBR1",
+     "id": "ENSG00000159459"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "657ffd001a99e34cb811a823f6db5263",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_43217782_C_T",
+  "position": 43217782
+ }
+}

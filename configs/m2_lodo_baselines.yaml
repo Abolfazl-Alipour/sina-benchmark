@@ -1,0 +1,14 @@
+# LODO baseline battery — per-export same-graph baselines (v5.1 §8, Phase F).
+# Degree (pessimistic ties) + PPR (restart 0.5, BRG-minus-DIS-PHE+train DIS-GEN)
+# + degree-matched null ≥100. RotatE isolated (Step 4b).
+# Every baseline sees exactly the model's training graph for that unit.
+
+lodo_exports_dir: data/processed/m2/lodo_exports
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+output_dir: data/processed/m2/lodo_baselines
+report_path: reports/m2b/lodo_baselines.md
+manifest_path: data/raw/manifests/m2_lodo_baselines.json
+null_resamples: 100
+ppr_alpha: 0.5
+ppr_max_iter: 100
+ppr_tol: 1.0e-06

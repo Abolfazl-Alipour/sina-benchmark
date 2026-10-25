@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6501362919807434,
+    "target": {
+     "approvedSymbol": "CARS2",
+     "id": "ENSG00000134905"
+    }
+   },
+   {
+    "score": 0.06349283456802368,
+    "target": {
+     "approvedSymbol": "ING1",
+     "id": "ENSG00000153487"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST012431",
+ "studyLocusId": "74c033937dac44067c4136accbf83820",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_110677242_C_T",
+  "position": 110677242
+ }
+}

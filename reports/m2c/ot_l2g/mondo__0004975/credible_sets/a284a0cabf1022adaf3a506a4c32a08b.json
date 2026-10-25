@@ -1,0 +1,56 @@
+{
+ "l2GPredictions": {
+  "count": 6,
+  "rows": [
+   {
+    "score": 0.7125441431999207,
+    "target": {
+     "approvedSymbol": "DOCK3",
+     "id": "ENSG00000088538"
+    }
+   },
+   {
+    "score": 0.2948160767555237,
+    "target": {
+     "approvedSymbol": "MAPKAPK3",
+     "id": "ENSG00000114738"
+    }
+   },
+   {
+    "score": 0.15479455888271332,
+    "target": {
+     "approvedSymbol": "CISH",
+     "id": "ENSG00000114737"
+    }
+   },
+   {
+    "score": 0.07870767265558243,
+    "target": {
+     "approvedSymbol": "HEMK1",
+     "id": "ENSG00000114735"
+    }
+   },
+   {
+    "score": 0.07252196222543716,
+    "target": {
+     "approvedSymbol": "C3orf18",
+     "id": "ENSG00000088543"
+    }
+   },
+   {
+    "score": 0.05383090674877167,
+    "target": {
+     "approvedSymbol": "CACNA2D2",
+     "id": "ENSG00000007402"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "a284a0cabf1022adaf3a506a4c32a08b",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_50923203_A_G",
+  "position": 50923203
+ }
+}

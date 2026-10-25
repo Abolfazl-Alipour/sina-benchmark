@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7086963653564453,
+    "target": {
+     "approvedSymbol": "EGFLAM",
+     "id": "ENSG00000164318"
+    }
+   },
+   {
+    "score": 0.09131608158349991,
+    "target": {
+     "approvedSymbol": "LIFR",
+     "id": "ENSG00000113594"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "2f223c87abdc907134734ef3e1183a47",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_38394491_G_C",
+  "position": 38394491
+ }
+}

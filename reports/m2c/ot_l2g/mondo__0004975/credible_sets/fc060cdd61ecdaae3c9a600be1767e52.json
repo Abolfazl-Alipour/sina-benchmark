@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6587618589401245,
+    "target": {
+     "approvedSymbol": "PARP8",
+     "id": "ENSG00000151883"
+    }
+   },
+   {
+    "score": 0.28452545404434204,
+    "target": {
+     "approvedSymbol": "EMB",
+     "id": "ENSG00000170571"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "fc060cdd61ecdaae3c9a600be1767e52",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_50608118_G_A",
+  "position": 50608118
+ }
+}

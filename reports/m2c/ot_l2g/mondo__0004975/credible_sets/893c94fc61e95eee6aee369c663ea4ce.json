@@ -1,0 +1,56 @@
+{
+ "l2GPredictions": {
+  "count": 6,
+  "rows": [
+   {
+    "score": 0.6516758799552917,
+    "target": {
+     "approvedSymbol": "THSD1",
+     "id": "ENSG00000136114"
+    }
+   },
+   {
+    "score": 0.14737357199192047,
+    "target": {
+     "approvedSymbol": "SUGT1",
+     "id": "ENSG00000165416"
+    }
+   },
+   {
+    "score": 0.14511466026306152,
+    "target": {
+     "approvedSymbol": "CKAP2",
+     "id": "ENSG00000136108"
+    }
+   },
+   {
+    "score": 0.12515990436077118,
+    "target": {
+     "approvedSymbol": "VPS36",
+     "id": "ENSG00000136100"
+    }
+   },
+   {
+    "score": 0.08683852851390839,
+    "target": {
+     "approvedSymbol": "HNRNPA1L2",
+     "id": "ENSG00000139675"
+    }
+   },
+   {
+    "score": 0.08557231724262238,
+    "target": {
+     "approvedSymbol": "NEK3",
+     "id": "ENSG00000136098"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "893c94fc61e95eee6aee369c663ea4ce",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_52288435_T_G",
+  "position": 52288435
+ }
+}

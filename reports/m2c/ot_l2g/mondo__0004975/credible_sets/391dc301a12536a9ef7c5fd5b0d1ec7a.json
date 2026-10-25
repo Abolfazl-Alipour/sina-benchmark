@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8367294669151306,
+    "target": {
+     "approvedSymbol": "ACE",
+     "id": "ENSG00000159640"
+    }
+   },
+   {
+    "score": 0.05184891074895859,
+    "target": {
+     "approvedSymbol": "CYB561",
+     "id": "ENSG00000008283"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90013838",
+ "studyLocusId": "391dc301a12536a9ef7c5fd5b0d1ec7a",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_63482264_A_G",
+  "position": 63482264
+ }
+}

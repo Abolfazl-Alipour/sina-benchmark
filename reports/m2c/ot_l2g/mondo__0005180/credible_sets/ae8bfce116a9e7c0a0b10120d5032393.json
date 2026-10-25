@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8366557955741882,
+    "target": {
+     "approvedSymbol": "ZNF608",
+     "id": "ENSG00000168916"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST010991",
+ "studyLocusId": "ae8bfce116a9e7c0a0b10120d5032393",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_124774580_T_C",
+  "position": 124774580
+ }
+}

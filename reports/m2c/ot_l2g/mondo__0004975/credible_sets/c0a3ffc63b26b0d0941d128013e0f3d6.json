@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.45138970017433167,
+    "target": {
+     "approvedSymbol": "EFL1",
+     "id": "ENSG00000140598"
+    }
+   },
+   {
+    "score": 0.09705150127410889,
+    "target": {
+     "approvedSymbol": "SAXO2",
+     "id": "ENSG00000188659"
+    }
+   },
+   {
+    "score": 0.09212181717157364,
+    "target": {
+     "approvedSymbol": "GOLGA6L10",
+     "id": "ENSG00000278662"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "c0a3ffc63b26b0d0941d128013e0f3d6",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_82220780_A_G",
+  "position": 82220780
+ }
+}

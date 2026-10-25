@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7138082981109619,
+    "target": {
+     "approvedSymbol": "PHOSPHO1",
+     "id": "ENSG00000173868"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "32b1682e8486bcded789f61800a134bf",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_49238897_A_G",
+  "position": 49238897
+ }
+}

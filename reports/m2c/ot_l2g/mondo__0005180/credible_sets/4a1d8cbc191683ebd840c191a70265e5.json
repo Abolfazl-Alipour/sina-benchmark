@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.41174015402793884,
+    "target": {
+     "approvedSymbol": "ART3",
+     "id": "ENSG00000156219"
+    }
+   },
+   {
+    "score": 0.3089677393436432,
+    "target": {
+     "approvedSymbol": "SCARB2",
+     "id": "ENSG00000138760"
+    }
+   },
+   {
+    "score": 0.06407548487186432,
+    "target": {
+     "approvedSymbol": "NUP54",
+     "id": "ENSG00000138750"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90828116",
+ "studyLocusId": "4a1d8cbc191683ebd840c191a70265e5",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_76191731_C_T",
+  "position": 76191731
+ }
+}

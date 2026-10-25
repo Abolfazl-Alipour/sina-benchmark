@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7128627896308899,
+    "target": {
+     "approvedSymbol": "MADD",
+     "id": "ENSG00000110514"
+    }
+   },
+   {
+    "score": 0.14464980363845825,
+    "target": {
+     "approvedSymbol": "NR1H3",
+     "id": "ENSG00000025434"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST007825",
+ "studyLocusId": "02f7ec9f5e5ddf1c5597880839edf25d",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_47272248_G_C",
+  "position": 47272248
+ }
+}

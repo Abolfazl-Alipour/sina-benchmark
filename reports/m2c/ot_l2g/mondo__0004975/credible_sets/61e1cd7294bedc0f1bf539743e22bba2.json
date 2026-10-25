@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.3628901541233063,
+    "target": {
+     "approvedSymbol": "ARL4C",
+     "id": "ENSG00000188042"
+    }
+   },
+   {
+    "score": 0.051460590213537216,
+    "target": {
+     "approvedSymbol": "SPP2",
+     "id": "ENSG00000072080"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "61e1cd7294bedc0f1bf539743e22bba2",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_234316318_G_A",
+  "position": 234316318
+ }
+}

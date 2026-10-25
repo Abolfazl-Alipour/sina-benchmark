@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.09191630035638809,
+    "target": {
+     "approvedSymbol": "IQCF2",
+     "id": "ENSG00000184345"
+    }
+   },
+   {
+    "score": 0.09028853476047516,
+    "target": {
+     "approvedSymbol": "IQCF5",
+     "id": "ENSG00000214681"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "7b202f92630eb778d963039f13f08406",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_51870530_G_A",
+  "position": 51870530
+ }
+}

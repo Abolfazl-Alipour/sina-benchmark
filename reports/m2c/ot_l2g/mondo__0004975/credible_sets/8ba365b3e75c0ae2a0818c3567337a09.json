@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.48508182168006897,
+    "target": {
+     "approvedSymbol": "NECTIN2",
+     "id": "ENSG00000130202"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST007319",
+ "studyLocusId": "8ba365b3e75c0ae2a0818c3567337a09",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_44848259_C_G",
+  "position": 44848259
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7410251498222351,
+    "target": {
+     "approvedSymbol": "TMEM175",
+     "id": "ENSG00000127419"
+    }
+   },
+   {
+    "score": 0.625666081905365,
+    "target": {
+     "approvedSymbol": "IDUA",
+     "id": "ENSG00000127415"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000959",
+ "studyLocusId": "1ebe48641eb6fcd662bd026ffbdc3508",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_945299_C_T",
+  "position": 945299
+ }
+}

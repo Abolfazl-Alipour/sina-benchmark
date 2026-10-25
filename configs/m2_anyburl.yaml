@@ -1,0 +1,15 @@
+# M2A-3 — AnyBURL jar download (spec §6.3; BSD-3 license)
+# Pinned to official release AnyBURL-23-1x (2025-11-12, VLDB 2023 version + minor fix).
+track: R
+registry_path: data/raw/REGISTRY.json
+dest_dir: data/raw/anyburl
+manifest_path: data/raw/manifests/m2_download_anyburl.json
+assets:
+  - name: anyburl_jar
+    version: "23-1x"
+    url: https://web.informatik.uni-mannheim.de/AnyBURL/AnyBURL-23-1x.jar
+    filename: AnyBURL-23-1x.jar
+    license_verbatim: |
+      BSD-3-Clause (University Mannheim, Data and Web Science Group)
+      https://web.informatik.uni-mannheim.de/AnyBURL/
+    notes: "Rule learner for baseline; learned rules feed into ensemble scoring (§6.3)"

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.24574068188667297,
+    "target": {
+     "approvedSymbol": "SNRPN",
+     "id": "ENSG00000128739"
+    }
+   },
+   {
+    "score": 0.13831068575382233,
+    "target": {
+     "approvedSymbol": "SNURF",
+     "id": "ENSG00000273173"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9b6aca3917296cf82014ee80af6307e0",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_25006938_G_A",
+  "position": 25006938
+ }
+}

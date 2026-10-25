@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.20761379599571228,
+    "target": {
+     "approvedSymbol": "SMYD1",
+     "id": "ENSG00000115593"
+    }
+   },
+   {
+    "score": 0.15894456207752228,
+    "target": {
+     "approvedSymbol": "KRCC1",
+     "id": "ENSG00000172086"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "b13d198d0f8e883047f6e51b7876d009",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_88005040_C_T",
+  "position": 88005040
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6925460696220398,
+    "target": {
+     "approvedSymbol": "NRIP3",
+     "id": "ENSG00000175352"
+    }
+   },
+   {
+    "score": 0.0829157829284668,
+    "target": {
+     "approvedSymbol": "TMEM9B",
+     "id": "ENSG00000175348"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "94dc63939cfbaf37e19c0b57a5a49cb8",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_8984332_G_A",
+  "position": 8984332
+ }
+}

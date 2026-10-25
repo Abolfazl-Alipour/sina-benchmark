@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.8205943703651428,
+    "target": {
+     "approvedSymbol": "CDKL1",
+     "id": "ENSG00000100490"
+    }
+   },
+   {
+    "score": 0.10013801604509354,
+    "target": {
+     "approvedSymbol": "DMAC2L",
+     "id": "ENSG00000125375"
+    }
+   },
+   {
+    "score": 0.06909308582544327,
+    "target": {
+     "approvedSymbol": "L2HGDH",
+     "id": "ENSG00000087299"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "7e424194213050faf3b6039ef28ca131",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_50344307_C_T",
+  "position": 50344307
+ }
+}

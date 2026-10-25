@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6732885241508484,
+    "target": {
+     "approvedSymbol": "FSCB",
+     "id": "ENSG00000189139"
+    }
+   },
+   {
+    "score": 0.09146399796009064,
+    "target": {
+     "approvedSymbol": "DORIP1",
+     "id": "ENSG00000179476"
+    }
+   },
+   {
+    "score": 0.05033233389258385,
+    "target": {
+     "approvedSymbol": "KLHL28",
+     "id": "ENSG00000179454"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "068ddababb1f594fe72f0abdca052954",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_44465368_T_A",
+  "position": 44465368
+ }
+}

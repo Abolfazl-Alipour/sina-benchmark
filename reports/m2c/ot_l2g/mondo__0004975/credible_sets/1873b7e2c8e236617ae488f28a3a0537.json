@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.1911705583333969,
+    "target": {
+     "approvedSymbol": "ZFP91",
+     "id": "ENSG00000186660"
+    }
+   },
+   {
+    "score": 0.16701829433441162,
+    "target": {
+     "approvedSymbol": "OR5B12",
+     "id": "ENSG00000172362"
+    }
+   },
+   {
+    "score": 0.121974416077137,
+    "target": {
+     "approvedSymbol": "GLYAT",
+     "id": "ENSG00000149124"
+    }
+   },
+   {
+    "score": 0.09656984359025955,
+    "target": {
+     "approvedSymbol": "OR5B2",
+     "id": "ENSG00000172365"
+    }
+   },
+   {
+    "score": 0.051135625690221786,
+    "target": {
+     "approvedSymbol": "LPXN",
+     "id": "ENSG00000110031"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "1873b7e2c8e236617ae488f28a3a0537",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_58573011_C_T",
+  "position": 58573011
+ }
+}

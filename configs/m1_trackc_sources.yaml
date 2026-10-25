@@ -1,0 +1,97 @@
+# M1 Track-C — SINA-KG-Open permissive-source catalog (spec §5.3)
+#
+# Status: DRAFT — owner approval required. No pipeline is built in v4; this
+# catalog is the license-gated source list for the future permissive rebuild
+# via the MIT-licensed OptimusKG pipeline fork.
+# License facts verified against primary sources on 2026-07-24 (URLs inline).
+# Gate: scripts/check_trackc_licenses.py (CI job `trackc-license-gate`) —
+# no source may have `include: true` without `commercial_use: true` AND
+# `status: owner-approved`.
+catalog_status: draft-owner-approval-required
+sources:
+  - name: hetionet
+    license_verbatim: "All original content in this repository is released as CC0. However, the hetnet integrates data from many resources and users should consider the licensing of each source."
+    license_ref: https://github.com/hetio/hetionet#license
+    commercial_use: true
+    status: candidate
+    include: false
+    notes: >
+      CC0 applies to original repo content only; per-node/per-edge `license`
+      attributes must be honored and DrugBank-derived content filtered out
+      (Hetionet v1.0 integrates DrugBank compounds) at pipeline-config time.
+  - name: mondo
+    license_verbatim: "CC-BY 4.0"
+    license_ref: https://github.com/monarch-initiative/mondo#license
+    commercial_use: true
+    status: candidate
+    include: false
+    notes: Attribution obligations apply (CC-BY 4.0).
+  - name: gene_ontology
+    license_verbatim: "Gene Ontology Consortium data and data products are licensed under the Creative Commons Attribution 4.0 Unported License."
+    license_ref: http://geneontology.org/docs/go-citation-policy/
+    commercial_use: true
+    status: candidate
+    include: false
+    notes: Attribution obligations apply (CC-BY 4.0).
+  - name: reactome
+    license_verbatim: "All data in the Reactome database and files derived from that data are licensed under the Creative Commons Public Domain Dedication (CC0). User may copy, modify, and distribute these data, even for commercial purposes, without asking for permission."
+    license_ref: https://reactome.org/license
+    commercial_use: true
+    status: candidate
+    include: false
+    notes: >
+      Data = CC0 (verified 2026-07-24; supersedes older CC-BY 4.0 citations).
+      Artwork/illustrations = CC-BY 4.0; software = Apache 2.0 — irrelevant to
+      the data rebuild.
+  - name: chembl
+    license_verbatim: "The ChEMBL data is made available on a Creative Commons Attribution-Share Alike 3.0 Unported License."
+    license_ref: https://www.ebi.ac.uk/chembl/about
+    commercial_use: true
+    status: candidate
+    include: false
+    notes: >
+      Commercial use permitted, but ShareAlike obligations (CC BY-SA 3.0)
+      apply to derivatives and must be documented in the Track-C build
+      (spec §5.3).
+  - name: open_targets
+    license_verbatim: "Open Targets Platform is marked with CC0 1.0. This dedicates the data to the public domain, allowing downstream users to consume the data without restriction."
+    license_ref: https://platform-docs.opentargets.org/licence
+    commercial_use: true
+    status: candidate
+    include: false
+    notes: >
+      Overall CC0 1.0, but per-component upstream terms must be honored when
+      rebuilding from sources rather than from the platform export: Europe PMC
+      contains CC-BY-NC content; ChEMBL components carry CC BY-SA 3.0; some
+      sources are covered by "commercial use for Open Targets" agreements that
+      do NOT transfer to independent redistributors. Per-component review is a
+      precondition for owner approval (spec §5.3).
+  - name: bgee
+    license_verbatim: "To the extent possible under law, Bgee team has waived all copyright and related or neighboring rights to Bgee project. This work is published under the Creative Commons Zero license (CC0) from Switzerland."
+    license_ref: https://www.bgee.org/about/
+    commercial_use: true
+    status: candidate
+    include: false
+    notes: CC0; replaces ANA-GEN expression source in the permissive rebuild.
+  - name: drugbank
+    license_verbatim: "the DrugBank Databases and Platform are made available under these Terms solely for educational, scientific, and non-commercial research purposes unless you have paid for a commercial license subject to a mutually-executed subscriber order."
+    license_ref: https://trust.drugbank.com/drugbank-trust-center/terms-of-use
+    commercial_use: false
+    status: excluded
+    include: false
+    exclusion_reason: >
+      Commercial use requires a paid license. Documented coverage gap
+      (spec §5.3): Track-C loses DrugBank-derived drug/compound edges and
+      identifiers; mitigation = ChEMBL (CC BY-SA 3.0) + DrugCentral-style
+      permissive alternatives, to be decided at pipeline build.
+  - name: disgenet
+    license_verbatim: "A Free Academic License for DISGENET is intended for purely academic purposes... A commercial license is required if you belong to a commercial company wishing to use DISGENET in any capacity."
+    license_ref: https://support.disgenet.com/support/solutions/articles/202000087487
+    commercial_use: false
+    status: excluded
+    include: false
+    exclusion_reason: >
+      Subscription model; commercial use requires a paid license and the
+      Subscription Agreement is not a permissive redistribution license.
+      Track-C DIS-GEN coverage gap must be rebuilt from Open Targets + other
+      permissive gene–disease sources.

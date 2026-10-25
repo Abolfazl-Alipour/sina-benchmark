@@ -1,0 +1,6 @@
+unit_audit: data/processed/m2/lodo_audits/unit_audit.parquet
+output_dir: data/processed/m2/lodo_audits
+report_path: reports/m2b/theta_derivation.md
+manifest_path: data/raw/manifests/m2_theta_derivation.json
+shuffles: 100
+seed: 1337

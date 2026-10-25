@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8134482502937317,
+    "target": {
+     "approvedSymbol": "IGSF9B",
+     "id": "ENSG00000080854"
+    }
+   },
+   {
+    "score": 0.22467631101608276,
+    "target": {
+     "approvedSymbol": "SPATA19",
+     "id": "ENSG00000166118"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST002544",
+ "studyLocusId": "fd43a8feee27729edab7f60f83e8e717",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_133895472_T_C",
+  "position": 133895472
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.6290379762649536,
+    "target": {
+     "approvedSymbol": "CACNB2",
+     "id": "ENSG00000165995"
+    }
+   },
+   {
+    "score": 0.20912209153175354,
+    "target": {
+     "approvedSymbol": "ARL5B",
+     "id": "ENSG00000165997"
+    }
+   },
+   {
+    "score": 0.1453731805086136,
+    "target": {
+     "approvedSymbol": "NSUN6",
+     "id": "ENSG00000241058"
+    }
+   },
+   {
+    "score": 0.06927500665187836,
+    "target": {
+     "approvedSymbol": "SLC39A12",
+     "id": "ENSG00000148482"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "ffa5f92a446f8f23c4a129cdbf65302f",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_18396114_G_A",
+  "position": 18396114
+ }
+}

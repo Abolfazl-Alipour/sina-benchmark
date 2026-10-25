@@ -1,0 +1,123 @@
+{
+  "combiners": {
+    "rrf": "rank by 1/(60+rankA)+1/(60+rankB), top10",
+    "union_upper_bound": "test gene in A-top10 union B-top10"
+  },
+  "inputs": [
+    {
+      "path": "reports/m2c/ot_panels/score_vectors/mondo__0005180__best.scores.json",
+      "sha256": "1c245bb0fc31a1e9abf6cb1b867918963aa78ce6481e1e14cd18b03f175cfd73"
+    },
+    {
+      "path": "reports/m2c/ot_panels/score_vectors/mondo__0005180__epoch_001.scores.json",
+      "sha256": "a0e5cc853d78e75591c29762135d8eb2d97d3bd8036ae2d923e5c8f6910af6f9"
+    }
+  ],
+  "panels": {
+    "100": {
+      "coverage": 0.25663716814159293,
+      "ot_null_two_stage": 0.029498525073746312,
+      "ot_null_two_stage_ci": [
+        0.011799410029498525,
+        0.0472713864306784
+      ],
+      "rrf_two_stage": 0.029498525073746312,
+      "rrf_two_stage_ci": [
+        0.011799410029498525,
+        0.0471976401179941
+      ],
+      "union_hit_genes": [
+        "ensembl:ENSG00000059377",
+        "ensembl:ENSG00000066427",
+        "ensembl:ENSG00000069535",
+        "ensembl:ENSG00000116032",
+        "ensembl:ENSG00000118785",
+        "ensembl:ENSG00000124782",
+        "ensembl:ENSG00000149294",
+        "ensembl:ENSG00000151067",
+        "ensembl:ENSG00000154277",
+        "ensembl:ENSG00000166913",
+        "ensembl:ENSG00000170266",
+        "ensembl:ENSG00000186868",
+        "ensembl:ENSG00000188906",
+        "ensembl:ENSG00000212907"
+      ],
+      "union_upper_bound": 0.04129793510324484,
+      "union_upper_bound_ci": [
+        0.02359882005899705,
+        0.06202064896755156
+      ]
+    },
+    "200": {
+      "coverage": 0.31268436578171094,
+      "ot_null_two_stage": 0.029498525073746312,
+      "ot_null_two_stage_ci": [
+        0.011799410029498525,
+        0.0472713864306784
+      ],
+      "rrf_two_stage": 0.029498525073746312,
+      "rrf_two_stage_ci": [
+        0.011799410029498525,
+        0.0471976401179941
+      ],
+      "union_hit_genes": [
+        "ensembl:ENSG00000059377",
+        "ensembl:ENSG00000066427",
+        "ensembl:ENSG00000069535",
+        "ensembl:ENSG00000116032",
+        "ensembl:ENSG00000118785",
+        "ensembl:ENSG00000124782",
+        "ensembl:ENSG00000149294",
+        "ensembl:ENSG00000151067",
+        "ensembl:ENSG00000154277",
+        "ensembl:ENSG00000166913",
+        "ensembl:ENSG00000177098",
+        "ensembl:ENSG00000177606",
+        "ensembl:ENSG00000186868",
+        "ensembl:ENSG00000188906",
+        "ensembl:ENSG00000212907"
+      ],
+      "union_upper_bound": 0.04424778761061947,
+      "union_upper_bound_ci": [
+        0.02654867256637168,
+        0.06784660766961652
+      ]
+    },
+    "500": {
+      "coverage": 0.415929203539823,
+      "ot_null_two_stage": 0.029498525073746312,
+      "ot_null_two_stage_ci": [
+        0.011799410029498525,
+        0.0472713864306784
+      ],
+      "rrf_two_stage": 0.029498525073746312,
+      "rrf_two_stage_ci": [
+        0.011799410029498525,
+        0.0471976401179941
+      ],
+      "union_hit_genes": [
+        "ensembl:ENSG00000059377",
+        "ensembl:ENSG00000066427",
+        "ensembl:ENSG00000069535",
+        "ensembl:ENSG00000116032",
+        "ensembl:ENSG00000118785",
+        "ensembl:ENSG00000124782",
+        "ensembl:ENSG00000149294",
+        "ensembl:ENSG00000151067",
+        "ensembl:ENSG00000154277",
+        "ensembl:ENSG00000166913",
+        "ensembl:ENSG00000177098",
+        "ensembl:ENSG00000177606",
+        "ensembl:ENSG00000186868",
+        "ensembl:ENSG00000188906",
+        "ensembl:ENSG00000212907"
+      ],
+      "union_upper_bound": 0.04424778761061947,
+      "union_upper_bound_ci": [
+        0.02654867256637168,
+        0.06784660766961652
+      ]
+    }
+  },
+  "unit": "mondo__0005180"
+}

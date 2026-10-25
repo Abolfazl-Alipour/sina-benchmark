@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7613521218299866,
+    "target": {
+     "approvedSymbol": "FOXO1",
+     "id": "ENSG00000150907"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "be0b692da23021e6d6c235b61d110ef3",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_40685666_A_C",
+  "position": 40685666
+ }
+}

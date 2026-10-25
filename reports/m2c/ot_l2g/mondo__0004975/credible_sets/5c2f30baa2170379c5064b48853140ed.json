@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.15660984814167023,
+    "target": {
+     "approvedSymbol": "CST6",
+     "id": "ENSG00000175315"
+    }
+   },
+   {
+    "score": 0.11823184788227081,
+    "target": {
+     "approvedSymbol": "BANF1",
+     "id": "ENSG00000175334"
+    }
+   },
+   {
+    "score": 0.09891019761562347,
+    "target": {
+     "approvedSymbol": "CATSPER1",
+     "id": "ENSG00000175294"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "5c2f30baa2170379c5064b48853140ed",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_66013988_G_A",
+  "position": 66013988
+ }
+}

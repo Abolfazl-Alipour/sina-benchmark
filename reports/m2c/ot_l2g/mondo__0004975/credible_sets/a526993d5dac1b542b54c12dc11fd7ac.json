@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.9465118646621704,
+    "target": {
+     "approvedSymbol": "IL34",
+     "id": "ENSG00000157368"
+    }
+   },
+   {
+    "score": 0.08712393790483475,
+    "target": {
+     "approvedSymbol": "MTSS2",
+     "id": "ENSG00000132613"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST012182",
+ "studyLocusId": "a526993d5dac1b542b54c12dc11fd7ac",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_70660097_C_A",
+  "position": 70660097
+ }
+}

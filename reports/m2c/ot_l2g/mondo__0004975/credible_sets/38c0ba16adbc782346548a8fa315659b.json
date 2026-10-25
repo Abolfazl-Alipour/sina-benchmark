@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.06425248831510544,
+    "target": {
+     "approvedSymbol": "GRIFIN",
+     "id": "ENSG00000275572"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "38c0ba16adbc782346548a8fa315659b",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_2455697_C_G",
+  "position": 2455697
+ }
+}

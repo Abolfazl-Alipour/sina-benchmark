@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6501362919807434,
+    "target": {
+     "approvedSymbol": "FAM151B",
+     "id": "ENSG00000152380"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "dec7aacfb7237b42e62b6e106cc187b1",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_80507561_A_G",
+  "position": 80507561
+ }
+}

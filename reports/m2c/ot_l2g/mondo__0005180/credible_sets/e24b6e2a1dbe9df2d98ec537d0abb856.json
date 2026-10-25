@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.07258597016334534,
+    "target": {
+     "approvedSymbol": "MAPT",
+     "id": "ENSG00000186868"
+    }
+   },
+   {
+    "score": 0.061030421406030655,
+    "target": {
+     "approvedSymbol": "KANSL1",
+     "id": "ENSG00000120071"
+    }
+   },
+   {
+    "score": 0.05115428566932678,
+    "target": {
+     "approvedSymbol": "STH",
+     "id": "ENSG00000256762"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000528",
+ "studyLocusId": "e24b6e2a1dbe9df2d98ec537d0abb856",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_46751565_G_A",
+  "position": 46751565
+ }
+}

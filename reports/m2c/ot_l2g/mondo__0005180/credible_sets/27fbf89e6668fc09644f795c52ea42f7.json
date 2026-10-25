@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8020431399345398,
+    "target": {
+     "approvedSymbol": "CLCN3",
+     "id": "ENSG00000109572"
+    }
+   },
+   {
+    "score": 0.13845273852348328,
+    "target": {
+     "approvedSymbol": "NEK1",
+     "id": "ENSG00000137601"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "27fbf89e6668fc09644f795c52ea42f7",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_169642795_C_T",
+  "position": 169642795
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.2947314977645874,
+    "target": {
+     "approvedSymbol": "PRSS8",
+     "id": "ENSG00000052344"
+    }
+   },
+   {
+    "score": 0.29147815704345703,
+    "target": {
+     "approvedSymbol": "KAT8",
+     "id": "ENSG00000103510"
+    }
+   },
+   {
+    "score": 0.10853167623281479,
+    "target": {
+     "approvedSymbol": "BCKDK",
+     "id": "ENSG00000103507"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "7905dee30658cd01d7b1de6fb74230af",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_31111250_C_T",
+  "position": 31111250
+ }
+}

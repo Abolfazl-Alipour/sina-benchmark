@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.13029921054840088,
+    "target": {
+     "approvedSymbol": "SPATA20",
+     "id": "ENSG00000006282"
+    }
+   },
+   {
+    "score": 0.12363950163125992,
+    "target": {
+     "approvedSymbol": "CACNA1G",
+     "id": "ENSG00000006283"
+    }
+   },
+   {
+    "score": 0.05415729060769081,
+    "target": {
+     "approvedSymbol": "ABCC3",
+     "id": "ENSG00000108846"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001915",
+ "studyLocusId": "8359052f2d3d8036bd23d1a10ed64b84",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_50614721_C_T",
+  "position": 50614721
+ }
+}

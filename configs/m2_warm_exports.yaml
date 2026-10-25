@@ -1,0 +1,8 @@
+supervision: data/processed/m2/trimmed/supervision.parquet
+output_dir: data/processed/m2/warm_exports
+report_path: reports/m2b/warm_exports.md
+manifest_path: data/raw/manifests/m2_warm_exports.json
+valid_fraction: 0.15
+test_fraction: 0.85
+warm_fraction: 0.10
+seed: 1337

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2077704817056656,
+    "target": {
+     "approvedSymbol": "ARHGAP45",
+     "id": "ENSG00000180448"
+    }
+   },
+   {
+    "score": 0.1334601640701294,
+    "target": {
+     "approvedSymbol": "ABCA7",
+     "id": "ENSG00000064687"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90267627",
+ "studyLocusId": "592c45ec2b4555a64d52e8b96e6dc296",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_1068096_T_A",
+  "position": 1068096
+ }
+}

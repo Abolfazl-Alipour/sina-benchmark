@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.41651034355163574,
+    "target": {
+     "approvedSymbol": "IKZF4",
+     "id": "ENSG00000123411"
+    }
+   },
+   {
+    "score": 0.21502822637557983,
+    "target": {
+     "approvedSymbol": "RPS26",
+     "id": "ENSG00000197728"
+    }
+   },
+   {
+    "score": 0.09588877856731415,
+    "target": {
+     "approvedSymbol": "SUOX",
+     "id": "ENSG00000139531"
+    }
+   },
+   {
+    "score": 0.09221162647008896,
+    "target": {
+     "approvedSymbol": "RAB5B",
+     "id": "ENSG00000111540"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "b5b26d8a436e1c2f64704bd242f0afaf",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_56023144_A_C",
+  "position": 56023144
+ }
+}

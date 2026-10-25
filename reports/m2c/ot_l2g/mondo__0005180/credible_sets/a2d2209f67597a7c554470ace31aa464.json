@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.31113919615745544,
+    "target": {
+     "approvedSymbol": "CCNA1",
+     "id": "ENSG00000133101"
+    }
+   },
+   {
+    "score": 0.292995810508728,
+    "target": {
+     "approvedSymbol": "SERTM1",
+     "id": "ENSG00000180440"
+    }
+   },
+   {
+    "score": 0.06274944543838501,
+    "target": {
+     "approvedSymbol": "SPART",
+     "id": "ENSG00000133104"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90479726",
+ "studyLocusId": "a2d2209f67597a7c554470ace31aa464",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_36532864_G_A",
+  "position": 36532864
+ }
+}

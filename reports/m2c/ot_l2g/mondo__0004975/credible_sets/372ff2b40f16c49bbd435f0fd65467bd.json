@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.4373652935028076,
+    "target": {
+     "approvedSymbol": "WDPCP",
+     "id": "ENSG00000143951"
+    }
+   },
+   {
+    "score": 0.16300497949123383,
+    "target": {
+     "approvedSymbol": "MDH1",
+     "id": "ENSG00000014641"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "372ff2b40f16c49bbd435f0fd65467bd",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_63448890_T_C",
+  "position": 63448890
+ }
+}

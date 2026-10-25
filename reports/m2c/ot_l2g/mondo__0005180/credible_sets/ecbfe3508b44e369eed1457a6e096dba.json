@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3996499180793762,
+    "target": {
+     "approvedSymbol": "CNTNAP5",
+     "id": "ENSG00000155052"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90479726",
+ "studyLocusId": "ecbfe3508b44e369eed1457a6e096dba",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_124952741_T_A",
+  "position": 124952741
+ }
+}

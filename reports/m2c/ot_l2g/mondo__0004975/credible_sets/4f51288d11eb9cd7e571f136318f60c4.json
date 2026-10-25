@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.43217676877975464,
+    "target": {
+     "approvedSymbol": "EPHA1",
+     "id": "ENSG00000146904"
+    }
+   },
+   {
+    "score": 0.1257382333278656,
+    "target": {
+     "approvedSymbol": "TAS2R60",
+     "id": "ENSG00000185899"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90012877",
+ "studyLocusId": "4f51288d11eb9cd7e571f136318f60c4",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_143424528_C_G",
+  "position": 143424528
+ }
+}

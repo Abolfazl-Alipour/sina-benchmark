@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.9709294438362122,
+    "target": {
+     "approvedSymbol": "EGFR",
+     "id": "ENSG00000146648"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90558104",
+ "studyLocusId": "6b885338628b03c55a10e47cf4d8e248",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_55169387_T_C",
+  "position": 55169387
+ }
+}

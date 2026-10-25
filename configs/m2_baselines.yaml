@@ -1,0 +1,60 @@
+# M2A-3 baseline + null-control configuration (spec §6.3)
+# Pilot scope: family holdouts + TxGNN area (small query sets) for degree/PPR/nulls.
+
+splits_dir: data/processed/m2/splits
+trackr_nodes: data/processed/m1/trackr/nodes.parquet
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+
+splits:
+  trackr_family:
+    track: R
+    query_col: dst_id
+    query_type: disease
+    candidate_type: gene/protein
+    eval_relation: disease_protein
+    relation_col: relation
+  trackd_family:
+    track: D
+    query_col: src_id
+    query_type: disease
+    candidate_type: gene
+    eval_label: DIS-GEN
+    label_col: label
+  trackd_family_alzheimer:
+    track: D
+    query_col: src_id
+    query_type: disease
+    candidate_type: gene
+    eval_label: DIS-GEN
+    label_col: label
+  trackd_family_parkinson:
+    track: D
+    query_col: src_id
+    query_type: disease
+    candidate_type: gene
+    eval_label: DIS-GEN
+    label_col: label
+baselines:
+  - degree
+  - ppr
+
+null_controls:
+  - degree_matched
+  - relation_shuffled
+
+ppr:
+  alpha: 0.15
+  max_iter: 100
+  tol: 1.0e-6
+
+degree_matched:
+  n_negatives: 10
+  bins: 20
+  seed: 1337
+
+relation_shuffled:
+  seed: 1337
+
+output_dir: data/processed/m2/baselines
+report_path: reports/m2a/baselines_report.md
+manifest_path: data/raw/manifests/m2_run_baselines.json

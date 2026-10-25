@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5934772491455078,
+    "target": {
+     "approvedSymbol": "VAMP4",
+     "id": "ENSG00000117533"
+    }
+   },
+   {
+    "score": 0.14743056893348694,
+    "target": {
+     "approvedSymbol": "MYOC",
+     "id": "ENSG00000034971"
+    }
+   },
+   {
+    "score": 0.07121119648218155,
+    "target": {
+     "approvedSymbol": "METTL13",
+     "id": "ENSG00000010165"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "65fe3ec96504bae9043f65f6bcd412c7",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_171704096_G_A",
+  "position": 171704096
+ }
+}

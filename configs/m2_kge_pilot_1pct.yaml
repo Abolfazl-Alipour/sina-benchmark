@@ -1,0 +1,27 @@
+# M2A-3 — KGE pilot on 1% Track-R family train subgraph (spec §6.3)
+# Subsampled by evidence_group_id first byte 0x00 (≈0.4% of groups) for a
+# throughput measurement that fits in local time/RSS budgets.
+
+splits_dir: data/processed/m2/splits
+output_dir: data/processed/m2/kge_1pct
+report_path: reports/m2a/kge_pilot_1pct_report.md
+manifest_path: data/raw/manifests/m2_kge_pilot_1pct.json
+
+splits:
+  trackr_family:
+    query_col: dst_id
+    query_type: disease
+    candidate_type: gene/protein
+    eval_relation: disease_protein
+    relation_col: relation
+
+models:
+  - name: TransE
+    embedding_dim: 64
+    epochs: 1
+    seed: 1337
+
+subsample_prefix: "00"
+device: cpu
+batch_size: 1024
+rss_limit_gb: 45.0

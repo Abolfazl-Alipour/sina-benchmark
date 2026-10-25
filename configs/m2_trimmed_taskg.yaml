@@ -1,0 +1,84 @@
+# Trimmed Task-G build (CHANGES/0016 draft) — owner directive 2026-08-01:
+# "trim everything to neurodegenerative + diabetes + aging; keep ALL background
+# context for held-out diseases; cut only supervision for the held-out families."
+
+trackd_edges: data/processed/m1/trackd/edges.parquet
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+mondo_obo: data/raw/mondo/mondo.obo
+families_config: configs/disease_families.yaml
+splits_dir: data/processed/m2/splits
+
+# Cluster definition (mechanical, pre-registered)
+# NOTE: Parkinson disease is NOT under MONDO's neurodegenerative branch — it sits
+# under "parkinsonian disorder" (MONDO:0021095). Both roots are required.
+cluster_roots:
+  - MONDO:0005559   # neurodegenerative disease
+  - MONDO:0021095   # parkinsonian disorder (contains the PD family)
+  - MONDO:0005015   # diabetes mellitus
+aging_traits: [efo:0022597, efo:0007796, oba:0005494, efo:0005422, efo:0009885, oba:VT0005372, efo:0005678]  # aging; parental longevity; aging rate; skin aging; frailty; life span trait; hippocampal sclerosis of aging (v5.1 roster completion, CHANGES/0019)
+progeria:
+  - mondo:0008310   # Hutchinson-Gilford progeria syndrome
+  - mondo:0008311   # progeria-short stature-pigmented nevi syndrome
+  - mondo:0008694   # pseudoprogeria syndrome
+  - mondo:0011149   # premature aging syndrome, Okamoto type
+  - mondo:0011150   # acroosteolysis-keloid-like lesions-premature aging syndrome
+  # v5.1 roster completion (CHANGES/0019) — specific progeroid syndromes:
+  - mondo:0010196   # Werner syndrome
+  - mondo:0019321   # atypical Werner syndrome
+  - mondo:0012853   # Fontaine progeroid syndrome
+  - mondo:0018203   # LMNA-related cardiocutaneous progeria syndrome
+  - mondo:0013523   # Nestor-Guillermo progeria syndrome
+  - mondo:0014157   # mandibular hypoplasia-deafness-progeroid syndrome
+  - mondo:0030880   # mandibuloacral dysplasia progeroid syndrome
+  - mondo:0012590   # XFE progeroid syndrome
+  - mondo:0957266   # RECON progeroid syndrome
+  - mondo:0957953   # Garg-Mishra progeroid syndrome
+  - orphanet:75496  # Ehlers-Danlos syndrome, progeroid type
+  - orphanet:2963   # Progeroid syndrome, Petty type
+  - mondo:0014527   # progeroid features-hepatocellular carcinoma predisposition syndrome
+  - mondo:0014831   # progeroid and marfanoid aspect-lipodystrophy syndrome
+  - mondo:0044634   # retinitis pigmentosa-hearing loss-premature aging-short stature syndrome
+  - orphanet:276432 # premature aging appearance-developmental delay-cardiac arrhythmia syndrome
+  - mondo:0020477   # progeria-associated arthropathy
+
+# v5.1 §5.4 trap terms (CHANGES/0019): MONDO parent categories whose DIS-GEN
+# keys are inherited aggregates (mega-keys). They ARE in the cluster (their
+# supervision edges stay as-is pending the Step 0b weighting pilot) but are
+# NEVER graded test units; the ancestor-strip rule (v5.1 §5.3) removes their
+# supervision edges whenever a descendant unit is held out.
+trap_terms:
+  - mondo:0020732   # progeria (parent class)
+  - mondo:0019303   # premature aging syndrome (parent class)
+  - mondo:0015333   # progeroid syndrome (parent class)
+
+# Message-passing relations kept in the trimmed BRG (same roles as the
+# Task-G curation; ANA-GEN expression excluded by default as noise;
+# EXP-* and DRG-DRG excluded per spec §7.4).
+message_passing_labels:
+  - GEN-GEN
+  - PHE-GEN
+  - BPO-GEN
+  - CCO-GEN
+  - MFN-GEN
+  - PWY-GEN
+  - DIS-PHE
+  - DIS-DIS
+  - DRG-DIS
+  - DRG-GEN
+  - DRG-PHE
+  - BPO-BPO
+  - PHE-PHE
+  - ANA-ANA
+  - MFN-MFN
+  - CCO-CCO
+  - PWY-PWY
+
+# Per-family exports; valid/test eval edges are reused from the existing
+# leakage-guarded family splits (identical edges, evidence-group-level).
+families:
+  alzheimer: trackd_family_alzheimer
+  parkinson: trackd_family_parkinson
+
+output_dir: data/processed/m2/trimmed
+report_path: reports/m2b/trimmed_taskg_report.md
+manifest_path: data/raw/manifests/m2_trimmed_taskg.json

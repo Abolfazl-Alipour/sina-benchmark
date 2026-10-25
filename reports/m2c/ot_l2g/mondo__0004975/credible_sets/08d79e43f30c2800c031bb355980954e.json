@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6786167025566101,
+    "target": {
+     "approvedSymbol": "KDM4B",
+     "id": "ENSG00000127663"
+    }
+   },
+   {
+    "score": 0.05274017155170441,
+    "target": {
+     "approvedSymbol": "ARRDC5",
+     "id": "ENSG00000205784"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "08d79e43f30c2800c031bb355980954e",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_5061334_T_A",
+  "position": 5061334
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7242473363876343,
+    "target": {
+     "approvedSymbol": "NPBWR1",
+     "id": "ENSG00000288611"
+    }
+   },
+   {
+    "score": 0.0872814878821373,
+    "target": {
+     "approvedSymbol": "RB1CC1",
+     "id": "ENSG00000023287"
+    }
+   },
+   {
+    "score": 0.05000466853380203,
+    "target": {
+     "approvedSymbol": "ST18",
+     "id": "ENSG00000147488"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90480731",
+ "studyLocusId": "187f09f7ca244e12ac966d8a1d4ac471",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_52900473_T_C",
+  "position": 52900473
+ }
+}

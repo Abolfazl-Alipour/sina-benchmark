@@ -1,0 +1,4109 @@
+{
+  "bootstrap": 1000,
+  "chance_draws": {
+    "ci": [
+      0.6965,
+      0.7824
+    ],
+    "mean": 0.7391,
+    "n_draws": 100
+  },
+  "checkpoint": "reports/m2c/checkpoints_completion_noana/mondo__0004975/epoch_001.pth",
+  "disease": "mondo:0004975",
+  "generated_at": "2026-09-11T23:43:05Z",
+  "git_ref": "acb6ddafdbbb6fb590ee0889b6b14f7e52638115",
+  "n_gradeable": 239,
+  "n_loci_total": 869,
+  "no_known": [
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus079",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus095",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus107",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus119",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus142",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus204",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus269",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus276",
+      "n_genes": 3,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus346",
+      "n_genes": 3,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus353",
+      "n_genes": 3,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus367",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus395",
+      "n_genes": 3,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus422",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus487",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus508",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus521",
+      "n_genes": 3,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus530",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus534",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus538",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus544",
+      "n_genes": 4,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus625",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus636",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus672",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus695",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus718",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus823",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus828",
+      "n_genes": 2,
+      "n_known": 0
+    },
+    {
+      "class": "no-known",
+      "locus": "mondo__0004975_locus861",
+      "n_genes": 2,
+      "n_known": 0
+    }
+  ],
+  "pinned_source": "derived:entity_types-token-1:mondo__0004975",
+  "seed": 1337,
+  "strata": {
+    "all": {
+      "degree": {
+        "top1": {
+          "ci": [
+            0.7573,
+            0.8619
+          ],
+          "mean": 0.8117,
+          "n": 239
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 239
+        }
+      },
+      "diff_model_minus_ot_top1": {
+        "ci": [
+          0.3515,
+          0.4896
+        ],
+        "mean": 0.4184,
+        "verdict": "WIN"
+      },
+      "model": {
+        "mean_best_rank": {
+          "ci": [
+            1.0209,
+            1.0753
+          ],
+          "mean": 1.046,
+          "n": 239
+        },
+        "top1": {
+          "ci": [
+            0.9247,
+            0.9791
+          ],
+          "mean": 0.954,
+          "n": 239
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 239
+        }
+      },
+      "n": 239,
+      "n_ot_covered": 162,
+      "ot_covered_subset": {
+        "n": 162,
+        "top1": {
+          "ci": [
+            0.7284,
+            0.852
+          ],
+          "mean": 0.7901,
+          "n": 162
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 162
+        }
+      },
+      "ot_primary": {
+        "mean_best_rank": {
+          "ci": [
+            1.1914,
+            1.4012
+          ],
+          "mean": 1.2901,
+          "n": 162
+        },
+        "top1": {
+          "ci": [
+            0.4727,
+            0.5984
+          ],
+          "mean": 0.5356,
+          "n": 239
+        },
+        "top5": {
+          "ci": [
+            0.6109,
+            0.7364
+          ],
+          "mean": 0.6778,
+          "n": 239
+        }
+      }
+    },
+    "established": {
+      "degree": {
+        "top1": {
+          "ci": [
+            0.6852,
+            0.9074
+          ],
+          "mean": 0.7963,
+          "n": 54
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 54
+        }
+      },
+      "diff_model_minus_ot_top1": {
+        "ci": [
+          0.2222,
+          0.463
+        ],
+        "mean": 0.3333,
+        "verdict": "WIN"
+      },
+      "model": {
+        "mean_best_rank": {
+          "ci": [
+            1.0,
+            1.0556
+          ],
+          "mean": 1.0185,
+          "n": 54
+        },
+        "top1": {
+          "ci": [
+            0.9444,
+            1.0
+          ],
+          "mean": 0.9815,
+          "n": 54
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 54
+        }
+      },
+      "n": 54,
+      "n_ot_covered": 41,
+      "ot_covered_subset": {
+        "n": 41,
+        "top1": {
+          "ci": [
+            0.7317,
+            0.9512
+          ],
+          "mean": 0.8537,
+          "n": 41
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 41
+        }
+      },
+      "ot_primary": {
+        "mean_best_rank": {
+          "ci": [
+            1.0488,
+            1.3902
+          ],
+          "mean": 1.1951,
+          "n": 41
+        },
+        "top1": {
+          "ci": [
+            0.5185,
+            0.7778
+          ],
+          "mean": 0.6481,
+          "n": 54
+        },
+        "top5": {
+          "ci": [
+            0.6481,
+            0.8704
+          ],
+          "mean": 0.7593,
+          "n": 54
+        }
+      }
+    },
+    "new_loci": {
+      "degree": {
+        "top1": {
+          "ci": [
+            0.7622,
+            0.8757
+          ],
+          "mean": 0.8162,
+          "n": 185
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 185
+        }
+      },
+      "diff_model_minus_ot_top1": {
+        "ci": [
+          0.3676,
+          0.5189
+        ],
+        "mean": 0.4432,
+        "verdict": "WIN"
+      },
+      "model": {
+        "mean_best_rank": {
+          "ci": [
+            1.0216,
+            1.0865
+          ],
+          "mean": 1.0541,
+          "n": 185
+        },
+        "top1": {
+          "ci": [
+            0.9135,
+            0.9784
+          ],
+          "mean": 0.9459,
+          "n": 185
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 185
+        }
+      },
+      "n": 185,
+      "n_ot_covered": 121,
+      "ot_covered_subset": {
+        "n": 121,
+        "top1": {
+          "ci": [
+            0.6942,
+            0.843
+          ],
+          "mean": 0.7686,
+          "n": 121
+        },
+        "top5": {
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "mean": 1.0,
+          "n": 121
+        }
+      },
+      "ot_primary": {
+        "mean_best_rank": {
+          "ci": [
+            1.2066,
+            1.4463
+          ],
+          "mean": 1.3223,
+          "n": 121
+        },
+        "top1": {
+          "ci": [
+            0.4323,
+            0.5784
+          ],
+          "mean": 0.5027,
+          "n": 185
+        },
+        "top5": {
+          "ci": [
+            0.5838,
+            0.7243
+          ],
+          "mean": 0.6541,
+          "n": 185
+        }
+      }
+    }
+  },
+  "ungradeable": [
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus001",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus004",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus007",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus009",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus011",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus013",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus014",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus017",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus019",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus020",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus021",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus022",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus023",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus024",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus025",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus026",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus027",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus028",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus029",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus030",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus031",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus033",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus034",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus035",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus036",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus037",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus038",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus039",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus040",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus043",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus046",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus047",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus048",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus049",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus050",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus051",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus052",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus053",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus054",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus055",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus059",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus060",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus061",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus063",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus064",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus065",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus066",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus067",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus068",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus069",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus070",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus071",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus072",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus073",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus075",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus076",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus077",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus078",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus080",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus083",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus084",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus086",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus087",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus088",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus089",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus094",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus096",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus097",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus098",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus099",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus100",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus101",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus105",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus106",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus110",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus112",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus113",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus115",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus116",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus117",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus121",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus123",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus124",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus125",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus127",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus128",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus129",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus133",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus135",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus140",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus141",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus143",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus144",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus145",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus146",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus147",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus148",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus149",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus152",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus153",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus155",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus157",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus158",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus159",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus160",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus161",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus162",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus163",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus164",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus165",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus166",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus167",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus169",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus170",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus171",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus172",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus173",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus175",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus176",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus177",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus178",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus179",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus181",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus182",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus185",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus188",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus189",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus191",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus192",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus193",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus195",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus196",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus197",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus198",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus199",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus200",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus201",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus206",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus207",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus212",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus213",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus214",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus215",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus217",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus218",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus219",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus220",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus221",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus222",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus223",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus225",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus226",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus227",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus228",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus231",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus233",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus235",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus236",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus238",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus239",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus240",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus241",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus244",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus245",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus248",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus249",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus250",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus251",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus252",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus253",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus256",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus257",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus258",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus259",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus261",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus263",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus264",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus265",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus266",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus267",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus268",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus270",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus272",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus273",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus275",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus278",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus279",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus281",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus284",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus285",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus286",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus287",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus288",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus291",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus293",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus294",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus295",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus296",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus297",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus298",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus300",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus306",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus307",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus308",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus310",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus311",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus312",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus315",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus316",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus317",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus318",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus319",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus320",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus321",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus322",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus326",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus327",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus330",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus331",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus333",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus334",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus335",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus336",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus337",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus338",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus339",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus340",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus350",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus351",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus352",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus356",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus357",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus359",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus360",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus361",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus362",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus363",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus364",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus365",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus366",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus368",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus370",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus371",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus372",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus373",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus374",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus376",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus377",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus378",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus379",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus380",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus381",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus383",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus387",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus389",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus391",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus392",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus393",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus396",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus397",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus398",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus400",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus401",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus402",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus404",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus409",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus410",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus412",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus413",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus414",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus416",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus417",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus418",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus419",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus420",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus421",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus423",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus424",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus426",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus427",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus428",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus429",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus431",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus432",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus433",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus434",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus435",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus436",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus438",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus440",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus441",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus442",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus443",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus444",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus445",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus446",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus447",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus448",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus450",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus451",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus452",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus453",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus454",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus455",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus456",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus457",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus458",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus459",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus460",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus461",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus463",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus464",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus465",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus466",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus468",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus469",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus470",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus471",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus472",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus473",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus474",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus475",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus476",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus477",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus478",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus479",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus481",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus482",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus484",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus485",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus486",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus488",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus489",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus490",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus491",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus493",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus497",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus498",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus499",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus501",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus503",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus505",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus509",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus511",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus512",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus514",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus516",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus517",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus518",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus519",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus520",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus522",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus523",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus524",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus527",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus528",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus533",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus535",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus537",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus539",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus540",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus541",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus545",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus546",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus548",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus549",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus550",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus553",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus555",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus556",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus558",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus559",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus560",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus561",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus562",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus564",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus565",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus566",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus567",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus568",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus569",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus570",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus571",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus572",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus573",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus574",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus575",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus577",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus578",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus579",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus580",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus581",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus582",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus583",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus584",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus585",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus586",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus587",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus588",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus589",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus590",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus591",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus592",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus593",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus595",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus596",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus597",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus600",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus602",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus603",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus604",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus605",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus606",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus609",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus610",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus611",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus612",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus613",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus615",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus616",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus617",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus618",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus619",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus620",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus621",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus622",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus623",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus624",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus626",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus627",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus628",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus630",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus631",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus632",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus633",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus634",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus635",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus637",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus638",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus639",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus641",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus642",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus643",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus645",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus646",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus648",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus651",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus652",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus653",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus654",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus657",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus658",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus659",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus660",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus662",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus663",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus664",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus665",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus666",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus667",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus668",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus669",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus677",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus678",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus679",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus680",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus681",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus682",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus683",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus684",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus685",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus686",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus687",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus688",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus689",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus690",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus691",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus692",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus693",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus694",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus696",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus697",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus698",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus699",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus700",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus706",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus707",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus711",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus712",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus713",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus714",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus716",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus717",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus719",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus720",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus721",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus722",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus723",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus724",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus726",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus727",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus728",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus729",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus730",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus731",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus732",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus733",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus734",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus735",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus736",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus737",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus738",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus739",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus740",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus741",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus742",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus743",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus744",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus749",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus751",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus753",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus755",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus756",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus758",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus760",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus761",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus762",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus763",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus764",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus765",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus766",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus767",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus768",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus771",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus775",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus776",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus777",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus778",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus779",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus781",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus782",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus783",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus784",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus785",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus787",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus789",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus790",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus793",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus794",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus795",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus797",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus798",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus799",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus800",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus801",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus802",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus805",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus806",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus807",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus809",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus810",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus811",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus812",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus814",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus815",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus816",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus817",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus818",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus819",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus820",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus821",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus824",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus825",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus827",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus830",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus833",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus834",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus835",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus836",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus837",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus838",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus839",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus840",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus844",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus845",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus846",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus847",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus848",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus849",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus851",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus853",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus854",
+      "n_genes": 0,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus855",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus857",
+      "n_genes": 1,
+      "n_known": 1
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus858",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus859",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus860",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus862",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus865",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus866",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus867",
+      "n_genes": 1,
+      "n_known": 0
+    },
+    {
+      "class": "ungradeable-few-genes",
+      "locus": "mondo__0004975_locus868",
+      "n_genes": 1,
+      "n_known": 0
+    }
+  ],
+  "unit": "mondo__0004975"
+}

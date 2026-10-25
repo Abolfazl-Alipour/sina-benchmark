@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7236538529396057,
+    "target": {
+     "approvedSymbol": "FAM20A",
+     "id": "ENSG00000108950"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "d2b8a5fcce85b75db2fae47d412bae61",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_68627016_A_T",
+  "position": 68627016
+ }
+}

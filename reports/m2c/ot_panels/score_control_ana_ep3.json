@@ -1,0 +1,141 @@
+{
+  "exports_dir": "data/processed/m2c/completion_exports_ana",
+  "runs": {
+    "best.pth": {
+      "checkpoint": "reports/m2c/checkpoints_completion_ana/mondo__0005180/best.pth",
+      "ckpt_sha256": "1c245bb0fc31a1e9abf6cb1b867918963aa78ce6481e1e14cd18b03f175cfd73",
+      "epoch": 3,
+      "genomewide_test_hits10": 0.029498525073746312,
+      "genomewide_test_mrr": 0.018628238809342418,
+      "panels": {
+        "100": {
+          "coverage": 0.25663716814159293,
+          "hits_both": 4,
+          "hits_model_only": 6,
+          "hits_null_only": 6,
+          "model_hit_genes": [
+            "ensembl:ENSG00000069535",
+            "ensembl:ENSG00000116032",
+            "ensembl:ENSG00000118785",
+            "ensembl:ENSG00000124782",
+            "ensembl:ENSG00000149294",
+            "ensembl:ENSG00000166913",
+            "ensembl:ENSG00000170266",
+            "ensembl:ENSG00000186868",
+            "ensembl:ENSG00000188906",
+            "ensembl:ENSG00000212907"
+          ],
+          "model_two_stage": 0.029498525073746312,
+          "model_two_stage_ci": [
+            0.014749262536873156,
+            0.0471976401179941
+          ],
+          "n_panel": 100,
+          "null_hit_genes": [
+            "ensembl:ENSG00000069535",
+            "ensembl:ENSG00000087586",
+            "ensembl:ENSG00000101224",
+            "ensembl:ENSG00000116032",
+            "ensembl:ENSG00000127419",
+            "ensembl:ENSG00000129003",
+            "ensembl:ENSG00000155097",
+            "ensembl:ENSG00000158864",
+            "ensembl:ENSG00000186868",
+            "ensembl:ENSG00000188906"
+          ],
+          "ot_null_two_stage": 0.029498525073746312,
+          "ot_null_two_stage_ci": [
+            0.011799410029498525,
+            0.0472713864306784
+          ],
+          "sha256": "e39853b76ab87bc4711565db26425956ee0c7829d6858461cd1110eb277f1d4c"
+        },
+        "200": {
+          "coverage": 0.31268436578171094,
+          "hits_both": 4,
+          "hits_model_only": 6,
+          "hits_null_only": 6,
+          "model_hit_genes": [
+            "ensembl:ENSG00000069535",
+            "ensembl:ENSG00000116032",
+            "ensembl:ENSG00000118785",
+            "ensembl:ENSG00000124782",
+            "ensembl:ENSG00000149294",
+            "ensembl:ENSG00000166913",
+            "ensembl:ENSG00000177606",
+            "ensembl:ENSG00000186868",
+            "ensembl:ENSG00000188906",
+            "ensembl:ENSG00000212907"
+          ],
+          "model_two_stage": 0.029498525073746312,
+          "model_two_stage_ci": [
+            0.011799410029498525,
+            0.05014749262536873
+          ],
+          "n_panel": 200,
+          "null_hit_genes": [
+            "ensembl:ENSG00000069535",
+            "ensembl:ENSG00000087586",
+            "ensembl:ENSG00000101224",
+            "ensembl:ENSG00000116032",
+            "ensembl:ENSG00000127419",
+            "ensembl:ENSG00000129003",
+            "ensembl:ENSG00000155097",
+            "ensembl:ENSG00000158864",
+            "ensembl:ENSG00000186868",
+            "ensembl:ENSG00000188906"
+          ],
+          "ot_null_two_stage": 0.029498525073746312,
+          "ot_null_two_stage_ci": [
+            0.011799410029498525,
+            0.0472713864306784
+          ],
+          "sha256": "0e4e2bc61107647ef7344cec8972f06f7b885dc575e6384e83289780432a9fd1"
+        },
+        "500": {
+          "coverage": 0.415929203539823,
+          "hits_both": 4,
+          "hits_model_only": 6,
+          "hits_null_only": 6,
+          "model_hit_genes": [
+            "ensembl:ENSG00000069535",
+            "ensembl:ENSG00000116032",
+            "ensembl:ENSG00000118785",
+            "ensembl:ENSG00000124782",
+            "ensembl:ENSG00000149294",
+            "ensembl:ENSG00000166913",
+            "ensembl:ENSG00000177606",
+            "ensembl:ENSG00000186868",
+            "ensembl:ENSG00000188906",
+            "ensembl:ENSG00000212907"
+          ],
+          "model_two_stage": 0.029498525073746312,
+          "model_two_stage_ci": [
+            0.011799410029498525,
+            0.05014749262536873
+          ],
+          "n_panel": 500,
+          "null_hit_genes": [
+            "ensembl:ENSG00000069535",
+            "ensembl:ENSG00000087586",
+            "ensembl:ENSG00000101224",
+            "ensembl:ENSG00000116032",
+            "ensembl:ENSG00000127419",
+            "ensembl:ENSG00000129003",
+            "ensembl:ENSG00000155097",
+            "ensembl:ENSG00000158864",
+            "ensembl:ENSG00000186868",
+            "ensembl:ENSG00000188906"
+          ],
+          "ot_null_two_stage": 0.029498525073746312,
+          "ot_null_two_stage_ci": [
+            0.011799410029498525,
+            0.0472713864306784
+          ],
+          "sha256": "95e77a67a37710ba6b77bae455cdc2a571be3c04dd3c2879fc0ea38a1752c984"
+        }
+      }
+    }
+  },
+  "unit": "mondo__0005180"
+}

@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.5347169637680054,
+    "target": {
+     "approvedSymbol": "PMFBP1",
+     "id": "ENSG00000118557"
+    }
+   },
+   {
+    "score": 0.23167185485363007,
+    "target": {
+     "approvedSymbol": "ZFHX3",
+     "id": "ENSG00000140836"
+    }
+   },
+   {
+    "score": 0.0825813040137291,
+    "target": {
+     "approvedSymbol": "TXNL4B",
+     "id": "ENSG00000140830"
+    }
+   },
+   {
+    "score": 0.07810930162668228,
+    "target": {
+     "approvedSymbol": "PKD1L3",
+     "id": "ENSG00000277481"
+    }
+   },
+   {
+    "score": 0.06409787386655807,
+    "target": {
+     "approvedSymbol": "DHX38",
+     "id": "ENSG00000140829"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "966a05f93ad5fa3ae2654eef7fa008de",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_72561897_C_T",
+  "position": 72561897
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8499211668968201,
+    "target": {
+     "approvedSymbol": "TCN2",
+     "id": "ENSG00000185339"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90558104",
+ "studyLocusId": "1f2f70668d33c278831cf0114809f1ee",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_30611036_A_T",
+  "position": 30611036
+ }
+}

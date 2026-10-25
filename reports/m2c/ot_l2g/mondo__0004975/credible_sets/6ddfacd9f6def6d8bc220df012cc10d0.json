@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.30304989218711853,
+    "target": {
+     "approvedSymbol": "STK24",
+     "id": "ENSG00000102572"
+    }
+   },
+   {
+    "score": 0.220637708902359,
+    "target": {
+     "approvedSymbol": "SLC15A1",
+     "id": "ENSG00000088386"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "6ddfacd9f6def6d8bc220df012cc10d0",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_98643115_A_G",
+  "position": 98643115
+ }
+}

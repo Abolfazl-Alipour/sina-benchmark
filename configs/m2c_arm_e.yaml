@@ -1,0 +1,45 @@
+# Arm E base config (BioPathNet solver format) — CHANGES/0026 frozen model
+# hyperparams on the ANA-CNS completion exports (train1_ana 2,829,619 edges).
+# Hardware deviation 2026-08-31: runs on g7e.2xlarge sm_120 via torch
+# 2.7.1+cu128 env bpn120 (owner-authorized, see CHANGES/0026 deviations).
+output_dir: reports/m2c/arm_e_experiments/
+
+dataset:
+  class: biomedical
+  path: data/processed/m2c/completion_exports_ana/mondo__0005180  # overridden by --unit
+  include_factgraph: True
+
+task:
+  class: KnowledgeGraphCompletionBiomed
+  model:
+    class: NBFNet
+    input_dim: 32
+    hidden_dims: [32, 32, 32, 32, 32, 32]
+    message_func: distmult
+    aggregate_func: pna
+    short_cut: yes
+    layer_norm: yes
+    dependent: yes
+    symmetric: no
+  criterion: bce
+  num_negative: 64
+  strict_negative: yes
+  adversarial_temperature: 1
+  sample_weight: no
+  heterogeneous_negative: yes
+  heterogeneous_evaluation: yes
+  full_batch_eval: True
+
+optimizer:
+  class: Adam
+  lr: 1.0e-3
+
+engine:
+  gpus: {{ gpus }}
+  batch_size: 32
+
+train:
+  num_epoch: 1
+  batch_per_epoch: 50
+
+metric: mrr

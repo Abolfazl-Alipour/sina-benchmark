@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6605532765388489,
+    "target": {
+     "approvedSymbol": "ATF7IP",
+     "id": "ENSG00000171681"
+    }
+   },
+   {
+    "score": 0.05487453192472458,
+    "target": {
+     "approvedSymbol": "PLBD1",
+     "id": "ENSG00000121316"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "44e1d3aae787ca5234a284289d9808f8",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_14442822_G_A",
+  "position": 14442822
+ }
+}

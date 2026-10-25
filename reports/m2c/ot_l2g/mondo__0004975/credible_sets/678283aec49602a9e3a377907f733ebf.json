@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.15724210441112518,
+    "target": {
+     "approvedSymbol": "UBE2V2",
+     "id": "ENSG00000169139"
+    }
+   },
+   {
+    "score": 0.05959676578640938,
+    "target": {
+     "approvedSymbol": "PRKDC",
+     "id": "ENSG00000253729"
+    }
+   },
+   {
+    "score": 0.05065874755382538,
+    "target": {
+     "approvedSymbol": "MCM4",
+     "id": "ENSG00000104738"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "678283aec49602a9e3a377907f733ebf",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_48151621_T_C",
+  "position": 48151621
+ }
+}

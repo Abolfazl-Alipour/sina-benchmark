@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8092899322509766,
+    "target": {
+     "approvedSymbol": "TYW1",
+     "id": "ENSG00000198874"
+    }
+   },
+   {
+    "score": 0.1494840383529663,
+    "target": {
+     "approvedSymbol": "SBDS",
+     "id": "ENSG00000126524"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "5910fce576b39bcb19bdb63e3ebcd2c9",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_67017743_C_T",
+  "position": 67017743
+ }
+}

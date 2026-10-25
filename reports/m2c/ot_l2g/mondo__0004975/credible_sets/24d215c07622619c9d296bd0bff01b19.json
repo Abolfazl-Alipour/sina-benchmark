@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8229566812515259,
+    "target": {
+     "approvedSymbol": "SYBU",
+     "id": "ENSG00000147642"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "24d215c07622619c9d296bd0bff01b19",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_109642309_A_G",
+  "position": 109642309
+ }
+}

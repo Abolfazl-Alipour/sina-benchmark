@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2692406475543976,
+    "target": {
+     "approvedSymbol": "ST3GAL2",
+     "id": "ENSG00000157350"
+    }
+   },
+   {
+    "score": 0.05144890397787094,
+    "target": {
+     "approvedSymbol": "DDX19A",
+     "id": "ENSG00000168872"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e141f89542d2e16666292bd240336a53",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_70384477_G_C",
+  "position": 70384477
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.43958261609077454,
+    "target": {
+     "approvedSymbol": "SPEN",
+     "id": "ENSG00000065526"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "87b894c385506c09406bba94eda5e23e",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_15860133_G_T",
+  "position": 15860133
+ }
+}

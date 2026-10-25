@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.38333660364151,
+    "target": {
+     "approvedSymbol": "ZNF486",
+     "id": "ENSG00000256229"
+    }
+   },
+   {
+    "score": 0.06438880413770676,
+    "target": {
+     "approvedSymbol": "ZNF90",
+     "id": "ENSG00000213988"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "3bd32097a5400befc36ac32a52a22107",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_20143939_G_T",
+  "position": 20143939
+ }
+}

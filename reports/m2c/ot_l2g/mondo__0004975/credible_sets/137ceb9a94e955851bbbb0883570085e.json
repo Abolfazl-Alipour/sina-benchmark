@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.8002795577049255,
+    "target": {
+     "approvedSymbol": "COX7B2",
+     "id": "ENSG00000170516"
+    }
+   },
+   {
+    "score": 0.08802993595600128,
+    "target": {
+     "approvedSymbol": "GABRA4",
+     "id": "ENSG00000109158"
+    }
+   },
+   {
+    "score": 0.05520044267177582,
+    "target": {
+     "approvedSymbol": "GABRB1",
+     "id": "ENSG00000163288"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "137ceb9a94e955851bbbb0883570085e",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_46914132_A_C",
+  "position": 46914132
+ }
+}

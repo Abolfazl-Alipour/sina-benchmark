@@ -1,0 +1,76 @@
+# M2B cloud job manifests (spec §12.2) — RESCOPED per owner directive 2026-07-25
+# (CHANGES/0011): OptimusKG Task-G only, models = BioPathNet + KGPFLN.
+# PrimeKG Task-D reproduction and cloud KGE baselines are REMOVED from the GPU plan.
+# Provider preference per §12.1: Lambda Labs / RunPod / Vast.ai (personal card OK).
+# AWS EC2 only after GPU quota increase (new accounts = 0 quota, 1-2 days).
+
+provider_order: [lambda_labs, runpod, vast_ai, aws_ec2_after_quota]
+
+env:
+  conda_env_export: environment.lock.yml   # sina env (data prep)
+  biopathnet_env: "see reports/m2a/biopathnet_onboarding.md (py3.10, torch 2.0.1, torchdrug 6066fbd)"
+  base_image_suggestion: "pytorch/pytorch:2.0.1-cuda11.8-cudnn8-runtime"
+
+jobs:
+  - name: biopathnet_smoke
+    purpose: "Phase 0.5 kill-switch: mock + smallest real config on GPU (spec §4)"
+    gpu_class: "1x 16GB (NVIDIA T4 / A4000)"
+    est_gpu_hours: 0.5
+    est_cost_usd: 1
+    hard_cap_usd: 50
+    max_wall_hours: 2
+    checkpoint_interval: "1 epoch"
+    status: "BLOCKED on owner cloud approval (Phase 0.5)"
+
+  - name: biopathnet_taskg_trackd_ad
+    purpose: "Task-G on OptimusKG, AD-family holdout, 5 seeds (spec §7.4)"
+    data: "data/processed/m2/biopathnet_taskg/trackd_family (rsync at run time)"
+    config: "configs/m2b_taskg_run.yaml (to be derived from alzheimers.yaml)"
+    gpu_class: "1x 24GB (A10G / RTX 4090)"
+    est_gpu_hours: 40
+    est_cost_usd: 35
+    hard_cap_usd: 300
+    max_wall_hours: 96
+    checkpoint_interval: "1 epoch"
+    status: "BLOCKED on Phase 0.5"
+
+  - name: biopathnet_taskg_trackd_pd
+    purpose: "Task-G on OptimusKG, PD-family holdout (25-member curated family), 5 seeds"
+    data: "data/processed/m2/biopathnet_taskg/trackd_family (rebuilt 2026-07-25 on curated family)"
+    gpu_class: "1x 24GB (A10G / RTX 4090)"
+    est_gpu_hours: 40
+    est_cost_usd: 35
+    hard_cap_usd: 300
+    max_wall_hours: 96
+    checkpoint_interval: "1 epoch"
+    status: "BLOCKED on Phase 0.5"
+
+  - name: kgpfn_taskg_trackd
+    purpose: "KGPFLN (arXiv 2605.14907) as evaluated arm on Task-G OptimusKG, AD+PD holdouts (ICL inference, no training)"
+    data: "data/processed/m2/biopathnet_taskg/trackd_family + Task-G splits"
+    gpu_class: "1x 24GB (A10G / RTX 4090)"
+    est_gpu_hours: 10
+    est_cost_usd: 10
+    hard_cap_usd: 100
+    max_wall_hours: 24
+    checkpoint_interval: "n/a (inference)"
+    status: "BLOCKED on Phase 0.5 + contamination audit (57 pretraining benchmarks vs held-out families)"
+
+removed_jobs:
+  - name: biopathnet_taskd_repro
+    reason: "PrimeKG Task-D reproduction anchor removed from GPU plan per owner directive (CHANGES/0011)"
+  - name: kge_baselines_trackd
+    reason: "cloud KGE baseline suite removed from GPU plan per owner directive (CHANGES/0011)"
+
+cost_summary:
+  est_total_usd: 81
+  budget_total_usd: 3000
+  caps:
+    frontier_run: 300
+    cpu_fleet_day: 100
+    burst: 40
+  guards:
+    - "billing alert before first launch (§12.5)"
+    - "auto-terminate at job end or cap breach (§12.3)"
+    - "hourly orphan-instance cron (§12.5)"
+    - "GPU-hours + $ recorded in every manifest (§12.7)"

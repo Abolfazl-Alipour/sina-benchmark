@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.38642051815986633,
+    "target": {
+     "approvedSymbol": "ZNF232",
+     "id": "ENSG00000167840"
+    }
+   },
+   {
+    "score": 0.1884600669145584,
+    "target": {
+     "approvedSymbol": "USP6",
+     "id": "ENSG00000129204"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134604",
+ "studyLocusId": "7ea84382a1278c22139c5b1c02a78d1c",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_5110917_G_A",
+  "position": 5110917
+ }
+}

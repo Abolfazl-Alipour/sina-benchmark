@@ -1,0 +1,4656 @@
+{
+  "variant": "rank",
+  "unit": "mondo__0005180",
+  "seed": 1337,
+  "batch_size": 100,
+  "limit_batches": 10,
+  "probe_k": 255,
+  "temperature": 1.0,
+  "contamination_audit": {
+    "34110": {
+      "known_positives_masked": 368,
+      "allowed_negatives": 17080,
+      "expected_unmasked_contamination": 0.0211,
+      "empirical_unmasked_contamination": 0.0212,
+      "audit_draws": 51000
+    },
+    "41571": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "36005": {
+      "known_positives_masked": 68,
+      "allowed_negatives": 17380,
+      "expected_unmasked_contamination": 0.0039,
+      "empirical_unmasked_contamination": 0.0042,
+      "audit_draws": 51000
+    },
+    "42706": {
+      "known_positives_masked": 11,
+      "allowed_negatives": 17437,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "37292": {
+      "known_positives_masked": 2150,
+      "allowed_negatives": 15298,
+      "expected_unmasked_contamination": 0.1232,
+      "empirical_unmasked_contamination": 0.1219,
+      "audit_draws": 51000
+    },
+    "18212": {
+      "known_positives_masked": 5370,
+      "allowed_negatives": 12078,
+      "expected_unmasked_contamination": 0.3078,
+      "empirical_unmasked_contamination": 0.3089,
+      "audit_draws": 51000
+    },
+    "30975": {
+      "known_positives_masked": 19,
+      "allowed_negatives": 17429,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "40203": {
+      "known_positives_masked": 160,
+      "allowed_negatives": 17288,
+      "expected_unmasked_contamination": 0.0092,
+      "empirical_unmasked_contamination": 0.0099,
+      "audit_draws": 51000
+    },
+    "33982": {
+      "known_positives_masked": 19,
+      "allowed_negatives": 17429,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "6686": {
+      "known_positives_masked": 5149,
+      "allowed_negatives": 12299,
+      "expected_unmasked_contamination": 0.2951,
+      "empirical_unmasked_contamination": 0.2939,
+      "audit_draws": 51000
+    },
+    "30350": {
+      "known_positives_masked": 235,
+      "allowed_negatives": 17213,
+      "expected_unmasked_contamination": 0.0135,
+      "empirical_unmasked_contamination": 0.0141,
+      "audit_draws": 51000
+    },
+    "35336": {
+      "known_positives_masked": 207,
+      "allowed_negatives": 17241,
+      "expected_unmasked_contamination": 0.0119,
+      "empirical_unmasked_contamination": 0.0128,
+      "audit_draws": 51000
+    },
+    "14438": {
+      "known_positives_masked": 24,
+      "allowed_negatives": 17424,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "32402": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "41305": {
+      "known_positives_masked": 122,
+      "allowed_negatives": 17326,
+      "expected_unmasked_contamination": 0.007,
+      "empirical_unmasked_contamination": 0.0074,
+      "audit_draws": 51000
+    },
+    "33742": {
+      "known_positives_masked": 846,
+      "allowed_negatives": 16602,
+      "expected_unmasked_contamination": 0.0485,
+      "empirical_unmasked_contamination": 0.0491,
+      "audit_draws": 51000
+    },
+    "36546": {
+      "known_positives_masked": 4772,
+      "allowed_negatives": 12676,
+      "expected_unmasked_contamination": 0.2735,
+      "empirical_unmasked_contamination": 0.2726,
+      "audit_draws": 51000
+    },
+    "31890": {
+      "known_positives_masked": 261,
+      "allowed_negatives": 17187,
+      "expected_unmasked_contamination": 0.015,
+      "empirical_unmasked_contamination": 0.0156,
+      "audit_draws": 51000
+    },
+    "33885": {
+      "known_positives_masked": 231,
+      "allowed_negatives": 17217,
+      "expected_unmasked_contamination": 0.0132,
+      "empirical_unmasked_contamination": 0.0136,
+      "audit_draws": 51000
+    },
+    "32504": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "8882": {
+      "known_positives_masked": 12414,
+      "allowed_negatives": 5034,
+      "expected_unmasked_contamination": 0.7115,
+      "empirical_unmasked_contamination": 0.7125,
+      "audit_draws": 51000
+    },
+    "10188": {
+      "known_positives_masked": 1484,
+      "allowed_negatives": 15964,
+      "expected_unmasked_contamination": 0.0851,
+      "empirical_unmasked_contamination": 0.0867,
+      "audit_draws": 51000
+    },
+    "14395": {
+      "known_positives_masked": 5664,
+      "allowed_negatives": 11784,
+      "expected_unmasked_contamination": 0.3246,
+      "empirical_unmasked_contamination": 0.3237,
+      "audit_draws": 51000
+    },
+    "3029": {
+      "known_positives_masked": 9197,
+      "allowed_negatives": 8251,
+      "expected_unmasked_contamination": 0.5271,
+      "empirical_unmasked_contamination": 0.5241,
+      "audit_draws": 51000
+    },
+    "4541": {
+      "known_positives_masked": 4641,
+      "allowed_negatives": 12807,
+      "expected_unmasked_contamination": 0.266,
+      "empirical_unmasked_contamination": 0.2643,
+      "audit_draws": 51000
+    },
+    "23944": {
+      "known_positives_masked": 30,
+      "allowed_negatives": 17418,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "31422": {
+      "known_positives_masked": 57,
+      "allowed_negatives": 17391,
+      "expected_unmasked_contamination": 0.0033,
+      "empirical_unmasked_contamination": 0.0036,
+      "audit_draws": 51000
+    },
+    "24013": {
+      "known_positives_masked": 52,
+      "allowed_negatives": 17396,
+      "expected_unmasked_contamination": 0.003,
+      "empirical_unmasked_contamination": 0.0028,
+      "audit_draws": 51000
+    },
+    "21398": {
+      "known_positives_masked": 285,
+      "allowed_negatives": 17163,
+      "expected_unmasked_contamination": 0.0163,
+      "empirical_unmasked_contamination": 0.0158,
+      "audit_draws": 51000
+    },
+    "22654": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "18813": {
+      "known_positives_masked": 195,
+      "allowed_negatives": 17253,
+      "expected_unmasked_contamination": 0.0112,
+      "empirical_unmasked_contamination": 0.0125,
+      "audit_draws": 51000
+    },
+    "3889": {
+      "known_positives_masked": 48,
+      "allowed_negatives": 17400,
+      "expected_unmasked_contamination": 0.0028,
+      "empirical_unmasked_contamination": 0.0031,
+      "audit_draws": 51000
+    },
+    "5394": {
+      "known_positives_masked": 93,
+      "allowed_negatives": 17355,
+      "expected_unmasked_contamination": 0.0053,
+      "empirical_unmasked_contamination": 0.0055,
+      "audit_draws": 51000
+    },
+    "12338": {
+      "known_positives_masked": 114,
+      "allowed_negatives": 17334,
+      "expected_unmasked_contamination": 0.0065,
+      "empirical_unmasked_contamination": 0.0067,
+      "audit_draws": 51000
+    },
+    "24211": {
+      "known_positives_masked": 210,
+      "allowed_negatives": 17238,
+      "expected_unmasked_contamination": 0.012,
+      "empirical_unmasked_contamination": 0.0125,
+      "audit_draws": 51000
+    },
+    "35995": {
+      "known_positives_masked": 16,
+      "allowed_negatives": 17432,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "20884": {
+      "known_positives_masked": 143,
+      "allowed_negatives": 17305,
+      "expected_unmasked_contamination": 0.0082,
+      "empirical_unmasked_contamination": 0.0082,
+      "audit_draws": 51000
+    },
+    "24688": {
+      "known_positives_masked": 90,
+      "allowed_negatives": 17358,
+      "expected_unmasked_contamination": 0.0052,
+      "empirical_unmasked_contamination": 0.0053,
+      "audit_draws": 51000
+    },
+    "1708": {
+      "known_positives_masked": 307,
+      "allowed_negatives": 17141,
+      "expected_unmasked_contamination": 0.0176,
+      "empirical_unmasked_contamination": 0.0174,
+      "audit_draws": 51000
+    },
+    "2454": {
+      "known_positives_masked": 4935,
+      "allowed_negatives": 12513,
+      "expected_unmasked_contamination": 0.2828,
+      "empirical_unmasked_contamination": 0.2849,
+      "audit_draws": 51000
+    },
+    "23137": {
+      "known_positives_masked": 15,
+      "allowed_negatives": 17433,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0009,
+      "audit_draws": 51000
+    },
+    "24331": {
+      "known_positives_masked": 102,
+      "allowed_negatives": 17346,
+      "expected_unmasked_contamination": 0.0058,
+      "empirical_unmasked_contamination": 0.0064,
+      "audit_draws": 51000
+    },
+    "26345": {
+      "known_positives_masked": 438,
+      "allowed_negatives": 17010,
+      "expected_unmasked_contamination": 0.0251,
+      "empirical_unmasked_contamination": 0.025,
+      "audit_draws": 51000
+    },
+    "19876": {
+      "known_positives_masked": 80,
+      "allowed_negatives": 17368,
+      "expected_unmasked_contamination": 0.0046,
+      "empirical_unmasked_contamination": 0.0048,
+      "audit_draws": 51000
+    },
+    "10285": {
+      "known_positives_masked": 84,
+      "allowed_negatives": 17364,
+      "expected_unmasked_contamination": 0.0048,
+      "empirical_unmasked_contamination": 0.0049,
+      "audit_draws": 51000
+    },
+    "15632": {
+      "known_positives_masked": 367,
+      "allowed_negatives": 17081,
+      "expected_unmasked_contamination": 0.021,
+      "empirical_unmasked_contamination": 0.0203,
+      "audit_draws": 51000
+    },
+    "33237": {
+      "known_positives_masked": 100,
+      "allowed_negatives": 17348,
+      "expected_unmasked_contamination": 0.0057,
+      "empirical_unmasked_contamination": 0.006,
+      "audit_draws": 51000
+    },
+    "3700": {
+      "known_positives_masked": 20,
+      "allowed_negatives": 17428,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "24777": {
+      "known_positives_masked": 53,
+      "allowed_negatives": 17395,
+      "expected_unmasked_contamination": 0.003,
+      "empirical_unmasked_contamination": 0.0027,
+      "audit_draws": 51000
+    },
+    "224": {
+      "known_positives_masked": 78,
+      "allowed_negatives": 17370,
+      "expected_unmasked_contamination": 0.0045,
+      "empirical_unmasked_contamination": 0.0046,
+      "audit_draws": 51000
+    },
+    "18656": {
+      "known_positives_masked": 66,
+      "allowed_negatives": 17382,
+      "expected_unmasked_contamination": 0.0038,
+      "empirical_unmasked_contamination": 0.0036,
+      "audit_draws": 51000
+    },
+    "25164": {
+      "known_positives_masked": 108,
+      "allowed_negatives": 17340,
+      "expected_unmasked_contamination": 0.0062,
+      "empirical_unmasked_contamination": 0.0065,
+      "audit_draws": 51000
+    },
+    "9668": {
+      "known_positives_masked": 110,
+      "allowed_negatives": 17338,
+      "expected_unmasked_contamination": 0.0063,
+      "empirical_unmasked_contamination": 0.0064,
+      "audit_draws": 51000
+    },
+    "23802": {
+      "known_positives_masked": 103,
+      "allowed_negatives": 17345,
+      "expected_unmasked_contamination": 0.0059,
+      "empirical_unmasked_contamination": 0.0068,
+      "audit_draws": 51000
+    },
+    "21796": {
+      "known_positives_masked": 468,
+      "allowed_negatives": 16980,
+      "expected_unmasked_contamination": 0.0268,
+      "empirical_unmasked_contamination": 0.0281,
+      "audit_draws": 51000
+    },
+    "7252": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "20804": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "11806": {
+      "known_positives_masked": 17,
+      "allowed_negatives": 17431,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "19165": {
+      "known_positives_masked": 21,
+      "allowed_negatives": 17427,
+      "expected_unmasked_contamination": 0.0012,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "22926": {
+      "known_positives_masked": 83,
+      "allowed_negatives": 17365,
+      "expected_unmasked_contamination": 0.0048,
+      "empirical_unmasked_contamination": 0.0048,
+      "audit_draws": 51000
+    },
+    "22237": {
+      "known_positives_masked": 24,
+      "allowed_negatives": 17424,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "41464": {
+      "known_positives_masked": 66,
+      "allowed_negatives": 17382,
+      "expected_unmasked_contamination": 0.0038,
+      "empirical_unmasked_contamination": 0.0037,
+      "audit_draws": 51000
+    },
+    "25660": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "37537": {
+      "known_positives_masked": 26,
+      "allowed_negatives": 17422,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "16284": {
+      "known_positives_masked": 58,
+      "allowed_negatives": 17390,
+      "expected_unmasked_contamination": 0.0033,
+      "empirical_unmasked_contamination": 0.0035,
+      "audit_draws": 51000
+    },
+    "15370": {
+      "known_positives_masked": 172,
+      "allowed_negatives": 17276,
+      "expected_unmasked_contamination": 0.0099,
+      "empirical_unmasked_contamination": 0.0103,
+      "audit_draws": 51000
+    },
+    "14288": {
+      "known_positives_masked": 304,
+      "allowed_negatives": 17144,
+      "expected_unmasked_contamination": 0.0174,
+      "empirical_unmasked_contamination": 0.018,
+      "audit_draws": 51000
+    },
+    "7793": {
+      "known_positives_masked": 51,
+      "allowed_negatives": 17397,
+      "expected_unmasked_contamination": 0.0029,
+      "empirical_unmasked_contamination": 0.003,
+      "audit_draws": 51000
+    },
+    "26681": {
+      "known_positives_masked": 203,
+      "allowed_negatives": 17245,
+      "expected_unmasked_contamination": 0.0116,
+      "empirical_unmasked_contamination": 0.0119,
+      "audit_draws": 51000
+    },
+    "19815": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "12290": {
+      "known_positives_masked": 58,
+      "allowed_negatives": 17390,
+      "expected_unmasked_contamination": 0.0033,
+      "empirical_unmasked_contamination": 0.0034,
+      "audit_draws": 51000
+    },
+    "23077": {
+      "known_positives_masked": 211,
+      "allowed_negatives": 17237,
+      "expected_unmasked_contamination": 0.0121,
+      "empirical_unmasked_contamination": 0.0117,
+      "audit_draws": 51000
+    },
+    "4245": {
+      "known_positives_masked": 1501,
+      "allowed_negatives": 15947,
+      "expected_unmasked_contamination": 0.086,
+      "empirical_unmasked_contamination": 0.0879,
+      "audit_draws": 51000
+    },
+    "11059": {
+      "known_positives_masked": 27,
+      "allowed_negatives": 17421,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "19420": {
+      "known_positives_masked": 134,
+      "allowed_negatives": 17314,
+      "expected_unmasked_contamination": 0.0077,
+      "empirical_unmasked_contamination": 0.0078,
+      "audit_draws": 51000
+    },
+    "29543": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "16687": {
+      "known_positives_masked": 117,
+      "allowed_negatives": 17331,
+      "expected_unmasked_contamination": 0.0067,
+      "empirical_unmasked_contamination": 0.0068,
+      "audit_draws": 51000
+    },
+    "27352": {
+      "known_positives_masked": 47,
+      "allowed_negatives": 17401,
+      "expected_unmasked_contamination": 0.0027,
+      "empirical_unmasked_contamination": 0.0031,
+      "audit_draws": 51000
+    },
+    "12320": {
+      "known_positives_masked": 41,
+      "allowed_negatives": 17407,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0022,
+      "audit_draws": 51000
+    },
+    "21953": {
+      "known_positives_masked": 97,
+      "allowed_negatives": 17351,
+      "expected_unmasked_contamination": 0.0056,
+      "empirical_unmasked_contamination": 0.0055,
+      "audit_draws": 51000
+    },
+    "35898": {
+      "known_positives_masked": 77,
+      "allowed_negatives": 17371,
+      "expected_unmasked_contamination": 0.0044,
+      "empirical_unmasked_contamination": 0.0045,
+      "audit_draws": 51000
+    },
+    "12681": {
+      "known_positives_masked": 37,
+      "allowed_negatives": 17411,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "31300": {
+      "known_positives_masked": 46,
+      "allowed_negatives": 17402,
+      "expected_unmasked_contamination": 0.0026,
+      "empirical_unmasked_contamination": 0.0024,
+      "audit_draws": 51000
+    },
+    "15555": {
+      "known_positives_masked": 117,
+      "allowed_negatives": 17331,
+      "expected_unmasked_contamination": 0.0067,
+      "empirical_unmasked_contamination": 0.0072,
+      "audit_draws": 51000
+    },
+    "3993": {
+      "known_positives_masked": 317,
+      "allowed_negatives": 17131,
+      "expected_unmasked_contamination": 0.0182,
+      "empirical_unmasked_contamination": 0.0171,
+      "audit_draws": 51000
+    },
+    "9327": {
+      "known_positives_masked": 21,
+      "allowed_negatives": 17427,
+      "expected_unmasked_contamination": 0.0012,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "8759": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "10931": {
+      "known_positives_masked": 176,
+      "allowed_negatives": 17272,
+      "expected_unmasked_contamination": 0.0101,
+      "empirical_unmasked_contamination": 0.0092,
+      "audit_draws": 51000
+    },
+    "11712": {
+      "known_positives_masked": 36,
+      "allowed_negatives": 17412,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "16228": {
+      "known_positives_masked": 66,
+      "allowed_negatives": 17382,
+      "expected_unmasked_contamination": 0.0038,
+      "empirical_unmasked_contamination": 0.0032,
+      "audit_draws": 51000
+    },
+    "35999": {
+      "known_positives_masked": 294,
+      "allowed_negatives": 17154,
+      "expected_unmasked_contamination": 0.0169,
+      "empirical_unmasked_contamination": 0.0174,
+      "audit_draws": 51000
+    },
+    "18232": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "11748": {
+      "known_positives_masked": 241,
+      "allowed_negatives": 17207,
+      "expected_unmasked_contamination": 0.0138,
+      "empirical_unmasked_contamination": 0.0136,
+      "audit_draws": 51000
+    },
+    "20702": {
+      "known_positives_masked": 137,
+      "allowed_negatives": 17311,
+      "expected_unmasked_contamination": 0.0079,
+      "empirical_unmasked_contamination": 0.0075,
+      "audit_draws": 51000
+    },
+    "8093": {
+      "known_positives_masked": 153,
+      "allowed_negatives": 17295,
+      "expected_unmasked_contamination": 0.0088,
+      "empirical_unmasked_contamination": 0.0087,
+      "audit_draws": 51000
+    },
+    "13555": {
+      "known_positives_masked": 327,
+      "allowed_negatives": 17121,
+      "expected_unmasked_contamination": 0.0187,
+      "empirical_unmasked_contamination": 0.0189,
+      "audit_draws": 51000
+    },
+    "22970": {
+      "known_positives_masked": 408,
+      "allowed_negatives": 17040,
+      "expected_unmasked_contamination": 0.0234,
+      "empirical_unmasked_contamination": 0.0233,
+      "audit_draws": 51000
+    },
+    "20998": {
+      "known_positives_masked": 69,
+      "allowed_negatives": 17379,
+      "expected_unmasked_contamination": 0.004,
+      "empirical_unmasked_contamination": 0.0038,
+      "audit_draws": 51000
+    },
+    "28624": {
+      "known_positives_masked": 13,
+      "allowed_negatives": 17435,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "21519": {
+      "known_positives_masked": 20,
+      "allowed_negatives": 17428,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "3112": {
+      "known_positives_masked": 159,
+      "allowed_negatives": 17289,
+      "expected_unmasked_contamination": 0.0091,
+      "empirical_unmasked_contamination": 0.0093,
+      "audit_draws": 51000
+    },
+    "22748": {
+      "known_positives_masked": 138,
+      "allowed_negatives": 17310,
+      "expected_unmasked_contamination": 0.0079,
+      "empirical_unmasked_contamination": 0.0076,
+      "audit_draws": 51000
+    },
+    "32214": {
+      "known_positives_masked": 94,
+      "allowed_negatives": 17354,
+      "expected_unmasked_contamination": 0.0054,
+      "empirical_unmasked_contamination": 0.0056,
+      "audit_draws": 51000
+    },
+    "22695": {
+      "known_positives_masked": 191,
+      "allowed_negatives": 17257,
+      "expected_unmasked_contamination": 0.0109,
+      "empirical_unmasked_contamination": 0.0112,
+      "audit_draws": 51000
+    },
+    "5925": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "25889": {
+      "known_positives_masked": 41,
+      "allowed_negatives": 17407,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0025,
+      "audit_draws": 51000
+    },
+    "15368": {
+      "known_positives_masked": 107,
+      "allowed_negatives": 17341,
+      "expected_unmasked_contamination": 0.0061,
+      "empirical_unmasked_contamination": 0.0059,
+      "audit_draws": 51000
+    },
+    "19043": {
+      "known_positives_masked": 20,
+      "allowed_negatives": 17428,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "30615": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "16624": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "14732": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "13086": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "23107": {
+      "known_positives_masked": 215,
+      "allowed_negatives": 17233,
+      "expected_unmasked_contamination": 0.0123,
+      "empirical_unmasked_contamination": 0.0127,
+      "audit_draws": 51000
+    },
+    "8702": {
+      "known_positives_masked": 111,
+      "allowed_negatives": 17337,
+      "expected_unmasked_contamination": 0.0064,
+      "empirical_unmasked_contamination": 0.0068,
+      "audit_draws": 51000
+    },
+    "1859": {
+      "known_positives_masked": 145,
+      "allowed_negatives": 17303,
+      "expected_unmasked_contamination": 0.0083,
+      "empirical_unmasked_contamination": 0.0076,
+      "audit_draws": 51000
+    },
+    "4559": {
+      "known_positives_masked": 37,
+      "allowed_negatives": 17411,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0022,
+      "audit_draws": 51000
+    },
+    "19657": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "23905": {
+      "known_positives_masked": 15,
+      "allowed_negatives": 17433,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "16565": {
+      "known_positives_masked": 53,
+      "allowed_negatives": 17395,
+      "expected_unmasked_contamination": 0.003,
+      "empirical_unmasked_contamination": 0.0034,
+      "audit_draws": 51000
+    },
+    "27520": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "12256": {
+      "known_positives_masked": 207,
+      "allowed_negatives": 17241,
+      "expected_unmasked_contamination": 0.0119,
+      "empirical_unmasked_contamination": 0.0123,
+      "audit_draws": 51000
+    },
+    "16997": {
+      "known_positives_masked": 52,
+      "allowed_negatives": 17396,
+      "expected_unmasked_contamination": 0.003,
+      "empirical_unmasked_contamination": 0.003,
+      "audit_draws": 51000
+    },
+    "15960": {
+      "known_positives_masked": 96,
+      "allowed_negatives": 17352,
+      "expected_unmasked_contamination": 0.0055,
+      "empirical_unmasked_contamination": 0.0059,
+      "audit_draws": 51000
+    },
+    "23795": {
+      "known_positives_masked": 95,
+      "allowed_negatives": 17353,
+      "expected_unmasked_contamination": 0.0054,
+      "empirical_unmasked_contamination": 0.0056,
+      "audit_draws": 51000
+    },
+    "5443": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "22797": {
+      "known_positives_masked": 252,
+      "allowed_negatives": 17196,
+      "expected_unmasked_contamination": 0.0144,
+      "empirical_unmasked_contamination": 0.0153,
+      "audit_draws": 51000
+    },
+    "7311": {
+      "known_positives_masked": 30,
+      "allowed_negatives": 17418,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0018,
+      "audit_draws": 51000
+    },
+    "9683": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "10220": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "20555": {
+      "known_positives_masked": 857,
+      "allowed_negatives": 16591,
+      "expected_unmasked_contamination": 0.0491,
+      "empirical_unmasked_contamination": 0.0501,
+      "audit_draws": 51000
+    },
+    "20900": {
+      "known_positives_masked": 100,
+      "allowed_negatives": 17348,
+      "expected_unmasked_contamination": 0.0057,
+      "empirical_unmasked_contamination": 0.0064,
+      "audit_draws": 51000
+    },
+    "17551": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "22534": {
+      "known_positives_masked": 14,
+      "allowed_negatives": 17434,
+      "expected_unmasked_contamination": 0.0008,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "24181": {
+      "known_positives_masked": 371,
+      "allowed_negatives": 17077,
+      "expected_unmasked_contamination": 0.0213,
+      "empirical_unmasked_contamination": 0.0207,
+      "audit_draws": 51000
+    },
+    "8718": {
+      "known_positives_masked": 184,
+      "allowed_negatives": 17264,
+      "expected_unmasked_contamination": 0.0105,
+      "empirical_unmasked_contamination": 0.0113,
+      "audit_draws": 51000
+    },
+    "31233": {
+      "known_positives_masked": 8,
+      "allowed_negatives": 17440,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "31243": {
+      "known_positives_masked": 88,
+      "allowed_negatives": 17360,
+      "expected_unmasked_contamination": 0.005,
+      "empirical_unmasked_contamination": 0.0053,
+      "audit_draws": 51000
+    },
+    "5747": {
+      "known_positives_masked": 145,
+      "allowed_negatives": 17303,
+      "expected_unmasked_contamination": 0.0083,
+      "empirical_unmasked_contamination": 0.0079,
+      "audit_draws": 51000
+    },
+    "24071": {
+      "known_positives_masked": 233,
+      "allowed_negatives": 17215,
+      "expected_unmasked_contamination": 0.0134,
+      "empirical_unmasked_contamination": 0.0134,
+      "audit_draws": 51000
+    },
+    "11411": {
+      "known_positives_masked": 83,
+      "allowed_negatives": 17365,
+      "expected_unmasked_contamination": 0.0048,
+      "empirical_unmasked_contamination": 0.0048,
+      "audit_draws": 51000
+    },
+    "20505": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "2355": {
+      "known_positives_masked": 37,
+      "allowed_negatives": 17411,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "42627": {
+      "known_positives_masked": 132,
+      "allowed_negatives": 17316,
+      "expected_unmasked_contamination": 0.0076,
+      "empirical_unmasked_contamination": 0.0082,
+      "audit_draws": 51000
+    },
+    "13882": {
+      "known_positives_masked": 115,
+      "allowed_negatives": 17333,
+      "expected_unmasked_contamination": 0.0066,
+      "empirical_unmasked_contamination": 0.0071,
+      "audit_draws": 51000
+    },
+    "25454": {
+      "known_positives_masked": 34,
+      "allowed_negatives": 17414,
+      "expected_unmasked_contamination": 0.0019,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "21041": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "19171": {
+      "known_positives_masked": 232,
+      "allowed_negatives": 17216,
+      "expected_unmasked_contamination": 0.0133,
+      "empirical_unmasked_contamination": 0.0137,
+      "audit_draws": 51000
+    },
+    "28958": {
+      "known_positives_masked": 131,
+      "allowed_negatives": 17317,
+      "expected_unmasked_contamination": 0.0075,
+      "empirical_unmasked_contamination": 0.0074,
+      "audit_draws": 51000
+    },
+    "12946": {
+      "known_positives_masked": 273,
+      "allowed_negatives": 17175,
+      "expected_unmasked_contamination": 0.0156,
+      "empirical_unmasked_contamination": 0.0165,
+      "audit_draws": 51000
+    },
+    "16290": {
+      "known_positives_masked": 36,
+      "allowed_negatives": 17412,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "22563": {
+      "known_positives_masked": 560,
+      "allowed_negatives": 16888,
+      "expected_unmasked_contamination": 0.0321,
+      "empirical_unmasked_contamination": 0.0321,
+      "audit_draws": 51000
+    },
+    "22995": {
+      "known_positives_masked": 284,
+      "allowed_negatives": 17164,
+      "expected_unmasked_contamination": 0.0163,
+      "empirical_unmasked_contamination": 0.0172,
+      "audit_draws": 51000
+    },
+    "17549": {
+      "known_positives_masked": 110,
+      "allowed_negatives": 17338,
+      "expected_unmasked_contamination": 0.0063,
+      "empirical_unmasked_contamination": 0.0059,
+      "audit_draws": 51000
+    },
+    "6515": {
+      "known_positives_masked": 340,
+      "allowed_negatives": 17108,
+      "expected_unmasked_contamination": 0.0195,
+      "empirical_unmasked_contamination": 0.0198,
+      "audit_draws": 51000
+    },
+    "39659": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "26414": {
+      "known_positives_masked": 44,
+      "allowed_negatives": 17404,
+      "expected_unmasked_contamination": 0.0025,
+      "empirical_unmasked_contamination": 0.0026,
+      "audit_draws": 51000
+    },
+    "30010": {
+      "known_positives_masked": 32,
+      "allowed_negatives": 17416,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.002,
+      "audit_draws": 51000
+    },
+    "19029": {
+      "known_positives_masked": 47,
+      "allowed_negatives": 17401,
+      "expected_unmasked_contamination": 0.0027,
+      "empirical_unmasked_contamination": 0.0026,
+      "audit_draws": 51000
+    },
+    "31657": {
+      "known_positives_masked": 101,
+      "allowed_negatives": 17347,
+      "expected_unmasked_contamination": 0.0058,
+      "empirical_unmasked_contamination": 0.006,
+      "audit_draws": 51000
+    },
+    "10276": {
+      "known_positives_masked": 104,
+      "allowed_negatives": 17344,
+      "expected_unmasked_contamination": 0.006,
+      "empirical_unmasked_contamination": 0.0063,
+      "audit_draws": 51000
+    },
+    "9302": {
+      "known_positives_masked": 137,
+      "allowed_negatives": 17311,
+      "expected_unmasked_contamination": 0.0079,
+      "empirical_unmasked_contamination": 0.0077,
+      "audit_draws": 51000
+    },
+    "26674": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "20820": {
+      "known_positives_masked": 39,
+      "allowed_negatives": 17409,
+      "expected_unmasked_contamination": 0.0022,
+      "empirical_unmasked_contamination": 0.0023,
+      "audit_draws": 51000
+    },
+    "3197": {
+      "known_positives_masked": 85,
+      "allowed_negatives": 17363,
+      "expected_unmasked_contamination": 0.0049,
+      "empirical_unmasked_contamination": 0.0053,
+      "audit_draws": 51000
+    },
+    "26826": {
+      "known_positives_masked": 42,
+      "allowed_negatives": 17406,
+      "expected_unmasked_contamination": 0.0024,
+      "empirical_unmasked_contamination": 0.0023,
+      "audit_draws": 51000
+    },
+    "9005": {
+      "known_positives_masked": 1092,
+      "allowed_negatives": 16356,
+      "expected_unmasked_contamination": 0.0626,
+      "empirical_unmasked_contamination": 0.0622,
+      "audit_draws": 51000
+    },
+    "26646": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "2834": {
+      "known_positives_masked": 29,
+      "allowed_negatives": 17419,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "19862": {
+      "known_positives_masked": 22,
+      "allowed_negatives": 17426,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "18816": {
+      "known_positives_masked": 95,
+      "allowed_negatives": 17353,
+      "expected_unmasked_contamination": 0.0054,
+      "empirical_unmasked_contamination": 0.0053,
+      "audit_draws": 51000
+    },
+    "12108": {
+      "known_positives_masked": 29,
+      "allowed_negatives": 17419,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "28482": {
+      "known_positives_masked": 39,
+      "allowed_negatives": 17409,
+      "expected_unmasked_contamination": 0.0022,
+      "empirical_unmasked_contamination": 0.0023,
+      "audit_draws": 51000
+    },
+    "16772": {
+      "known_positives_masked": 159,
+      "allowed_negatives": 17289,
+      "expected_unmasked_contamination": 0.0091,
+      "empirical_unmasked_contamination": 0.0094,
+      "audit_draws": 51000
+    },
+    "14431": {
+      "known_positives_masked": 66,
+      "allowed_negatives": 17382,
+      "expected_unmasked_contamination": 0.0038,
+      "empirical_unmasked_contamination": 0.0038,
+      "audit_draws": 51000
+    },
+    "24249": {
+      "known_positives_masked": 133,
+      "allowed_negatives": 17315,
+      "expected_unmasked_contamination": 0.0076,
+      "empirical_unmasked_contamination": 0.0071,
+      "audit_draws": 51000
+    },
+    "17424": {
+      "known_positives_masked": 142,
+      "allowed_negatives": 17306,
+      "expected_unmasked_contamination": 0.0081,
+      "empirical_unmasked_contamination": 0.008,
+      "audit_draws": 51000
+    },
+    "26212": {
+      "known_positives_masked": 16,
+      "allowed_negatives": 17432,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "34231": {
+      "known_positives_masked": 62,
+      "allowed_negatives": 17386,
+      "expected_unmasked_contamination": 0.0036,
+      "empirical_unmasked_contamination": 0.003,
+      "audit_draws": 51000
+    },
+    "18171": {
+      "known_positives_masked": 26,
+      "allowed_negatives": 17422,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "16894": {
+      "known_positives_masked": 11,
+      "allowed_negatives": 17437,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "6956": {
+      "known_positives_masked": 46,
+      "allowed_negatives": 17402,
+      "expected_unmasked_contamination": 0.0026,
+      "empirical_unmasked_contamination": 0.0029,
+      "audit_draws": 51000
+    },
+    "12119": {
+      "known_positives_masked": 148,
+      "allowed_negatives": 17300,
+      "expected_unmasked_contamination": 0.0085,
+      "empirical_unmasked_contamination": 0.0088,
+      "audit_draws": 51000
+    },
+    "24775": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "25473": {
+      "known_positives_masked": 303,
+      "allowed_negatives": 17145,
+      "expected_unmasked_contamination": 0.0174,
+      "empirical_unmasked_contamination": 0.0181,
+      "audit_draws": 51000
+    },
+    "12444": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "35861": {
+      "known_positives_masked": 219,
+      "allowed_negatives": 17229,
+      "expected_unmasked_contamination": 0.0126,
+      "empirical_unmasked_contamination": 0.0124,
+      "audit_draws": 51000
+    },
+    "26791": {
+      "known_positives_masked": 113,
+      "allowed_negatives": 17335,
+      "expected_unmasked_contamination": 0.0065,
+      "empirical_unmasked_contamination": 0.0067,
+      "audit_draws": 51000
+    },
+    "25666": {
+      "known_positives_masked": 42,
+      "allowed_negatives": 17406,
+      "expected_unmasked_contamination": 0.0024,
+      "empirical_unmasked_contamination": 0.0026,
+      "audit_draws": 51000
+    },
+    "14098": {
+      "known_positives_masked": 11,
+      "allowed_negatives": 17437,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "24509": {
+      "known_positives_masked": 100,
+      "allowed_negatives": 17348,
+      "expected_unmasked_contamination": 0.0057,
+      "empirical_unmasked_contamination": 0.0054,
+      "audit_draws": 51000
+    },
+    "30995": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "21046": {
+      "known_positives_masked": 172,
+      "allowed_negatives": 17276,
+      "expected_unmasked_contamination": 0.0099,
+      "empirical_unmasked_contamination": 0.0102,
+      "audit_draws": 51000
+    },
+    "28022": {
+      "known_positives_masked": 40,
+      "allowed_negatives": 17408,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0022,
+      "audit_draws": 51000
+    },
+    "15337": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "21082": {
+      "known_positives_masked": 259,
+      "allowed_negatives": 17189,
+      "expected_unmasked_contamination": 0.0148,
+      "empirical_unmasked_contamination": 0.0153,
+      "audit_draws": 51000
+    },
+    "17223": {
+      "known_positives_masked": 51,
+      "allowed_negatives": 17397,
+      "expected_unmasked_contamination": 0.0029,
+      "empirical_unmasked_contamination": 0.0027,
+      "audit_draws": 51000
+    },
+    "38672": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "22847": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "24778": {
+      "known_positives_masked": 145,
+      "allowed_negatives": 17303,
+      "expected_unmasked_contamination": 0.0083,
+      "empirical_unmasked_contamination": 0.0087,
+      "audit_draws": 51000
+    },
+    "10963": {
+      "known_positives_masked": 338,
+      "allowed_negatives": 17110,
+      "expected_unmasked_contamination": 0.0194,
+      "empirical_unmasked_contamination": 0.0198,
+      "audit_draws": 51000
+    },
+    "19891": {
+      "known_positives_masked": 197,
+      "allowed_negatives": 17251,
+      "expected_unmasked_contamination": 0.0113,
+      "empirical_unmasked_contamination": 0.0122,
+      "audit_draws": 51000
+    },
+    "24320": {
+      "known_positives_masked": 26,
+      "allowed_negatives": 17422,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "10021": {
+      "known_positives_masked": 260,
+      "allowed_negatives": 17188,
+      "expected_unmasked_contamination": 0.0149,
+      "empirical_unmasked_contamination": 0.0156,
+      "audit_draws": 51000
+    },
+    "24341": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "25811": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "26244": {
+      "known_positives_masked": 94,
+      "allowed_negatives": 17354,
+      "expected_unmasked_contamination": 0.0054,
+      "empirical_unmasked_contamination": 0.0055,
+      "audit_draws": 51000
+    },
+    "1455": {
+      "known_positives_masked": 49,
+      "allowed_negatives": 17399,
+      "expected_unmasked_contamination": 0.0028,
+      "empirical_unmasked_contamination": 0.0031,
+      "audit_draws": 51000
+    },
+    "23604": {
+      "known_positives_masked": 106,
+      "allowed_negatives": 17342,
+      "expected_unmasked_contamination": 0.0061,
+      "empirical_unmasked_contamination": 0.0068,
+      "audit_draws": 51000
+    },
+    "21713": {
+      "known_positives_masked": 153,
+      "allowed_negatives": 17295,
+      "expected_unmasked_contamination": 0.0088,
+      "empirical_unmasked_contamination": 0.0091,
+      "audit_draws": 51000
+    },
+    "10621": {
+      "known_positives_masked": 143,
+      "allowed_negatives": 17305,
+      "expected_unmasked_contamination": 0.0082,
+      "empirical_unmasked_contamination": 0.0088,
+      "audit_draws": 51000
+    },
+    "22003": {
+      "known_positives_masked": 147,
+      "allowed_negatives": 17301,
+      "expected_unmasked_contamination": 0.0084,
+      "empirical_unmasked_contamination": 0.0086,
+      "audit_draws": 51000
+    },
+    "26849": {
+      "known_positives_masked": 199,
+      "allowed_negatives": 17249,
+      "expected_unmasked_contamination": 0.0114,
+      "empirical_unmasked_contamination": 0.0112,
+      "audit_draws": 51000
+    },
+    "13002": {
+      "known_positives_masked": 22,
+      "allowed_negatives": 17426,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "27839": {
+      "known_positives_masked": 71,
+      "allowed_negatives": 17377,
+      "expected_unmasked_contamination": 0.0041,
+      "empirical_unmasked_contamination": 0.0042,
+      "audit_draws": 51000
+    },
+    "11814": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "22030": {
+      "known_positives_masked": 75,
+      "allowed_negatives": 17373,
+      "expected_unmasked_contamination": 0.0043,
+      "empirical_unmasked_contamination": 0.0043,
+      "audit_draws": 51000
+    },
+    "14352": {
+      "known_positives_masked": 129,
+      "allowed_negatives": 17319,
+      "expected_unmasked_contamination": 0.0074,
+      "empirical_unmasked_contamination": 0.008,
+      "audit_draws": 51000
+    },
+    "27315": {
+      "known_positives_masked": 14,
+      "allowed_negatives": 17434,
+      "expected_unmasked_contamination": 0.0008,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "25332": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "21291": {
+      "known_positives_masked": 62,
+      "allowed_negatives": 17386,
+      "expected_unmasked_contamination": 0.0036,
+      "empirical_unmasked_contamination": 0.0035,
+      "audit_draws": 51000
+    },
+    "24375": {
+      "known_positives_masked": 26,
+      "allowed_negatives": 17422,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "24455": {
+      "known_positives_masked": 299,
+      "allowed_negatives": 17149,
+      "expected_unmasked_contamination": 0.0171,
+      "empirical_unmasked_contamination": 0.0177,
+      "audit_draws": 51000
+    },
+    "9821": {
+      "known_positives_masked": 19,
+      "allowed_negatives": 17429,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "21216": {
+      "known_positives_masked": 118,
+      "allowed_negatives": 17330,
+      "expected_unmasked_contamination": 0.0068,
+      "empirical_unmasked_contamination": 0.0068,
+      "audit_draws": 51000
+    },
+    "15880": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "14375": {
+      "known_positives_masked": 28,
+      "allowed_negatives": 17420,
+      "expected_unmasked_contamination": 0.0016,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "13715": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "8335": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "13270": {
+      "known_positives_masked": 335,
+      "allowed_negatives": 17113,
+      "expected_unmasked_contamination": 0.0192,
+      "empirical_unmasked_contamination": 0.0196,
+      "audit_draws": 51000
+    },
+    "12161": {
+      "known_positives_masked": 157,
+      "allowed_negatives": 17291,
+      "expected_unmasked_contamination": 0.009,
+      "empirical_unmasked_contamination": 0.0098,
+      "audit_draws": 51000
+    },
+    "6864": {
+      "known_positives_masked": 26,
+      "allowed_negatives": 17422,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "22961": {
+      "known_positives_masked": 157,
+      "allowed_negatives": 17291,
+      "expected_unmasked_contamination": 0.009,
+      "empirical_unmasked_contamination": 0.0097,
+      "audit_draws": 51000
+    },
+    "20824": {
+      "known_positives_masked": 72,
+      "allowed_negatives": 17376,
+      "expected_unmasked_contamination": 0.0041,
+      "empirical_unmasked_contamination": 0.0044,
+      "audit_draws": 51000
+    },
+    "27124": {
+      "known_positives_masked": 182,
+      "allowed_negatives": 17266,
+      "expected_unmasked_contamination": 0.0104,
+      "empirical_unmasked_contamination": 0.011,
+      "audit_draws": 51000
+    },
+    "15643": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "27181": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "14303": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "28588": {
+      "known_positives_masked": 22,
+      "allowed_negatives": 17426,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "8351": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "6916": {
+      "known_positives_masked": 78,
+      "allowed_negatives": 17370,
+      "expected_unmasked_contamination": 0.0045,
+      "empirical_unmasked_contamination": 0.0049,
+      "audit_draws": 51000
+    },
+    "5999": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "11068": {
+      "known_positives_masked": 29,
+      "allowed_negatives": 17419,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "10787": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "25939": {
+      "known_positives_masked": 187,
+      "allowed_negatives": 17261,
+      "expected_unmasked_contamination": 0.0107,
+      "empirical_unmasked_contamination": 0.0118,
+      "audit_draws": 51000
+    },
+    "19600": {
+      "known_positives_masked": 183,
+      "allowed_negatives": 17265,
+      "expected_unmasked_contamination": 0.0105,
+      "empirical_unmasked_contamination": 0.0108,
+      "audit_draws": 51000
+    },
+    "34112": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "31554": {
+      "known_positives_masked": 109,
+      "allowed_negatives": 17339,
+      "expected_unmasked_contamination": 0.0062,
+      "empirical_unmasked_contamination": 0.0066,
+      "audit_draws": 51000
+    },
+    "11066": {
+      "known_positives_masked": 214,
+      "allowed_negatives": 17234,
+      "expected_unmasked_contamination": 0.0123,
+      "empirical_unmasked_contamination": 0.012,
+      "audit_draws": 51000
+    },
+    "29735": {
+      "known_positives_masked": 29,
+      "allowed_negatives": 17419,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "32282": {
+      "known_positives_masked": 302,
+      "allowed_negatives": 17146,
+      "expected_unmasked_contamination": 0.0173,
+      "empirical_unmasked_contamination": 0.017,
+      "audit_draws": 51000
+    },
+    "24995": {
+      "known_positives_masked": 55,
+      "allowed_negatives": 17393,
+      "expected_unmasked_contamination": 0.0032,
+      "empirical_unmasked_contamination": 0.003,
+      "audit_draws": 51000
+    },
+    "19999": {
+      "known_positives_masked": 99,
+      "allowed_negatives": 17349,
+      "expected_unmasked_contamination": 0.0057,
+      "empirical_unmasked_contamination": 0.0058,
+      "audit_draws": 51000
+    },
+    "8595": {
+      "known_positives_masked": 8,
+      "allowed_negatives": 17440,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "31451": {
+      "known_positives_masked": 41,
+      "allowed_negatives": 17407,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0025,
+      "audit_draws": 51000
+    },
+    "18198": {
+      "known_positives_masked": 94,
+      "allowed_negatives": 17354,
+      "expected_unmasked_contamination": 0.0054,
+      "empirical_unmasked_contamination": 0.0055,
+      "audit_draws": 51000
+    },
+    "35310": {
+      "known_positives_masked": 13,
+      "allowed_negatives": 17435,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "6355": {
+      "known_positives_masked": 23,
+      "allowed_negatives": 17425,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "15454": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "17530": {
+      "known_positives_masked": 298,
+      "allowed_negatives": 17150,
+      "expected_unmasked_contamination": 0.0171,
+      "empirical_unmasked_contamination": 0.0176,
+      "audit_draws": 51000
+    },
+    "18768": {
+      "known_positives_masked": 81,
+      "allowed_negatives": 17367,
+      "expected_unmasked_contamination": 0.0046,
+      "empirical_unmasked_contamination": 0.0051,
+      "audit_draws": 51000
+    },
+    "27862": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "20119": {
+      "known_positives_masked": 32,
+      "allowed_negatives": 17416,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.002,
+      "audit_draws": 51000
+    },
+    "28839": {
+      "known_positives_masked": 96,
+      "allowed_negatives": 17352,
+      "expected_unmasked_contamination": 0.0055,
+      "empirical_unmasked_contamination": 0.0055,
+      "audit_draws": 51000
+    },
+    "27851": {
+      "known_positives_masked": 206,
+      "allowed_negatives": 17242,
+      "expected_unmasked_contamination": 0.0118,
+      "empirical_unmasked_contamination": 0.0123,
+      "audit_draws": 51000
+    },
+    "22070": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "17842": {
+      "known_positives_masked": 8,
+      "allowed_negatives": 17440,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "696": {
+      "known_positives_masked": 230,
+      "allowed_negatives": 17218,
+      "expected_unmasked_contamination": 0.0132,
+      "empirical_unmasked_contamination": 0.0133,
+      "audit_draws": 51000
+    },
+    "19930": {
+      "known_positives_masked": 63,
+      "allowed_negatives": 17385,
+      "expected_unmasked_contamination": 0.0036,
+      "empirical_unmasked_contamination": 0.0037,
+      "audit_draws": 51000
+    },
+    "24906": {
+      "known_positives_masked": 16,
+      "allowed_negatives": 17432,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "12977": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "22616": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "23328": {
+      "known_positives_masked": 101,
+      "allowed_negatives": 17347,
+      "expected_unmasked_contamination": 0.0058,
+      "empirical_unmasked_contamination": 0.006,
+      "audit_draws": 51000
+    },
+    "21287": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "16260": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "26797": {
+      "known_positives_masked": 15,
+      "allowed_negatives": 17433,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "27504": {
+      "known_positives_masked": 29,
+      "allowed_negatives": 17419,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "17062": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "2322": {
+      "known_positives_masked": 753,
+      "allowed_negatives": 16695,
+      "expected_unmasked_contamination": 0.0432,
+      "empirical_unmasked_contamination": 0.0425,
+      "audit_draws": 51000
+    },
+    "23474": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "22697": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "12240": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "18734": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "30154": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "29285": {
+      "known_positives_masked": 69,
+      "allowed_negatives": 17379,
+      "expected_unmasked_contamination": 0.004,
+      "empirical_unmasked_contamination": 0.0041,
+      "audit_draws": 51000
+    },
+    "20523": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "20042": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "18356": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "17685": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "25330": {
+      "known_positives_masked": 198,
+      "allowed_negatives": 17250,
+      "expected_unmasked_contamination": 0.0113,
+      "empirical_unmasked_contamination": 0.0119,
+      "audit_draws": 51000
+    },
+    "27593": {
+      "known_positives_masked": 877,
+      "allowed_negatives": 16571,
+      "expected_unmasked_contamination": 0.0503,
+      "empirical_unmasked_contamination": 0.05,
+      "audit_draws": 51000
+    },
+    "4886": {
+      "known_positives_masked": 72,
+      "allowed_negatives": 17376,
+      "expected_unmasked_contamination": 0.0041,
+      "empirical_unmasked_contamination": 0.0041,
+      "audit_draws": 51000
+    },
+    "17064": {
+      "known_positives_masked": 35,
+      "allowed_negatives": 17413,
+      "expected_unmasked_contamination": 0.002,
+      "empirical_unmasked_contamination": 0.0018,
+      "audit_draws": 51000
+    },
+    "11585": {
+      "known_positives_masked": 15,
+      "allowed_negatives": 17433,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0009,
+      "audit_draws": 51000
+    },
+    "1381": {
+      "known_positives_masked": 138,
+      "allowed_negatives": 17310,
+      "expected_unmasked_contamination": 0.0079,
+      "empirical_unmasked_contamination": 0.0087,
+      "audit_draws": 51000
+    },
+    "32723": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "14452": {
+      "known_positives_masked": 163,
+      "allowed_negatives": 17285,
+      "expected_unmasked_contamination": 0.0093,
+      "empirical_unmasked_contamination": 0.0096,
+      "audit_draws": 51000
+    },
+    "13109": {
+      "known_positives_masked": 116,
+      "allowed_negatives": 17332,
+      "expected_unmasked_contamination": 0.0066,
+      "empirical_unmasked_contamination": 0.0071,
+      "audit_draws": 51000
+    },
+    "12575": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "11377": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "21012": {
+      "known_positives_masked": 23,
+      "allowed_negatives": 17425,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "22317": {
+      "known_positives_masked": 47,
+      "allowed_negatives": 17401,
+      "expected_unmasked_contamination": 0.0027,
+      "empirical_unmasked_contamination": 0.0029,
+      "audit_draws": 51000
+    },
+    "24118": {
+      "known_positives_masked": 11,
+      "allowed_negatives": 17437,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "18460": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "18610": {
+      "known_positives_masked": 33,
+      "allowed_negatives": 17415,
+      "expected_unmasked_contamination": 0.0019,
+      "empirical_unmasked_contamination": 0.0022,
+      "audit_draws": 51000
+    },
+    "26814": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "10345": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "22891": {
+      "known_positives_masked": 8,
+      "allowed_negatives": 17440,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "24146": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "7788": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "10943": {
+      "known_positives_masked": 20,
+      "allowed_negatives": 17428,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "2173": {
+      "known_positives_masked": 13,
+      "allowed_negatives": 17435,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0009,
+      "audit_draws": 51000
+    },
+    "22629": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "26687": {
+      "known_positives_masked": 16,
+      "allowed_negatives": 17432,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "26296": {
+      "known_positives_masked": 19,
+      "allowed_negatives": 17429,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "25635": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "11719": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "30675": {
+      "known_positives_masked": 15,
+      "allowed_negatives": 17433,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0009,
+      "audit_draws": 51000
+    },
+    "6964": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "13487": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "5629": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "15011": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "23993": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "24171": {
+      "known_positives_masked": 63,
+      "allowed_negatives": 17385,
+      "expected_unmasked_contamination": 0.0036,
+      "empirical_unmasked_contamination": 0.0036,
+      "audit_draws": 51000
+    },
+    "28051": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "17764": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "25054": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "11269": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "21219": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "19989": {
+      "known_positives_masked": 139,
+      "allowed_negatives": 17309,
+      "expected_unmasked_contamination": 0.008,
+      "empirical_unmasked_contamination": 0.0086,
+      "audit_draws": 51000
+    },
+    "18861": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "17574": {
+      "known_positives_masked": 34,
+      "allowed_negatives": 17414,
+      "expected_unmasked_contamination": 0.0019,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "13678": {
+      "known_positives_masked": 131,
+      "allowed_negatives": 17317,
+      "expected_unmasked_contamination": 0.0075,
+      "empirical_unmasked_contamination": 0.0074,
+      "audit_draws": 51000
+    },
+    "9988": {
+      "known_positives_masked": 60,
+      "allowed_negatives": 17388,
+      "expected_unmasked_contamination": 0.0034,
+      "empirical_unmasked_contamination": 0.0031,
+      "audit_draws": 51000
+    },
+    "26465": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "18898": {
+      "known_positives_masked": 13,
+      "allowed_negatives": 17435,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "11434": {
+      "known_positives_masked": 99,
+      "allowed_negatives": 17349,
+      "expected_unmasked_contamination": 0.0057,
+      "empirical_unmasked_contamination": 0.0061,
+      "audit_draws": 51000
+    },
+    "34575": {
+      "known_positives_masked": 19,
+      "allowed_negatives": 17429,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "21252": {
+      "known_positives_masked": 91,
+      "allowed_negatives": 17357,
+      "expected_unmasked_contamination": 0.0052,
+      "empirical_unmasked_contamination": 0.0057,
+      "audit_draws": 51000
+    },
+    "15154": {
+      "known_positives_masked": 53,
+      "allowed_negatives": 17395,
+      "expected_unmasked_contamination": 0.003,
+      "empirical_unmasked_contamination": 0.0029,
+      "audit_draws": 51000
+    },
+    "22156": {
+      "known_positives_masked": 63,
+      "allowed_negatives": 17385,
+      "expected_unmasked_contamination": 0.0036,
+      "empirical_unmasked_contamination": 0.0034,
+      "audit_draws": 51000
+    },
+    "27186": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "25535": {
+      "known_positives_masked": 43,
+      "allowed_negatives": 17405,
+      "expected_unmasked_contamination": 0.0025,
+      "empirical_unmasked_contamination": 0.0024,
+      "audit_draws": 51000
+    },
+    "29354": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "26200": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "10559": {
+      "known_positives_masked": 14,
+      "allowed_negatives": 17434,
+      "expected_unmasked_contamination": 0.0008,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "11056": {
+      "known_positives_masked": 56,
+      "allowed_negatives": 17392,
+      "expected_unmasked_contamination": 0.0032,
+      "empirical_unmasked_contamination": 0.0032,
+      "audit_draws": 51000
+    },
+    "7222": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "19299": {
+      "known_positives_masked": 16,
+      "allowed_negatives": 17432,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0009,
+      "audit_draws": 51000
+    },
+    "20426": {
+      "known_positives_masked": 17,
+      "allowed_negatives": 17431,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "13433": {
+      "known_positives_masked": 94,
+      "allowed_negatives": 17354,
+      "expected_unmasked_contamination": 0.0054,
+      "empirical_unmasked_contamination": 0.0054,
+      "audit_draws": 51000
+    },
+    "6404": {
+      "known_positives_masked": 178,
+      "allowed_negatives": 17270,
+      "expected_unmasked_contamination": 0.0102,
+      "empirical_unmasked_contamination": 0.0103,
+      "audit_draws": 51000
+    },
+    "28694": {
+      "known_positives_masked": 226,
+      "allowed_negatives": 17222,
+      "expected_unmasked_contamination": 0.013,
+      "empirical_unmasked_contamination": 0.0138,
+      "audit_draws": 51000
+    },
+    "9610": {
+      "known_positives_masked": 8,
+      "allowed_negatives": 17440,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "23570": {
+      "known_positives_masked": 123,
+      "allowed_negatives": 17325,
+      "expected_unmasked_contamination": 0.007,
+      "empirical_unmasked_contamination": 0.0078,
+      "audit_draws": 51000
+    },
+    "14989": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "24241": {
+      "known_positives_masked": 29,
+      "allowed_negatives": 17419,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0018,
+      "audit_draws": 51000
+    },
+    "20223": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "20137": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "12912": {
+      "known_positives_masked": 35,
+      "allowed_negatives": 17413,
+      "expected_unmasked_contamination": 0.002,
+      "empirical_unmasked_contamination": 0.0018,
+      "audit_draws": 51000
+    },
+    "10799": {
+      "known_positives_masked": 136,
+      "allowed_negatives": 17312,
+      "expected_unmasked_contamination": 0.0078,
+      "empirical_unmasked_contamination": 0.0085,
+      "audit_draws": 51000
+    },
+    "1183": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "15022": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "17174": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "15437": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "12153": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "20568": {
+      "known_positives_masked": 31,
+      "allowed_negatives": 17417,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.0019,
+      "audit_draws": 51000
+    },
+    "20007": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "13415": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "18700": {
+      "known_positives_masked": 37,
+      "allowed_negatives": 17411,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0026,
+      "audit_draws": 51000
+    },
+    "17178": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "39357": {
+      "known_positives_masked": 49,
+      "allowed_negatives": 17399,
+      "expected_unmasked_contamination": 0.0028,
+      "empirical_unmasked_contamination": 0.0033,
+      "audit_draws": 51000
+    },
+    "17858": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "25383": {
+      "known_positives_masked": 41,
+      "allowed_negatives": 17407,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "19570": {
+      "known_positives_masked": 74,
+      "allowed_negatives": 17374,
+      "expected_unmasked_contamination": 0.0042,
+      "empirical_unmasked_contamination": 0.0045,
+      "audit_draws": 51000
+    },
+    "1947": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "12936": {
+      "known_positives_masked": 17,
+      "allowed_negatives": 17431,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "18960": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "20065": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "4467": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "5750": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "22285": {
+      "known_positives_masked": 33,
+      "allowed_negatives": 17415,
+      "expected_unmasked_contamination": 0.0019,
+      "empirical_unmasked_contamination": 0.002,
+      "audit_draws": 51000
+    },
+    "23405": {
+      "known_positives_masked": 115,
+      "allowed_negatives": 17333,
+      "expected_unmasked_contamination": 0.0066,
+      "empirical_unmasked_contamination": 0.0074,
+      "audit_draws": 51000
+    },
+    "29401": {
+      "known_positives_masked": 14,
+      "allowed_negatives": 17434,
+      "expected_unmasked_contamination": 0.0008,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "16667": {
+      "known_positives_masked": 14,
+      "allowed_negatives": 17434,
+      "expected_unmasked_contamination": 0.0008,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "18714": {
+      "known_positives_masked": 118,
+      "allowed_negatives": 17330,
+      "expected_unmasked_contamination": 0.0068,
+      "empirical_unmasked_contamination": 0.0069,
+      "audit_draws": 51000
+    },
+    "26658": {
+      "known_positives_masked": 162,
+      "allowed_negatives": 17286,
+      "expected_unmasked_contamination": 0.0093,
+      "empirical_unmasked_contamination": 0.0099,
+      "audit_draws": 51000
+    },
+    "3311": {
+      "known_positives_masked": 132,
+      "allowed_negatives": 17316,
+      "expected_unmasked_contamination": 0.0076,
+      "empirical_unmasked_contamination": 0.0084,
+      "audit_draws": 51000
+    },
+    "20601": {
+      "known_positives_masked": 65,
+      "allowed_negatives": 17383,
+      "expected_unmasked_contamination": 0.0037,
+      "empirical_unmasked_contamination": 0.0041,
+      "audit_draws": 51000
+    },
+    "12325": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "40525": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "31916": {
+      "known_positives_masked": 170,
+      "allowed_negatives": 17278,
+      "expected_unmasked_contamination": 0.0097,
+      "empirical_unmasked_contamination": 0.0095,
+      "audit_draws": 51000
+    },
+    "12840": {
+      "known_positives_masked": 256,
+      "allowed_negatives": 17192,
+      "expected_unmasked_contamination": 0.0147,
+      "empirical_unmasked_contamination": 0.0149,
+      "audit_draws": 51000
+    },
+    "36570": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "26107": {
+      "known_positives_masked": 167,
+      "allowed_negatives": 17281,
+      "expected_unmasked_contamination": 0.0096,
+      "empirical_unmasked_contamination": 0.0096,
+      "audit_draws": 51000
+    },
+    "24593": {
+      "known_positives_masked": 249,
+      "allowed_negatives": 17199,
+      "expected_unmasked_contamination": 0.0143,
+      "empirical_unmasked_contamination": 0.0144,
+      "audit_draws": 51000
+    },
+    "19770": {
+      "known_positives_masked": 741,
+      "allowed_negatives": 16707,
+      "expected_unmasked_contamination": 0.0425,
+      "empirical_unmasked_contamination": 0.043,
+      "audit_draws": 51000
+    },
+    "26042": {
+      "known_positives_masked": 2929,
+      "allowed_negatives": 14519,
+      "expected_unmasked_contamination": 0.1679,
+      "empirical_unmasked_contamination": 0.166,
+      "audit_draws": 51000
+    },
+    "37549": {
+      "known_positives_masked": 8,
+      "allowed_negatives": 17440,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "13033": {
+      "known_positives_masked": 1589,
+      "allowed_negatives": 15859,
+      "expected_unmasked_contamination": 0.0911,
+      "empirical_unmasked_contamination": 0.0941,
+      "audit_draws": 51000
+    },
+    "29510": {
+      "known_positives_masked": 153,
+      "allowed_negatives": 17295,
+      "expected_unmasked_contamination": 0.0088,
+      "empirical_unmasked_contamination": 0.0093,
+      "audit_draws": 51000
+    },
+    "31839": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "33941": {
+      "known_positives_masked": 37,
+      "allowed_negatives": 17411,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0023,
+      "audit_draws": 51000
+    },
+    "21503": {
+      "known_positives_masked": 21,
+      "allowed_negatives": 17427,
+      "expected_unmasked_contamination": 0.0012,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "36248": {
+      "known_positives_masked": 72,
+      "allowed_negatives": 17376,
+      "expected_unmasked_contamination": 0.0041,
+      "empirical_unmasked_contamination": 0.0042,
+      "audit_draws": 51000
+    },
+    "24827": {
+      "known_positives_masked": 179,
+      "allowed_negatives": 17269,
+      "expected_unmasked_contamination": 0.0103,
+      "empirical_unmasked_contamination": 0.0103,
+      "audit_draws": 51000
+    },
+    "15336": {
+      "known_positives_masked": 118,
+      "allowed_negatives": 17330,
+      "expected_unmasked_contamination": 0.0068,
+      "empirical_unmasked_contamination": 0.0075,
+      "audit_draws": 51000
+    },
+    "25301": {
+      "known_positives_masked": 304,
+      "allowed_negatives": 17144,
+      "expected_unmasked_contamination": 0.0174,
+      "empirical_unmasked_contamination": 0.0175,
+      "audit_draws": 51000
+    },
+    "25349": {
+      "known_positives_masked": 133,
+      "allowed_negatives": 17315,
+      "expected_unmasked_contamination": 0.0076,
+      "empirical_unmasked_contamination": 0.0074,
+      "audit_draws": 51000
+    },
+    "37347": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "40275": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "40812": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "10020": {
+      "known_positives_masked": 1624,
+      "allowed_negatives": 15824,
+      "expected_unmasked_contamination": 0.0931,
+      "empirical_unmasked_contamination": 0.0925,
+      "audit_draws": 51000
+    },
+    "42550": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "28856": {
+      "known_positives_masked": 50,
+      "allowed_negatives": 17398,
+      "expected_unmasked_contamination": 0.0029,
+      "empirical_unmasked_contamination": 0.0031,
+      "audit_draws": 51000
+    },
+    "20733": {
+      "known_positives_masked": 32,
+      "allowed_negatives": 17416,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.002,
+      "audit_draws": 51000
+    },
+    "31993": {
+      "known_positives_masked": 53,
+      "allowed_negatives": 17395,
+      "expected_unmasked_contamination": 0.003,
+      "empirical_unmasked_contamination": 0.0029,
+      "audit_draws": 51000
+    },
+    "23055": {
+      "known_positives_masked": 229,
+      "allowed_negatives": 17219,
+      "expected_unmasked_contamination": 0.0131,
+      "empirical_unmasked_contamination": 0.0134,
+      "audit_draws": 51000
+    },
+    "16090": {
+      "known_positives_masked": 942,
+      "allowed_negatives": 16506,
+      "expected_unmasked_contamination": 0.054,
+      "empirical_unmasked_contamination": 0.0552,
+      "audit_draws": 51000
+    },
+    "31196": {
+      "known_positives_masked": 23,
+      "allowed_negatives": 17425,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "37178": {
+      "known_positives_masked": 136,
+      "allowed_negatives": 17312,
+      "expected_unmasked_contamination": 0.0078,
+      "empirical_unmasked_contamination": 0.0077,
+      "audit_draws": 51000
+    },
+    "18261": {
+      "known_positives_masked": 46,
+      "allowed_negatives": 17402,
+      "expected_unmasked_contamination": 0.0026,
+      "empirical_unmasked_contamination": 0.0026,
+      "audit_draws": 51000
+    },
+    "36747": {
+      "known_positives_masked": 1161,
+      "allowed_negatives": 16287,
+      "expected_unmasked_contamination": 0.0665,
+      "empirical_unmasked_contamination": 0.0652,
+      "audit_draws": 51000
+    },
+    "25350": {
+      "known_positives_masked": 27,
+      "allowed_negatives": 17421,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "3032": {
+      "known_positives_masked": 27,
+      "allowed_negatives": 17421,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "42191": {
+      "known_positives_masked": 145,
+      "allowed_negatives": 17303,
+      "expected_unmasked_contamination": 0.0083,
+      "empirical_unmasked_contamination": 0.0085,
+      "audit_draws": 51000
+    },
+    "40350": {
+      "known_positives_masked": 54,
+      "allowed_negatives": 17394,
+      "expected_unmasked_contamination": 0.0031,
+      "empirical_unmasked_contamination": 0.0037,
+      "audit_draws": 51000
+    },
+    "40577": {
+      "known_positives_masked": 42,
+      "allowed_negatives": 17406,
+      "expected_unmasked_contamination": 0.0024,
+      "empirical_unmasked_contamination": 0.0026,
+      "audit_draws": 51000
+    },
+    "20504": {
+      "known_positives_masked": 611,
+      "allowed_negatives": 16837,
+      "expected_unmasked_contamination": 0.035,
+      "empirical_unmasked_contamination": 0.0351,
+      "audit_draws": 51000
+    },
+    "18632": {
+      "known_positives_masked": 21,
+      "allowed_negatives": 17427,
+      "expected_unmasked_contamination": 0.0012,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "41153": {
+      "known_positives_masked": 155,
+      "allowed_negatives": 17293,
+      "expected_unmasked_contamination": 0.0089,
+      "empirical_unmasked_contamination": 0.0092,
+      "audit_draws": 51000
+    },
+    "37442": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "24733": {
+      "known_positives_masked": 710,
+      "allowed_negatives": 16738,
+      "expected_unmasked_contamination": 0.0407,
+      "empirical_unmasked_contamination": 0.0404,
+      "audit_draws": 51000
+    },
+    "35985": {
+      "known_positives_masked": 412,
+      "allowed_negatives": 17036,
+      "expected_unmasked_contamination": 0.0236,
+      "empirical_unmasked_contamination": 0.0231,
+      "audit_draws": 51000
+    },
+    "32665": {
+      "known_positives_masked": 143,
+      "allowed_negatives": 17305,
+      "expected_unmasked_contamination": 0.0082,
+      "empirical_unmasked_contamination": 0.0083,
+      "audit_draws": 51000
+    },
+    "42612": {
+      "known_positives_masked": 29,
+      "allowed_negatives": 17419,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "41005": {
+      "known_positives_masked": 29,
+      "allowed_negatives": 17419,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "21757": {
+      "known_positives_masked": 48,
+      "allowed_negatives": 17400,
+      "expected_unmasked_contamination": 0.0028,
+      "empirical_unmasked_contamination": 0.0027,
+      "audit_draws": 51000
+    },
+    "31790": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "42102": {
+      "known_positives_masked": 33,
+      "allowed_negatives": 17415,
+      "expected_unmasked_contamination": 0.0019,
+      "empirical_unmasked_contamination": 0.002,
+      "audit_draws": 51000
+    },
+    "34869": {
+      "known_positives_masked": 119,
+      "allowed_negatives": 17329,
+      "expected_unmasked_contamination": 0.0068,
+      "empirical_unmasked_contamination": 0.0074,
+      "audit_draws": 51000
+    },
+    "41953": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "38072": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "39573": {
+      "known_positives_masked": 97,
+      "allowed_negatives": 17351,
+      "expected_unmasked_contamination": 0.0056,
+      "empirical_unmasked_contamination": 0.0058,
+      "audit_draws": 51000
+    },
+    "14068": {
+      "known_positives_masked": 56,
+      "allowed_negatives": 17392,
+      "expected_unmasked_contamination": 0.0032,
+      "empirical_unmasked_contamination": 0.0031,
+      "audit_draws": 51000
+    },
+    "32440": {
+      "known_positives_masked": 21,
+      "allowed_negatives": 17427,
+      "expected_unmasked_contamination": 0.0012,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "17963": {
+      "known_positives_masked": 1668,
+      "allowed_negatives": 15780,
+      "expected_unmasked_contamination": 0.0956,
+      "empirical_unmasked_contamination": 0.0942,
+      "audit_draws": 51000
+    },
+    "30229": {
+      "known_positives_masked": 226,
+      "allowed_negatives": 17222,
+      "expected_unmasked_contamination": 0.013,
+      "empirical_unmasked_contamination": 0.0138,
+      "audit_draws": 51000
+    },
+    "28481": {
+      "known_positives_masked": 194,
+      "allowed_negatives": 17254,
+      "expected_unmasked_contamination": 0.0111,
+      "empirical_unmasked_contamination": 0.0112,
+      "audit_draws": 51000
+    },
+    "35056": {
+      "known_positives_masked": 37,
+      "allowed_negatives": 17411,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0022,
+      "audit_draws": 51000
+    },
+    "18952": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "37018": {
+      "known_positives_masked": 471,
+      "allowed_negatives": 16977,
+      "expected_unmasked_contamination": 0.027,
+      "empirical_unmasked_contamination": 0.0284,
+      "audit_draws": 51000
+    },
+    "25204": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "8724": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "18381": {
+      "known_positives_masked": 111,
+      "allowed_negatives": 17337,
+      "expected_unmasked_contamination": 0.0064,
+      "empirical_unmasked_contamination": 0.0064,
+      "audit_draws": 51000
+    },
+    "38375": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "39045": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "39715": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "38874": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "34068": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "31694": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "39075": {
+      "known_positives_masked": 135,
+      "allowed_negatives": 17313,
+      "expected_unmasked_contamination": 0.0077,
+      "empirical_unmasked_contamination": 0.0082,
+      "audit_draws": 51000
+    },
+    "11121": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "36209": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "35946": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "35798": {
+      "known_positives_masked": 44,
+      "allowed_negatives": 17404,
+      "expected_unmasked_contamination": 0.0025,
+      "empirical_unmasked_contamination": 0.0026,
+      "audit_draws": 51000
+    },
+    "35068": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "39749": {
+      "known_positives_masked": 11,
+      "allowed_negatives": 17437,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "41664": {
+      "known_positives_masked": 11,
+      "allowed_negatives": 17437,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "41756": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "41584": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "16259": {
+      "known_positives_masked": 329,
+      "allowed_negatives": 17119,
+      "expected_unmasked_contamination": 0.0189,
+      "empirical_unmasked_contamination": 0.0193,
+      "audit_draws": 51000
+    },
+    "32001": {
+      "known_positives_masked": 38,
+      "allowed_negatives": 17410,
+      "expected_unmasked_contamination": 0.0022,
+      "empirical_unmasked_contamination": 0.0025,
+      "audit_draws": 51000
+    },
+    "32135": {
+      "known_positives_masked": 11,
+      "allowed_negatives": 17437,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "35348": {
+      "known_positives_masked": 67,
+      "allowed_negatives": 17381,
+      "expected_unmasked_contamination": 0.0038,
+      "empirical_unmasked_contamination": 0.0042,
+      "audit_draws": 51000
+    },
+    "2323": {
+      "known_positives_masked": 48,
+      "allowed_negatives": 17400,
+      "expected_unmasked_contamination": 0.0028,
+      "empirical_unmasked_contamination": 0.0033,
+      "audit_draws": 51000
+    },
+    "13906": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "34969": {
+      "known_positives_masked": 90,
+      "allowed_negatives": 17358,
+      "expected_unmasked_contamination": 0.0052,
+      "empirical_unmasked_contamination": 0.0046,
+      "audit_draws": 51000
+    },
+    "31377": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "41088": {
+      "known_positives_masked": 124,
+      "allowed_negatives": 17324,
+      "expected_unmasked_contamination": 0.0071,
+      "empirical_unmasked_contamination": 0.0077,
+      "audit_draws": 51000
+    },
+    "31568": {
+      "known_positives_masked": 41,
+      "allowed_negatives": 17407,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "41242": {
+      "known_positives_masked": 22,
+      "allowed_negatives": 17426,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "35894": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "37081": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "23226": {
+      "known_positives_masked": 52,
+      "allowed_negatives": 17396,
+      "expected_unmasked_contamination": 0.003,
+      "empirical_unmasked_contamination": 0.0034,
+      "audit_draws": 51000
+    },
+    "15153": {
+      "known_positives_masked": 811,
+      "allowed_negatives": 16637,
+      "expected_unmasked_contamination": 0.0465,
+      "empirical_unmasked_contamination": 0.0471,
+      "audit_draws": 51000
+    },
+    "40439": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "42510": {
+      "known_positives_masked": 183,
+      "allowed_negatives": 17265,
+      "expected_unmasked_contamination": 0.0105,
+      "empirical_unmasked_contamination": 0.0112,
+      "audit_draws": 51000
+    },
+    "17828": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "6668": {
+      "known_positives_masked": 41,
+      "allowed_negatives": 17407,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0022,
+      "audit_draws": 51000
+    },
+    "39311": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "26618": {
+      "known_positives_masked": 11,
+      "allowed_negatives": 17437,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "28167": {
+      "known_positives_masked": 24,
+      "allowed_negatives": 17424,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "30519": {
+      "known_positives_masked": 114,
+      "allowed_negatives": 17334,
+      "expected_unmasked_contamination": 0.0065,
+      "empirical_unmasked_contamination": 0.0075,
+      "audit_draws": 51000
+    },
+    "19771": {
+      "known_positives_masked": 39,
+      "allowed_negatives": 17409,
+      "expected_unmasked_contamination": 0.0022,
+      "empirical_unmasked_contamination": 0.0023,
+      "audit_draws": 51000
+    },
+    "42143": {
+      "known_positives_masked": 46,
+      "allowed_negatives": 17402,
+      "expected_unmasked_contamination": 0.0026,
+      "empirical_unmasked_contamination": 0.003,
+      "audit_draws": 51000
+    },
+    "42582": {
+      "known_positives_masked": 130,
+      "allowed_negatives": 17318,
+      "expected_unmasked_contamination": 0.0075,
+      "empirical_unmasked_contamination": 0.0078,
+      "audit_draws": 51000
+    },
+    "18443": {
+      "known_positives_masked": 247,
+      "allowed_negatives": 17201,
+      "expected_unmasked_contamination": 0.0142,
+      "empirical_unmasked_contamination": 0.0143,
+      "audit_draws": 51000
+    },
+    "12981": {
+      "known_positives_masked": 157,
+      "allowed_negatives": 17291,
+      "expected_unmasked_contamination": 0.009,
+      "empirical_unmasked_contamination": 0.0095,
+      "audit_draws": 51000
+    },
+    "35954": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "25290": {
+      "known_positives_masked": 303,
+      "allowed_negatives": 17145,
+      "expected_unmasked_contamination": 0.0174,
+      "empirical_unmasked_contamination": 0.018,
+      "audit_draws": 51000
+    },
+    "23434": {
+      "known_positives_masked": 138,
+      "allowed_negatives": 17310,
+      "expected_unmasked_contamination": 0.0079,
+      "empirical_unmasked_contamination": 0.0089,
+      "audit_draws": 51000
+    },
+    "8602": {
+      "known_positives_masked": 27,
+      "allowed_negatives": 17421,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "35354": {
+      "known_positives_masked": 327,
+      "allowed_negatives": 17121,
+      "expected_unmasked_contamination": 0.0187,
+      "empirical_unmasked_contamination": 0.0202,
+      "audit_draws": 51000
+    },
+    "18606": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "24449": {
+      "known_positives_masked": 232,
+      "allowed_negatives": 17216,
+      "expected_unmasked_contamination": 0.0133,
+      "empirical_unmasked_contamination": 0.0135,
+      "audit_draws": 51000
+    },
+    "20685": {
+      "known_positives_masked": 291,
+      "allowed_negatives": 17157,
+      "expected_unmasked_contamination": 0.0167,
+      "empirical_unmasked_contamination": 0.0165,
+      "audit_draws": 51000
+    },
+    "17882": {
+      "known_positives_masked": 298,
+      "allowed_negatives": 17150,
+      "expected_unmasked_contamination": 0.0171,
+      "empirical_unmasked_contamination": 0.0179,
+      "audit_draws": 51000
+    },
+    "29790": {
+      "known_positives_masked": 6835,
+      "allowed_negatives": 10613,
+      "expected_unmasked_contamination": 0.3917,
+      "empirical_unmasked_contamination": 0.3952,
+      "audit_draws": 51000
+    },
+    "22846": {
+      "known_positives_masked": 389,
+      "allowed_negatives": 17059,
+      "expected_unmasked_contamination": 0.0223,
+      "empirical_unmasked_contamination": 0.0219,
+      "audit_draws": 51000
+    },
+    "17267": {
+      "known_positives_masked": 173,
+      "allowed_negatives": 17275,
+      "expected_unmasked_contamination": 0.0099,
+      "empirical_unmasked_contamination": 0.0103,
+      "audit_draws": 51000
+    },
+    "20978": {
+      "known_positives_masked": 392,
+      "allowed_negatives": 17056,
+      "expected_unmasked_contamination": 0.0225,
+      "empirical_unmasked_contamination": 0.0223,
+      "audit_draws": 51000
+    },
+    "17382": {
+      "known_positives_masked": 57,
+      "allowed_negatives": 17391,
+      "expected_unmasked_contamination": 0.0033,
+      "empirical_unmasked_contamination": 0.0032,
+      "audit_draws": 51000
+    },
+    "27390": {
+      "known_positives_masked": 1681,
+      "allowed_negatives": 15767,
+      "expected_unmasked_contamination": 0.0963,
+      "empirical_unmasked_contamination": 0.0974,
+      "audit_draws": 51000
+    },
+    "3992": {
+      "known_positives_masked": 2180,
+      "allowed_negatives": 15268,
+      "expected_unmasked_contamination": 0.1249,
+      "empirical_unmasked_contamination": 0.1251,
+      "audit_draws": 51000
+    },
+    "23117": {
+      "known_positives_masked": 1999,
+      "allowed_negatives": 15449,
+      "expected_unmasked_contamination": 0.1146,
+      "empirical_unmasked_contamination": 0.1166,
+      "audit_draws": 51000
+    },
+    "32473": {
+      "known_positives_masked": 509,
+      "allowed_negatives": 16939,
+      "expected_unmasked_contamination": 0.0292,
+      "empirical_unmasked_contamination": 0.0293,
+      "audit_draws": 51000
+    },
+    "42773": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "25608": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "16786": {
+      "known_positives_masked": 355,
+      "allowed_negatives": 17093,
+      "expected_unmasked_contamination": 0.0203,
+      "empirical_unmasked_contamination": 0.0204,
+      "audit_draws": 51000
+    },
+    "13677": {
+      "known_positives_masked": 285,
+      "allowed_negatives": 17163,
+      "expected_unmasked_contamination": 0.0163,
+      "empirical_unmasked_contamination": 0.0164,
+      "audit_draws": 51000
+    },
+    "31872": {
+      "known_positives_masked": 49,
+      "allowed_negatives": 17399,
+      "expected_unmasked_contamination": 0.0028,
+      "empirical_unmasked_contamination": 0.0027,
+      "audit_draws": 51000
+    },
+    "16091": {
+      "known_positives_masked": 330,
+      "allowed_negatives": 17118,
+      "expected_unmasked_contamination": 0.0189,
+      "empirical_unmasked_contamination": 0.0195,
+      "audit_draws": 51000
+    },
+    "27947": {
+      "known_positives_masked": 4049,
+      "allowed_negatives": 13399,
+      "expected_unmasked_contamination": 0.2321,
+      "empirical_unmasked_contamination": 0.2356,
+      "audit_draws": 51000
+    },
+    "39733": {
+      "known_positives_masked": 27,
+      "allowed_negatives": 17421,
+      "expected_unmasked_contamination": 0.0015,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "41888": {
+      "known_positives_masked": 24,
+      "allowed_negatives": 17424,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "39511": {
+      "known_positives_masked": 19,
+      "allowed_negatives": 17429,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "33338": {
+      "known_positives_masked": 28,
+      "allowed_negatives": 17420,
+      "expected_unmasked_contamination": 0.0016,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "21903": {
+      "known_positives_masked": 31,
+      "allowed_negatives": 17417,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.002,
+      "audit_draws": 51000
+    },
+    "17928": {
+      "known_positives_masked": 119,
+      "allowed_negatives": 17329,
+      "expected_unmasked_contamination": 0.0068,
+      "empirical_unmasked_contamination": 0.0069,
+      "audit_draws": 51000
+    },
+    "11224": {
+      "known_positives_masked": 30,
+      "allowed_negatives": 17418,
+      "expected_unmasked_contamination": 0.0017,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "16597": {
+      "known_positives_masked": 1949,
+      "allowed_negatives": 15499,
+      "expected_unmasked_contamination": 0.1117,
+      "empirical_unmasked_contamination": 0.1115,
+      "audit_draws": 51000
+    },
+    "15619": {
+      "known_positives_masked": 329,
+      "allowed_negatives": 17119,
+      "expected_unmasked_contamination": 0.0189,
+      "empirical_unmasked_contamination": 0.0197,
+      "audit_draws": 51000
+    },
+    "35136": {
+      "known_positives_masked": 285,
+      "allowed_negatives": 17163,
+      "expected_unmasked_contamination": 0.0163,
+      "empirical_unmasked_contamination": 0.0165,
+      "audit_draws": 51000
+    },
+    "28200": {
+      "known_positives_masked": 656,
+      "allowed_negatives": 16792,
+      "expected_unmasked_contamination": 0.0376,
+      "empirical_unmasked_contamination": 0.0386,
+      "audit_draws": 51000
+    },
+    "17008": {
+      "known_positives_masked": 583,
+      "allowed_negatives": 16865,
+      "expected_unmasked_contamination": 0.0334,
+      "empirical_unmasked_contamination": 0.0325,
+      "audit_draws": 51000
+    },
+    "10409": {
+      "known_positives_masked": 1956,
+      "allowed_negatives": 15492,
+      "expected_unmasked_contamination": 0.1121,
+      "empirical_unmasked_contamination": 0.1119,
+      "audit_draws": 51000
+    },
+    "15339": {
+      "known_positives_masked": 329,
+      "allowed_negatives": 17119,
+      "expected_unmasked_contamination": 0.0189,
+      "empirical_unmasked_contamination": 0.0197,
+      "audit_draws": 51000
+    },
+    "32311": {
+      "known_positives_masked": 234,
+      "allowed_negatives": 17214,
+      "expected_unmasked_contamination": 0.0134,
+      "empirical_unmasked_contamination": 0.0139,
+      "audit_draws": 51000
+    },
+    "667": {
+      "known_positives_masked": 235,
+      "allowed_negatives": 17213,
+      "expected_unmasked_contamination": 0.0135,
+      "empirical_unmasked_contamination": 0.0141,
+      "audit_draws": 51000
+    },
+    "22002": {
+      "known_positives_masked": 2932,
+      "allowed_negatives": 14516,
+      "expected_unmasked_contamination": 0.168,
+      "empirical_unmasked_contamination": 0.1694,
+      "audit_draws": 51000
+    },
+    "34190": {
+      "known_positives_masked": 164,
+      "allowed_negatives": 17284,
+      "expected_unmasked_contamination": 0.0094,
+      "empirical_unmasked_contamination": 0.0105,
+      "audit_draws": 51000
+    },
+    "42592": {
+      "known_positives_masked": 23,
+      "allowed_negatives": 17425,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "11336": {
+      "known_positives_masked": 22,
+      "allowed_negatives": 17426,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0012,
+      "audit_draws": 51000
+    },
+    "11065": {
+      "known_positives_masked": 601,
+      "allowed_negatives": 16847,
+      "expected_unmasked_contamination": 0.0344,
+      "empirical_unmasked_contamination": 0.0325,
+      "audit_draws": 51000
+    },
+    "41070": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "21795": {
+      "known_positives_masked": 706,
+      "allowed_negatives": 16742,
+      "expected_unmasked_contamination": 0.0405,
+      "empirical_unmasked_contamination": 0.0425,
+      "audit_draws": 51000
+    },
+    "33163": {
+      "known_positives_masked": 155,
+      "allowed_negatives": 17293,
+      "expected_unmasked_contamination": 0.0089,
+      "empirical_unmasked_contamination": 0.0085,
+      "audit_draws": 51000
+    },
+    "30797": {
+      "known_positives_masked": 4564,
+      "allowed_negatives": 12884,
+      "expected_unmasked_contamination": 0.2616,
+      "empirical_unmasked_contamination": 0.2599,
+      "audit_draws": 51000
+    },
+    "11741": {
+      "known_positives_masked": 6708,
+      "allowed_negatives": 10740,
+      "expected_unmasked_contamination": 0.3845,
+      "empirical_unmasked_contamination": 0.385,
+      "audit_draws": 51000
+    },
+    "37293": {
+      "known_positives_masked": 154,
+      "allowed_negatives": 17294,
+      "expected_unmasked_contamination": 0.0088,
+      "empirical_unmasked_contamination": 0.0088,
+      "audit_draws": 51000
+    },
+    "39896": {
+      "known_positives_masked": 4900,
+      "allowed_negatives": 12548,
+      "expected_unmasked_contamination": 0.2808,
+      "empirical_unmasked_contamination": 0.2799,
+      "audit_draws": 51000
+    },
+    "13905": {
+      "known_positives_masked": 11636,
+      "allowed_negatives": 5812,
+      "expected_unmasked_contamination": 0.6669,
+      "empirical_unmasked_contamination": 0.6696,
+      "audit_draws": 51000
+    },
+    "17881": {
+      "known_positives_masked": 1653,
+      "allowed_negatives": 15795,
+      "expected_unmasked_contamination": 0.0947,
+      "empirical_unmasked_contamination": 0.095,
+      "audit_draws": 51000
+    },
+    "1479": {
+      "known_positives_masked": 114,
+      "allowed_negatives": 17334,
+      "expected_unmasked_contamination": 0.0065,
+      "empirical_unmasked_contamination": 0.0062,
+      "audit_draws": 51000
+    },
+    "18058": {
+      "known_positives_masked": 14,
+      "allowed_negatives": 17434,
+      "expected_unmasked_contamination": 0.0008,
+      "empirical_unmasked_contamination": 0.0009,
+      "audit_draws": 51000
+    },
+    "14793": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "25751": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "3097": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "16269": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "27451": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "23232": {
+      "known_positives_masked": 40,
+      "allowed_negatives": 17408,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "26143": {
+      "known_positives_masked": 467,
+      "allowed_negatives": 16981,
+      "expected_unmasked_contamination": 0.0268,
+      "empirical_unmasked_contamination": 0.0256,
+      "audit_draws": 51000
+    },
+    "20671": {
+      "known_positives_masked": 155,
+      "allowed_negatives": 17293,
+      "expected_unmasked_contamination": 0.0089,
+      "empirical_unmasked_contamination": 0.0088,
+      "audit_draws": 51000
+    },
+    "16734": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "30447": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "15506": {
+      "known_positives_masked": 14,
+      "allowed_negatives": 17434,
+      "expected_unmasked_contamination": 0.0008,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "15975": {
+      "known_positives_masked": 32,
+      "allowed_negatives": 17416,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "15237": {
+      "known_positives_masked": 7,
+      "allowed_negatives": 17441,
+      "expected_unmasked_contamination": 0.0004,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "23836": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "24349": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "15831": {
+      "known_positives_masked": 151,
+      "allowed_negatives": 17297,
+      "expected_unmasked_contamination": 0.0087,
+      "empirical_unmasked_contamination": 0.0087,
+      "audit_draws": 51000
+    },
+    "13180": {
+      "known_positives_masked": 66,
+      "allowed_negatives": 17382,
+      "expected_unmasked_contamination": 0.0038,
+      "empirical_unmasked_contamination": 0.0039,
+      "audit_draws": 51000
+    },
+    "24279": {
+      "known_positives_masked": 22,
+      "allowed_negatives": 17426,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "17695": {
+      "known_positives_masked": 16,
+      "allowed_negatives": 17432,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0007,
+      "audit_draws": 51000
+    },
+    "14772": {
+      "known_positives_masked": 20,
+      "allowed_negatives": 17428,
+      "expected_unmasked_contamination": 0.0011,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "35921": {
+      "known_positives_masked": 141,
+      "allowed_negatives": 17307,
+      "expected_unmasked_contamination": 0.0081,
+      "empirical_unmasked_contamination": 0.0082,
+      "audit_draws": 51000
+    },
+    "20492": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "23092": {
+      "known_positives_masked": 38,
+      "allowed_negatives": 17410,
+      "expected_unmasked_contamination": 0.0022,
+      "empirical_unmasked_contamination": 0.0024,
+      "audit_draws": 51000
+    },
+    "2594": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "7828": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "25521": {
+      "known_positives_masked": 24,
+      "allowed_negatives": 17424,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "6367": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "19172": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "19150": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "21559": {
+      "known_positives_masked": 14,
+      "allowed_negatives": 17434,
+      "expected_unmasked_contamination": 0.0008,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "16919": {
+      "known_positives_masked": 22,
+      "allowed_negatives": 17426,
+      "expected_unmasked_contamination": 0.0013,
+      "empirical_unmasked_contamination": 0.0013,
+      "audit_draws": 51000
+    },
+    "13473": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "20624": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "19620": {
+      "known_positives_masked": 32,
+      "allowed_negatives": 17416,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.0016,
+      "audit_draws": 51000
+    },
+    "27368": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "15389": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "38549": {
+      "known_positives_masked": 76,
+      "allowed_negatives": 17372,
+      "expected_unmasked_contamination": 0.0044,
+      "empirical_unmasked_contamination": 0.0047,
+      "audit_draws": 51000
+    },
+    "13026": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "33260": {
+      "known_positives_masked": 65,
+      "allowed_negatives": 17383,
+      "expected_unmasked_contamination": 0.0037,
+      "empirical_unmasked_contamination": 0.004,
+      "audit_draws": 51000
+    },
+    "29219": {
+      "known_positives_masked": 792,
+      "allowed_negatives": 16656,
+      "expected_unmasked_contamination": 0.0454,
+      "empirical_unmasked_contamination": 0.0468,
+      "audit_draws": 51000
+    },
+    "4321": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "12962": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "3342": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "15340": {
+      "known_positives_masked": 126,
+      "allowed_negatives": 17322,
+      "expected_unmasked_contamination": 0.0072,
+      "empirical_unmasked_contamination": 0.0074,
+      "audit_draws": 51000
+    },
+    "18004": {
+      "known_positives_masked": 12,
+      "allowed_negatives": 17436,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "39897": {
+      "known_positives_masked": 31,
+      "allowed_negatives": 17417,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "16530": {
+      "known_positives_masked": 170,
+      "allowed_negatives": 17278,
+      "expected_unmasked_contamination": 0.0097,
+      "empirical_unmasked_contamination": 0.0104,
+      "audit_draws": 51000
+    },
+    "16493": {
+      "known_positives_masked": 16,
+      "allowed_negatives": 17432,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "12562": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0004,
+      "audit_draws": 51000
+    },
+    "18241": {
+      "known_positives_masked": 98,
+      "allowed_negatives": 17350,
+      "expected_unmasked_contamination": 0.0056,
+      "empirical_unmasked_contamination": 0.0059,
+      "audit_draws": 51000
+    },
+    "26391": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "26106": {
+      "known_positives_masked": 405,
+      "allowed_negatives": 17043,
+      "expected_unmasked_contamination": 0.0232,
+      "empirical_unmasked_contamination": 0.0237,
+      "audit_draws": 51000
+    },
+    "9473": {
+      "known_positives_masked": 18,
+      "allowed_negatives": 17430,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "21322": {
+      "known_positives_masked": 532,
+      "allowed_negatives": 16916,
+      "expected_unmasked_contamination": 0.0305,
+      "empirical_unmasked_contamination": 0.0293,
+      "audit_draws": 51000
+    },
+    "32325": {
+      "known_positives_masked": 381,
+      "allowed_negatives": 17067,
+      "expected_unmasked_contamination": 0.0218,
+      "empirical_unmasked_contamination": 0.0214,
+      "audit_draws": 51000
+    },
+    "31921": {
+      "known_positives_masked": 143,
+      "allowed_negatives": 17305,
+      "expected_unmasked_contamination": 0.0082,
+      "empirical_unmasked_contamination": 0.0083,
+      "audit_draws": 51000
+    },
+    "38978": {
+      "known_positives_masked": 38,
+      "allowed_negatives": 17410,
+      "expected_unmasked_contamination": 0.0022,
+      "empirical_unmasked_contamination": 0.0022,
+      "audit_draws": 51000
+    },
+    "35854": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "21412": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0006,
+      "audit_draws": 51000
+    },
+    "34700": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "30772": {
+      "known_positives_masked": 9,
+      "allowed_negatives": 17439,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "30232": {
+      "known_positives_masked": 32,
+      "allowed_negatives": 17416,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.0018,
+      "audit_draws": 51000
+    },
+    "16599": {
+      "known_positives_masked": 41,
+      "allowed_negatives": 17407,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "30203": {
+      "known_positives_masked": 15,
+      "allowed_negatives": 17433,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "23721": {
+      "known_positives_masked": 17,
+      "allowed_negatives": 17431,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "24960": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "35564": {
+      "known_positives_masked": 16,
+      "allowed_negatives": 17432,
+      "expected_unmasked_contamination": 0.0009,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "37407": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "33417": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "27900": {
+      "known_positives_masked": 36,
+      "allowed_negatives": 17412,
+      "expected_unmasked_contamination": 0.0021,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "25362": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "35418": {
+      "known_positives_masked": 4854,
+      "allowed_negatives": 12594,
+      "expected_unmasked_contamination": 0.2782,
+      "empirical_unmasked_contamination": 0.2773,
+      "audit_draws": 51000
+    },
+    "27899": {
+      "known_positives_masked": 69,
+      "allowed_negatives": 17379,
+      "expected_unmasked_contamination": 0.004,
+      "empirical_unmasked_contamination": 0.0039,
+      "audit_draws": 51000
+    },
+    "10410": {
+      "known_positives_masked": 2060,
+      "allowed_negatives": 15388,
+      "expected_unmasked_contamination": 0.1181,
+      "empirical_unmasked_contamination": 0.117,
+      "audit_draws": 51000
+    },
+    "34114": {
+      "known_positives_masked": 41,
+      "allowed_negatives": 17407,
+      "expected_unmasked_contamination": 0.0023,
+      "empirical_unmasked_contamination": 0.0021,
+      "audit_draws": 51000
+    },
+    "26426": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "22631": {
+      "known_positives_masked": 28,
+      "allowed_negatives": 17420,
+      "expected_unmasked_contamination": 0.0016,
+      "empirical_unmasked_contamination": 0.0017,
+      "audit_draws": 51000
+    },
+    "27956": {
+      "known_positives_masked": 13,
+      "allowed_negatives": 17435,
+      "expected_unmasked_contamination": 0.0007,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "3220": {
+      "known_positives_masked": 45,
+      "allowed_negatives": 17403,
+      "expected_unmasked_contamination": 0.0026,
+      "empirical_unmasked_contamination": 0.0026,
+      "audit_draws": 51000
+    },
+    "24961": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "39538": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "29560": {
+      "known_positives_masked": 138,
+      "allowed_negatives": 17310,
+      "expected_unmasked_contamination": 0.0079,
+      "empirical_unmasked_contamination": 0.0079,
+      "audit_draws": 51000
+    },
+    "40992": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "18146": {
+      "known_positives_masked": 158,
+      "allowed_negatives": 17290,
+      "expected_unmasked_contamination": 0.0091,
+      "empirical_unmasked_contamination": 0.0097,
+      "audit_draws": 51000
+    },
+    "7024": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0,
+      "audit_draws": 51000
+    },
+    "17678": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "26091": {
+      "known_positives_masked": 21,
+      "allowed_negatives": 17427,
+      "expected_unmasked_contamination": 0.0012,
+      "empirical_unmasked_contamination": 0.0011,
+      "audit_draws": 51000
+    },
+    "21193": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "14242": {
+      "known_positives_masked": 31,
+      "allowed_negatives": 17417,
+      "expected_unmasked_contamination": 0.0018,
+      "empirical_unmasked_contamination": 0.0014,
+      "audit_draws": 51000
+    },
+    "4363": {
+      "known_positives_masked": 2,
+      "allowed_negatives": 17446,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "3873": {
+      "known_positives_masked": 4,
+      "allowed_negatives": 17444,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0002,
+      "audit_draws": 51000
+    },
+    "3407": {
+      "known_positives_masked": 8,
+      "allowed_negatives": 17440,
+      "expected_unmasked_contamination": 0.0005,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "27353": {
+      "known_positives_masked": 3,
+      "allowed_negatives": 17445,
+      "expected_unmasked_contamination": 0.0002,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "20190": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "33384": {
+      "known_positives_masked": 151,
+      "allowed_negatives": 17297,
+      "expected_unmasked_contamination": 0.0087,
+      "empirical_unmasked_contamination": 0.0087,
+      "audit_draws": 51000
+    },
+    "26609": {
+      "known_positives_masked": 17,
+      "allowed_negatives": 17431,
+      "expected_unmasked_contamination": 0.001,
+      "empirical_unmasked_contamination": 0.001,
+      "audit_draws": 51000
+    },
+    "26868": {
+      "known_positives_masked": 129,
+      "allowed_negatives": 17319,
+      "expected_unmasked_contamination": 0.0074,
+      "empirical_unmasked_contamination": 0.008,
+      "audit_draws": 51000
+    },
+    "4682": {
+      "known_positives_masked": 56,
+      "allowed_negatives": 17392,
+      "expected_unmasked_contamination": 0.0032,
+      "empirical_unmasked_contamination": 0.0033,
+      "audit_draws": 51000
+    },
+    "6356": {
+      "known_positives_masked": 5,
+      "allowed_negatives": 17443,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0003,
+      "audit_draws": 51000
+    },
+    "40990": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "21452": {
+      "known_positives_masked": 25,
+      "allowed_negatives": 17423,
+      "expected_unmasked_contamination": 0.0014,
+      "empirical_unmasked_contamination": 0.0015,
+      "audit_draws": 51000
+    },
+    "33699": {
+      "known_positives_masked": 150,
+      "allowed_negatives": 17298,
+      "expected_unmasked_contamination": 0.0086,
+      "empirical_unmasked_contamination": 0.0091,
+      "audit_draws": 51000
+    },
+    "39117": {
+      "known_positives_masked": 6,
+      "allowed_negatives": 17442,
+      "expected_unmasked_contamination": 0.0003,
+      "empirical_unmasked_contamination": 0.0005,
+      "audit_draws": 51000
+    },
+    "7536": {
+      "known_positives_masked": 1,
+      "allowed_negatives": 17447,
+      "expected_unmasked_contamination": 0.0001,
+      "empirical_unmasked_contamination": 0.0001,
+      "audit_draws": 51000
+    },
+    "7515": {
+      "known_positives_masked": 10,
+      "allowed_negatives": 17438,
+      "expected_unmasked_contamination": 0.0006,
+      "empirical_unmasked_contamination": 0.0008,
+      "audit_draws": 51000
+    },
+    "78": {
+      "known_positives_masked": 45,
+      "allowed_negatives": 17403,
+      "expected_unmasked_contamination": 0.0026,
+      "empirical_unmasked_contamination": 0.0027,
+      "audit_draws": 51000
+    },
+    "1430": {
+      "known_positives_masked": 6584,
+      "allowed_negatives": 10864,
+      "expected_unmasked_contamination": 0.3773,
+      "empirical_unmasked_contamination": 0.378,
+      "audit_draws": 51000
+    }
+  },
+  "train_loss_avg": 5.096526835113764,
+  "running_train_filtered_mrr": 0.05853499899191888,
+  "val_loss": 0.08620893784183258,
+  "val_mrr": 0.011862504924536336,
+  "val_hits10": 0.028955532574974147,
+  "peak_vram_gb": 90.46,
+  "peak_reserved_vram_gb": 101.1,
+  "ms_per_batch": 15866.639252693858,
+  "epoch_seconds": 159.3,
+  "jsonl": "reports/m2c/objective_probe/bs100_sanity/probe_rank_mondo__0005180_b100_s1337.jsonl",
+  "wall_iso": "2026-09-04T20:16:22Z"
+}

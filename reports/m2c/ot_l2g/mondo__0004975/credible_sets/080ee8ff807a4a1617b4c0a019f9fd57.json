@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6890405416488647,
+    "target": {
+     "approvedSymbol": "GPAT3",
+     "id": "ENSG00000138678"
+    }
+   },
+   {
+    "score": 0.11393483728170395,
+    "target": {
+     "approvedSymbol": "ABRAXAS1",
+     "id": "ENSG00000163322"
+    }
+   },
+   {
+    "score": 0.06449174880981445,
+    "target": {
+     "approvedSymbol": "HELQ",
+     "id": "ENSG00000163312"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "080ee8ff807a4a1617b4c0a019f9fd57",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_83575604_C_T",
+  "position": 83575604
+ }
+}

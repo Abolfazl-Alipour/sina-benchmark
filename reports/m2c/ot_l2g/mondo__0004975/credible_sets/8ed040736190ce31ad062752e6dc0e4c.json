@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7964521050453186,
+    "target": {
+     "approvedSymbol": "MAPKAP1",
+     "id": "ENSG00000119487"
+    }
+   },
+   {
+    "score": 0.11405916512012482,
+    "target": {
+     "approvedSymbol": "PBX3",
+     "id": "ENSG00000167081"
+    }
+   },
+   {
+    "score": 0.06746681779623032,
+    "target": {
+     "approvedSymbol": "GAPVD1",
+     "id": "ENSG00000165219"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "8ed040736190ce31ad062752e6dc0e4c",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_125689462_A_C",
+  "position": 125689462
+ }
+}

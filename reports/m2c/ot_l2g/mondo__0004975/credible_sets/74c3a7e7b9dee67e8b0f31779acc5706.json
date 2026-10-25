@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8882257342338562,
+    "target": {
+     "approvedSymbol": "NBPF4",
+     "id": "ENSG00000196427"
+    }
+   },
+   {
+    "score": 0.05800018832087517,
+    "target": {
+     "approvedSymbol": "SLC25A24",
+     "id": "ENSG00000085491"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "74c3a7e7b9dee67e8b0f31779acc5706",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_108226736_C_T",
+  "position": 108226736
+ }
+}

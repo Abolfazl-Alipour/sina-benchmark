@@ -1,0 +1,7 @@
+{
+  "script": "m2c_e1_preflight",
+  "status": "done",
+  "outputs": {
+    "/home/ubuntu/SinaProject/reports/m2c/e1_preflight_g7e.json": "226a6bb20648675aabe80dfaec04bde3de8499e6b4d80fa02bf644fa4d60724a"
+  }
+}

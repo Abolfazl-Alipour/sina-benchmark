@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7618913650512695,
+    "target": {
+     "approvedSymbol": "PLPPR4",
+     "id": "ENSG00000117600"
+    }
+   },
+   {
+    "score": 0.08170605450868607,
+    "target": {
+     "approvedSymbol": "PALMD",
+     "id": "ENSG00000099260"
+    }
+   },
+   {
+    "score": 0.05234009772539139,
+    "target": {
+     "approvedSymbol": "PLPPR5",
+     "id": "ENSG00000117598"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "dc1f31bdb8f02b4995c4feeffa5b9a9a",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_99242198_G_A",
+  "position": 99242198
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7535502910614014,
+    "target": {
+     "approvedSymbol": "LHFPL2",
+     "id": "ENSG00000145685"
+    }
+   },
+   {
+    "score": 0.06091751530766487,
+    "target": {
+     "approvedSymbol": "DMGDH",
+     "id": "ENSG00000132837"
+    }
+   },
+   {
+    "score": 0.05414218455553055,
+    "target": {
+     "approvedSymbol": "ARSB",
+     "id": "ENSG00000113273"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003652",
+ "studyLocusId": "fd248d17480ddfd555719fba66661987",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_78564785_A_G",
+  "position": 78564785
+ }
+}

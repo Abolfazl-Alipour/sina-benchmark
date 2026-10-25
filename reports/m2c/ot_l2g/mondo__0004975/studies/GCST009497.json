@@ -1,0 +1,12 @@
+[
+ {
+  "studyId": "GCST009497",
+  "studyLocusId": "c1350be4336d739a57287391840ac3de",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "19",
+   "id": "19_44908684_T_C",
+   "position": 44908684
+  }
+ }
+]

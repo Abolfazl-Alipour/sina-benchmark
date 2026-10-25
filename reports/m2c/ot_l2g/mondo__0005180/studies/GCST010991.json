@@ -1,0 +1,272 @@
+[
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "046a79c907c8921500e93b2b68869f8d",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "5",
+   "id": "5_60842132_A_G",
+   "position": 60842132
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "0e734caaa2ff04bc584e679beade62df",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "15",
+   "id": "15_61712597_C_T",
+   "position": 61712597
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "1141a2b852308404c4cef9f2f5ad84c6",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "4",
+   "id": "4_15751947_C_T",
+   "position": 15751947
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "1ebd855eeabc8c6a7dfd445260051503",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "12",
+   "id": "12_122807956_A_C",
+   "position": 122807956
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "24689fff0b3828b064247a0d4dbbde8d",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "12",
+   "id": "12_33075690_C_T",
+   "position": 33075690
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "4ab37c77ef98a5137e20ed7c46abe1e6",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "17",
+   "id": "17_62120839_C_T",
+   "position": 62120839
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "4d3db4a45e092753310b0a5367d9d280",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "9",
+   "id": "9_17579692_T_G",
+   "position": 17579692
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "5d6cad5f7ede8950aa9d35a39366bee6",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "18",
+   "id": "18_43093415_A_G",
+   "position": 43093415
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "6f69cf7c51295706a7a2d30bc8005a75",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "17",
+   "id": "17_46101729_G_A",
+   "position": 46101729
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "7017162b61f247ddbffe374c1ddb42f7",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "1",
+   "id": "1_156060246_C_T",
+   "position": 156060246
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "73c7a0b006b9d80ca207cc52071cf3cc",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "4",
+   "id": "4_89587189_T_G",
+   "position": 89587189
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "73c9c56195ccbde07ba3efd12d348e8c",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "10",
+   "id": "10_119651405_C_T",
+   "position": 119651405
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "7d3d6b153cb6205039c461040c24f682",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "4",
+   "id": "4_76255695_T_C",
+   "position": 76255695
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "85efdee16d54e9d1fcf63a979a73e756",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "14",
+   "id": "14_88006268_C_T",
+   "position": 88006268
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "8c3467f3b67c8d0b2387a473c795339b",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "2",
+   "id": "2_168299490_G_A",
+   "position": 168299490
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "a35df997b8714fbeb5822afc02f6c5a3",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "7",
+   "id": "7_23149317_T_C",
+   "position": 23149317
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "ae8bfce116a9e7c0a0b10120d5032393",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "5",
+   "id": "5_124774580_T_C",
+   "position": 124774580
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "b34e54ed94024aee54f2662e16bbe4b7",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "12",
+   "id": "12_40019503_C_A",
+   "position": 40019503
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "b37655e0e686ecd64da8665edbc68757",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "4",
+   "id": "4_950422_A_C",
+   "position": 950422
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "b5f2651c76b14e3c6d91cd0e0dea8b0f",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "14",
+   "id": "14_54882151_C_T",
+   "position": 54882151
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "b6df526bf702950ce84e544c14fc511b",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "3",
+   "id": "3_183034255_C_T",
+   "position": 183034255
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "d799035c9843249d1ccda4437d2f9f99",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "1",
+   "id": "1_205714227_T_G",
+   "position": 205714227
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "dcb64a3d32a48461b5b092170f0ad9b9",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "2",
+   "id": "2_134782397_C_T",
+   "position": 134782397
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "deab26fb52605d6f9b8d7e7ba9d3d975",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "11",
+   "id": "11_133917106_G_T",
+   "position": 133917106
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "e87c84b30c8cb976a6488dcdfaf6f9be",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "8",
+   "id": "8_11854934_A_C",
+   "position": 11854934
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "f3b424f1a68b4e913abce72f360d4017",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "16",
+   "id": "16_31010559_G_T",
+   "position": 31010559
+  }
+ },
+ {
+  "studyId": "GCST010991",
+  "studyLocusId": "f70e98bf5cf35a8d4c20da849c7a9e3e",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "3",
+   "id": "3_18181950_G_A",
+   "position": 18181950
+  }
+ }
+]

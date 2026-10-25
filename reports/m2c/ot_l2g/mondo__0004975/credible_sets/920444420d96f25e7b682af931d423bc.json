@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.1303868591785431,
+    "target": {
+     "approvedSymbol": "CCDC74A",
+     "id": "ENSG00000163040"
+    }
+   },
+   {
+    "score": 0.0978105217218399,
+    "target": {
+     "approvedSymbol": "MZT2A",
+     "id": "ENSG00000173272"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "920444420d96f25e7b682af931d423bc",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_131634722_C_T",
+  "position": 131634722
+ }
+}

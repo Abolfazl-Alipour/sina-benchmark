@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7130399346351624,
+    "target": {
+     "approvedSymbol": "PKP2",
+     "id": "ENSG00000057294"
+    }
+   },
+   {
+    "score": 0.12023530900478363,
+    "target": {
+     "approvedSymbol": "YARS2",
+     "id": "ENSG00000139131"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "97a2c12e26b0765502779cb2b646396c",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_32826971_A_G",
+  "position": 32826971
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5286843180656433,
+    "target": {
+     "approvedSymbol": "NSF",
+     "id": "ENSG00000073969"
+    }
+   },
+   {
+    "score": 0.15182377398014069,
+    "target": {
+     "approvedSymbol": "WNT3",
+     "id": "ENSG00000108379"
+    }
+   },
+   {
+    "score": 0.1093313992023468,
+    "target": {
+     "approvedSymbol": "WNT9B",
+     "id": "ENSG00000158955"
+    }
+   },
+   {
+    "score": 0.07489859312772751,
+    "target": {
+     "approvedSymbol": "ARL17A",
+     "id": "ENSG00000185829"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "02880e99c75d978283e8e2b3d0d72fba",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_46723580_C_T",
+  "position": 46723580
+ }
+}

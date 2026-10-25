@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.586738109588623,
+    "target": {
+     "approvedSymbol": "OR4A47",
+     "id": "ENSG00000237388"
+    }
+   },
+   {
+    "score": 0.058606334030628204,
+    "target": {
+     "approvedSymbol": "PTPRJ",
+     "id": "ENSG00000149177"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "f96dda82e8cb7fdac8f83c82d56ee03f",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_48687581_C_T",
+  "position": 48687581
+ }
+}

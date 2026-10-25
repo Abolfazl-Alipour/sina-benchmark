@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2438541203737259,
+    "target": {
+     "approvedSymbol": "FAM193A",
+     "id": "ENSG00000125386"
+    }
+   },
+   {
+    "score": 0.062323831021785736,
+    "target": {
+     "approvedSymbol": "RNF4",
+     "id": "ENSG00000063978"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "392fe3194bf91dde97b206cbdf5a1ead",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_2522176_T_C",
+  "position": 2522176
+ }
+}

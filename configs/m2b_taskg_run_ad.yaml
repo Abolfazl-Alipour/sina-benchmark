@@ -1,0 +1,42 @@
+output_dir: /opt/sina/third_party/biopathnet/experiments/
+
+dataset:
+  class: biomedical
+  path: /opt/sina/data/processed/m2/biopathnet_taskg/trackd_family_alzheimer
+  include_factgraph: True
+
+task:
+  class: KnowledgeGraphCompletionBiomed
+  model:
+    class: NBFNet
+    input_dim: 32
+    hidden_dims: [32, 32, 32, 32, 32, 32]
+    message_func: distmult
+    aggregate_func: pna
+    short_cut: yes
+    layer_norm: yes
+    dependent: yes
+    symmetric: no
+  criterion: bce
+  num_negative: 64
+  strict_negative: yes
+  adversarial_temperature: 1
+  sample_weight: no
+  heterogeneous_negative: yes
+  heterogeneous_evaluation: yes
+  full_batch_eval: True
+
+optimizer:
+  class: Adam
+  lr: 5.0e-3
+
+engine:
+  gpus: {{ gpus }}
+  gradient_interval: 4
+  batch_size: 4
+
+train:
+  num_epoch: 4
+  batch_per_epoch: 1000
+
+metric: mrr

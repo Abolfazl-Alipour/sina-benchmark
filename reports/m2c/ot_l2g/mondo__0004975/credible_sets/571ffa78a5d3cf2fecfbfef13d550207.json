@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5942113995552063,
+    "target": {
+     "approvedSymbol": "C7orf78",
+     "id": "ENSG00000226690"
+    }
+   },
+   {
+    "score": 0.38718146085739136,
+    "target": {
+     "approvedSymbol": "SCIN",
+     "id": "ENSG00000006747"
+    }
+   },
+   {
+    "score": 0.056104876101017,
+    "target": {
+     "approvedSymbol": "VWDE",
+     "id": "ENSG00000146530"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "571ffa78a5d3cf2fecfbfef13d550207",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_12539381_A_G",
+  "position": 12539381
+ }
+}

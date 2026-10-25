@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5781850218772888,
+    "target": {
+     "approvedSymbol": "ARHGAP24",
+     "id": "ENSG00000138639"
+    }
+   },
+   {
+    "score": 0.27836430072784424,
+    "target": {
+     "approvedSymbol": "MAPK10",
+     "id": "ENSG00000109339"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "729f371559dbc045728112eb2efcb17b",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_85956799_A_C",
+  "position": 85956799
+ }
+}

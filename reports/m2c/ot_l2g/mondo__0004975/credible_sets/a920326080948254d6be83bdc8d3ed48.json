@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.3567047417163849,
+    "target": {
+     "approvedSymbol": "COX7C",
+     "id": "ENSG00000127184"
+    }
+   },
+   {
+    "score": 0.2469649761915207,
+    "target": {
+     "approvedSymbol": "RASA1",
+     "id": "ENSG00000145715"
+    }
+   },
+   {
+    "score": 0.07004069536924362,
+    "target": {
+     "approvedSymbol": "CCNH",
+     "id": "ENSG00000134480"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "a920326080948254d6be83bdc8d3ed48",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_86927378_T_C",
+  "position": 86927378
+ }
+}

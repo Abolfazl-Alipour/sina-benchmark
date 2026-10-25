@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.1787402480840683,
+    "target": {
+     "approvedSymbol": "SLC16A9",
+     "id": "ENSG00000165449"
+    }
+   },
+   {
+    "score": 0.12194445729255676,
+    "target": {
+     "approvedSymbol": "MRLN",
+     "id": "ENSG00000227877"
+    }
+   },
+   {
+    "score": 0.08126397430896759,
+    "target": {
+     "approvedSymbol": "FAM13C",
+     "id": "ENSG00000148541"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "cb261da1a83ea22c5cfcc36ed0282dc7",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_59580135_T_C",
+  "position": 59580135
+ }
+}

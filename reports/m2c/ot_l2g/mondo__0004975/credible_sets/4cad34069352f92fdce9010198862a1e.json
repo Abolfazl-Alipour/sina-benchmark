@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6818193793296814,
+    "target": {
+     "approvedSymbol": "RIMS1",
+     "id": "ENSG00000079841"
+    }
+   },
+   {
+    "score": 0.24991938471794128,
+    "target": {
+     "approvedSymbol": "KCNQ5",
+     "id": "ENSG00000185760"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "4cad34069352f92fdce9010198862a1e",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_72369302_G_A",
+  "position": 72369302
+ }
+}

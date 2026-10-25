@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6061360836029053,
+    "target": {
+     "approvedSymbol": "CAMK2D",
+     "id": "ENSG00000145349"
+    }
+   },
+   {
+    "score": 0.06633858382701874,
+    "target": {
+     "approvedSymbol": "ANK2",
+     "id": "ENSG00000145362"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "d204fd6006cfd62423c05e28743e170b",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_113447909_C_T",
+  "position": 113447909
+ }
+}

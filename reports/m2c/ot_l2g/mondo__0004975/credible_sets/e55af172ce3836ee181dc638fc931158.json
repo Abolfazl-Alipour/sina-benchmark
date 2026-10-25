@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7175248861312866,
+    "target": {
+     "approvedSymbol": "PCDH17",
+     "id": "ENSG00000118946"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "e55af172ce3836ee181dc638fc931158",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_57810258_A_G",
+  "position": 57810258
+ }
+}

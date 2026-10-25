@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6970906853675842,
+    "target": {
+     "approvedSymbol": "COL21A1",
+     "id": "ENSG00000124749"
+    }
+   },
+   {
+    "score": 0.15439605712890625,
+    "target": {
+     "approvedSymbol": "DST",
+     "id": "ENSG00000151914"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "167ed6f4f5f6d90fe2b6182a7ed5303e",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_56446323_A_C",
+  "position": 56446323
+ }
+}

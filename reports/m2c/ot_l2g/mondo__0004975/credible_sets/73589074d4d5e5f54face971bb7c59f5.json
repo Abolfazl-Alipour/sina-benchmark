@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.3359523117542267,
+    "target": {
+     "approvedSymbol": "SLC24A1",
+     "id": "ENSG00000074621"
+    }
+   },
+   {
+    "score": 0.2897507846355438,
+    "target": {
+     "approvedSymbol": "DENND4A",
+     "id": "ENSG00000174485"
+    }
+   },
+   {
+    "score": 0.09190069884061813,
+    "target": {
+     "approvedSymbol": "INTS14",
+     "id": "ENSG00000138614"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "73589074d4d5e5f54face971bb7c59f5",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_65716910_G_A",
+  "position": 65716910
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.4962625503540039,
+    "target": {
+     "approvedSymbol": "ACP5",
+     "id": "ENSG00000102575"
+    }
+   },
+   {
+    "score": 0.2115303874015808,
+    "target": {
+     "approvedSymbol": "ZNF627",
+     "id": "ENSG00000198551"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "3ae2e962347947df7aa4ef6c789b1d00",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_11582992_T_C",
+  "position": 11582992
+ }
+}

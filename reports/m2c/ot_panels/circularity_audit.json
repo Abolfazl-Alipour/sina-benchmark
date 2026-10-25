@@ -1,0 +1,1884 @@
+{
+  "assumption": "OptimusKG DIS-GEN edges carry no per-edge provenance in-repo; the audit quantifies evidence-CLASS overlap (literature/curated_db vs genetics vs functional_other) between the OT overall score and the supervision set, not record-level overlap.",
+  "generated_at": "2026-09-05T05:10:01Z",
+  "units": {
+    "mondo__0004975": {
+      "label": "AD",
+      "panels": {
+        "100": {
+          "frac_genes_literature_curated_over_50pct": 0.13,
+          "frac_genes_literature_curated_over_80pct": 0.12,
+          "mean_score_share_by_class": {
+            "curated_db": 0.00017734406570375365,
+            "functional_other": 0.3168884384060644,
+            "genetics": 0.5520725630102151,
+            "literature": 0.1308616545180166
+          },
+          "per_gene": [
+            {
+              "curated_db": 0.017734406570375366,
+              "functional_other": 0.1724768028771023,
+              "gene": "ensembl:ENSG00000142192",
+              "genetics": 0.1312117469745543,
+              "literature": 0.678577043577968,
+              "ot_score": 0.8722092478154398,
+              "symbol": "APP"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9283611768022985,
+              "gene": "ensembl:ENSG00000115020",
+              "genetics": 0.0,
+              "literature": 0.07163882319770155,
+              "ot_score": 0.5047111767826317,
+              "symbol": "PIKFYVE"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000180596",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.4953245841496741,
+              "symbol": "H2BC4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9853176456337396,
+              "gene": "ensembl:ENSG00000147684",
+              "genetics": 0.0,
+              "literature": 0.01468235436626029,
+              "ot_score": 0.472604001217198,
+              "symbol": "NDUFB9"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9661774550574935,
+              "gene": "ensembl:ENSG00000006712",
+              "genetics": 0.0,
+              "literature": 0.033822544942506444,
+              "ot_score": 0.46512212713812895,
+              "symbol": "PAF1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9867271166622097,
+              "gene": "ensembl:ENSG00000134853",
+              "genetics": 0.0,
+              "literature": 0.01327288333779022,
+              "ot_score": 0.4410902502964364,
+              "symbol": "PDGFRA"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9477592076777671,
+              "gene": "ensembl:ENSG00000030066",
+              "genetics": 0.0,
+              "literature": 0.05224079232223289,
+              "ot_score": 0.42874720019731277,
+              "symbol": "NUP160"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000157368",
+              "genetics": 0.1995787326947011,
+              "literature": 0.800421267305299,
+              "ot_score": 0.42497846189796756,
+              "symbol": "IL34"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.18151715157665746,
+              "gene": "ensembl:ENSG00000177606",
+              "genetics": 0.0,
+              "literature": 0.8184828484233426,
+              "ot_score": 0.39041085946543125,
+              "symbol": "JUN"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.1269164732019783,
+              "gene": "ensembl:ENSG00000186868",
+              "genetics": 0.06484921561096837,
+              "literature": 0.8082343111870532,
+              "ot_score": 0.37929176616082666,
+              "symbol": "MAPT"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.905144088383011,
+              "gene": "ensembl:ENSG00000175592",
+              "genetics": 0.0,
+              "literature": 0.09485591161698902,
+              "ot_score": 0.3773259880310552,
+              "symbol": "FOSL1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8770158348773233,
+              "gene": "ensembl:ENSG00000157404",
+              "genetics": 0.0,
+              "literature": 0.12298416512267674,
+              "ot_score": 0.37061534777865246,
+              "symbol": "KIT"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000102870",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.3695798546847018,
+              "symbol": "ZNF629"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000144161",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.3695798546847018,
+              "symbol": "ZC3H8"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9329480824053022,
+              "gene": "ensembl:ENSG00000065559",
+              "genetics": 0.0,
+              "literature": 0.06705191759469767,
+              "ot_score": 0.36944521422682425,
+              "symbol": "MAP2K4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9359478031688453,
+              "gene": "ensembl:ENSG00000163686",
+              "genetics": 0.0,
+              "literature": 0.06405219683115482,
+              "ot_score": 0.36235127756426067,
+              "symbol": "ABHD6"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9744425239987228,
+              "gene": "ensembl:ENSG00000115042",
+              "genetics": 0.0,
+              "literature": 0.02555747600127732,
+              "ot_score": 0.35412674558833646,
+              "symbol": "FAHD2A"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9644037841352149,
+              "gene": "ensembl:ENSG00000241553",
+              "genetics": 0.0,
+              "literature": 0.03559621586478517,
+              "ot_score": 0.34840420123827265,
+              "symbol": "ARPC4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8587600957293496,
+              "gene": "ensembl:ENSG00000181072",
+              "genetics": 0.0,
+              "literature": 0.14123990427065033,
+              "ot_score": 0.34727443425440424,
+              "symbol": "CHRM2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000146674",
+              "genetics": 0.13013834011120848,
+              "literature": 0.8698616598887916,
+              "ot_score": 0.34236308873835836,
+              "symbol": "IGFBP3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9923034758254052,
+              "gene": "ensembl:ENSG00000168356",
+              "genetics": 0.0,
+              "literature": 0.007696524174594713,
+              "ot_score": 0.33969778351738245,
+              "symbol": "SCN11A"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8454311688929587,
+              "gene": "ensembl:ENSG00000153707",
+              "genetics": 0.0,
+              "literature": 0.1545688311070413,
+              "ot_score": 0.3388299300595241,
+              "symbol": "PTPRD"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.005569712168162216,
+              "gene": "ensembl:ENSG00000105974",
+              "genetics": 0.17775005006399525,
+              "literature": 0.8166802377678425,
+              "ot_score": 0.33347766337748713,
+              "symbol": "CAV1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.009123901409274061,
+              "gene": "ensembl:ENSG00000155093",
+              "genetics": 0.9059667976304117,
+              "literature": 0.08490930096031435,
+              "ot_score": 0.3285054425289494,
+              "symbol": "PTPRN2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000008311",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.3268774341564021,
+              "symbol": "AASS"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9126810278753954,
+              "gene": "ensembl:ENSG00000110080",
+              "genetics": 0.0,
+              "literature": 0.08731897212460472,
+              "ot_score": 0.3255293192618956,
+              "symbol": "ST3GAL4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9224171616024157,
+              "gene": "ensembl:ENSG00000141503",
+              "genetics": 0.0040626684239718725,
+              "literature": 0.07352016997361233,
+              "ot_score": 0.3243588250493378,
+              "symbol": "MINK1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000188070",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.3233582514489437,
+              "symbol": "ZFTA"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.12873296919104266,
+              "gene": "ensembl:ENSG00000149311",
+              "genetics": 0.0,
+              "literature": 0.8712670308089574,
+              "ot_score": 0.3226485602506881,
+              "symbol": "ATM"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9370851502534916,
+              "gene": "ensembl:ENSG00000082175",
+              "genetics": 0.0,
+              "literature": 0.06291484974650839,
+              "ot_score": 0.3220025021362149,
+              "symbol": "PGR"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9817675051064734,
+              "gene": "ensembl:ENSG00000218891",
+              "genetics": 0.0,
+              "literature": 0.018232494893526626,
+              "ot_score": 0.31210515771501596,
+              "symbol": "ZNF579"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0000000000000002,
+              "gene": "ensembl:ENSG00000171421",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.3109975524164449,
+              "symbol": "MRPL36"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000145715",
+              "genetics": 0.9313869864249166,
+              "literature": 0.06861301357508352,
+              "ot_score": 0.30208804622116825,
+              "symbol": "RASA1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000120029",
+              "genetics": 0.968115454957529,
+              "literature": 0.0318845450424709,
+              "ot_score": 0.29650758939440125,
+              "symbol": "ARMH3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000119522",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.295331167031878,
+              "symbol": "DENND1A"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9238299814021168,
+              "gene": "ensembl:ENSG00000109163",
+              "genetics": 0.0,
+              "literature": 0.07617001859788311,
+              "ot_score": 0.2950545523539728,
+              "symbol": "GNRHR"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000180611",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2943526532459737,
+              "symbol": "MB21D2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000179088",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2911808102812955,
+              "symbol": "C12orf42"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000241484",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.290625225045044,
+              "symbol": "ARHGAP8"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000070778",
+              "genetics": 0.9873511748141559,
+              "literature": 0.012648825185844162,
+              "ot_score": 0.28721995334562284,
+              "symbol": "PTPN21"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000066827",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2868782133511906,
+              "symbol": "ZFAT"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9839506355790981,
+              "gene": "ensembl:ENSG00000114739",
+              "genetics": 0.0,
+              "literature": 0.0160493644209019,
+              "ot_score": 0.2841503779373906,
+              "symbol": "ACVR2B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000153107",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2809402515755665,
+              "symbol": "ANAPC1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000255526",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.27795658304431486,
+              "symbol": "NEDD8-MDP1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000144231",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2742810489205121,
+              "symbol": "POLR2D"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8282810707544425,
+              "gene": "ensembl:ENSG00000006704",
+              "genetics": 0.16850172296506677,
+              "literature": 0.003217206280490798,
+              "ot_score": 0.27419542390894436,
+              "symbol": "GTF2IRD1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.11810835494669998,
+              "gene": "ensembl:ENSG00000171132",
+              "genetics": 0.002757617416270432,
+              "literature": 0.8791340276370296,
+              "ot_score": 0.2723860224104368,
+              "symbol": "PRKCE"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.013724735363023276,
+              "gene": "ensembl:ENSG00000138101",
+              "genetics": 0.849464056611236,
+              "literature": 0.13681120802574076,
+              "ot_score": 0.2712030139159257,
+              "symbol": "DTNB"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000141013",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2696402457284759,
+              "symbol": "DRC4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.1951850150244296,
+              "gene": "ensembl:ENSG00000133636",
+              "genetics": 0.0,
+              "literature": 0.8048149849755705,
+              "ot_score": 0.26877100841972795,
+              "symbol": "NTS"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000108950",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.267447885811444,
+              "symbol": "FAM20A"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000164318",
+              "genetics": 0.9929942196111607,
+              "literature": 0.007005780388839199,
+              "ot_score": 0.2622894795786961,
+              "symbol": "EGFLAM"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000177058",
+              "genetics": 0.9566437961847783,
+              "literature": 0.04335620381522164,
+              "ot_score": 0.26171529154659334,
+              "symbol": "SLC38A9"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0022993080747046417,
+              "gene": "ensembl:ENSG00000144331",
+              "genetics": 0.9906408706845306,
+              "literature": 0.007059821240764863,
+              "ot_score": 0.25978894199525937,
+              "symbol": "ZNF385B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000080345",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.25809076512619916,
+              "symbol": "RIF1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000165714",
+              "genetics": 0.9609738739550758,
+              "literature": 0.03902612604492411,
+              "ot_score": 0.25802996245597626,
+              "symbol": "BORCS5"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000151715",
+              "genetics": 0.9823036470358496,
+              "literature": 0.01769635296415043,
+              "ot_score": 0.2573607136575341,
+              "symbol": "TMEM45B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000163958",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2567504303377402,
+              "symbol": "ZDHHC19"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000128607",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.25595107577337484,
+              "symbol": "KLHDC10"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000138303",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.25595107577337484,
+              "symbol": "ASCC1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000154743",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.25595107577337484,
+              "symbol": "TSEN2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000165660",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.25595107577337484,
+              "symbol": "ABRAXAS2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000175352",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.25595107577337484,
+              "symbol": "NRIP3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8418002062161106,
+              "gene": "ensembl:ENSG00000184497",
+              "genetics": 0.1581997937838893,
+              "literature": 0.0,
+              "ot_score": 0.2548822453230506,
+              "symbol": "TMEM255B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000100154",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.25465550325445563,
+              "symbol": "TTC28"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8808621401837763,
+              "gene": "ensembl:ENSG00000095321",
+              "genetics": 0.0,
+              "literature": 0.11913785981622373,
+              "ot_score": 0.2538895863443073,
+              "symbol": "CRAT"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000137309",
+              "genetics": 0.11464676654183625,
+              "literature": 0.8853532334581637,
+              "ot_score": 0.25261164433837036,
+              "symbol": "HMGA1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000227124",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2524775721201741,
+              "symbol": "ZNF717"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000164744",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.25245787848387063,
+              "symbol": "SUN3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8071487541266594,
+              "gene": "ensembl:ENSG00000155254",
+              "genetics": 0.19285124587334054,
+              "literature": 0.0,
+              "ot_score": 0.25175653811996995,
+              "symbol": "MARVELD1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8197159534489034,
+              "gene": "ensembl:ENSG00000176165",
+              "genetics": 0.037628476879879566,
+              "literature": 0.14265556967121718,
+              "ot_score": 0.2495632515486627,
+              "symbol": "FOXG1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000132359",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.24896525393994123,
+              "symbol": "RAP1GAP2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000189139",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.24883387491654785,
+              "symbol": "FSCB"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.1959363523587734,
+              "gene": "ensembl:ENSG00000204580",
+              "genetics": 0.0,
+              "literature": 0.8040636476412266,
+              "ot_score": 0.24677455663388692,
+              "symbol": "DDR1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000145439",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.24653555706817426,
+              "symbol": "CBR4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000198862",
+              "genetics": 0.13035244061713236,
+              "literature": 0.8696475593828675,
+              "ot_score": 0.24515066570905628,
+              "symbol": "LTN1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.7935427734918356,
+              "gene": "ensembl:ENSG00000158859",
+              "genetics": 0.16814224933222655,
+              "literature": 0.03831497717593779,
+              "ot_score": 0.2438042652183504,
+              "symbol": "ADAMTS4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000129910",
+              "genetics": 0.9859032421349287,
+              "literature": 0.01409675786507123,
+              "ot_score": 0.24301595356422978,
+              "symbol": "CDH15"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8130690901158979,
+              "gene": "ensembl:ENSG00000049618",
+              "genetics": 0.1505271637593433,
+              "literature": 0.03640374612475876,
+              "ot_score": 0.24210210110666955,
+              "symbol": "ARID1B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000164304",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.240277276315494,
+              "symbol": "CAGE1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000198700",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.240277276315494,
+              "symbol": "IPO9"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000087448",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.23898630778984933,
+              "symbol": "KLHL42"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000206561",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.23898630778984933,
+              "symbol": "COLQ"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000168172",
+              "genetics": 0.16167689235254176,
+              "literature": 0.8383231076474582,
+              "ot_score": 0.23850141726681817,
+              "symbol": "HOOK3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.021257827742680122,
+              "gene": "ensembl:ENSG00000197119",
+              "genetics": 0.9736649517843277,
+              "literature": 0.0050772204729921735,
+              "ot_score": 0.2375272940349287,
+              "symbol": "SLC25A29"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000110066",
+              "genetics": 0.9808204997297871,
+              "literature": 0.019179500270212896,
+              "ot_score": 0.23717326052522714,
+              "symbol": "KMT5B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000101236",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2362493108885154,
+              "symbol": "RNF24"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000143954",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.235958708595322,
+              "symbol": "REG3G"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000182836",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.23258100765384787,
+              "symbol": "PLCXD3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000144451",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.23247976385916044,
+              "symbol": "SPAG16"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000168505",
+              "genetics": 0.9891910710556213,
+              "literature": 0.010808928944378722,
+              "ot_score": 0.23068400062657002,
+              "symbol": "GBX2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000121274",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.22812700763390686,
+              "symbol": "TENT4B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000173068",
+              "genetics": 0.9559660286471083,
+              "literature": 0.044033971352891686,
+              "ot_score": 0.22267845007901968,
+              "symbol": "BNC2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000198252",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.22266270644865904,
+              "symbol": "STYX"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000176204",
+              "genetics": 0.9331952841773478,
+              "literature": 0.06680471582265228,
+              "ot_score": 0.22246365713418925,
+              "symbol": "LRRTM4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9711043272656604,
+              "gene": "ensembl:ENSG00000134640",
+              "genetics": 0.0,
+              "literature": 0.028895672734339576,
+              "ot_score": 0.22242726930379522,
+              "symbol": "MTNR1B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000145414",
+              "genetics": 0.8863088352504023,
+              "literature": 0.11369116474959778,
+              "ot_score": 0.2216303378369279,
+              "symbol": "NAF1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000183571",
+              "genetics": 0.9834903869314211,
+              "literature": 0.016509613068578902,
+              "ot_score": 0.22090073029014065,
+              "symbol": "PGPEP1L"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000117481",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.22073528541733342,
+              "symbol": "NSUN4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000135436",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.22073528541733342,
+              "symbol": "FAM186B"
+            }
+          ]
+        },
+        "200": {
+          "frac_genes_literature_curated_over_50pct": 0.305,
+          "frac_genes_literature_curated_over_80pct": 0.3,
+          "mean_score_share_by_class": {
+            "curated_db": 8.867203285187683e-05,
+            "functional_other": 0.20614335863553102,
+            "genetics": 0.4895026015637523,
+            "literature": 0.3042653677678651
+          },
+          "per_gene": "see K=100 table schema"
+        },
+        "500": {
+          "frac_genes_literature_curated_over_50pct": 0.334,
+          "frac_genes_literature_curated_over_80pct": 0.332,
+          "mean_score_share_by_class": {
+            "curated_db": 3.546881314075073e-05,
+            "functional_other": 0.3108245002361671,
+            "genetics": 0.35147043363896535,
+            "literature": 0.33766959731172685
+          },
+          "per_gene": "see K=100 table schema"
+        }
+      }
+    },
+    "mondo__0005180": {
+      "label": "PD",
+      "panels": {
+        "100": {
+          "frac_genes_literature_curated_over_50pct": 0.28,
+          "frac_genes_literature_curated_over_80pct": 0.24,
+          "mean_score_share_by_class": {
+            "curated_db": 0.0032493173778464957,
+            "functional_other": 0.5304869020263561,
+            "genetics": 0.19340197683171706,
+            "literature": 0.27286180376408065
+          },
+          "per_gene": [
+            {
+              "curated_db": 0.08880167280623384,
+              "functional_other": 0.0063591551340543735,
+              "gene": "ensembl:ENSG00000188906",
+              "genetics": 0.22724670051421142,
+              "literature": 0.6775924715455004,
+              "ot_score": 0.8778733988051546,
+              "symbol": "LRRK2"
+            },
+            {
+              "curated_db": 0.158581110963205,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000129003",
+              "genetics": 0.7988480658822693,
+              "literature": 0.042570823154525726,
+              "ot_score": 0.7557819820660053,
+              "symbol": "VPS13C"
+            },
+            {
+              "curated_db": 0.06740690865782197,
+              "functional_other": 0.026502440403494393,
+              "gene": "ensembl:ENSG00000186868",
+              "genetics": 0.17959604357686537,
+              "literature": 0.7264946073618183,
+              "ot_score": 0.7147937869132485,
+              "symbol": "MAPT"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8125233945192781,
+              "gene": "ensembl:ENSG00000069535",
+              "genetics": 0.0,
+              "literature": 0.18747660548072187,
+              "ot_score": 0.6281120865795907,
+              "symbol": "MAOB"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000116032",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.6001548593260961,
+              "symbol": "GRIN3B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9939901693691786,
+              "gene": "ensembl:ENSG00000158864",
+              "genetics": 0.0,
+              "literature": 0.006009830630821484,
+              "ot_score": 0.5876561371745134,
+              "symbol": "NDUFS2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.030606095240369155,
+              "gene": "ensembl:ENSG00000127419",
+              "genetics": 0.1768406775050689,
+              "literature": 0.7925532272545619,
+              "ot_score": 0.5531720715794183,
+              "symbol": "TMEM175"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000101224",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.5049953699523468,
+              "symbol": "CDC25B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9954228580950819,
+              "gene": "ensembl:ENSG00000155097",
+              "genetics": 0.0,
+              "literature": 0.004577141904918164,
+              "ot_score": 0.5021118030703956,
+              "symbol": "ATP6V1C1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9659824020658624,
+              "gene": "ensembl:ENSG00000087586",
+              "genetics": 0.0,
+              "literature": 0.034017597934137604,
+              "ot_score": 0.5020136581172119,
+              "symbol": "AURKA"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9884655414853266,
+              "gene": "ensembl:ENSG00000130294",
+              "genetics": 0.0,
+              "literature": 0.011534458514673348,
+              "ot_score": 0.49434263754701707,
+              "symbol": "KIF1A"
+            },
+            {
+              "curated_db": 0.010142045357388796,
+              "functional_other": 0.02786918723352911,
+              "gene": "ensembl:ENSG00000154277",
+              "genetics": 0.12677556696735995,
+              "literature": 0.8352132004417222,
+              "ot_score": 0.49225651116535957,
+              "symbol": "UCHL1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9841843286220108,
+              "gene": "ensembl:ENSG00000196743",
+              "genetics": 0.0,
+              "literature": 0.015815671377989282,
+              "ot_score": 0.48171059708929564,
+              "symbol": "GM2A"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000155561",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.4619748183558772,
+              "symbol": "NUP205"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000184432",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.4619748183558772,
+              "symbol": "COPB2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000073060",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.45516797636945505,
+              "symbol": "SCARB1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000100241",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.4503644200719753,
+              "symbol": "SBF1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9884250061712382,
+              "gene": "ensembl:ENSG00000145604",
+              "genetics": 0.0,
+              "literature": 0.0115749938287619,
+              "ot_score": 0.43496060097198885,
+              "symbol": "SKP2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.002715082887979825,
+              "gene": "ensembl:ENSG00000151929",
+              "genetics": 0.1948637242124212,
+              "literature": 0.802421192899599,
+              "ot_score": 0.4147803036346215,
+              "symbol": "BAG3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.18805233952181954,
+              "gene": "ensembl:ENSG00000212907",
+              "genetics": 0.79906830170583,
+              "literature": 0.012879358772350483,
+              "ot_score": 0.4119731735098775,
+              "symbol": "MT-ND4L"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9718493118725748,
+              "gene": "ensembl:ENSG00000156467",
+              "genetics": 0.0,
+              "literature": 0.02815068812742512,
+              "ot_score": 0.39240346231926804,
+              "symbol": "UQCRB"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000107651",
+              "genetics": 0.9147367001292787,
+              "literature": 0.08526329987072137,
+              "ot_score": 0.38075117023221067,
+              "symbol": "SEC23IP"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000106261",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.37587936427545626,
+              "symbol": "ZKSCAN1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000164896",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.3729016225697163,
+              "symbol": "FASTK"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.1522953956952036,
+              "gene": "ensembl:ENSG00000105383",
+              "genetics": 0.0,
+              "literature": 0.8477046043047964,
+              "ot_score": 0.36991452203970937,
+              "symbol": "CD33"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9844375395491811,
+              "gene": "ensembl:ENSG00000105568",
+              "genetics": 0.0,
+              "literature": 0.015562460450818869,
+              "ot_score": 0.36644530593804775,
+              "symbol": "PPP2R1A"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000136950",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.3535709395250881,
+              "symbol": "ARPC5L"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9870787347708286,
+              "gene": "ensembl:ENSG00000123595",
+              "genetics": 0.0,
+              "literature": 0.012921265229171272,
+              "ot_score": 0.3486845754481858,
+              "symbol": "RAB9A"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000057294",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.3477675847712119,
+              "symbol": "PKP2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9842237349821292,
+              "gene": "ensembl:ENSG00000241553",
+              "genetics": 0.0,
+              "literature": 0.015776265017870827,
+              "ot_score": 0.3469598626339506,
+              "symbol": "ARPC4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000132744",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.3401101749476969,
+              "symbol": "ACY3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9805909693610946,
+              "gene": "ensembl:ENSG00000272333",
+              "genetics": 0.0,
+              "literature": 0.019409030638905336,
+              "ot_score": 0.33876770604510376,
+              "symbol": "KMT2B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000239789",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.33441113713213416,
+              "symbol": "MRPS17"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.002521943985161071,
+              "gene": "ensembl:ENSG00000148123",
+              "genetics": 0.8394579591498543,
+              "literature": 0.15802009686498467,
+              "ot_score": 0.3340765103895678,
+              "symbol": "PLPPR1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9862853315027932,
+              "gene": "ensembl:ENSG00000188290",
+              "genetics": 0.0,
+              "literature": 0.013714668497206763,
+              "ot_score": 0.3323599086622027,
+              "symbol": "HES4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000108379",
+              "genetics": 0.8167397644757627,
+              "literature": 0.18326023552423729,
+              "ot_score": 0.32165682271352386,
+              "symbol": "WNT3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.899262557031389,
+              "gene": "ensembl:ENSG00000213619",
+              "genetics": 0.0,
+              "literature": 0.10073744296861094,
+              "ot_score": 0.320131465444396,
+              "symbol": "NDUFS3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9159967415513218,
+              "gene": "ensembl:ENSG00000237541",
+              "genetics": 0.0,
+              "literature": 0.08400325844867813,
+              "ot_score": 0.3158860263559269,
+              "symbol": "HLA-DQA2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000136643",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.3157151318643667,
+              "symbol": "RPS6KC1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000198183",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.31319490965951996,
+              "symbol": "BPIFA1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000141956",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.28864198334884933,
+              "symbol": "PRDM15"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8915417843219713,
+              "gene": "ensembl:ENSG00000101180",
+              "genetics": 0.0,
+              "literature": 0.10845821567802869,
+              "ot_score": 0.28392893357460475,
+              "symbol": "HRH3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.1076470662623007,
+              "gene": "ensembl:ENSG00000168959",
+              "genetics": 0.0,
+              "literature": 0.8923529337376993,
+              "ot_score": 0.276278509414729,
+              "symbol": "GRM5"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000100106",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.27620924393607493,
+              "symbol": "TRIOBP"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.17190785502248743,
+              "gene": "ensembl:ENSG00000070610",
+              "genetics": 0.0,
+              "literature": 0.8280921449775126,
+              "ot_score": 0.27278188851195573,
+              "symbol": "GBA2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.178689677848826,
+              "gene": "ensembl:ENSG00000066427",
+              "genetics": 0.07375355829152563,
+              "literature": 0.7475567638596483,
+              "ot_score": 0.27170136672195,
+              "symbol": "ATXN3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000173281",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.2692652164826992,
+              "symbol": "PPP1R3B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000095319",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.2675407823881631,
+              "symbol": "NUP188"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000116128",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.26528202639158555,
+              "symbol": "BCL9"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9530593512723944,
+              "gene": "ensembl:ENSG00000113575",
+              "genetics": 0.0,
+              "literature": 0.04694064872760568,
+              "ot_score": 0.26153778101076236,
+              "symbol": "PPP2CA"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8715027975547848,
+              "gene": "ensembl:ENSG00000166913",
+              "genetics": 0.0,
+              "literature": 0.12849720244521526,
+              "ot_score": 0.259663471744474,
+              "symbol": "YWHAB"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000186009",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.25962984791600296,
+              "symbol": "ATP4B"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000171872",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.2589123724749745,
+              "symbol": "KLF17"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000059377",
+              "genetics": 0.9247492058519439,
+              "literature": 0.07525079414805613,
+              "ot_score": 0.25646956765960854,
+              "symbol": "TBXAS1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000183421",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.24553774711689866,
+              "symbol": "RIPK4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000229937",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.2455374858130756,
+              "symbol": "PRPS1L1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.003821662788447871,
+              "gene": "ensembl:ENSG00000122884",
+              "genetics": 0.9682082489377182,
+              "literature": 0.027970088273834053,
+              "ot_score": 0.24055576213252505,
+              "symbol": "P4HA1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.952733942155572,
+              "gene": "ensembl:ENSG00000135525",
+              "genetics": 0.041247599859689635,
+              "literature": 0.006018457984738421,
+              "ot_score": 0.23765804248345443,
+              "symbol": "MAP7"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000197321",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.23237967639808582,
+              "symbol": "SVIL"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000152193",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.2315887920314998,
+              "symbol": "OBI1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000158604",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.22913558846811571,
+              "symbol": "TMED4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9897344309750229,
+              "gene": "ensembl:ENSG00000135341",
+              "genetics": 0.0,
+              "literature": 0.010265569024977023,
+              "ot_score": 0.22316389365878136,
+              "symbol": "MAP3K7"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.008383789245838137,
+              "gene": "ensembl:ENSG00000073969",
+              "genetics": 0.16481751400397193,
+              "literature": 0.8267986967501899,
+              "ot_score": 0.21344576915517377,
+              "symbol": "NSF"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000113430",
+              "genetics": 0.991022235237016,
+              "literature": 0.008977764762983939,
+              "ot_score": 0.20435234358131543,
+              "symbol": "IRX4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000116151",
+              "genetics": 0.9909673194989373,
+              "literature": 0.00903268050106268,
+              "ot_score": 0.20310096058636118,
+              "symbol": "MORN1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000078081",
+              "genetics": 0.12997112792738652,
+              "literature": 0.8700288720726135,
+              "ot_score": 0.13852256700533622,
+              "symbol": "LAMP3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8915637797770231,
+              "gene": "ensembl:ENSG00000106105",
+              "genetics": 0.10272905073755713,
+              "literature": 0.00570716948541984,
+              "ot_score": 0.13142409158437537,
+              "symbol": "GARS1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000116584",
+              "genetics": 0.9575473963035187,
+              "literature": 0.04245260369648131,
+              "ot_score": 0.13140689627705182,
+              "symbol": "ARHGEF2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000102763",
+              "genetics": 0.9770992366412213,
+              "literature": 0.02290076335877862,
+              "ot_score": 0.11881992328113164,
+              "symbol": "VWA8"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000127838",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.11826555349910459,
+              "symbol": "PNKD"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.05439701973579724,
+              "gene": "ensembl:ENSG00000146399",
+              "genetics": 0.0,
+              "literature": 0.9456029802642028,
+              "ot_score": 0.11297152418746376,
+              "symbol": "TAAR1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000160097",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.1079540484462167,
+              "symbol": "FNDC5"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000206559",
+              "genetics": 1.0,
+              "literature": 0.0,
+              "ot_score": 0.10564185288479759,
+              "symbol": "ZCWPW2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9635748820086238,
+              "gene": "ensembl:ENSG00000124782",
+              "genetics": 0.0,
+              "literature": 0.03642511799137608,
+              "ot_score": 0.10526777135661174,
+              "symbol": "RREB1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000084733",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.10422696723068181,
+              "symbol": "RAB10"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0894755980284276,
+              "gene": "ensembl:ENSG00000151067",
+              "genetics": 0.0,
+              "literature": 0.9105244019715725,
+              "ot_score": 0.10414787045464752,
+              "symbol": "CACNA1C"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000167723",
+              "genetics": 0.9643233280394089,
+              "literature": 0.03567667196059104,
+              "ot_score": 0.10063482145706583,
+              "symbol": "TRPV3"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000103126",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.0992738095515551,
+              "symbol": "AXIN1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000096093",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.0992226444721022,
+              "symbol": "EFHC1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000048052",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.09539432748403094,
+              "symbol": "HDAC9"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9462321837306483,
+              "gene": "ensembl:ENSG00000114948",
+              "genetics": 0.0,
+              "literature": 0.05376781626935169,
+              "ot_score": 0.09537155941133536,
+              "symbol": "ADAM23"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.1448585337502664,
+              "gene": "ensembl:ENSG00000179222",
+              "genetics": 0.0,
+              "literature": 0.8551414662497336,
+              "ot_score": 0.09430050378031486,
+              "symbol": "MAGED1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9980106268150305,
+              "gene": "ensembl:ENSG00000166006",
+              "genetics": 0.0,
+              "literature": 0.00198937318496954,
+              "ot_score": 0.09365496739340742,
+              "symbol": "KCNC2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9478672985781991,
+              "gene": "ensembl:ENSG00000100346",
+              "genetics": 0.0,
+              "literature": 0.052132701421800945,
+              "ot_score": 0.09341130827155837,
+              "symbol": "CACNA1I"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.8449209802944341,
+              "gene": "ensembl:ENSG00000140009",
+              "genetics": 0.0,
+              "literature": 0.15507901970556603,
+              "ot_score": 0.09199454110364502,
+              "symbol": "ESR2"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9908485352859244,
+              "gene": "ensembl:ENSG00000180720",
+              "genetics": 0.0,
+              "literature": 0.00915146471407546,
+              "ot_score": 0.09127350086834447,
+              "symbol": "CHRM4"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000137843",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.08907701738151441,
+              "symbol": "PAK6"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000070669",
+              "genetics": 0.9795883577228899,
+              "literature": 0.020411642277110092,
+              "ot_score": 0.08905331190892608,
+              "symbol": "ASNS"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9011013984129732,
+              "gene": "ensembl:ENSG00000170266",
+              "genetics": 0.0,
+              "literature": 0.09889860158702686,
+              "ot_score": 0.08769878159380877,
+              "symbol": "GLB1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000125656",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.08764367423417933,
+              "symbol": "CLPP"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 1.0,
+              "gene": "ensembl:ENSG00000163832",
+              "genetics": 0.0,
+              "literature": 0.0,
+              "ot_score": 0.0866593158948656,
+              "symbol": "ELP6"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.13896390971497546,
+              "gene": "ensembl:ENSG00000118785",
+              "genetics": 0.0,
+              "literature": 0.8610360902850245,
+              "ot_score": 0.08576178770271031,
+              "symbol": "SPP1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000008710",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.08492626605189564,
+              "symbol": "PKD1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000149294",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.08475701066609583,
+              "symbol": "NCAM1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000135046",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.08456938292020452,
+              "symbol": "ANXA1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000121361",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.08231771257185021,
+              "symbol": "KCNJ8"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.0,
+              "gene": "ensembl:ENSG00000109956",
+              "genetics": 0.0,
+              "literature": 1.0,
+              "ot_score": 0.08044859028096135,
+              "symbol": "B3GAT1"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.9938625380947428,
+              "gene": "ensembl:ENSG00000197535",
+              "genetics": 0.0,
+              "literature": 0.006137461905257142,
+              "ot_score": 0.08028940092605864,
+              "symbol": "MYO5A"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.13245033112582782,
+              "gene": "ensembl:ENSG00000139053",
+              "genetics": 0.0,
+              "literature": 0.8675496688741722,
+              "ot_score": 0.07996784105740236,
+              "symbol": "PDE6H"
+            },
+            {
+              "curated_db": 0.0,
+              "functional_other": 0.005899968784156144,
+              "gene": "ensembl:ENSG00000112186",
+              "genetics": 0.0,
+              "literature": 0.9941000312158438,
+              "ot_score": 0.07980733626502631,
+              "symbol": "CAP2"
+            }
+          ]
+        },
+        "200": {
+          "frac_genes_literature_curated_over_50pct": 0.21,
+          "frac_genes_literature_curated_over_80pct": 0.19,
+          "mean_score_share_by_class": {
+            "curated_db": 0.0016246586889232478,
+            "functional_other": 0.6873116700479527,
+            "genetics": 0.09717778039325405,
+            "literature": 0.21388589086987017
+          },
+          "per_gene": "see K=100 table schema"
+        },
+        "500": {
+          "frac_genes_literature_curated_over_50pct": 0.162,
+          "frac_genes_literature_curated_over_80pct": 0.154,
+          "mean_score_share_by_class": {
+            "curated_db": 0.0006498634755692991,
+            "functional_other": 0.7665717167715728,
+            "genetics": 0.06227360279457769,
+            "literature": 0.17050481695827985
+          },
+          "per_gene": "see K=100 table schema"
+        }
+      }
+    }
+  }
+}

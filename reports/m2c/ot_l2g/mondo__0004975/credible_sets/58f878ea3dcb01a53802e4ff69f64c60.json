@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8103533983230591,
+    "target": {
+     "approvedSymbol": "CELF4",
+     "id": "ENSG00000101489"
+    }
+   },
+   {
+    "score": 0.07632596790790558,
+    "target": {
+     "approvedSymbol": "KIAA1328",
+     "id": "ENSG00000150477"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "58f878ea3dcb01a53802e4ff69f64c60",
+ "variant": {
+  "chromosome": "18",
+  "id": "18_37606159_A_G",
+  "position": 37606159
+ }
+}

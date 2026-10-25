@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.49776721000671387,
+    "target": {
+     "approvedSymbol": "PCDHGB2",
+     "id": "ENSG00000253910"
+    }
+   },
+   {
+    "score": 0.2123616486787796,
+    "target": {
+     "approvedSymbol": "PCDHGA3",
+     "id": "ENSG00000254245"
+    }
+   },
+   {
+    "score": 0.08989442139863968,
+    "target": {
+     "approvedSymbol": "PCDHGA2",
+     "id": "ENSG00000081853"
+    }
+   },
+   {
+    "score": 0.05516898259520531,
+    "target": {
+     "approvedSymbol": "PCDHGA4",
+     "id": "ENSG00000262576"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "a203515a7c95fffbeecc96c9d3b8e806",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_141360307_G_A",
+  "position": 141360307
+ }
+}

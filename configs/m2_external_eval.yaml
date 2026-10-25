@@ -1,0 +1,18 @@
+# M2B — pre-registered external evaluation set (spec §6.2)
+# Data source: PENDING owner decision (e.g., DisGeNET 2026+ release, Open Targets
+# post-cutoff, or curated literature set). Must be disjoint from training edges
+# at evidence_group level.
+
+name: external_eval_v1
+status: PENDING_DATA_SOURCE
+description: >
+  Prospective disease→gene evaluation set, disjoint from M1 training edges.
+  Used to measure temporal prospective enrichment (§6.5).
+source: null
+license_verbatim: null
+cutoff_date: null
+relations:
+  trackr: disease_protein
+  trackd: DIS-GEN
+output_dir: data/processed/m2/external_eval
+manifest_path: data/raw/manifests/m2_external_eval.json

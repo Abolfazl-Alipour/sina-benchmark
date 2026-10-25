@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.13487876951694489,
+    "target": {
+     "approvedSymbol": "MEI1",
+     "id": "ENSG00000167077"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "1a9d38c36a7fc3eac51ce68349ea821c",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_41786153_G_A",
+  "position": 41786153
+ }
+}

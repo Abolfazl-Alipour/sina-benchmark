@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6618702411651611,
+    "target": {
+     "approvedSymbol": "TBC1D15",
+     "id": "ENSG00000121749"
+    }
+   },
+   {
+    "score": 0.11713305115699768,
+    "target": {
+     "approvedSymbol": "TPH2",
+     "id": "ENSG00000139287"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "bcdf76bc1dfb1e4172baffc328b7e731",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_71824639_G_A",
+  "position": 71824639
+ }
+}

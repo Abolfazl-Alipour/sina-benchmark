@@ -1,0 +1,48 @@
+# M2A-2 split configuration (spec §6.2)
+# All splits operate on evidence_group_id to enforce the §5.4 leakage contract.
+
+trackr:
+  edges: data/processed/m1/trackr/edges.parquet
+  relation_col: relation
+  family_eval_relations:
+    - disease_protein
+
+trackd:
+  edges: data/processed/m1/trackd/edges.parquet
+  label_col: label
+  family_eval_label: DIS-GEN
+  temporal_label: DIS-GEN
+
+families_config: configs/disease_families.yaml
+
+txgnn_dir: data/raw/txgnn/disease_files
+areas:
+  neurodigenerative:
+    track: R
+    file: neurodigenerative.csv
+    indication_relations:
+      - indication
+      - contraindication
+
+random:
+  fractions:
+    train: 0.9
+    valid: 0.05
+    test: 0.05
+  seed: 1337
+
+family:
+  valid_fraction: 0.1
+  seed: 1337
+
+txgnn:
+  # TxGNN removes ~95% of neighborhood edges from train; here we keep 5%.
+  neighborhood_keep_fraction: 0.05
+  seed: 1337
+
+temporal:
+  cutoff_year: 2018
+
+output_dir: data/processed/m2/splits
+report_path: reports/m2a/splits_report.md
+manifest_path: data/raw/manifests/m2_build_splits.json

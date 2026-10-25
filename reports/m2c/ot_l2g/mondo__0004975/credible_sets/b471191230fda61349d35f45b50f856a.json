@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.78348308801651,
+    "target": {
+     "approvedSymbol": "ELOVL7",
+     "id": "ENSG00000164181"
+    }
+   },
+   {
+    "score": 0.07419601827859879,
+    "target": {
+     "approvedSymbol": "NDUFAF2",
+     "id": "ENSG00000164182"
+    }
+   },
+   {
+    "score": 0.06844557076692581,
+    "target": {
+     "approvedSymbol": "ERCC8",
+     "id": "ENSG00000049167"
+    }
+   },
+   {
+    "score": 0.05211088806390762,
+    "target": {
+     "approvedSymbol": "DEPDC1B",
+     "id": "ENSG00000035499"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "b471191230fda61349d35f45b50f856a",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_60815752_A_G",
+  "position": 60815752
+ }
+}

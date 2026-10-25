@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6639654040336609,
+    "target": {
+     "approvedSymbol": "PLEKHH1",
+     "id": "ENSG00000054690"
+    }
+   },
+   {
+    "score": 0.580007016658783,
+    "target": {
+     "approvedSymbol": "TMEM229B",
+     "id": "ENSG00000198133"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST002544",
+ "studyLocusId": "35abfb4cf3ffedcec1f7306b6749f7e7",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_67517653_T_A",
+  "position": 67517653
+ }
+}

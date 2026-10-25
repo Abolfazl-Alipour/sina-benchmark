@@ -1,0 +1,22 @@
+[
+ {
+  "studyId": "GCST003652",
+  "studyLocusId": "540174df0d8402eec1f81e337f50655a",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "15",
+   "id": "15_63054177_T_A",
+   "position": 63054177
+  }
+ },
+ {
+  "studyId": "GCST003652",
+  "studyLocusId": "fd248d17480ddfd555719fba66661987",
+  "studyType": "gwas",
+  "variant": {
+   "chromosome": "5",
+   "id": "5_78564785_A_G",
+   "position": 78564785
+  }
+ }
+]

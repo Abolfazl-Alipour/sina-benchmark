@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8478034138679504,
+    "target": {
+     "approvedSymbol": "APOB",
+     "id": "ENSG00000084674"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST007827",
+ "studyLocusId": "82a88dea31525a27f5d98da630da83f6",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_21003688_A_G",
+  "position": 21003688
+ }
+}

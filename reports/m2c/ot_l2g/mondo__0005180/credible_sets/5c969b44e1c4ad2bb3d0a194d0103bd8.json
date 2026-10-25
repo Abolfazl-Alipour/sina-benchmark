@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5317397713661194,
+    "target": {
+     "approvedSymbol": "AZI2",
+     "id": "ENSG00000163512"
+    }
+   },
+   {
+    "score": 0.2858431041240692,
+    "target": {
+     "approvedSymbol": "ZCWPW2",
+     "id": "ENSG00000206559"
+    }
+   },
+   {
+    "score": 0.0913318544626236,
+    "target": {
+     "approvedSymbol": "CMC1",
+     "id": "ENSG00000187118"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "5c969b44e1c4ad2bb3d0a194d0103bd8",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_28664199_T_C",
+  "position": 28664199
+ }
+}

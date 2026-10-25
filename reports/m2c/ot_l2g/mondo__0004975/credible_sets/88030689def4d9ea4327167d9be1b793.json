@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6556715369224548,
+    "target": {
+     "approvedSymbol": "CDH15",
+     "id": "ENSG00000129910"
+    }
+   },
+   {
+    "score": 0.1161520928144455,
+    "target": {
+     "approvedSymbol": "SLC22A31",
+     "id": "ENSG00000259803"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "88030689def4d9ea4327167d9be1b793",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_89188363_G_A",
+  "position": 89188363
+ }
+}

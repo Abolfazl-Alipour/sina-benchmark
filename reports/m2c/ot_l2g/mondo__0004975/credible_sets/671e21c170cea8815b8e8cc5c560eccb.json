@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5606502294540405,
+    "target": {
+     "approvedSymbol": "HBEGF",
+     "id": "ENSG00000113070"
+    }
+   },
+   {
+    "score": 0.06846865266561508,
+    "target": {
+     "approvedSymbol": "PFDN1",
+     "id": "ENSG00000113068"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST004246",
+ "studyLocusId": "671e21c170cea8815b8e8cc5c560eccb",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_140327854_T_G",
+  "position": 140327854
+ }
+}

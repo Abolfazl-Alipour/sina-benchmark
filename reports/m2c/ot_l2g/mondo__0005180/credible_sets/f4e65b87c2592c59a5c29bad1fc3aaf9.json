@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5456203818321228,
+    "target": {
+     "approvedSymbol": "MED12L",
+     "id": "ENSG00000144893"
+    }
+   },
+   {
+    "score": 0.3019077479839325,
+    "target": {
+     "approvedSymbol": "P2RY12",
+     "id": "ENSG00000169313"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "f4e65b87c2592c59a5c29bad1fc3aaf9",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_151395180_C_A",
+  "position": 151395180
+ }
+}

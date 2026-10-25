@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8447221517562866,
+    "target": {
+     "approvedSymbol": "APOE",
+     "id": "ENSG00000130203"
+    }
+   },
+   {
+    "score": 0.25003719329833984,
+    "target": {
+     "approvedSymbol": "APOC1",
+     "id": "ENSG00000130208"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90651184",
+ "studyLocusId": "4b62dd6f5ebe304a48412c7f7fefab01",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_44919689_A_G",
+  "position": 44919689
+ }
+}

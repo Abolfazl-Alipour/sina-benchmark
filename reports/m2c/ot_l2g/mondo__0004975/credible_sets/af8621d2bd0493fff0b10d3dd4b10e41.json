@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6606593132019043,
+    "target": {
+     "approvedSymbol": "PPIAL4F",
+     "id": "ENSG00000279782"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "af8621d2bd0493fff0b10d3dd4b10e41",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_144565462_T_C",
+  "position": 144565462
+ }
+}

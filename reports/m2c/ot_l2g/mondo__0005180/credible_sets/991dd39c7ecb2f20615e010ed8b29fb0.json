@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8274261951446533,
+    "target": {
+     "approvedSymbol": "BST1",
+     "id": "ENSG00000109743"
+    }
+   },
+   {
+    "score": 0.31720656156539917,
+    "target": {
+     "approvedSymbol": "CD38",
+     "id": "ENSG00000004468"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000959",
+ "studyLocusId": "991dd39c7ecb2f20615e010ed8b29fb0",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_15735478_C_A",
+  "position": 15735478
+ }
+}

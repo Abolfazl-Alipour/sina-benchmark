@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.582892119884491,
+    "target": {
+     "approvedSymbol": "FOXG1",
+     "id": "ENSG00000176165"
+    }
+   },
+   {
+    "score": 0.14724302291870117,
+    "target": {
+     "approvedSymbol": "PRKD1",
+     "id": "ENSG00000184304"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "f06636cb20067e69cb85df6306df3822",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_29160250_A_G",
+  "position": 29160250
+ }
+}

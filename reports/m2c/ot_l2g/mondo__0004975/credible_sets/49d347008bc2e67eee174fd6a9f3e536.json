@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.9633714556694031,
+    "target": {
+     "approvedSymbol": "GAB2",
+     "id": "ENSG00000033327"
+    }
+   },
+   {
+    "score": 0.0809524804353714,
+    "target": {
+     "approvedSymbol": "USP35",
+     "id": "ENSG00000118369"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000046",
+ "studyLocusId": "49d347008bc2e67eee174fd6a9f3e536",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_78380104_C_A",
+  "position": 78380104
+ }
+}

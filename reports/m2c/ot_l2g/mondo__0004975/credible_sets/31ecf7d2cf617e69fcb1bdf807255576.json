@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.1557396948337555,
+    "target": {
+     "approvedSymbol": "SRRM3",
+     "id": "ENSG00000177679"
+    }
+   },
+   {
+    "score": 0.10442310571670532,
+    "target": {
+     "approvedSymbol": "TMEM120A",
+     "id": "ENSG00000189077"
+    }
+   },
+   {
+    "score": 0.09149888902902603,
+    "target": {
+     "approvedSymbol": "MDH2",
+     "id": "ENSG00000146701"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "31ecf7d2cf617e69fcb1bdf807255576",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_76137486_A_G",
+  "position": 76137486
+ }
+}

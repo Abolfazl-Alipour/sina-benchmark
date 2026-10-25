@@ -1,0 +1,56 @@
+{
+ "l2GPredictions": {
+  "count": 6,
+  "rows": [
+   {
+    "score": 0.22119201719760895,
+    "target": {
+     "approvedSymbol": "SPPL2C",
+     "id": "ENSG00000185294"
+    }
+   },
+   {
+    "score": 0.18124206364154816,
+    "target": {
+     "approvedSymbol": "MAPT",
+     "id": "ENSG00000186868"
+    }
+   },
+   {
+    "score": 0.17254048585891724,
+    "target": {
+     "approvedSymbol": "STH",
+     "id": "ENSG00000256762"
+    }
+   },
+   {
+    "score": 0.12385957688093185,
+    "target": {
+     "approvedSymbol": "PLEKHM1",
+     "id": "ENSG00000225190"
+    }
+   },
+   {
+    "score": 0.1131054013967514,
+    "target": {
+     "approvedSymbol": "CRHR1",
+     "id": "ENSG00000120088"
+    }
+   },
+   {
+    "score": 0.05150410905480385,
+    "target": {
+     "approvedSymbol": "KANSL1",
+     "id": "ENSG00000120071"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000528",
+ "studyLocusId": "14636468b0f43f86be8346d7f7f0a6c8",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_45641777_A_G",
+  "position": 45641777
+ }
+}

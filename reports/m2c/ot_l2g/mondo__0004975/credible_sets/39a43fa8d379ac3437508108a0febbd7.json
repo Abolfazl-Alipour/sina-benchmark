@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.739196240901947,
+    "target": {
+     "approvedSymbol": "TSPOAP1",
+     "id": "ENSG00000005379"
+    }
+   },
+   {
+    "score": 0.05532778054475784,
+    "target": {
+     "approvedSymbol": "SUPT4H1",
+     "id": "ENSG00000213246"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST007319",
+ "studyLocusId": "39a43fa8d379ac3437508108a0febbd7",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_58331728_G_C",
+  "position": 58331728
+ }
+}

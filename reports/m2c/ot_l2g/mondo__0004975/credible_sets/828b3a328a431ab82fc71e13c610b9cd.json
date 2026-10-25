@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7242473363876343,
+    "target": {
+     "approvedSymbol": "CUX1",
+     "id": "ENSG00000257923"
+    }
+   },
+   {
+    "score": 0.058196425437927246,
+    "target": {
+     "approvedSymbol": "MYL10",
+     "id": "ENSG00000106436"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "828b3a328a431ab82fc71e13c610b9cd",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_101788981_A_T",
+  "position": 101788981
+ }
+}

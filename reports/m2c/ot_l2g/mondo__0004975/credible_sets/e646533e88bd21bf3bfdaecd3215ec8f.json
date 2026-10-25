@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6729549169540405,
+    "target": {
+     "approvedSymbol": "MAP3K20",
+     "id": "ENSG00000091436"
+    }
+   },
+   {
+    "score": 0.3076741695404053,
+    "target": {
+     "approvedSymbol": "CDCA7",
+     "id": "ENSG00000144354"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "e646533e88bd21bf3bfdaecd3215ec8f",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_173239977_C_G",
+  "position": 173239977
+ }
+}

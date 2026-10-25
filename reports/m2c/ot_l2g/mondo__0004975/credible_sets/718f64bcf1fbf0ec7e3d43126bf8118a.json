@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2770833373069763,
+    "target": {
+     "approvedSymbol": "PPP2R5E",
+     "id": "ENSG00000154001"
+    }
+   },
+   {
+    "score": 0.12407201528549194,
+    "target": {
+     "approvedSymbol": "WDR89",
+     "id": "ENSG00000140006"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "718f64bcf1fbf0ec7e3d43126bf8118a",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_63585644_G_T",
+  "position": 63585644
+ }
+}

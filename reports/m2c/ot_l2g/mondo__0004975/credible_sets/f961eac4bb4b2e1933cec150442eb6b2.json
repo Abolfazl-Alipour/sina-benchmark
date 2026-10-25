@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7009826898574829,
+    "target": {
+     "approvedSymbol": "EPSTI1",
+     "id": "ENSG00000133106"
+    }
+   },
+   {
+    "score": 0.07111739367246628,
+    "target": {
+     "approvedSymbol": "DNAJC15",
+     "id": "ENSG00000120675"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "f961eac4bb4b2e1933cec150442eb6b2",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_42917642_G_A",
+  "position": 42917642
+ }
+}

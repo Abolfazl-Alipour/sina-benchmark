@@ -1,0 +1,16 @@
+# M1 Track-R — PrimeKG download config (spec §5.1)
+# Scope: only what Task-D reproduction requires → kg.csv (full graph, both edge
+# directions materialized). Other Dataverse files (kg_raw, kg_giant, grouped,
+# feature tabs) are out of scope for M1.
+track: R
+registry_path: data/raw/REGISTRY.json
+dest_dir: data/raw/primekg
+manifest_path: data/raw/manifests/m1_download_trackr.json
+assets:
+  - name: primekg_kg_csv
+    version: "2.1"  # Dataverse dataset version (released 2022-05-02)
+    url: https://dataverse.harvard.edu/api/access/datafile/6180620
+    filename: kg.csv
+    size_bytes: 981751236
+    license_verbatim: 'CC0 1.0 (Dataverse record license field, doi:10.7910/DVN/IXA7BM; see CHANGES/0006 — conservative research-only working assumption retained)'
+    notes: "upstream MD5 aac8191d4fbc5bf09cdf8c3c78b4e75f (Dataverse checksum); sha256 recorded by download script"

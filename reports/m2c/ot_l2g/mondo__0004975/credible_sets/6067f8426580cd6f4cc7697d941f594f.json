@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5415868759155273,
+    "target": {
+     "approvedSymbol": "LHX5",
+     "id": "ENSG00000089116"
+    }
+   },
+   {
+    "score": 0.10590077191591263,
+    "target": {
+     "approvedSymbol": "SDS",
+     "id": "ENSG00000135094"
+    }
+   },
+   {
+    "score": 0.09783419221639633,
+    "target": {
+     "approvedSymbol": "SDSL",
+     "id": "ENSG00000139410"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90654655",
+ "studyLocusId": "6067f8426580cd6f4cc7697d941f594f",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_113643122_C_T",
+  "position": 113643122
+ }
+}

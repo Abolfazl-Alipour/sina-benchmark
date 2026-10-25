@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.48168429732322693,
+    "target": {
+     "approvedSymbol": "BRSK2",
+     "id": "ENSG00000174672"
+    }
+   },
+   {
+    "score": 0.09576811641454697,
+    "target": {
+     "approvedSymbol": "TOLLIP",
+     "id": "ENSG00000078902"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "8b45c5aa2b9038ea64deba222c8515e2",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_1355844_A_T",
+  "position": 1355844
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.3633677363395691,
+    "target": {
+     "approvedSymbol": "SLC39A13",
+     "id": "ENSG00000165915"
+    }
+   },
+   {
+    "score": 0.19464586675167084,
+    "target": {
+     "approvedSymbol": "PSMC3",
+     "id": "ENSG00000165916"
+    }
+   },
+   {
+    "score": 0.08765312284231186,
+    "target": {
+     "approvedSymbol": "RAPSN",
+     "id": "ENSG00000165917"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "1528037d9084c5fb5806116950eccbce",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_47433000_A_T",
+  "position": 47433000
+ }
+}

@@ -1,0 +1,54 @@
+# M2A — TxGNN disease-area split files (spec §6.2.1; MIT license)
+# Pinned to main @ 0e0203c3939f7d12da27aaf10e55daaff5424023 (2024-05-06, latest).
+# Note: `neurodigenerative.csv` spelling is the upstream typo (V4).
+track: R
+registry_path: data/raw/REGISTRY.json
+dest_dir: data/raw/txgnn/disease_files
+manifest_path: data/raw/manifests/m2_download_txgnn.json
+assets:
+  - name: txgnn_split_neurodigenerative
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/neurodigenerative.csv
+    filename: neurodigenerative.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"
+    notes: "68 MONDO diseases; upstream filename typo documented in V4"
+  - name: txgnn_split_adrenal_gland
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/adrenal_gland.csv
+    filename: adrenal_gland.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"
+  - name: txgnn_split_anemia
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/anemia.csv
+    filename: anemia.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"
+  - name: txgnn_split_autoimmune
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/autoimmune.csv
+    filename: autoimmune.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"
+  - name: txgnn_split_cardiovascular
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/cardiovascular.csv
+    filename: cardiovascular.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"
+  - name: txgnn_split_cell_proliferation
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/cell_proliferation.csv
+    filename: cell_proliferation.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"
+  - name: txgnn_split_diabetes
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/diabetes.csv
+    filename: diabetes.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"
+  - name: txgnn_split_mental_health
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/mental_health.csv
+    filename: mental_health.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"
+  - name: txgnn_split_metabolic_disorder
+    version: "0e0203c"
+    url: https://raw.githubusercontent.com/mims-harvard/TxGNN/0e0203c3939f7d12da27aaf10e55daaff5424023/data/disease_files/metabolic_disorder.csv
+    filename: metabolic_disorder.csv
+    license_verbatim: "MIT (github.com/mims-harvard/TxGNN LICENSE)"

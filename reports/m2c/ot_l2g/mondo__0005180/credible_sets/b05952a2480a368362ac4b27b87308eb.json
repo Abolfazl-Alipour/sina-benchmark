@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8259170055389404,
+    "target": {
+     "approvedSymbol": "STK39",
+     "id": "ENSG00000198648"
+    }
+   },
+   {
+    "score": 0.06722791492938995,
+    "target": {
+     "approvedSymbol": "B3GALT1",
+     "id": "ENSG00000172318"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000959",
+ "studyLocusId": "b05952a2480a368362ac4b27b87308eb",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_168260515_G_T",
+  "position": 168260515
+ }
+}

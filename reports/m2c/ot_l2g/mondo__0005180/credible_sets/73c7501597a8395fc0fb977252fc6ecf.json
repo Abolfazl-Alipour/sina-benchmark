@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6697301864624023,
+    "target": {
+     "approvedSymbol": "SEC23IP",
+     "id": "ENSG00000107651"
+    }
+   },
+   {
+    "score": 0.19306997954845428,
+    "target": {
+     "approvedSymbol": "MCMBP",
+     "id": "ENSG00000197771"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "73c7501597a8395fc0fb977252fc6ecf",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_119950976_C_T",
+  "position": 119950976
+ }
+}

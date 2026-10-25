@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.8786712884902954,
+    "target": {
+     "approvedSymbol": "ABI3",
+     "id": "ENSG00000108798"
+    }
+   },
+   {
+    "score": 0.1295219510793686,
+    "target": {
+     "approvedSymbol": "PHOSPHO1",
+     "id": "ENSG00000173868"
+    }
+   },
+   {
+    "score": 0.06623513996601105,
+    "target": {
+     "approvedSymbol": "GNGT2",
+     "id": "ENSG00000167083"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "d4d4d8c7d908501b3cfe11351d446a27",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_49219935_T_C",
+  "position": 49219935
+ }
+}

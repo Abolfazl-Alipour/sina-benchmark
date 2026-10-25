@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.37416523694992065,
+    "target": {
+     "approvedSymbol": "RPS29",
+     "id": "ENSG00000213741"
+    }
+   },
+   {
+    "score": 0.19896315038204193,
+    "target": {
+     "approvedSymbol": "LRR1",
+     "id": "ENSG00000165501"
+    }
+   },
+   {
+    "score": 0.08455000072717667,
+    "target": {
+     "approvedSymbol": "MGAT2",
+     "id": "ENSG00000168282"
+    }
+   },
+   {
+    "score": 0.07006784528493881,
+    "target": {
+     "approvedSymbol": "RPL36AL",
+     "id": "ENSG00000165502"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "7a16651da80d2ccfe8deba311bb751ec",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_49127434_A_C",
+  "position": 49127434
+ }
+}

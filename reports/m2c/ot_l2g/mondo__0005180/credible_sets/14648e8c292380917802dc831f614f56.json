@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8328624963760376,
+    "target": {
+     "approvedSymbol": "CCSER1",
+     "id": "ENSG00000184305"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "14648e8c292380917802dc831f614f56",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_90290373_G_A",
+  "position": 90290373
+ }
+}

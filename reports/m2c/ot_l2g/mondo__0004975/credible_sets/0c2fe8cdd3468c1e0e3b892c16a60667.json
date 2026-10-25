@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.21568253636360168,
+    "target": {
+     "approvedSymbol": "KLHDC7B",
+     "id": "ENSG00000130487"
+    }
+   },
+   {
+    "score": 0.07901550829410553,
+    "target": {
+     "approvedSymbol": "TYMP",
+     "id": "ENSG00000025708"
+    }
+   },
+   {
+    "score": 0.0758972018957138,
+    "target": {
+     "approvedSymbol": "CIMAP1B",
+     "id": "ENSG00000177989"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "0c2fe8cdd3468c1e0e3b892c16a60667",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_50543541_G_A",
+  "position": 50543541
+ }
+}

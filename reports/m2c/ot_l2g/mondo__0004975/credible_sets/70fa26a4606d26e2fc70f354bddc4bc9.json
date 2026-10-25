@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6324052810668945,
+    "target": {
+     "approvedSymbol": "SEC61G",
+     "id": "ENSG00000132432"
+    }
+   },
+   {
+    "score": 0.272940456867218,
+    "target": {
+     "approvedSymbol": "EGFR",
+     "id": "ENSG00000146648"
+    }
+   },
+   {
+    "score": 0.05194063484668732,
+    "target": {
+     "approvedSymbol": "LANCL2",
+     "id": "ENSG00000132434"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "70fa26a4606d26e2fc70f354bddc4bc9",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_54881563_A_G",
+  "position": 54881563
+ }
+}

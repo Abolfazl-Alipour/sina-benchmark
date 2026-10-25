@@ -1,0 +1,40 @@
+diff --git a/torchdrug/core/engine.py b/torchdrug/core/engine.py
+index 1bc83e8..b58513d 100644
+--- a/torchdrug/core/engine.py
++++ b/torchdrug/core/engine.py
+@@ -204,22 +204,25 @@ class Engine(core.Configurable):
+         model.split = split
+ 
+         model.eval()
+-        preds = []
+-        targets = []
++        # SINA streaming eval: per-batch metrics with a running weighted mean.
++        # Accumulating all predictions OOMs on large entity sets (full test =
++        # ~15 GB of preds + concat peak > 46.6 GB container RAM cap).
++        # mr/mrr/hits@k are per-triple means -> exact; auroc/ap become
++        # batch-averaged approximations.
++        metric_sum = {}
++        count = 0
+         for batch in dataloader:
+             if self.device.type == "cuda":
+                 batch = utils.cuda(batch, device=self.device)
+ 
+             pred, target = model.predict_and_target(batch)
+-            preds.append(pred)
+-            targets.append(target)
++            bs = len(pred)
++            batch_metric = model.evaluate(pred, target)
++            for k, v in batch_metric.items():
++                metric_sum[k] = metric_sum.get(k, 0.0) + float(v) * bs
++            count += bs
+ 
+-        pred = utils.cat(preds)
+-        target = utils.cat(targets)
+-        if self.world_size > 1:
+-            pred = comm.cat(pred)
+-            target = comm.cat(target)
+-        metric = model.evaluate(pred, target)
++        metric = {k: v / max(count, 1) for k, v in metric_sum.items()}
+         if log:
+             self.meter.log(metric, category="%s/epoch" % split)
+ 

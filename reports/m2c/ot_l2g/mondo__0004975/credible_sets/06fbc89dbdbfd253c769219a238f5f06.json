@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.43958261609077454,
+    "target": {
+     "approvedSymbol": "SEPTIN14",
+     "id": "ENSG00000154997"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "06fbc89dbdbfd253c769219a238f5f06",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_55835419_T_G",
+  "position": 55835419
+ }
+}

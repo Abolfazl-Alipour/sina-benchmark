@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7046790719032288,
+    "target": {
+     "approvedSymbol": "GHR",
+     "id": "ENSG00000112964"
+    }
+   },
+   {
+    "score": 0.23028422892093658,
+    "target": {
+     "approvedSymbol": "CCDC152",
+     "id": "ENSG00000198865"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "eab3a911b88deff6fbbb59231d323ff5",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_42576083_A_G",
+  "position": 42576083
+ }
+}

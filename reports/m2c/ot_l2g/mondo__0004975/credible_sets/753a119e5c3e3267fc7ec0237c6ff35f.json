@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.49862146377563477,
+    "target": {
+     "approvedSymbol": "IP6K2",
+     "id": "ENSG00000068745"
+    }
+   },
+   {
+    "score": 0.15072613954544067,
+    "target": {
+     "approvedSymbol": "NCKIPSD",
+     "id": "ENSG00000213672"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "753a119e5c3e3267fc7ec0237c6ff35f",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_48694054_G_T",
+  "position": 48694054
+ }
+}

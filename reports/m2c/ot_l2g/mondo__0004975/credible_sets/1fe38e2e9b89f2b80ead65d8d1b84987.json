@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.7353572249412537,
+    "target": {
+     "approvedSymbol": "GRIA4",
+     "id": "ENSG00000152578"
+    }
+   },
+   {
+    "score": 0.06997574120759964,
+    "target": {
+     "approvedSymbol": "CARD18",
+     "id": "ENSG00000255501"
+    }
+   },
+   {
+    "score": 0.05615448206663132,
+    "target": {
+     "approvedSymbol": "CASP1",
+     "id": "ENSG00000137752"
+    }
+   },
+   {
+    "score": 0.054747920483350754,
+    "target": {
+     "approvedSymbol": "CARD16",
+     "id": "ENSG00000204397"
+    }
+   },
+   {
+    "score": 0.05000466853380203,
+    "target": {
+     "approvedSymbol": "CASP5",
+     "id": "ENSG00000137757"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "1fe38e2e9b89f2b80ead65d8d1b84987",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_105515895_G_A",
+  "position": 105515895
+ }
+}

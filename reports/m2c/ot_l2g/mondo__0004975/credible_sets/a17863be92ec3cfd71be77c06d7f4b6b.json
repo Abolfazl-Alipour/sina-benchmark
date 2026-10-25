@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6293119192123413,
+    "target": {
+     "approvedSymbol": "PLCXD3",
+     "id": "ENSG00000182836"
+    }
+   },
+   {
+    "score": 0.050568837672472,
+    "target": {
+     "approvedSymbol": "GHR",
+     "id": "ENSG00000112964"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "a17863be92ec3cfd71be77c06d7f4b6b",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_41428382_G_T",
+  "position": 41428382
+ }
+}

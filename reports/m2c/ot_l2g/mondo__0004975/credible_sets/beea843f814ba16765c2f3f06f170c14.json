@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6457752585411072,
+    "target": {
+     "approvedSymbol": "FBN2",
+     "id": "ENSG00000138829"
+    }
+   },
+   {
+    "score": 0.07613110542297363,
+    "target": {
+     "approvedSymbol": "SLC12A2",
+     "id": "ENSG00000064651"
+    }
+   },
+   {
+    "score": 0.054747920483350754,
+    "target": {
+     "approvedSymbol": "ISOC1",
+     "id": "ENSG00000066583"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624093",
+ "studyLocusId": "beea843f814ba16765c2f3f06f170c14",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_128619201_G_A",
+  "position": 128619201
+ }
+}

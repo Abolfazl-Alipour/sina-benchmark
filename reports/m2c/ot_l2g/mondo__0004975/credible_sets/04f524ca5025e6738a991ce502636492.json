@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8239542245864868,
+    "target": {
+     "approvedSymbol": "PDE4B",
+     "id": "ENSG00000184588"
+    }
+   },
+   {
+    "score": 0.08226407319307327,
+    "target": {
+     "approvedSymbol": "LEPR",
+     "id": "ENSG00000116678"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134605",
+ "studyLocusId": "04f524ca5025e6738a991ce502636492",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_65936741_C_A",
+  "position": 65936741
+ }
+}

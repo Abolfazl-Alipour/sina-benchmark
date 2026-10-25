@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8923622965812683,
+    "target": {
+     "approvedSymbol": "APH1B",
+     "id": "ENSG00000138613"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "35a6d3c6758611ee5f80a7ed357e5dd3",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_63277703_C_T",
+  "position": 63277703
+ }
+}

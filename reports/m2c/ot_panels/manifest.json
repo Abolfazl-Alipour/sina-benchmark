@@ -1,0 +1,86 @@
+{
+  "api": "https://api.platform.opentargets.org/api/v4/graphql",
+  "pulled_at": "2026-09-05T05:09:32Z",
+  "units": {
+    "mondo__0004975": {
+      "beast_mapped_2026_09_04": 12579,
+      "count": 13367,
+      "eligible_after_excl_train2_valid": 1687,
+      "knowns_in_ot_mapped": 11130,
+      "knowns_train2_valid": 11793,
+      "label": "AD",
+      "mapped": 12898,
+      "mapped_deviation": 319,
+      "ot_id": "MONDO_0004975",
+      "panels": {
+        "100": {
+          "panel_min_score": 0.22073528541733342,
+          "path": "reports/m2c/ot_panels/mondo__0004975_ot_top100_excl_knowns.txt",
+          "sha256": "045c20fc570348e1cd34bb1b3236d6c8fbe9d4e4584182f4bd2efc48979122dc",
+          "test_coverage": 0.08373590982286634,
+          "test_hits_in_panel": 52
+        },
+        "200": {
+          "panel_min_score": 0.08235919358822769,
+          "path": "reports/m2c/ot_panels/mondo__0004975_ot_top200_excl_knowns.txt",
+          "sha256": "ace4d40b0e4bc412caaf4240454fceaf18bfba1f2518374aeceef171ef32e7e6",
+          "test_coverage": 0.178743961352657,
+          "test_hits_in_panel": 111
+        },
+        "500": {
+          "panel_min_score": 0.02697932939198323,
+          "path": "reports/m2c/ot_panels/mondo__0004975_ot_top500_excl_knowns.txt",
+          "sha256": "15eba8ecfac2d553c5797260e8faddddff92678f8c1f4416a760480b609e8324",
+          "test_coverage": 0.3784219001610306,
+          "test_hits_in_panel": 235
+        }
+      },
+      "raw_sha256": "39716800104ee363a4bfb9b8b3237fd20495ba303794842dfc3ac84a02f87238",
+      "raw_topk_knowns_density": {
+        "100": 97,
+        "200": 194,
+        "500": 477
+      }
+    },
+    "mondo__0005180": {
+      "beast_mapped_2026_09_04": 8274,
+      "count": 8923,
+      "eligible_after_excl_train2_valid": 2947,
+      "knowns_in_ot_mapped": 5628,
+      "knowns_train2_valid": 6245,
+      "label": "PD",
+      "mapped": 8631,
+      "mapped_deviation": 357,
+      "ot_id": "MONDO_0005180",
+      "panels": {
+        "100": {
+          "panel_min_score": 0.07980733626502631,
+          "path": "reports/m2c/ot_panels/mondo__0005180_ot_top100_excl_knowns.txt",
+          "sha256": "e39853b76ab87bc4711565db26425956ee0c7829d6858461cd1110eb277f1d4c",
+          "test_coverage": 0.25663716814159293,
+          "test_hits_in_panel": 87
+        },
+        "200": {
+          "panel_min_score": 0.05804872922623395,
+          "path": "reports/m2c/ot_panels/mondo__0005180_ot_top200_excl_knowns.txt",
+          "sha256": "0e4e2bc61107647ef7344cec8972f06f7b885dc575e6384e83289780432a9fd1",
+          "test_coverage": 0.31268436578171094,
+          "test_hits_in_panel": 106
+        },
+        "500": {
+          "panel_min_score": 0.03218998334656189,
+          "path": "reports/m2c/ot_panels/mondo__0005180_ot_top500_excl_knowns.txt",
+          "sha256": "95e77a67a37710ba6b77bae455cdc2a571be3c04dd3c2879fc0ea38a1752c984",
+          "test_coverage": 0.415929203539823,
+          "test_hits_in_panel": 141
+        }
+      },
+      "raw_sha256": "1b3cfddc30f34c7f36435a1c1b6506ee286e7e99f6555ebf7a9a5c06a319ea47",
+      "raw_topk_knowns_density": {
+        "100": 92,
+        "200": 184,
+        "500": 464
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.30187124013900757,
+    "target": {
+     "approvedSymbol": "TMED5",
+     "id": "ENSG00000117500"
+    }
+   },
+   {
+    "score": 0.14410772919654846,
+    "target": {
+     "approvedSymbol": "CCDC18",
+     "id": "ENSG00000122483"
+    }
+   },
+   {
+    "score": 0.1314258724451065,
+    "target": {
+     "approvedSymbol": "MTF2",
+     "id": "ENSG00000143033"
+    }
+   },
+   {
+    "score": 0.08505547046661377,
+    "target": {
+     "approvedSymbol": "DR1",
+     "id": "ENSG00000117505"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "98ab9e7e0641b4973c5ce38fe0902af3",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_93086630_C_G",
+  "position": 93086630
+ }
+}

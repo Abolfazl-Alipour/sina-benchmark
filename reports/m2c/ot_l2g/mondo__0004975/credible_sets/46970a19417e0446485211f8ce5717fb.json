@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.21535393595695496,
+    "target": {
+     "approvedSymbol": "TPT1",
+     "id": "ENSG00000133112"
+    }
+   },
+   {
+    "score": 0.16018934547901154,
+    "target": {
+     "approvedSymbol": "SLC25A30",
+     "id": "ENSG00000174032"
+    }
+   },
+   {
+    "score": 0.061318203806877136,
+    "target": {
+     "approvedSymbol": "COG3",
+     "id": "ENSG00000136152"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "46970a19417e0446485211f8ce5717fb",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_45383701_G_C",
+  "position": 45383701
+ }
+}

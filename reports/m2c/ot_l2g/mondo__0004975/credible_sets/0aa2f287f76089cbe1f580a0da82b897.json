@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8035527467727661,
+    "target": {
+     "approvedSymbol": "CLU",
+     "id": "ENSG00000120885"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90449053",
+ "studyLocusId": "0aa2f287f76089cbe1f580a0da82b897",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_27607795_T_C",
+  "position": 27607795
+ }
+}

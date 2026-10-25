@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6524196267127991,
+    "target": {
+     "approvedSymbol": "SNX19",
+     "id": "ENSG00000120451"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "d48727357047e59c5c1222e3acce0c07",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_130984755_C_T",
+  "position": 130984755
+ }
+}

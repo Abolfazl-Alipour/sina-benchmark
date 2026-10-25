@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6392375230789185,
+    "target": {
+     "approvedSymbol": "NDUFAB1",
+     "id": "ENSG00000004779"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "11424a415582bf4b40be1ddfcd3c4e93",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_23588279_A_G",
+  "position": 23588279
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6784132719039917,
+    "target": {
+     "approvedSymbol": "MCCC1",
+     "id": "ENSG00000078070"
+    }
+   },
+   {
+    "score": 0.17211946845054626,
+    "target": {
+     "approvedSymbol": "DCUN1D1",
+     "id": "ENSG00000043093"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST009325",
+ "studyLocusId": "92718977d24b70e3956d447b6894a16a",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_183042285_T_G",
+  "position": 183042285
+ }
+}

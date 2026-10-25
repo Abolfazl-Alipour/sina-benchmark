@@ -1,0 +1,10 @@
+# KEEP-graph triviality re-run (CHANGES/0024): same A3 audit as
+# configs/m2_triviality.yaml but on the keep_disphe exports (train1 =
+# 1,431,945 edges incl. DIS-PHE) and their baselines parquet. Re-decides the
+# degenerate flags (PPR>=0.99 baseline OR >10% of test answers <=2 hops).
+lodo_exports_dir: data/processed/m2/lodo_exports_keep
+lodo_baselines: data/processed/m2/lodo_baselines_keep/lodo_baselines.parquet
+output_dir: data/processed/m2/lodo_audits_keep
+report_path: reports/m2b/triviality_audit_keep.md
+manifest_path: data/raw/manifests/m2_triviality_audit_keep.json
+train1_edges_label: 1,431,945 (incl. DIS-PHE, KEEP graph)

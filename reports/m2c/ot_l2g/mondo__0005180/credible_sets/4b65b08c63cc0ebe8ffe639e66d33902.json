@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.67091304063797,
+    "target": {
+     "approvedSymbol": "RIMS1",
+     "id": "ENSG00000079841"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "4b65b08c63cc0ebe8ffe639e66d33902",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_71778059_C_T",
+  "position": 71778059
+ }
+}

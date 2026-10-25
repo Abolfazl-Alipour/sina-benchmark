@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.057495977729558945,
+    "target": {
+     "approvedSymbol": "HEYL",
+     "id": "ENSG00000163909"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "8dab22506457acf2353c3ce90f6355f1",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_39622232_T_C",
+  "position": 39622232
+ }
+}

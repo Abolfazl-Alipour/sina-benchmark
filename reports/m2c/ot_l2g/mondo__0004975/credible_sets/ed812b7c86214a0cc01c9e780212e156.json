@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.5828064680099487,
+    "target": {
+     "approvedSymbol": "GMNC",
+     "id": "ENSG00000205835"
+    }
+   },
+   {
+    "score": 0.08706247806549072,
+    "target": {
+     "approvedSymbol": "IL1RAP",
+     "id": "ENSG00000196083"
+    }
+   },
+   {
+    "score": 0.07029546797275543,
+    "target": {
+     "approvedSymbol": "UTS2B",
+     "id": "ENSG00000188958"
+    }
+   },
+   {
+    "score": 0.06630805134773254,
+    "target": {
+     "approvedSymbol": "CCDC50",
+     "id": "ENSG00000152492"
+    }
+   },
+   {
+    "score": 0.0645071417093277,
+    "target": {
+     "approvedSymbol": "OSTN",
+     "id": "ENSG00000188729"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001951",
+ "studyLocusId": "ed812b7c86214a0cc01c9e780212e156",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_190951729_G_A",
+  "position": 190951729
+ }
+}

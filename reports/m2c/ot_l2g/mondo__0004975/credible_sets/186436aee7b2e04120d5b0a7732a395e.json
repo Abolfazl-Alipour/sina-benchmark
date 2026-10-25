@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.4822779595851898,
+    "target": {
+     "approvedSymbol": "BRD1",
+     "id": "ENSG00000100425"
+    }
+   },
+   {
+    "score": 0.12332114577293396,
+    "target": {
+     "approvedSymbol": "CRELD2",
+     "id": "ENSG00000184164"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "186436aee7b2e04120d5b0a7732a395e",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_49800261_C_T",
+  "position": 49800261
+ }
+}

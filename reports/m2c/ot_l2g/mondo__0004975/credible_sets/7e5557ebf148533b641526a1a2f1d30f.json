@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5873610973358154,
+    "target": {
+     "approvedSymbol": "KRR1",
+     "id": "ENSG00000111615"
+    }
+   },
+   {
+    "score": 0.19069735705852509,
+    "target": {
+     "approvedSymbol": "PHLDA1",
+     "id": "ENSG00000139289"
+    }
+   },
+   {
+    "score": 0.12202589958906174,
+    "target": {
+     "approvedSymbol": "GLIPR1",
+     "id": "ENSG00000139278"
+    }
+   },
+   {
+    "score": 0.050631992518901825,
+    "target": {
+     "approvedSymbol": "NAP1L1",
+     "id": "ENSG00000187109"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "7e5557ebf148533b641526a1a2f1d30f",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_75763576_C_T",
+  "position": 75763576
+ }
+}

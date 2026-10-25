@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6404941082000732,
+    "target": {
+     "approvedSymbol": "LCORL",
+     "id": "ENSG00000178177"
+    }
+   },
+   {
+    "score": 0.07466708868741989,
+    "target": {
+     "approvedSymbol": "DCAF16",
+     "id": "ENSG00000163257"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "43cca9beb1307ea30018f9b3e6cb0394",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_17956065_T_A",
+  "position": 17956065
+ }
+}

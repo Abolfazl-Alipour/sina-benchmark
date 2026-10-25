@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.7283655405044556,
+    "target": {
+     "approvedSymbol": "KALRN",
+     "id": "ENSG00000160145"
+    }
+   },
+   {
+    "score": 0.2528810501098633,
+    "target": {
+     "approvedSymbol": "UMPS",
+     "id": "ENSG00000114491"
+    }
+   },
+   {
+    "score": 0.06888683885335922,
+    "target": {
+     "approvedSymbol": "ITGB5",
+     "id": "ENSG00000082781"
+    }
+   },
+   {
+    "score": 0.05397890508174896,
+    "target": {
+     "approvedSymbol": "ROPN1",
+     "id": "ENSG00000065371"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "4f8f47b11acc5c512cd80521b6395d35",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_124436561_G_A",
+  "position": 124436561
+ }
+}

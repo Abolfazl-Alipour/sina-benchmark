@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.37311163544654846,
+    "target": {
+     "approvedSymbol": "KIF26A",
+     "id": "ENSG00000066735"
+    }
+   },
+   {
+    "score": 0.09525272250175476,
+    "target": {
+     "approvedSymbol": "ASPG",
+     "id": "ENSG00000166183"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9db2e1d9261cf0f8429a241246bafecf",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_104209450_C_T",
+  "position": 104209450
+ }
+}

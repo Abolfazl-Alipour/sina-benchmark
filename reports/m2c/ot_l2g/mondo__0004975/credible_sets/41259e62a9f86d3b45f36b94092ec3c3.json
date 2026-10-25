@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.101981520652771,
+    "target": {
+     "approvedSymbol": "DAO",
+     "id": "ENSG00000110887"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "41259e62a9f86d3b45f36b94092ec3c3",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_108905116_G_A",
+  "position": 108905116
+ }
+}

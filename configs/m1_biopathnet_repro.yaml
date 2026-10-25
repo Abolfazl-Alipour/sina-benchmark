@@ -1,0 +1,4 @@
+biopathnet_repo: third_party/biopathnet
+output_dir: data/processed/m1/biopathnet_repro
+report_path: reports/m2b/gate0_repro.md
+manifest_path: data/raw/manifests/m1_biopathnet_repro.json

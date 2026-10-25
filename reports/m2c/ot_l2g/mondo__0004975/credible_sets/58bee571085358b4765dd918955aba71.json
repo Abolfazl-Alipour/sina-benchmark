@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7159062623977661,
+    "target": {
+     "approvedSymbol": "PRICKLE1",
+     "id": "ENSG00000139174"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "58bee571085358b4765dd918955aba71",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_42485324_G_C",
+  "position": 42485324
+ }
+}

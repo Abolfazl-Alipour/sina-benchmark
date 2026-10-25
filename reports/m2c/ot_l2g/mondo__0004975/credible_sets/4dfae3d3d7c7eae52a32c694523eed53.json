@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6060502529144287,
+    "target": {
+     "approvedSymbol": "HOOK3",
+     "id": "ENSG00000168172"
+    }
+   },
+   {
+    "score": 0.05732368677854538,
+    "target": {
+     "approvedSymbol": "FNTA",
+     "id": "ENSG00000168522"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "4dfae3d3d7c7eae52a32c694523eed53",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_43008878_C_T",
+  "position": 43008878
+ }
+}

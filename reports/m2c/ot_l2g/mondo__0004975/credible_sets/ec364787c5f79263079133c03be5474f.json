@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6732100248336792,
+    "target": {
+     "approvedSymbol": "STK3",
+     "id": "ENSG00000104375"
+    }
+   },
+   {
+    "score": 0.09547978639602661,
+    "target": {
+     "approvedSymbol": "KCNS2",
+     "id": "ENSG00000156486"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "ec364787c5f79263079133c03be5474f",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_98624001_C_T",
+  "position": 98624001
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.43179023265838623,
+    "target": {
+     "approvedSymbol": "MS4A4A",
+     "id": "ENSG00000110079"
+    }
+   },
+   {
+    "score": 0.24621626734733582,
+    "target": {
+     "approvedSymbol": "MS4A6A",
+     "id": "ENSG00000110077"
+    }
+   },
+   {
+    "score": 0.08421669155359268,
+    "target": {
+     "approvedSymbol": "MS4A4E",
+     "id": "ENSG00000214787"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001026",
+ "studyLocusId": "43853a7a6b26e9afb53caf5fc3dc6344",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_60266956_C_T",
+  "position": 60266956
+ }
+}

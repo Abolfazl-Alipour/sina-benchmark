@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6284576654434204,
+    "target": {
+     "approvedSymbol": "FOXD4L6",
+     "id": "ENSG00000273514"
+    }
+   },
+   {
+    "score": 0.08502723276615143,
+    "target": {
+     "approvedSymbol": "ZNG1F",
+     "id": "ENSG00000215126"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "0181eb55372b6aaa3d8c0dcf232db45b",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_40894485_C_G",
+  "position": 40894485
+ }
+}

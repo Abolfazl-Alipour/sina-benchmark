@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.22453390061855316,
+    "target": {
+     "approvedSymbol": "TRIM4",
+     "id": "ENSG00000146833"
+    }
+   },
+   {
+    "score": 0.08142971992492676,
+    "target": {
+     "approvedSymbol": "OR2AE1",
+     "id": "ENSG00000244623"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "6200bf5ba80257131c001e1f06096e24",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_99873449_T_C",
+  "position": 99873449
+ }
+}

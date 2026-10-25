@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7378118634223938,
+    "target": {
+     "approvedSymbol": "AKAP10",
+     "id": "ENSG00000108599"
+    }
+   },
+   {
+    "score": 0.051909059286117554,
+    "target": {
+     "approvedSymbol": "ULK2",
+     "id": "ENSG00000083290"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "dea29a53766356f35e5c284a9ef68517",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_19951605_C_G",
+  "position": 19951605
+ }
+}

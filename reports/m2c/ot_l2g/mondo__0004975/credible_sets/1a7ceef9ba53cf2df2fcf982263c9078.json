@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3333621323108673,
+    "target": {
+     "approvedSymbol": "POU5F1B",
+     "id": "ENSG00000212993"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "1a7ceef9ba53cf2df2fcf982263c9078",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_127495750_T_C",
+  "position": 127495750
+ }
+}

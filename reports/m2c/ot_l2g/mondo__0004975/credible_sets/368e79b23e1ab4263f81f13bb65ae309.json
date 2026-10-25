@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5117906332015991,
+    "target": {
+     "approvedSymbol": "POTEA",
+     "id": "ENSG00000188877"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "368e79b23e1ab4263f81f13bb65ae309",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_43832380_A_G",
+  "position": 43832380
+ }
+}

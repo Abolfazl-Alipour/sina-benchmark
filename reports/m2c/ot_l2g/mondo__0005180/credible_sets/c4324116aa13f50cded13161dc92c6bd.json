@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7565200924873352,
+    "target": {
+     "approvedSymbol": "NOD2",
+     "id": "ENSG00000167207"
+    }
+   },
+   {
+    "score": 0.16933082044124603,
+    "target": {
+     "approvedSymbol": "CYLD",
+     "id": "ENSG00000083799"
+    }
+   },
+   {
+    "score": 0.12778373062610626,
+    "target": {
+     "approvedSymbol": "SNX20",
+     "id": "ENSG00000167208"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "c4324116aa13f50cded13161dc92c6bd",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_50710008_C_T",
+  "position": 50710008
+ }
+}

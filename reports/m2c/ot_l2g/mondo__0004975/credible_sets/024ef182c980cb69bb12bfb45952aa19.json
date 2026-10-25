@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2367696315050125,
+    "target": {
+     "approvedSymbol": "MROH5",
+     "id": "ENSG00000226807"
+    }
+   },
+   {
+    "score": 0.11304540932178497,
+    "target": {
+     "approvedSymbol": "C8orf90",
+     "id": "ENSG00000226490"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "024ef182c980cb69bb12bfb45952aa19",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_141601871_C_T",
+  "position": 141601871
+ }
+}

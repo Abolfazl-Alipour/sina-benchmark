@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2555913031101227,
+    "target": {
+     "approvedSymbol": "PEMT",
+     "id": "ENSG00000133027"
+    }
+   },
+   {
+    "score": 0.08697536587715149,
+    "target": {
+     "approvedSymbol": "RASD1",
+     "id": "ENSG00000108551"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "41395138da70427fb6587a3bc5822549",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_17523690_A_T",
+  "position": 17523690
+ }
+}

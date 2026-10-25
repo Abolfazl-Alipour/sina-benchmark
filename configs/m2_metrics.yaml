@@ -1,0 +1,49 @@
+# M2A-4 metrics configuration (spec §6.4/§6.5)
+
+splits_dir: data/processed/m2/splits
+baselines_dir: data/processed/m2/baselines
+trackr_nodes: data/processed/m1/trackr/nodes.parquet
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+output_dir: data/processed/m2/metrics
+report_path: reports/m2a/metrics_report.md
+manifest_path: data/raw/manifests/m2_compute_metrics.json
+
+splits:
+  trackr_family:
+    track: R
+    query_col: dst_id
+    answer_col: src_id
+    query_type: disease
+    filter_train: true
+    filter_valid: true
+  trackd_family:
+    track: D
+    query_col: src_id
+    answer_col: dst_id
+    query_type: disease
+    filter_train: true
+    filter_valid: true
+  trackd_family_alzheimer:
+    track: D
+    query_col: src_id
+    answer_col: dst_id
+    query_type: disease
+    filter_train: true
+    filter_valid: true
+  trackd_family_parkinson:
+    track: D
+    query_col: src_id
+    answer_col: dst_id
+    query_type: disease
+    filter_train: true
+    filter_valid: true
+
+baselines:
+  - degree_scores
+  - ppr_scores
+
+null_controls:
+  - degree_matched_nulls
+
+ks: [1, 3, 10]
+n_degree_bins: 4

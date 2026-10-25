@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.4039924740791321,
+    "target": {
+     "approvedSymbol": "FAM240B",
+     "id": "ENSG00000283329"
+    }
+   },
+   {
+    "score": 0.055460862815380096,
+    "target": {
+     "approvedSymbol": "ANKRD18A",
+     "id": "ENSG00000180071"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "da227f37299326a3089095ba1079da10",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_38688643_G_C",
+  "position": 38688643
+ }
+}

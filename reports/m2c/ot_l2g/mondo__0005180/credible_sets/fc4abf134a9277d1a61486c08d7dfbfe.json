@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7526438236236572,
+    "target": {
+     "approvedSymbol": "MAP4K4",
+     "id": "ENSG00000071054"
+    }
+   },
+   {
+    "score": 0.06393163651227951,
+    "target": {
+     "approvedSymbol": "IL1RL2",
+     "id": "ENSG00000115598"
+    }
+   },
+   {
+    "score": 0.052884574979543686,
+    "target": {
+     "approvedSymbol": "IL1R2",
+     "id": "ENSG00000115590"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "fc4abf134a9277d1a61486c08d7dfbfe",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_101780501_T_A",
+  "position": 101780501
+ }
+}

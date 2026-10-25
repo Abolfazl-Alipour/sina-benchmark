@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.511857807636261,
+    "target": {
+     "approvedSymbol": "RBFOX2",
+     "id": "ENSG00000100320"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "8793860ff84a2efb0e69adb03eebb6cc",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_36068090_G_A",
+  "position": 36068090
+ }
+}

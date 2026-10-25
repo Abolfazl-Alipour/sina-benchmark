@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7751665115356445,
+    "target": {
+     "approvedSymbol": "PTPN21",
+     "id": "ENSG00000070778"
+    }
+   },
+   {
+    "score": 0.6367683410644531,
+    "target": {
+     "approvedSymbol": "ZC3H14",
+     "id": "ENSG00000100722"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "4d8d376d57b84f324b3fa202a83f4199",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_88557948_T_C",
+  "position": 88557948
+ }
+}

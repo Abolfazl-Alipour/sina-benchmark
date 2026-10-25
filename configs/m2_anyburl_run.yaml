@@ -1,0 +1,25 @@
+# M2A-3 — AnyBURL pilot run (spec §6.3)
+# Uses the pinned AnyBURL-23-1x.jar downloaded by scripts/m2_download_anyburl.py.
+
+jar_path: data/raw/anyburl/AnyBURL-23-1x.jar
+splits_dir: data/processed/m2/splits
+output_dir: data/processed/m2/anyburl
+report_path: reports/m2a/anyburl_report.md
+manifest_path: data/raw/manifests/m2_run_anyburl.json
+
+splits:
+  trackr_family:
+    relation: disease_protein
+    reverse_test: false
+    prediction_type: heads
+  trackd_family:
+    relation: DIS-GEN
+    reverse_test: false
+    prediction_type: tails
+
+snapshots_at: "10,50,100"
+rules_snapshot: 100
+worker_threads: 4
+top_k: 10
+max_heap_gb: 8
+timeout_s: 3600

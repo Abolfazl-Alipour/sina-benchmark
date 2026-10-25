@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6527746319770813,
+    "target": {
+     "approvedSymbol": "CCNYL1B",
+     "id": "ENSG00000284209"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "ba9d308b9933b0207895c5418dab4d81",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_34260272_A_C",
+  "position": 34260272
+ }
+}

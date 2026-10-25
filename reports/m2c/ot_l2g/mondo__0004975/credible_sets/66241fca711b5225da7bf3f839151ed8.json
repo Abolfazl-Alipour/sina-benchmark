@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6981232166290283,
+    "target": {
+     "approvedSymbol": "ETV1",
+     "id": "ENSG00000006468"
+    }
+   },
+   {
+    "score": 0.08012975752353668,
+    "target": {
+     "approvedSymbol": "DGKB",
+     "id": "ENSG00000136267"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "66241fca711b5225da7bf3f839151ed8",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_13820985_C_T",
+  "position": 13820985
+ }
+}

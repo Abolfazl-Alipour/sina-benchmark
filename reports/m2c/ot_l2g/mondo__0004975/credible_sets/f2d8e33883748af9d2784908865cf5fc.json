@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5577070116996765,
+    "target": {
+     "approvedSymbol": "GRIK1",
+     "id": "ENSG00000171189"
+    }
+   },
+   {
+    "score": 0.1895218938589096,
+    "target": {
+     "approvedSymbol": "CLDN17",
+     "id": "ENSG00000156282"
+    }
+   },
+   {
+    "score": 0.07378242909908295,
+    "target": {
+     "approvedSymbol": "CLDN8",
+     "id": "ENSG00000156284"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90472769",
+ "studyLocusId": "f2d8e33883748af9d2784908865cf5fc",
+ "variant": {
+  "chromosome": "21",
+  "id": "21_30037711_C_T",
+  "position": 30037711
+ }
+}

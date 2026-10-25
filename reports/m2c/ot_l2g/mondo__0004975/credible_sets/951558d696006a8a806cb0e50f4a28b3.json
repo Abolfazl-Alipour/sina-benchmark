@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.7383753657341003,
+    "target": {
+     "approvedSymbol": "CD164",
+     "id": "ENSG00000135535"
+    }
+   },
+   {
+    "score": 0.4498765468597412,
+    "target": {
+     "approvedSymbol": "SMPD2",
+     "id": "ENSG00000135587"
+    }
+   },
+   {
+    "score": 0.3934524655342102,
+    "target": {
+     "approvedSymbol": "MICAL1",
+     "id": "ENSG00000135596"
+    }
+   },
+   {
+    "score": 0.20930680632591248,
+    "target": {
+     "approvedSymbol": "PPIL6",
+     "id": "ENSG00000185250"
+    }
+   },
+   {
+    "score": 0.10801025480031967,
+    "target": {
+     "approvedSymbol": "ZBTB24",
+     "id": "ENSG00000112365"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "951558d696006a8a806cb0e50f4a28b3",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_109415411_G_A",
+  "position": 109415411
+ }
+}

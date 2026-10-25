@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7533319592475891,
+    "target": {
+     "approvedSymbol": "LIAT1",
+     "id": "ENSG00000187624"
+    }
+   },
+   {
+    "score": 0.07661443203687668,
+    "target": {
+     "approvedSymbol": "RPH3AL",
+     "id": "ENSG00000181031"
+    }
+   },
+   {
+    "score": 0.07028711587190628,
+    "target": {
+     "approvedSymbol": "RFLNB",
+     "id": "ENSG00000183688"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "f57e3fa70e8614a9e8a2fc79fb461cce",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_397831_G_T",
+  "position": 397831
+ }
+}

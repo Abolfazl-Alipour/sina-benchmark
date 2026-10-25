@@ -1,0 +1,15 @@
+# Pre-registered Phase D wave stats (CHANGES/0020 §13 pins; CHANGES/0024).
+# One results JSON per seed; add wave1_benchmark_results_seed1339.json /
+# _seed5027.json as Wave 2 lands. Run from the data depot checkout (/opt/sina).
+results_jsons:
+  - reports/m2b/wave1_benchmark_results.json
+  - reports/m2b/wave1_benchmark_results_seed1339.json
+  - reports/m2b/wave1_benchmark_results_seed5027.json
+lodo_baselines: data/processed/m2/lodo_baselines_keep/lodo_baselines.parquet
+triviality: data/processed/m2/lodo_audits_keep/triviality.parquet
+exports_config: configs/m2_lodo_exports.yaml
+report_path: reports/m2b/wave_stats.md
+results_json: reports/m2b/wave_stats_results.json
+manifest_path: data/raw/manifests/m2_wave_stats.json
+n_resamples: 1000
+seed: 1337

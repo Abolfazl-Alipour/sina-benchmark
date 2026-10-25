@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5569102168083191,
+    "target": {
+     "approvedSymbol": "LSM14A",
+     "id": "ENSG00000257103"
+    }
+   },
+   {
+    "score": 0.05826360732316971,
+    "target": {
+     "approvedSymbol": "GARRE1",
+     "id": "ENSG00000166398"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9a9a91d154342bb579cae7db2698cf63",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_34031357_G_C",
+  "position": 34031357
+ }
+}

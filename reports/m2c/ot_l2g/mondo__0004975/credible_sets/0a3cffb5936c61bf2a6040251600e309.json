@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8483489155769348,
+    "target": {
+     "approvedSymbol": "SAP30L",
+     "id": "ENSG00000164576"
+    }
+   },
+   {
+    "score": 0.06221608817577362,
+    "target": {
+     "approvedSymbol": "HAND1",
+     "id": "ENSG00000113196"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001915",
+ "studyLocusId": "0a3cffb5936c61bf2a6040251600e309",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_154457546_C_T",
+  "position": 154457546
+ }
+}

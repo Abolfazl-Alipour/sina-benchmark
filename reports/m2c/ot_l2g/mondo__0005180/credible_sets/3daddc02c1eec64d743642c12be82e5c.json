@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.352432519197464,
+    "target": {
+     "approvedSymbol": "ARHGEF2",
+     "id": "ENSG00000116584"
+    }
+   },
+   {
+    "score": 0.23128339648246765,
+    "target": {
+     "approvedSymbol": "KHDC4",
+     "id": "ENSG00000132680"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90428733",
+ "studyLocusId": "3daddc02c1eec64d743642c12be82e5c",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_155974835_G_A",
+  "position": 155974835
+ }
+}

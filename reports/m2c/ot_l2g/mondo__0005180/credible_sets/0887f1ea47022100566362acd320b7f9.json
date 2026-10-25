@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5322436690330505,
+    "target": {
+     "approvedSymbol": "C8orf58",
+     "id": "ENSG00000241852"
+    }
+   },
+   {
+    "score": 0.39657649397850037,
+    "target": {
+     "approvedSymbol": "CCAR2",
+     "id": "ENSG00000158941"
+    }
+   },
+   {
+    "score": 0.19047191739082336,
+    "target": {
+     "approvedSymbol": "PDLIM2",
+     "id": "ENSG00000120913"
+    }
+   },
+   {
+    "score": 0.07132143527269363,
+    "target": {
+     "approvedSymbol": "BIN3",
+     "id": "ENSG00000147439"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "0887f1ea47022100566362acd320b7f9",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_22595913_G_A",
+  "position": 22595913
+ }
+}

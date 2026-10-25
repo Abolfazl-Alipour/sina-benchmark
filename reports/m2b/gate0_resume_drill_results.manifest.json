@@ -1,0 +1,9 @@
+{
+  "script": "gate0_resume_drill.py",
+  "started_at": "2026-08-15T01:45:44Z",
+  "finished_at": "2026-08-15T01:45:50Z",
+  "status": "PASS",
+  "outputs": {
+    "/home/ubuntu/sina-platform/reports/m2b/gate0_resume_drill_results.json": "3e8c80db85e8b3bf648bc204dfaae66824e8f065d039e97832bee724b33edd3d"
+  }
+}

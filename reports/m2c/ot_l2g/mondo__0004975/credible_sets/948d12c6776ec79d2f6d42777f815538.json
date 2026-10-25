@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7021209001541138,
+    "target": {
+     "approvedSymbol": "SPPL2A",
+     "id": "ENSG00000138600"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "948d12c6776ec79d2f6d42777f815538",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_50765671_C_A",
+  "position": 50765671
+ }
+}

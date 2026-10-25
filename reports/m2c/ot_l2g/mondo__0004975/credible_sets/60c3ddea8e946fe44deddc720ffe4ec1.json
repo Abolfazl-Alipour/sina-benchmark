@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.3395766317844391,
+    "target": {
+     "approvedSymbol": "ZCCHC8",
+     "id": "ENSG00000033030"
+    }
+   },
+   {
+    "score": 0.1862291693687439,
+    "target": {
+     "approvedSymbol": "CLIP1",
+     "id": "ENSG00000130779"
+    }
+   },
+   {
+    "score": 0.07583072036504745,
+    "target": {
+     "approvedSymbol": "KNTC1",
+     "id": "ENSG00000184445"
+    }
+   },
+   {
+    "score": 0.07313340902328491,
+    "target": {
+     "approvedSymbol": "RSRC2",
+     "id": "ENSG00000111011"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "60c3ddea8e946fe44deddc720ffe4ec1",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_122466247_C_T",
+  "position": 122466247
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3721529245376587,
+    "target": {
+     "approvedSymbol": "ETV4",
+     "id": "ENSG00000175832"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "62e6cc4e5f322d2a0738817f741473be",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_43567458_A_G",
+  "position": 43567458
+ }
+}

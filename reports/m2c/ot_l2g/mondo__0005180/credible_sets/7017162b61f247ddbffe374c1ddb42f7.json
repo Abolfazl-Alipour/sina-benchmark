@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.4822882413864136,
+    "target": {
+     "approvedSymbol": "RAB25",
+     "id": "ENSG00000132698"
+    }
+   },
+   {
+    "score": 0.12444224953651428,
+    "target": {
+     "approvedSymbol": "UBQLN4",
+     "id": "ENSG00000160803"
+    }
+   },
+   {
+    "score": 0.07654482126235962,
+    "target": {
+     "approvedSymbol": "LAMTOR2",
+     "id": "ENSG00000116586"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST010991",
+ "studyLocusId": "7017162b61f247ddbffe374c1ddb42f7",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_156060246_C_T",
+  "position": 156060246
+ }
+}

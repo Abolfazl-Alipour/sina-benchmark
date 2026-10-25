@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5134822726249695,
+    "target": {
+     "approvedSymbol": "ZNF33B",
+     "id": "ENSG00000196693"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "63ce990df713eb26fee115b26eff65d6",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_42102765_C_G",
+  "position": 42102765
+ }
+}

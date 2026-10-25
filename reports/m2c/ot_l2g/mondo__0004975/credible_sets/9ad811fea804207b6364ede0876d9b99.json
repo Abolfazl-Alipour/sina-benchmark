@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7521209716796875,
+    "target": {
+     "approvedSymbol": "PECAM1",
+     "id": "ENSG00000261371"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9ad811fea804207b6364ede0876d9b99",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_64347887_G_T",
+  "position": 64347887
+ }
+}

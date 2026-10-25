@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5691199898719788,
+    "target": {
+     "approvedSymbol": "DDX18",
+     "id": "ENSG00000088205"
+    }
+   },
+   {
+    "score": 0.05296212434768677,
+    "target": {
+     "approvedSymbol": "CCDC93",
+     "id": "ENSG00000125633"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "c11602b749fbcee6ca2c7310671aa42d",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_117425041_T_A",
+  "position": 117425041
+ }
+}

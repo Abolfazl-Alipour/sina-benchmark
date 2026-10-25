@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.386690616607666,
+    "target": {
+     "approvedSymbol": "CDC42BPB",
+     "id": "ENSG00000198752"
+    }
+   },
+   {
+    "score": 0.059745222330093384,
+    "target": {
+     "approvedSymbol": "AMN",
+     "id": "ENSG00000166126"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90479727",
+ "studyLocusId": "d91a2f16fb1d358e60c6da79fbb26f0c",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_102973017_C_T",
+  "position": 102973017
+ }
+}

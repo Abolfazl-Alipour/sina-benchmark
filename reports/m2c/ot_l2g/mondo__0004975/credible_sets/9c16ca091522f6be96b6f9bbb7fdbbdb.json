@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6682031750679016,
+    "target": {
+     "approvedSymbol": "AFF3",
+     "id": "ENSG00000144218"
+    }
+   },
+   {
+    "score": 0.3342585861682892,
+    "target": {
+     "approvedSymbol": "REV1",
+     "id": "ENSG00000135945"
+    }
+   },
+   {
+    "score": 0.0507223978638649,
+    "target": {
+     "approvedSymbol": "LYG2",
+     "id": "ENSG00000185674"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9c16ca091522f6be96b6f9bbb7fdbbdb",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_99650376_T_G",
+  "position": 99650376
+ }
+}

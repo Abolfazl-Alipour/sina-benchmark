@@ -1,0 +1,10 @@
+{
+  "script": "run_wave1_benchmark.py",
+  "unit_set": "shuffle",
+  "started_at": "2026-08-17T05:46:22Z",
+  "finished_at": "2026-08-17T17:03:16Z",
+  "status": "done",
+  "outputs": {
+    "/home/ubuntu/sina-platform/reports/m2b/shuffle_control_results.json": "0765fa8a2018e50816c07dc64379576abfd4494fed4581d50fa08dfda7f84650"
+  }
+}

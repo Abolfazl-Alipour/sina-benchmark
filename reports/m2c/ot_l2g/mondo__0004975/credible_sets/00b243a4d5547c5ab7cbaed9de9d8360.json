@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.408923476934433,
+    "target": {
+     "approvedSymbol": "ATP5F1B",
+     "id": "ENSG00000110955"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "00b243a4d5547c5ab7cbaed9de9d8360",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_56656740_T_C",
+  "position": 56656740
+ }
+}

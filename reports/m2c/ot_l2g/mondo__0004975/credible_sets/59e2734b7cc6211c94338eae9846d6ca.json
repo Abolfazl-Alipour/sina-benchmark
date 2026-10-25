@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6961114406585693,
+    "target": {
+     "approvedSymbol": "BZW2",
+     "id": "ENSG00000136261"
+    }
+   },
+   {
+    "score": 0.08894075453281403,
+    "target": {
+     "approvedSymbol": "TSPAN13",
+     "id": "ENSG00000106537"
+    }
+   },
+   {
+    "score": 0.05904830992221832,
+    "target": {
+     "approvedSymbol": "ANKMY2",
+     "id": "ENSG00000106524"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001915",
+ "studyLocusId": "59e2734b7cc6211c94338eae9846d6ca",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_16668236_A_G",
+  "position": 16668236
+ }
+}

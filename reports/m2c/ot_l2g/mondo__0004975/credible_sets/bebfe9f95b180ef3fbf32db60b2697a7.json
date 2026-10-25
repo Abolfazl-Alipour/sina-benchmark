@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5850958228111267,
+    "target": {
+     "approvedSymbol": "PICALM",
+     "id": "ENSG00000073921"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90654655",
+ "studyLocusId": "bebfe9f95b180ef3fbf32db60b2697a7",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_86126627_T_C",
+  "position": 86126627
+ }
+}

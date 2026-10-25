@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.3477449417114258,
+    "target": {
+     "approvedSymbol": "DOC2A",
+     "id": "ENSG00000149927"
+    }
+   },
+   {
+    "score": 0.07115129381418228,
+    "target": {
+     "approvedSymbol": "INO80E",
+     "id": "ENSG00000169592"
+    }
+   },
+   {
+    "score": 0.05739501118659973,
+    "target": {
+     "approvedSymbol": "ENSG00000285043",
+     "id": "ENSG00000285043"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90027158",
+ "studyLocusId": "b7d0afdf8f5a020a93addd89e3d4cf68",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_30010081_C_T",
+  "position": 30010081
+ }
+}

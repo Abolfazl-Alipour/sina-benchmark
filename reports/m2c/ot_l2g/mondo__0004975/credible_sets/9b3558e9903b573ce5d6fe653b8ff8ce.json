@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7085369229316711,
+    "target": {
+     "approvedSymbol": "KIAA2013",
+     "id": "ENSG00000116685"
+    }
+   },
+   {
+    "score": 0.11710094660520554,
+    "target": {
+     "approvedSymbol": "PLOD1",
+     "id": "ENSG00000083444"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90558104",
+ "studyLocusId": "9b3558e9903b573ce5d6fe653b8ff8ce",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_11926564_T_C",
+  "position": 11926564
+ }
+}

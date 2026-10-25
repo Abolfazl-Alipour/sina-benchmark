@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.692579984664917,
+    "target": {
+     "approvedSymbol": "GPR65",
+     "id": "ENSG00000140030"
+    }
+   },
+   {
+    "score": 0.6823368072509766,
+    "target": {
+     "approvedSymbol": "GALC",
+     "id": "ENSG00000054983"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST010991",
+ "studyLocusId": "85efdee16d54e9d1fcf63a979a73e756",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_88006268_C_T",
+  "position": 88006268
+ }
+}

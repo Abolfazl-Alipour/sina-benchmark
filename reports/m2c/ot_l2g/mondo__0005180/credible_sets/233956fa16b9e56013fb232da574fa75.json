@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.22276149690151215,
+    "target": {
+     "approvedSymbol": "TEKT4",
+     "id": "ENSG00000163060"
+    }
+   },
+   {
+    "score": 0.05264844000339508,
+    "target": {
+     "approvedSymbol": "PROM2",
+     "id": "ENSG00000155066"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST012431",
+ "studyLocusId": "233956fa16b9e56013fb232da574fa75",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_94894760_G_C",
+  "position": 94894760
+ }
+}

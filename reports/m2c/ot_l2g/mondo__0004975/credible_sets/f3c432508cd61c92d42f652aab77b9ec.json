@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5310392379760742,
+    "target": {
+     "approvedSymbol": "RAB23",
+     "id": "ENSG00000112210"
+    }
+   },
+   {
+    "score": 0.15229615569114685,
+    "target": {
+     "approvedSymbol": "PRIM2",
+     "id": "ENSG00000146143"
+    }
+   },
+   {
+    "score": 0.08419948071241379,
+    "target": {
+     "approvedSymbol": "BAG2",
+     "id": "ENSG00000112208"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "f3c432508cd61c92d42f652aab77b9ec",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_57256886_A_G",
+  "position": 57256886
+ }
+}

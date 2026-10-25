@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.4039924740791321,
+    "target": {
+     "approvedSymbol": "POTEC",
+     "id": "ENSG00000183206"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "2793d1c436332f15a44be9c7d5566d1d",
+ "variant": {
+  "chromosome": "18",
+  "id": "18_14502080_C_G",
+  "position": 14502080
+ }
+}

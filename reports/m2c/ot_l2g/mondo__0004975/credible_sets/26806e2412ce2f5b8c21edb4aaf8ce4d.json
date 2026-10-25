@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.36583757400512695,
+    "target": {
+     "approvedSymbol": "UBE2L3",
+     "id": "ENSG00000185651"
+    }
+   },
+   {
+    "score": 0.062493808567523956,
+    "target": {
+     "approvedSymbol": "YDJC",
+     "id": "ENSG00000161179"
+    }
+   },
+   {
+    "score": 0.05326114222407341,
+    "target": {
+     "approvedSymbol": "RIMBP3C",
+     "id": "ENSG00000183246"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST007827",
+ "studyLocusId": "26806e2412ce2f5b8c21edb4aaf8ce4d",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_21576488_C_T",
+  "position": 21576488
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.48859265446662903,
+    "target": {
+     "approvedSymbol": "MFAP3",
+     "id": "ENSG00000037749"
+    }
+   },
+   {
+    "score": 0.3293488919734955,
+    "target": {
+     "approvedSymbol": "FAM114A2",
+     "id": "ENSG00000055147"
+    }
+   },
+   {
+    "score": 0.3223671317100525,
+    "target": {
+     "approvedSymbol": "GRIA1",
+     "id": "ENSG00000155511"
+    }
+   },
+   {
+    "score": 0.05067107081413269,
+    "target": {
+     "approvedSymbol": "GALNT10",
+     "id": "ENSG00000164574"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "ddf4b6007c0839f7b919ce4c392b4bdb",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_153867101_T_C",
+  "position": 153867101
+ }
+}

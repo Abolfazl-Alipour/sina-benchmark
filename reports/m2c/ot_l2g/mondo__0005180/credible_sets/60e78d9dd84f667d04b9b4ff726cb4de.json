@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6000350117683411,
+    "target": {
+     "approvedSymbol": "DLG2",
+     "id": "ENSG00000150672"
+    }
+   },
+   {
+    "score": 0.05259650945663452,
+    "target": {
+     "approvedSymbol": "CCDC90B",
+     "id": "ENSG00000137500"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST004902",
+ "studyLocusId": "60e78d9dd84f667d04b9b4ff726cb4de",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_83833429_G_A",
+  "position": 83833429
+ }
+}

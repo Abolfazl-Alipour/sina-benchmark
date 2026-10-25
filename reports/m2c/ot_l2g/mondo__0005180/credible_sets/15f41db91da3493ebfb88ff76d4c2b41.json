@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.3436167240142822,
+    "target": {
+     "approvedSymbol": "TTC6",
+     "id": "ENSG00000139865"
+    }
+   },
+   {
+    "score": 0.28589487075805664,
+    "target": {
+     "approvedSymbol": "FOXA1",
+     "id": "ENSG00000129514"
+    }
+   },
+   {
+    "score": 0.22621922194957733,
+    "target": {
+     "approvedSymbol": "MIPOL1",
+     "id": "ENSG00000151338"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "15f41db91da3493ebfb88ff76d4c2b41",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_37539010_G_A",
+  "position": 37539010
+ }
+}

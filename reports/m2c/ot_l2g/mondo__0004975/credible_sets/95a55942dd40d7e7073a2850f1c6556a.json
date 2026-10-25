@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6360732316970825,
+    "target": {
+     "approvedSymbol": "LARP4",
+     "id": "ENSG00000161813"
+    }
+   },
+   {
+    "score": 0.200167715549469,
+    "target": {
+     "approvedSymbol": "FAM186A",
+     "id": "ENSG00000185958"
+    }
+   },
+   {
+    "score": 0.05295932665467262,
+    "target": {
+     "approvedSymbol": "DIP2B",
+     "id": "ENSG00000066084"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "95a55942dd40d7e7073a2850f1c6556a",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_50409808_A_T",
+  "position": 50409808
+ }
+}

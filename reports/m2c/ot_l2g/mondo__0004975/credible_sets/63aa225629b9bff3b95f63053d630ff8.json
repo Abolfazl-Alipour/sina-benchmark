@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5083200335502625,
+    "target": {
+     "approvedSymbol": "MEF2C",
+     "id": "ENSG00000081189"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "63aa225629b9bff3b95f63053d630ff8",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_88673046_A_G",
+  "position": 88673046
+ }
+}

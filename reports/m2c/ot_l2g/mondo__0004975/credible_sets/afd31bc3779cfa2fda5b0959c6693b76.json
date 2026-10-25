@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5979143381118774,
+    "target": {
+     "approvedSymbol": "SPATA31D1",
+     "id": "ENSG00000214929"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "afd31bc3779cfa2fda5b0959c6693b76",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_82464932_T_C",
+  "position": 82464932
+ }
+}

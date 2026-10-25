@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6822498440742493,
+    "target": {
+     "approvedSymbol": "TMEM266",
+     "id": "ENSG00000169758"
+    }
+   },
+   {
+    "score": 0.1304643452167511,
+    "target": {
+     "approvedSymbol": "NRG4",
+     "id": "ENSG00000169752"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "be3b1b43282315b85f2becb1bff7a633",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_76148724_T_C",
+  "position": 76148724
+ }
+}

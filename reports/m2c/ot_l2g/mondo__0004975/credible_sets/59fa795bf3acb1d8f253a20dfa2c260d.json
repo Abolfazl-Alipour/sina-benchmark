@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.7662141919136047,
+    "target": {
+     "approvedSymbol": "SLC26A1",
+     "id": "ENSG00000145217"
+    }
+   },
+   {
+    "score": 0.6372782588005066,
+    "target": {
+     "approvedSymbol": "IDUA",
+     "id": "ENSG00000127415"
+    }
+   },
+   {
+    "score": 0.0580391101539135,
+    "target": {
+     "approvedSymbol": "DGKQ",
+     "id": "ENSG00000145214"
+    }
+   },
+   {
+    "score": 0.05520893260836601,
+    "target": {
+     "approvedSymbol": "FGFRL1",
+     "id": "ENSG00000127418"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "59fa795bf3acb1d8f253a20dfa2c260d",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_993555_G_T",
+  "position": 993555
+ }
+}

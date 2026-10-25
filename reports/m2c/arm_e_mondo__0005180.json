@@ -1,0 +1,16 @@
+{
+  "unit": "mondo__0005180",
+  "seed": 1337,
+  "batch_size": 32,
+  "best_epoch": 1,
+  "best_val_loss": 0.13681391271403312,
+  "patience": 5,
+  "min_delta": 0.03,
+  "max_epochs": 1,
+  "finished_at": "2026-09-05T18:42:59Z",
+  "checkpoints": {
+    "best": "reports/m2c/ckpt_width32/mondo__0005180/best.pth",
+    "last": "reports/m2c/ckpt_width32/mondo__0005180/last.pth",
+    "log": "reports/m2c/ckpt_width32/mondo__0005180/train_log_mondo__0005180.jsonl"
+  }
+}

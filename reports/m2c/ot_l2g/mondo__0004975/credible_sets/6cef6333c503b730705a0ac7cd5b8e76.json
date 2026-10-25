@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5686053037643433,
+    "target": {
+     "approvedSymbol": "IRX1",
+     "id": "ENSG00000170549"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "6cef6333c503b730705a0ac7cd5b8e76",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_3323650_G_A",
+  "position": 3323650
+ }
+}

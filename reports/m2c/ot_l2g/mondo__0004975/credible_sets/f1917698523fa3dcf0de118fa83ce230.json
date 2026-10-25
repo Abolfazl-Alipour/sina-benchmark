@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5044896602630615,
+    "target": {
+     "approvedSymbol": "ZNF585B",
+     "id": "ENSG00000245680"
+    }
+   },
+   {
+    "score": 0.12082844972610474,
+    "target": {
+     "approvedSymbol": "ZNF383",
+     "id": "ENSG00000188283"
+    }
+   },
+   {
+    "score": 0.08057095110416412,
+    "target": {
+     "approvedSymbol": "ZNF420",
+     "id": "ENSG00000197050"
+    }
+   },
+   {
+    "score": 0.05634583905339241,
+    "target": {
+     "approvedSymbol": "ZNF585A",
+     "id": "ENSG00000196967"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "f1917698523fa3dcf0de118fa83ce230",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_37202862_C_T",
+  "position": 37202862
+ }
+}

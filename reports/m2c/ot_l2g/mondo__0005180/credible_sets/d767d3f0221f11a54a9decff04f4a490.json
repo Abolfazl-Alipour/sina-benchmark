@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5614294409751892,
+    "target": {
+     "approvedSymbol": "PKP2",
+     "id": "ENSG00000057294"
+    }
+   },
+   {
+    "score": 0.27634984254837036,
+    "target": {
+     "approvedSymbol": "SYT10",
+     "id": "ENSG00000110975"
+    }
+   },
+   {
+    "score": 0.08919873088598251,
+    "target": {
+     "approvedSymbol": "YARS2",
+     "id": "ENSG00000139131"
+    }
+   },
+   {
+    "score": 0.07270079851150513,
+    "target": {
+     "approvedSymbol": "DNM1L",
+     "id": "ENSG00000087470"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003984",
+ "studyLocusId": "d767d3f0221f11a54a9decff04f4a490",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_33148871_G_A",
+  "position": 33148871
+ }
+}

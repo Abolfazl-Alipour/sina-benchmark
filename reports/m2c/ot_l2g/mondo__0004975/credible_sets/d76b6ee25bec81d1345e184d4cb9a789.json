@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.3835791051387787,
+    "target": {
+     "approvedSymbol": "CR1L",
+     "id": "ENSG00000197721"
+    }
+   },
+   {
+    "score": 0.3738551437854767,
+    "target": {
+     "approvedSymbol": "CD46",
+     "id": "ENSG00000117335"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134605",
+ "studyLocusId": "d76b6ee25bec81d1345e184d4cb9a789",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_207708849_A_G",
+  "position": 207708849
+ }
+}

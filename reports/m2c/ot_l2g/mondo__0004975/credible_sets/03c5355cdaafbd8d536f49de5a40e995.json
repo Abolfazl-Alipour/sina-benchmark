@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5615730285644531,
+    "target": {
+     "approvedSymbol": "USP3",
+     "id": "ENSG00000140455"
+    }
+   },
+   {
+    "score": 0.07149393111467361,
+    "target": {
+     "approvedSymbol": "CA12",
+     "id": "ENSG00000074410"
+    }
+   },
+   {
+    "score": 0.06042839586734772,
+    "target": {
+     "approvedSymbol": "FBXL22",
+     "id": "ENSG00000197361"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "03c5355cdaafbd8d536f49de5a40e995",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_63468370_T_C",
+  "position": 63468370
+ }
+}

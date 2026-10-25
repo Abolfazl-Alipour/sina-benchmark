@@ -1,0 +1,47 @@
+# M1 Track-D — OptimusKG download config (spec §5.2)
+# Official optimuskg client (pinned 1.0.0) over Dataverse doi:10.7910/DVN/IYNGEV;
+# stratified per-type Parquet only (top-level merged + LCC files not needed for M1).
+track: D
+registry_path: data/raw/REGISTRY.json
+cache_dir: data/raw/optimuskg
+manifest_path: data/raw/manifests/m1_download_trackd.json
+dataset_version: "2.0"
+license_verbatim: "The OptimusKG codebase is released under the MIT License. OptimusKG integrates multiple primary data resources, each of which is subject to its own license and terms of use. These terms may impose restrictions on redistribution, commercial use, or downstream applications of the resulting knowledge graph or its subsets. Some resources provide data under academic or noncommercial licenses, while others may impose attribution or usage requirements. As a result, use of OptimusKG may be partially restricted depending on the specific data components included in a given instantiation. Users are responsible for reviewing and complying with the license and terms of use of each primary dataset, as specified by the original data providers. OptimusKG does not alter or override these source-specific licensing conditions."
+files:
+  - edges/anatomy_anatomy.parquet
+  - edges/anatomy_gene.parquet
+  - edges/biological_process_biological_process.parquet
+  - edges/biological_process_gene.parquet
+  - edges/cellular_component_cellular_component.parquet
+  - edges/cellular_component_gene.parquet
+  - edges/disease_disease.parquet
+  - edges/disease_gene.parquet
+  - edges/disease_phenotype.parquet
+  - edges/drug_biological_process.parquet
+  - edges/drug_disease.parquet
+  - edges/drug_drug.parquet
+  - edges/drug_gene.parquet
+  - edges/drug_phenotype.parquet
+  - edges/exposure_biological_process.parquet
+  - edges/exposure_cellular_component.parquet
+  - edges/exposure_disease.parquet
+  - edges/exposure_exposure.parquet
+  - edges/exposure_gene.parquet
+  - edges/exposure_molecular_function.parquet
+  - edges/gene_gene.parquet
+  - edges/molecular_function_gene.parquet
+  - edges/molecular_function_molecular_function.parquet
+  - edges/pathway_gene.parquet
+  - edges/pathway_pathway.parquet
+  - edges/phenotype_gene.parquet
+  - edges/phenotype_phenotype.parquet
+  - nodes/anatomy.parquet
+  - nodes/biological_process.parquet
+  - nodes/cellular_component.parquet
+  - nodes/disease.parquet
+  - nodes/drug.parquet
+  - nodes/exposure.parquet
+  - nodes/gene.parquet
+  - nodes/molecular_function.parquet
+  - nodes/pathway.parquet
+  - nodes/phenotype.parquet

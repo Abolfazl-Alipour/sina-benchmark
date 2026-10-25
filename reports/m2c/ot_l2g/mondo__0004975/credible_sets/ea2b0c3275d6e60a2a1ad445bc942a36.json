@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.3608393371105194,
+    "target": {
+     "approvedSymbol": "CAMKV",
+     "id": "ENSG00000164076"
+    }
+   },
+   {
+    "score": 0.20349307358264923,
+    "target": {
+     "approvedSymbol": "MON1A",
+     "id": "ENSG00000164077"
+    }
+   },
+   {
+    "score": 0.14706453680992126,
+    "target": {
+     "approvedSymbol": "MST1R",
+     "id": "ENSG00000164078"
+    }
+   },
+   {
+    "score": 0.07447654008865356,
+    "target": {
+     "approvedSymbol": "RBM6",
+     "id": "ENSG00000004534"
+    }
+   },
+   {
+    "score": 0.05400419980287552,
+    "target": {
+     "approvedSymbol": "TRAIP",
+     "id": "ENSG00000183763"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "ea2b0c3275d6e60a2a1ad445bc942a36",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_49863627_A_T",
+  "position": 49863627
+ }
+}

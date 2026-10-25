@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.2877374291419983,
+    "target": {
+     "approvedSymbol": "VPS13C",
+     "id": "ENSG00000129003"
+    }
+   },
+   {
+    "score": 0.21955658495426178,
+    "target": {
+     "approvedSymbol": "C2CD4A",
+     "id": "ENSG00000198535"
+    }
+   },
+   {
+    "score": 0.1622077226638794,
+    "target": {
+     "approvedSymbol": "RORA",
+     "id": "ENSG00000069667"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "261b0ccae8c1e19c2c796c1da6d1fbbf",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_61705186_T_C",
+  "position": 61705186
+ }
+}

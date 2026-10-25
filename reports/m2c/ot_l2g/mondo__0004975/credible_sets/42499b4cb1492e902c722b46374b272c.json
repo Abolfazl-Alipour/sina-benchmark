@@ -1,0 +1,63 @@
+{
+ "l2GPredictions": {
+  "count": 7,
+  "rows": [
+   {
+    "score": 0.1608399897813797,
+    "target": {
+     "approvedSymbol": "SULT1A1",
+     "id": "ENSG00000196502"
+    }
+   },
+   {
+    "score": 0.1283848136663437,
+    "target": {
+     "approvedSymbol": "APOBR",
+     "id": "ENSG00000184730"
+    }
+   },
+   {
+    "score": 0.11577187478542328,
+    "target": {
+     "approvedSymbol": "TUFM",
+     "id": "ENSG00000178952"
+    }
+   },
+   {
+    "score": 0.11111702024936676,
+    "target": {
+     "approvedSymbol": "NPIPB8",
+     "id": "ENSG00000255524"
+    }
+   },
+   {
+    "score": 0.07595405727624893,
+    "target": {
+     "approvedSymbol": "ATXN2L",
+     "id": "ENSG00000168488"
+    }
+   },
+   {
+    "score": 0.06400475651025772,
+    "target": {
+     "approvedSymbol": "ATP2A1",
+     "id": "ENSG00000196296"
+    }
+   },
+   {
+    "score": 0.0551304928958416,
+    "target": {
+     "approvedSymbol": "SH2B1",
+     "id": "ENSG00000178188"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "42499b4cb1492e902c722b46374b272c",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_28826194_T_C",
+  "position": 28826194
+ }
+}

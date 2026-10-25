@@ -1,0 +1,33 @@
+# M2B Task-G export to BioPathNet format (spec §7.4)
+# train1 = BRG (message passing, held-out families excluded — split-aware)
+# train2 = supervision train edges (DIS-GEN from the leakage-safe split)
+# valid/test = split valid/test DIS-GEN edges
+
+taskg_dir: data/processed/m2/taskg
+splits_dir: data/processed/m2/splits
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+families_config: configs/disease_families.yaml
+
+splits:
+  trackd_family:
+    relation_label: DIS-GEN
+  trackd_family_alzheimer:
+    relation_label: DIS-GEN
+  trackd_family_parkinson:
+    relation_label: DIS-GEN
+
+# node type ids for entity_types.txt (order defines ids)
+type_ids:
+  disease: 0
+  gene: 1
+  drug: 2
+  phenotype: 3
+  biological_process: 4
+  cellular_component: 5
+  molecular_function: 6
+  pathway: 7
+  anatomy: 8
+  exposure: 9
+
+output_dir: data/processed/m2/biopathnet_taskg
+manifest_path: data/raw/manifests/m2_export_taskg_biopathnet.json

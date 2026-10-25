@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3531794250011444,
+    "target": {
+     "approvedSymbol": "ZNF652",
+     "id": "ENSG00000198740"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90449055",
+ "studyLocusId": "dc7d2796583a42e6ef7717a8185e3522",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_49373413_G_A",
+  "position": 49373413
+ }
+}

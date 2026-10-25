@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7616187930107117,
+    "target": {
+     "approvedSymbol": "OASL",
+     "id": "ENSG00000135114"
+    }
+   },
+   {
+    "score": 0.07025936990976334,
+    "target": {
+     "approvedSymbol": "C12orf43",
+     "id": "ENSG00000157895"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e4624739770cc6f8d92ac1468a759a4f",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_121034789_C_G",
+  "position": 121034789
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.25261685252189636,
+    "target": {
+     "approvedSymbol": "RET",
+     "id": "ENSG00000165731"
+    }
+   },
+   {
+    "score": 0.1383257657289505,
+    "target": {
+     "approvedSymbol": "BMS1",
+     "id": "ENSG00000165733"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "85abb78dbeff298191795d178ca4fd4b",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_42857446_T_C",
+  "position": 42857446
+ }
+}

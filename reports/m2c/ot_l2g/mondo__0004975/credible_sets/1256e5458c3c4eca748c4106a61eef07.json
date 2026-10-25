@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.39203038811683655,
+    "target": {
+     "approvedSymbol": "DNAH14",
+     "id": "ENSG00000185842"
+    }
+   },
+   {
+    "score": 0.2579403817653656,
+    "target": {
+     "approvedSymbol": "LBR",
+     "id": "ENSG00000143815"
+    }
+   },
+   {
+    "score": 0.05145123228430748,
+    "target": {
+     "approvedSymbol": "SRP9",
+     "id": "ENSG00000143742"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "1256e5458c3c4eca748c4106a61eef07",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_225361310_C_G",
+  "position": 225361310
+ }
+}

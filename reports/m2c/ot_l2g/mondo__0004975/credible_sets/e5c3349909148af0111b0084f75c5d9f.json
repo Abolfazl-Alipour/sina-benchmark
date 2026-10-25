@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.626957893371582,
+    "target": {
+     "approvedSymbol": "SLC24A4",
+     "id": "ENSG00000140090"
+    }
+   },
+   {
+    "score": 0.13368679583072662,
+    "target": {
+     "approvedSymbol": "RIN3",
+     "id": "ENSG00000100599"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST005922",
+ "studyLocusId": "e5c3349909148af0111b0084f75c5d9f",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_92470346_G_A",
+  "position": 92470346
+ }
+}

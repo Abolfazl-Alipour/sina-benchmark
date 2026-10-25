@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7086963653564453,
+    "target": {
+     "approvedSymbol": "VWA8",
+     "id": "ENSG00000102763"
+    }
+   },
+   {
+    "score": 0.07623575627803802,
+    "target": {
+     "approvedSymbol": "DGKH",
+     "id": "ENSG00000102780"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "958b04ab9e5cffef74d6b3ee32b50b7f",
+ "variant": {
+  "chromosome": "13",
+  "id": "13_41850639_T_C",
+  "position": 41850639
+ }
+}

@@ -1,0 +1,47 @@
+# Light Gate 0 VRAM/throughput ladder probe (CHANGES/0022, pre-registered rungs).
+# Model + engine fields copied verbatim from configs/m2b_trimmed_ad_long.yaml
+# (frozen NBFNet shape, 6x32); only dataset.path points at a LODO unit export
+# of the 1,431,945-edge BRG. engine.batch_size is the ladder start rung —
+# scripts/pod/gate0_ladder.py overrides it per rung. engine.gpus is templated
+# from ladder.gpus below. Relative paths are resolved against the repo root.
+
+dataset:
+  class: biomedical
+  path: /opt/sina/data/processed/m2/lodo_exports/mondo__0010196  # Werner (plan probe unit)
+  include_factgraph: True
+
+task:
+  class: KnowledgeGraphCompletionBiomed
+  model:
+    class: NBFNet
+    input_dim: 32
+    hidden_dims: [32, 32, 32, 32, 32, 32]
+    message_func: distmult
+    aggregate_func: pna
+    short_cut: yes
+    layer_norm: yes
+    dependent: yes
+    symmetric: no
+  criterion: bce
+  num_negative: 64
+  strict_negative: yes
+  adversarial_temperature: 1
+  sample_weight: no
+  heterogeneous_negative: yes
+  heterogeneous_evaluation: yes
+  full_batch_eval: True
+
+optimizer:
+  class: Adam
+  lr: 1.0e-3  # lr irrelevant for a probe; kept so the engine config stays valid
+
+engine:
+  gpus: {{ gpus }}
+  batch_size: 300
+
+ladder:
+  rungs: [300, 280, 250, 200, 150, 100]
+  warmup_batches: 1
+  timed_batches: 3
+  output_json: reports/m2b/gate0_ladder_results.json
+  gpus: [0]

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5930073261260986,
+    "target": {
+     "approvedSymbol": "PILRA",
+     "id": "ENSG00000085514"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "9102ce1b9e49f96a651c979044f90b8a",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_100334426_C_T",
+  "position": 100334426
+ }
+}

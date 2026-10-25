@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5934401154518127,
+    "target": {
+     "approvedSymbol": "CLNK",
+     "id": "ENSG00000109684"
+    }
+   },
+   {
+    "score": 0.150655597448349,
+    "target": {
+     "approvedSymbol": "HS3ST1",
+     "id": "ENSG00000002587"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "8472b5e40487f0767e7277df447d3a96",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_11023507_C_T",
+  "position": 11023507
+ }
+}

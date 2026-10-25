@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.13131889700889587,
+    "target": {
+     "approvedSymbol": "WNT8A",
+     "id": "ENSG00000061492"
+    }
+   },
+   {
+    "score": 0.06960755586624146,
+    "target": {
+     "approvedSymbol": "NME5",
+     "id": "ENSG00000112981"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "b50728904023f7a919152795dd5b0899",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_138104941_T_G",
+  "position": 138104941
+ }
+}

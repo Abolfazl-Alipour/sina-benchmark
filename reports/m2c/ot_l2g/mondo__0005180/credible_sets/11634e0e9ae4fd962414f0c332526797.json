@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.777976393699646,
+    "target": {
+     "approvedSymbol": "PDE5A",
+     "id": "ENSG00000138735"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90709786",
+ "studyLocusId": "11634e0e9ae4fd962414f0c332526797",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_119644998_C_T",
+  "position": 119644998
+ }
+}

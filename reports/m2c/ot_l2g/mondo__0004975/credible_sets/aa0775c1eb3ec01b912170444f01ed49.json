@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6857866644859314,
+    "target": {
+     "approvedSymbol": "TENM3",
+     "id": "ENSG00000218336"
+    }
+   },
+   {
+    "score": 0.14436310529708862,
+    "target": {
+     "approvedSymbol": "DCTD",
+     "id": "ENSG00000129187"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "aa0775c1eb3ec01b912170444f01ed49",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_182621524_A_G",
+  "position": 182621524
+ }
+}

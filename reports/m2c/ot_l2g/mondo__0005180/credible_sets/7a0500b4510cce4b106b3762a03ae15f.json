@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5485455393791199,
+    "target": {
+     "approvedSymbol": "MORN1",
+     "id": "ENSG00000116151"
+    }
+   },
+   {
+    "score": 0.11812486499547958,
+    "target": {
+     "approvedSymbol": "RER1",
+     "id": "ENSG00000157916"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90709786",
+ "studyLocusId": "7a0500b4510cce4b106b3762a03ae15f",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_2383593_G_A",
+  "position": 2383593
+ }
+}

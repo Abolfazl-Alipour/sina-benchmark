@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.46072980761528015,
+    "target": {
+     "approvedSymbol": "GRAMD1B",
+     "id": "ENSG00000023171"
+    }
+   },
+   {
+    "score": 0.08066542446613312,
+    "target": {
+     "approvedSymbol": "SCN3B",
+     "id": "ENSG00000166257"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "52370a716659f240fa6948bee0f055ce",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_123615487_G_C",
+  "position": 123615487
+ }
+}

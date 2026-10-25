@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5707280039787292,
+    "target": {
+     "approvedSymbol": "UBAP2",
+     "id": "ENSG00000137073"
+    }
+   },
+   {
+    "score": 0.05446091666817665,
+    "target": {
+     "approvedSymbol": "PRSS3",
+     "id": "ENSG00000010438"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "ffbb9cad4773b611b2c63babbd5259d8",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_34046393_C_T",
+  "position": 34046393
+ }
+}

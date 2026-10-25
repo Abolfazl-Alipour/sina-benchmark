@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.5485997200012207,
+    "target": {
+     "approvedSymbol": "MKX",
+     "id": "ENSG00000150051"
+    }
+   },
+   {
+    "score": 0.08940447121858597,
+    "target": {
+     "approvedSymbol": "RAB18",
+     "id": "ENSG00000099246"
+    }
+   },
+   {
+    "score": 0.07523535192012787,
+    "target": {
+     "approvedSymbol": "ACBD5",
+     "id": "ENSG00000107897"
+    }
+   },
+   {
+    "score": 0.06176986172795296,
+    "target": {
+     "approvedSymbol": "MPP7",
+     "id": "ENSG00000150054"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "d3b491d7961e93d36b534485722093b4",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_27671603_G_A",
+  "position": 27671603
+ }
+}

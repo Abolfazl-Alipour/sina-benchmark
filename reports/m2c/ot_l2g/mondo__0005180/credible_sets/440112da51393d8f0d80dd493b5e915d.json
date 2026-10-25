@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8511537313461304,
+    "target": {
+     "approvedSymbol": "TMEM163",
+     "id": "ENSG00000152128"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "440112da51393d8f0d80dd493b5e915d",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_134707046_A_G",
+  "position": 134707046
+ }
+}

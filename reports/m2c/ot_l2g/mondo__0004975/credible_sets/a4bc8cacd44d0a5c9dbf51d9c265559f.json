@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6056179404258728,
+    "target": {
+     "approvedSymbol": "CYP1B1",
+     "id": "ENSG00000138061"
+    }
+   },
+   {
+    "score": 0.18173786997795105,
+    "target": {
+     "approvedSymbol": "RMDN2",
+     "id": "ENSG00000115841"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "a4bc8cacd44d0a5c9dbf51d9c265559f",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_38042332_T_C",
+  "position": 38042332
+ }
+}

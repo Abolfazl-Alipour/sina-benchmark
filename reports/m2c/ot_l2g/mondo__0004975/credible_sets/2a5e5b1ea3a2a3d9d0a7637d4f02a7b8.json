@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.874934732913971,
+    "target": {
+     "approvedSymbol": "ZFTA",
+     "id": "ENSG00000188070"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "2a5e5b1ea3a2a3d9d0a7637d4f02a7b8",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_63764272_T_C",
+  "position": 63764272
+ }
+}

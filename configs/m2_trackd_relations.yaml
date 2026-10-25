@@ -1,0 +1,61 @@
+# M2B Task-G relation curation for OptimusKG (spec §7.4)
+# status: DRAFT — owner sign-off required (§0.3.9 biological-semantics gate)
+#
+# Counts measured on canonical Track-D edges (2026-07-24):
+#   DIS-GEN 9,734,774 | ANA-GEN 8,787,955 | DRG-DRG 1,345,376 | PHE-GEN 793,279
+#   GEN-GEN 327,924 | BPO-GEN 158,410 | DIS-PHE 157,144 | CCO-GEN 105,309
+#   MFN-GEN 90,933 | DRG-DIS 70,380 | PWY-GEN 46,977 | DIS-DIS 44,215
+#   DRG-GEN 20,694 | EXP-* 10,330 | hierarchies ~190k
+
+status: "APPROVED: owner — 2026-08-15 (§0.3.9)"
+
+# The prediction task: rank gene candidates per disease.
+supervised:
+  # Disease→gene associations — the ONLY supervised positives/negatives source.
+  - label: DIS-GEN
+    relations: [ASSOCIATED_WITH]
+    n_edges: 9734774
+    role: supervised
+
+# Message-passing context (biological reasoning graph). These edges inform the
+# model but are NEVER used as supervised positives/negatives for the task.
+message_passing:
+  - {label: GEN-GEN, n_edges: 327924, note: "PrimeKG-derived PPI"}
+  - {label: PHE-GEN, n_edges: 793279, note: "gene-phenotype"}
+  - {label: BPO-GEN, n_edges: 158410, note: "biological process"}
+  - {label: CCO-GEN, n_edges: 105309, note: "cellular component"}
+  - {label: MFN-GEN, n_edges: 90933, note: "molecular function"}
+  - {label: PWY-GEN, n_edges: 46977, note: "pathway"}
+  - {label: DIS-PHE, n_edges: 157144, note: "disease-phenotype"}
+  - {label: DIS-DIS, n_edges: 44215, note: "disease hierarchy (PARENT)"}
+  - {label: DRG-DIS, n_edges: 70380, note: "indication/contraindication/off-label"}
+  - {label: DRG-GEN, n_edges: 20694, note: "drug target/enzyme/transporter"}
+  - {label: DRG-PHE, n_edges: 13758, note: "drug-phenotype"}
+  - {label: BPO-BPO, n_edges: 44494, note: "process hierarchy (IS_A)"}
+  - {label: PHE-PHE, n_edges: 24862, note: "phenotype hierarchy"}
+  - {label: ANA-ANA, n_edges: 17082, note: "anatomy hierarchy (PARENT)"}
+  - {label: MFN-MFN, n_edges: 12587, note: "function hierarchy"}
+  - {label: CCO-CCO, n_edges: 4639, note: "component hierarchy"}
+  - {label: PWY-PWY, n_edges: 2819, note: "pathway hierarchy"}
+
+# Downweighted by default (spec §7.4): Bgee expression ubiquity noise.
+downweighted:
+  - label: ANA-GEN
+    relations: [EXPRESSION_PRESENT, EXPRESSION_ABSENT]
+    n_edges: 8787955
+    default_weight: 0.0
+    note: "excluded by default; enable as ablation only (expression-ubiquity noise)"
+
+# Excluded from candidate generation AND from message passing by default:
+# exposures (non-biological noise for this task) and drug-drug synergy
+# (spec §7.4 lists EXP-*/DRG-DRG as excluded from candidate generation;
+# they stay eligible for BRG message passing on owner request).
+excluded:
+  - {label: EXP-GEN, n_edges: 2989, note: "exposure-gene"}
+  - {label: EXP-EXP, n_edges: 2443, note: "exposure hierarchy"}
+  - {label: EXP-DIS, n_edges: 2391, note: "exposure-disease"}
+  - {label: EXP-BPO, n_edges: 2260, note: "exposure-process"}
+  - {label: EXP-MFN, n_edges: 47, note: "exposure-function"}
+  - {label: EXP-CCO, n_edges: 13, note: "exposure-component"}
+  - {label: DRG-DRG, n_edges: 1345376, note: "synergy; BRG-eligible on request"}
+  - {label: DRG-BPO, n_edges: 62, note: "drug-process indication"}

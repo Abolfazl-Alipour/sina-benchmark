@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5569102168083191,
+    "target": {
+     "approvedSymbol": "RCN1",
+     "id": "ENSG00000049449"
+    }
+   },
+   {
+    "score": 0.25298118591308594,
+    "target": {
+     "approvedSymbol": "PAX6",
+     "id": "ENSG00000007372"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "3be77db54c5d6e0395daa48a82435a95",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_31971510_T_C",
+  "position": 31971510
+ }
+}

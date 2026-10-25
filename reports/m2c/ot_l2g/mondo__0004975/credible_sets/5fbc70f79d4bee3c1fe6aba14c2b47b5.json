@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.2319958508014679,
+    "target": {
+     "approvedSymbol": "ZNF689",
+     "id": "ENSG00000156853"
+    }
+   },
+   {
+    "score": 0.07747689634561539,
+    "target": {
+     "approvedSymbol": "PRR14",
+     "id": "ENSG00000156858"
+    }
+   },
+   {
+    "score": 0.061046913266181946,
+    "target": {
+     "approvedSymbol": "ENSG00000289491",
+     "id": "ENSG00000289491"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "5fbc70f79d4bee3c1fe6aba14c2b47b5",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_30625456_C_T",
+  "position": 30625456
+ }
+}

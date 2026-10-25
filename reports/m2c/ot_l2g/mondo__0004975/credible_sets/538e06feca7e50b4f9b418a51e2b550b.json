@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5718361735343933,
+    "target": {
+     "approvedSymbol": "PICALM",
+     "id": "ENSG00000073921"
+    }
+   },
+   {
+    "score": 0.47777560353279114,
+    "target": {
+     "approvedSymbol": "EED",
+     "id": "ENSG00000074266"
+    }
+   },
+   {
+    "score": 0.05131847783923149,
+    "target": {
+     "approvedSymbol": "HIKESHI",
+     "id": "ENSG00000149196"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "538e06feca7e50b4f9b418a51e2b550b",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_86156833_A_G",
+  "position": 86156833
+ }
+}

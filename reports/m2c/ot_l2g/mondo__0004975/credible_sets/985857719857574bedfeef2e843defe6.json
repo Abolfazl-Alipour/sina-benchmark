@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.582892119884491,
+    "target": {
+     "approvedSymbol": "IRAK1BP1",
+     "id": "ENSG00000146243"
+    }
+   },
+   {
+    "score": 0.10651246458292007,
+    "target": {
+     "approvedSymbol": "PHIP",
+     "id": "ENSG00000146247"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "985857719857574bedfeef2e843defe6",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_78579835_T_C",
+  "position": 78579835
+ }
+}

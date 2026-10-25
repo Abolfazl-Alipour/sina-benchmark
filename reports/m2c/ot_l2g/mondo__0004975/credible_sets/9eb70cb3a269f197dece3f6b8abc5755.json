@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.09038053452968597,
+    "target": {
+     "approvedSymbol": "CEBPA",
+     "id": "ENSG00000245848"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9eb70cb3a269f197dece3f6b8abc5755",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_33283110_T_C",
+  "position": 33283110
+ }
+}

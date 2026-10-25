@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.7086963653564453,
+    "target": {
+     "approvedSymbol": "NEO1",
+     "id": "ENSG00000067141"
+    }
+   },
+   {
+    "score": 0.06737776845693588,
+    "target": {
+     "approvedSymbol": "BBS4",
+     "id": "ENSG00000140463"
+    }
+   },
+   {
+    "score": 0.06378781050443649,
+    "target": {
+     "approvedSymbol": "NPTN",
+     "id": "ENSG00000156642"
+    }
+   },
+   {
+    "score": 0.054935213178396225,
+    "target": {
+     "approvedSymbol": "REC114",
+     "id": "ENSG00000183324"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624093",
+ "studyLocusId": "ab3a11b14fe7a8fb59607239441deb78",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_73168712_C_T",
+  "position": 73168712
+ }
+}

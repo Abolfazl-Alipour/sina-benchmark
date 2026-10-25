@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6228179335594177,
+    "target": {
+     "approvedSymbol": "GBX2",
+     "id": "ENSG00000168505"
+    }
+   },
+   {
+    "score": 0.08974321186542511,
+    "target": {
+     "approvedSymbol": "AGAP1",
+     "id": "ENSG00000157985"
+    }
+   },
+   {
+    "score": 0.05488109588623047,
+    "target": {
+     "approvedSymbol": "ASB18",
+     "id": "ENSG00000182177"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "62e8aedf9e3377c7cefb16e703fa9c97",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_236149500_T_C",
+  "position": 236149500
+ }
+}

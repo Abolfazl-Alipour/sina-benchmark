@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5592255592346191,
+    "target": {
+     "approvedSymbol": "HECTD1",
+     "id": "ENSG00000092148"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "746aac60ea3c681ab6994b2123cd40e8",
+ "variant": {
+  "chromosome": "14",
+  "id": "14_31245601_G_A",
+  "position": 31245601
+ }
+}

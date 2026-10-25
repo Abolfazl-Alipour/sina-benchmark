@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6943575739860535,
+    "target": {
+     "approvedSymbol": "FAM47E",
+     "id": "ENSG00000189157"
+    }
+   },
+   {
+    "score": 0.14553560316562653,
+    "target": {
+     "approvedSymbol": "STBD1",
+     "id": "ENSG00000118804"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST004902",
+ "studyLocusId": "8202e3ea4fc535feed8f2a91a7791da5",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_76277833_C_T",
+  "position": 76277833
+ }
+}

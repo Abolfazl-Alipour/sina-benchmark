@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.89529949426651,
+    "target": {
+     "approvedSymbol": "CTSB",
+     "id": "ENSG00000164733"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90399479",
+ "studyLocusId": "b24818a1e4076797cd483e5cd695df0b",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_11844613_G_C",
+  "position": 11844613
+ }
+}

@@ -1,0 +1,7 @@
+# Phase D Wave 1 leaderboard report (CHANGES/0024). Run from the data depot
+# checkout (/opt/sina) where data/processed lives.
+results_json: reports/m2b/wave1_benchmark_results.json
+lodo_baselines: data/processed/m2/lodo_baselines_keep/lodo_baselines.parquet
+triviality: data/processed/m2/lodo_audits_keep/triviality.parquet
+report_path: reports/m2b/wave1_benchmark.md
+manifest_path: data/raw/manifests/m2_wave1_report.json

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8401805758476257,
+    "target": {
+     "approvedSymbol": "ADGRA3",
+     "id": "ENSG00000152990"
+    }
+   },
+   {
+    "score": 0.059546731412410736,
+    "target": {
+     "approvedSymbol": "GBA3",
+     "id": "ENSG00000249948"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "2ef025aa3d937b9ff9ea281e6a6626d3",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_22509278_A_G",
+  "position": 22509278
+ }
+}

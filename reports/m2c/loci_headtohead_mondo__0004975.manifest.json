@@ -1,0 +1,40 @@
+{
+  "run_id": "20260911T234304Z",
+  "script": "scripts/pod/m2c_loci_headtohead.py",
+  "config": {},
+  "git_ref": "acb6ddafdbbb6fb590ee0889b6b14f7e52638115",
+  "started_at": "2026-09-11T23:43:04.324417Z",
+  "finished_at": null,
+  "stages": [
+    {
+      "name": "gate",
+      "started_at": "2026-09-11T23:43:04.378845Z",
+      "finished_at": "2026-09-11T23:43:04.784435Z",
+      "status": "done",
+      "outputs": {},
+      "detail": ""
+    },
+    {
+      "name": "metrics",
+      "started_at": "2026-09-11T23:43:04.784847Z",
+      "finished_at": "2026-09-11T23:43:05.521997Z",
+      "status": "done",
+      "outputs": {
+        "/home/reza/projects/SinaProject/reports/m2c/loci_headtohead_mondo__0004975.json": "76c3a54fabc9e1ba6096ce7a5d15973b2f42b07aec8128a322cfd8ba5c65bfa2"
+      },
+      "detail": ""
+    },
+    {
+      "name": "report",
+      "started_at": "2026-09-11T23:43:05.522584Z",
+      "finished_at": "2026-09-11T23:43:05.523852Z",
+      "status": "done",
+      "outputs": {
+        "/home/reza/projects/SinaProject/reports/m2c/loci_headtohead.md": "1ab4589a406c0f0b0ce34c38c2cc577ed17f5a9cfd9fc3307b315d90d4ae94d9"
+      },
+      "detail": ""
+    }
+  ],
+  "peak_rss_gb": 0.0,
+  "status": "running"
+}

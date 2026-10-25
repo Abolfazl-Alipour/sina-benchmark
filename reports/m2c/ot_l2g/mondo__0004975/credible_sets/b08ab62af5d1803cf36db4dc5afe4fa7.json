@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5080288648605347,
+    "target": {
+     "approvedSymbol": "FSCN1",
+     "id": "ENSG00000075618"
+    }
+   },
+   {
+    "score": 0.38739192485809326,
+    "target": {
+     "approvedSymbol": "ACTB",
+     "id": "ENSG00000075624"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "b08ab62af5d1803cf36db4dc5afe4fa7",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_5564808_A_G",
+  "position": 5564808
+ }
+}

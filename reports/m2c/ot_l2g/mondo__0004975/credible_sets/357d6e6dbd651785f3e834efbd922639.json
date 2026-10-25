@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.11259189993143082,
+    "target": {
+     "approvedSymbol": "EGFL7",
+     "id": "ENSG00000172889"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "357d6e6dbd651785f3e834efbd922639",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_136639478_C_T",
+  "position": 136639478
+ }
+}

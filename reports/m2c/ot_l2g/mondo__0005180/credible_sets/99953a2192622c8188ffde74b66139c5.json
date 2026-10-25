@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7525694370269775,
+    "target": {
+     "approvedSymbol": "DYRK1A",
+     "id": "ENSG00000157540"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "99953a2192622c8188ffde74b66139c5",
+ "variant": {
+  "chromosome": "21",
+  "id": "21_37480059_G_A",
+  "position": 37480059
+ }
+}

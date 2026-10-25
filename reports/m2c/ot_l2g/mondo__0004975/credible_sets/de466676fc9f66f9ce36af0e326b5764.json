@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7964521050453186,
+    "target": {
+     "approvedSymbol": "PHF14",
+     "id": "ENSG00000106443"
+    }
+   },
+   {
+    "score": 0.11350124329328537,
+    "target": {
+     "approvedSymbol": "COXFA4",
+     "id": "ENSG00000189043"
+    }
+   },
+   {
+    "score": 0.0673513188958168,
+    "target": {
+     "approvedSymbol": "THSD7A",
+     "id": "ENSG00000005108"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "de466676fc9f66f9ce36af0e326b5764",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_11018769_C_T",
+  "position": 11018769
+ }
+}

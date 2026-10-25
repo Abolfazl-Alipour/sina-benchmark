@@ -1,0 +1,6 @@
+lodo_exports_dir: data/processed/m2/lodo_exports
+monogenic_genes:
+  mondo:0010196: ensembl:ENSG00000013374  # WRN (Werner)
+  mondo:0008310: ensembl:ENSG00000186094  # LMNA (HGPS)
+  mondo:0012853: ensembl:ENSG00000100867  # SLC25A24 (Fontaine) placeholder
+output_path: data/processed/m2/monogenic_ranks.parquet

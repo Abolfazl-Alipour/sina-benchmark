@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6848148703575134,
+    "target": {
+     "approvedSymbol": "DPP4",
+     "id": "ENSG00000197635"
+    }
+   },
+   {
+    "score": 0.05270351096987724,
+    "target": {
+     "approvedSymbol": "SLC4A10",
+     "id": "ENSG00000144290"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "9a78865a51acc5c62e185655ff327310",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_161999638_C_T",
+  "position": 161999638
+ }
+}

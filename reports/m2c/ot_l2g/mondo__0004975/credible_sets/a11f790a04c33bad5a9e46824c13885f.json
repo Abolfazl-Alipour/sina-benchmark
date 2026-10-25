@@ -1,0 +1,56 @@
+{
+ "l2GPredictions": {
+  "count": 6,
+  "rows": [
+   {
+    "score": 0.7964521050453186,
+    "target": {
+     "approvedSymbol": "MELK",
+     "id": "ENSG00000165304"
+    }
+   },
+   {
+    "score": 0.06737776845693588,
+    "target": {
+     "approvedSymbol": "CCIN",
+     "id": "ENSG00000185972"
+    }
+   },
+   {
+    "score": 0.06632857024669647,
+    "target": {
+     "approvedSymbol": "PAX5",
+     "id": "ENSG00000196092"
+    }
+   },
+   {
+    "score": 0.05943679064512253,
+    "target": {
+     "approvedSymbol": "CLTA",
+     "id": "ENSG00000122705"
+    }
+   },
+   {
+    "score": 0.058782678097486496,
+    "target": {
+     "approvedSymbol": "RNF38",
+     "id": "ENSG00000137075"
+    }
+   },
+   {
+    "score": 0.05019534379243851,
+    "target": {
+     "approvedSymbol": "GLIPR2",
+     "id": "ENSG00000122694"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "a11f790a04c33bad5a9e46824c13885f",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_36604110_C_T",
+  "position": 36604110
+ }
+}

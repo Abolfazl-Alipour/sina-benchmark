@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6074906587600708,
+    "target": {
+     "approvedSymbol": "TNFRSF13B",
+     "id": "ENSG00000240505"
+    }
+   },
+   {
+    "score": 0.2053646594285965,
+    "target": {
+     "approvedSymbol": "MPRIP",
+     "id": "ENSG00000133030"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "88cb3ca2abc9c07b09afb84bb0af512f",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_17002395_G_A",
+  "position": 17002395
+ }
+}

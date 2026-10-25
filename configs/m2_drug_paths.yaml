@@ -1,0 +1,17 @@
+# M2 drug-path measurement + license provenance (v5.1 Step 3, §6.4 / §2.3;
+# plan Phase D). CPU-only measurement feeding the CHANGES/0020 freeze package:
+# F@k drug-mediated reachability per candidate unit, exclusivity annotation,
+# drug-provenance fractions of answer keys, DIS-GEN license provenance.
+
+supervision: data/processed/m2/trimmed/supervision.parquet
+brg: data/processed/m2/trimmed/brg.parquet
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+unit_audit: data/processed/m2/lodo_audits/unit_audit.parquet  # 48 candidate units + strata
+
+seed: 1337
+fk_ks: [2, 3, 4]          # F@k path-length bounds (k=2 primary; 3-4 bound the exploitable radius)
+exclusivity_k: 3          # exclusivity annotation computed at this k (v5.1 §6.4)
+
+output_dir: data/processed/m2/lodo_audits
+report_path: reports/m2b/fk_drug_paths_and_provenance.md
+manifest_path: data/raw/manifests/m2_drug_paths.json

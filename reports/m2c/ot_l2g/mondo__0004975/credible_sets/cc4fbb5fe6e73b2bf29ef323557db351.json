@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7650540471076965,
+    "target": {
+     "approvedSymbol": "CNOT12",
+     "id": "ENSG00000149115"
+    }
+   },
+   {
+    "score": 0.08110097795724869,
+    "target": {
+     "approvedSymbol": "P2RX3",
+     "id": "ENSG00000109991"
+    }
+   },
+   {
+    "score": 0.0774141252040863,
+    "target": {
+     "approvedSymbol": "SSRP1",
+     "id": "ENSG00000149136"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "cc4fbb5fe6e73b2bf29ef323557db351",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_57325294_A_G",
+  "position": 57325294
+ }
+}

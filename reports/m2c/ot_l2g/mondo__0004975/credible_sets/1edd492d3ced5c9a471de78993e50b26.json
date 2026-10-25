@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.48828843235969543,
+    "target": {
+     "approvedSymbol": "GIPC2",
+     "id": "ENSG00000137960"
+    }
+   },
+   {
+    "score": 0.05494958534836769,
+    "target": {
+     "approvedSymbol": "DNAJB4",
+     "id": "ENSG00000162616"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "1edd492d3ced5c9a471de78993e50b26",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_78222989_G_T",
+  "position": 78222989
+ }
+}

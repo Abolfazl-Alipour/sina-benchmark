@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.6568514704704285,
+    "target": {
+     "approvedSymbol": "ABHD12",
+     "id": "ENSG00000100997"
+    }
+   },
+   {
+    "score": 0.11527957767248154,
+    "target": {
+     "approvedSymbol": "PYGB",
+     "id": "ENSG00000100994"
+    }
+   },
+   {
+    "score": 0.10030388087034225,
+    "target": {
+     "approvedSymbol": "GINS1",
+     "id": "ENSG00000101003"
+    }
+   },
+   {
+    "score": 0.07163280993700027,
+    "target": {
+     "approvedSymbol": "ENTPD6",
+     "id": "ENSG00000197586"
+    }
+   },
+   {
+    "score": 0.05011877417564392,
+    "target": {
+     "approvedSymbol": "NINL",
+     "id": "ENSG00000101004"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "cdbb83c7cbb841a9b764b323281a46e5",
+ "variant": {
+  "chromosome": "20",
+  "id": "20_25302331_C_T",
+  "position": 25302331
+ }
+}

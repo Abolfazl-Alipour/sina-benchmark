@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.8270629048347473,
+    "target": {
+     "approvedSymbol": "ZMAT4",
+     "id": "ENSG00000165061"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e254f4f0f3ece2c97bdf11427f3c52c1",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_40820780_T_C",
+  "position": 40820780
+ }
+}

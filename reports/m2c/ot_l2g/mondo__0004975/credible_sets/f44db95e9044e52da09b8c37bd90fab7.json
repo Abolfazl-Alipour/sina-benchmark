@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5067607760429382,
+    "target": {
+     "approvedSymbol": "RAB6A",
+     "id": "ENSG00000175582"
+    }
+   },
+   {
+    "score": 0.06560530513525009,
+    "target": {
+     "approvedSymbol": "PLEKHB1",
+     "id": "ENSG00000021300"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "f44db95e9044e52da09b8c37bd90fab7",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_73692270_C_T",
+  "position": 73692270
+ }
+}

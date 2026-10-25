@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.4246499538421631,
+    "target": {
+     "approvedSymbol": "OARD1",
+     "id": "ENSG00000124596"
+    }
+   },
+   {
+    "score": 0.0861964076757431,
+    "target": {
+     "approvedSymbol": "NFYA",
+     "id": "ENSG00000001167"
+    }
+   },
+   {
+    "score": 0.051809921860694885,
+    "target": {
+     "approvedSymbol": "APOBEC2",
+     "id": "ENSG00000124701"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90012877",
+ "studyLocusId": "8ed7222ff0503665d8c92344d1ea7d73",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_41066261_G_C",
+  "position": 41066261
+ }
+}

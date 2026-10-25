@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5904284715652466,
+    "target": {
+     "approvedSymbol": "SLCO4C1",
+     "id": "ENSG00000173930"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "e702549e3a006c94c945fcebf0dd0919",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_101873004_T_C",
+  "position": 101873004
+ }
+}

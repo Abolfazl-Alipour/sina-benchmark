@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.67091304063797,
+    "target": {
+     "approvedSymbol": "CPNE8",
+     "id": "ENSG00000139117"
+    }
+   },
+   {
+    "score": 0.08216220885515213,
+    "target": {
+     "approvedSymbol": "KIF21A",
+     "id": "ENSG00000139116"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "cc5fdc56cdb0759dc913de50d668f34c",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_39031397_G_A",
+  "position": 39031397
+ }
+}

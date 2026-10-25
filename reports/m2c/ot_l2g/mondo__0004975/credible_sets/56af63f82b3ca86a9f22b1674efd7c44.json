@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.3452940881252289,
+    "target": {
+     "approvedSymbol": "CST1",
+     "id": "ENSG00000170373"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "56af63f82b3ca86a9f22b1674efd7c44",
+ "variant": {
+  "chromosome": "20",
+  "id": "20_23762403_T_C",
+  "position": 23762403
+ }
+}

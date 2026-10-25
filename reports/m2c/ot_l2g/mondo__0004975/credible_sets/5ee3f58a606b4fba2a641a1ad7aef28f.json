@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6466432213783264,
+    "target": {
+     "approvedSymbol": "KLHL42",
+     "id": "ENSG00000087448"
+    }
+   },
+   {
+    "score": 0.16219095885753632,
+    "target": {
+     "approvedSymbol": "MANSC4",
+     "id": "ENSG00000205693"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "5ee3f58a606b4fba2a641a1ad7aef28f",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_27784354_C_G",
+  "position": 27784354
+ }
+}

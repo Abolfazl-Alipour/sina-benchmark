@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6392375230789185,
+    "target": {
+     "approvedSymbol": "DRAXIN",
+     "id": "ENSG00000162490"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "f25bef1942e6779061fee8d06a89c2f5",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_11709990_G_T",
+  "position": 11709990
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.5972414016723633,
+    "target": {
+     "approvedSymbol": "USP6NL",
+     "id": "ENSG00000148429"
+    }
+   },
+   {
+    "score": 0.5584118366241455,
+    "target": {
+     "approvedSymbol": "ECHDC3",
+     "id": "ENSG00000134463"
+    }
+   },
+   {
+    "score": 0.11740116029977798,
+    "target": {
+     "approvedSymbol": "PROSER2",
+     "id": "ENSG00000148426"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST004249",
+ "studyLocusId": "ddce33888001a2ef9138b08ffc757c59",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_11675398_T_C",
+  "position": 11675398
+ }
+}

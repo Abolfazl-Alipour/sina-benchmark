@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.4084356427192688,
+    "target": {
+     "approvedSymbol": "ADAM10",
+     "id": "ENSG00000137845"
+    }
+   },
+   {
+    "score": 0.3929100036621094,
+    "target": {
+     "approvedSymbol": "MINDY2",
+     "id": "ENSG00000128923"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "d8b226b01defa1bf4d0a3fd6fbe11978",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_58764824_T_A",
+  "position": 58764824
+ }
+}

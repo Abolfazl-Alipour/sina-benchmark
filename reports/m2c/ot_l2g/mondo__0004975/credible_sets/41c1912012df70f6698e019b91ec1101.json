@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7688145637512207,
+    "target": {
+     "approvedSymbol": "RFX6",
+     "id": "ENSG00000185002"
+    }
+   },
+   {
+    "score": 0.09218434244394302,
+    "target": {
+     "approvedSymbol": "GPRC6A",
+     "id": "ENSG00000173612"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "41c1912012df70f6698e019b91ec1101",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_116919817_T_C",
+  "position": 116919817
+ }
+}

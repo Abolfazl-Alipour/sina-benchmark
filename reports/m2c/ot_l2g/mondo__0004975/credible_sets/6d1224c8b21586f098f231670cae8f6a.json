@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6784968376159668,
+    "target": {
+     "approvedSymbol": "COL8A2",
+     "id": "ENSG00000171812"
+    }
+   },
+   {
+    "score": 0.06299591809511185,
+    "target": {
+     "approvedSymbol": "ADPRS",
+     "id": "ENSG00000116863"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "6d1224c8b21586f098f231670cae8f6a",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_36102439_C_T",
+  "position": 36102439
+ }
+}

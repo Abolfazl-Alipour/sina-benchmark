@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6237301826477051,
+    "target": {
+     "approvedSymbol": "ACMSD",
+     "id": "ENSG00000153086"
+    }
+   },
+   {
+    "score": 0.45121410489082336,
+    "target": {
+     "approvedSymbol": "TMEM163",
+     "id": "ENSG00000152128"
+    }
+   },
+   {
+    "score": 0.08514411002397537,
+    "target": {
+     "approvedSymbol": "CCNT2",
+     "id": "ENSG00000082258"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST004902",
+ "studyLocusId": "c34ae97ba08c15776c96fe0148b1e95a",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_134782397_C_T",
+  "position": 134782397
+ }
+}

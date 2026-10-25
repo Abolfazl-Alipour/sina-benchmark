@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5604620575904846,
+    "target": {
+     "approvedSymbol": "SYNPR",
+     "id": "ENSG00000163630"
+    }
+   },
+   {
+    "score": 0.28471577167510986,
+    "target": {
+     "approvedSymbol": "SNTN",
+     "id": "ENSG00000188817"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134416",
+ "studyLocusId": "2d80b932f0dd12320b31180957575944",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_63510692_C_T",
+  "position": 63510692
+ }
+}

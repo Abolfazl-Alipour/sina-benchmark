@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5579131245613098,
+    "target": {
+     "approvedSymbol": "AHCYL2",
+     "id": "ENSG00000158467"
+    }
+   },
+   {
+    "score": 0.10717412829399109,
+    "target": {
+     "approvedSymbol": "STRIP2",
+     "id": "ENSG00000128578"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9af9ff213eaf4ae337aec7906a95abfe",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_129358248_C_T",
+  "position": 129358248
+ }
+}

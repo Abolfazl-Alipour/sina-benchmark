@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5860142707824707,
+    "target": {
+     "approvedSymbol": "DDAH1",
+     "id": "ENSG00000153904"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "ad1bce784b4e67b6116daaf3960285e5",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_85492639_C_T",
+  "position": 85492639
+ }
+}

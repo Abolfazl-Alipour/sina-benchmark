@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6633697748184204,
+    "target": {
+     "approvedSymbol": "PRKN",
+     "id": "ENSG00000185345"
+    }
+   },
+   {
+    "score": 0.27144286036491394,
+    "target": {
+     "approvedSymbol": "PACRG",
+     "id": "ENSG00000112530"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST009513",
+ "studyLocusId": "b7087dacbb0fa7fa03973f480d5bbfb4",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_162403694_C_A",
+  "position": 162403694
+ }
+}

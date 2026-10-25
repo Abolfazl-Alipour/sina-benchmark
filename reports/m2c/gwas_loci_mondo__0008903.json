@@ -1,0 +1,8377 @@
+{
+ "gene_first_year_all": {
+  "ensembl:ENSG00000002016": 2026,
+  "ensembl:ENSG00000008323": 2025,
+  "ensembl:ENSG00000019144": 2026,
+  "ensembl:ENSG00000026297": 2024,
+  "ensembl:ENSG00000041357": 2024,
+  "ensembl:ENSG00000043143": 2024,
+  "ensembl:ENSG00000049656": 2022,
+  "ensembl:ENSG00000053918": 2023,
+  "ensembl:ENSG00000060237": 2022,
+  "ensembl:ENSG00000065613": 2023,
+  "ensembl:ENSG00000066468": 2023,
+  "ensembl:ENSG00000067369": 2022,
+  "ensembl:ENSG00000073282": 2023,
+  "ensembl:ENSG00000073792": 2023,
+  "ensembl:ENSG00000080644": 2023,
+  "ensembl:ENSG00000091831": 2023,
+  "ensembl:ENSG00000095015": 2023,
+  "ensembl:ENSG00000096696": 2023,
+  "ensembl:ENSG00000099810": 2024,
+  "ensembl:ENSG00000100599": 2023,
+  "ensembl:ENSG00000101204": 2022,
+  "ensembl:ENSG00000101342": 2026,
+  "ensembl:ENSG00000101577": 2024,
+  "ensembl:ENSG00000101665": 2023,
+  "ensembl:ENSG00000103342": 2022,
+  "ensembl:ENSG00000103460": 2023,
+  "ensembl:ENSG00000107960": 2023,
+  "ensembl:ENSG00000108175": 2023,
+  "ensembl:ENSG00000110799": 2025,
+  "ensembl:ENSG00000112343": 2023,
+  "ensembl:ENSG00000113638": 2023,
+  "ensembl:ENSG00000115896": 2025,
+  "ensembl:ENSG00000117971": 2023,
+  "ensembl:ENSG00000120262": 2023,
+  "ensembl:ENSG00000120903": 2022,
+  "ensembl:ENSG00000120915": 2024,
+  "ensembl:ENSG00000125780": 2023,
+  "ensembl:ENSG00000127220": 2023,
+  "ensembl:ENSG00000130584": 2022,
+  "ensembl:ENSG00000130600": 2023,
+  "ensembl:ENSG00000132670": 2025,
+  "ensembl:ENSG00000134369": 2025,
+  "ensembl:ENSG00000134824": 2025,
+  "ensembl:ENSG00000134910": 2022,
+  "ensembl:ENSG00000135503": 2025,
+  "ensembl:ENSG00000136378": 2022,
+  "ensembl:ENSG00000137872": 2022,
+  "ensembl:ENSG00000138071": 2026,
+  "ensembl:ENSG00000138182": 2023,
+  "ensembl:ENSG00000138593": 2022,
+  "ensembl:ENSG00000139618": 2022,
+  "ensembl:ENSG00000140465": 2022,
+  "ensembl:ENSG00000140505": 2022,
+  "ensembl:ENSG00000143185": 2024,
+  "ensembl:ENSG00000144354": 2023,
+  "ensembl:ENSG00000146263": 2024,
+  "ensembl:ENSG00000147883": 2023,
+  "ensembl:ENSG00000149177": 2022,
+  "ensembl:ENSG00000149573": 2024,
+  "ensembl:ENSG00000151532": 2023,
+  "ensembl:ENSG00000152954": 2025,
+  "ensembl:ENSG00000154027": 2022,
+  "ensembl:ENSG00000154975": 2022,
+  "ensembl:ENSG00000157168": 2026,
+  "ensembl:ENSG00000158553": 2023,
+  "ensembl:ENSG00000160710": 2022,
+  "ensembl:ENSG00000160766": 2023,
+  "ensembl:ENSG00000160862": 2023,
+  "ensembl:ENSG00000160886": 2023,
+  "ensembl:ENSG00000163462": 2023,
+  "ensembl:ENSG00000164362": 2023,
+  "ensembl:ENSG00000164465": 2023,
+  "ensembl:ENSG00000164741": 2020,
+  "ensembl:ENSG00000166200": 2022,
+  "ensembl:ENSG00000166965": 2023,
+  "ensembl:ENSG00000167653": 2023,
+  "ensembl:ENSG00000169253": 2023,
+  "ensembl:ENSG00000169684": 2022,
+  "ensembl:ENSG00000170385": 2020,
+  "ensembl:ENSG00000170606": 2023,
+  "ensembl:ENSG00000171634": 2026,
+  "ensembl:ENSG00000171757": 2026,
+  "ensembl:ENSG00000172264": 2022,
+  "ensembl:ENSG00000175619": 2022,
+  "ensembl:ENSG00000179344": 2022,
+  "ensembl:ENSG00000182952": 2022,
+  "ensembl:ENSG00000183010": 2024,
+  "ensembl:ENSG00000183765": 2024,
+  "ensembl:ENSG00000185565": 2024,
+  "ensembl:ENSG00000188001": 2023,
+  "ensembl:ENSG00000188266": 2020,
+  "ensembl:ENSG00000189298": 2023,
+  "ensembl:ENSG00000196167": 2023,
+  "ensembl:ENSG00000196588": 2023,
+  "ensembl:ENSG00000196735": 2023,
+  "ensembl:ENSG00000198369": 2026,
+  "ensembl:ENSG00000198570": 2020,
+  "ensembl:ENSG00000198604": 2026,
+  "ensembl:ENSG00000198625": 2022,
+  "ensembl:ENSG00000198704": 2022,
+  "ensembl:ENSG00000198890": 2023,
+  "ensembl:ENSG00000200344": 2023,
+  "ensembl:ENSG00000204301": 2022,
+  "ensembl:ENSG00000204410": 2023,
+  "ensembl:ENSG00000204655": 2024,
+  "ensembl:ENSG00000206337": 2024,
+  "ensembl:ENSG00000212993": 2023,
+  "ensembl:ENSG00000213066": 2022,
+  "ensembl:ENSG00000214290": 2023,
+  "ensembl:ENSG00000214922": 2022,
+  "ensembl:ENSG00000223874": 2023,
+  "ensembl:ENSG00000225914": 2022,
+  "ensembl:ENSG00000225940": 2023,
+  "ensembl:ENSG00000226383": 2024,
+  "ensembl:ENSG00000226577": 2022,
+  "ensembl:ENSG00000226644": 2023,
+  "ensembl:ENSG00000228688": 2025,
+  "ensembl:ENSG00000228789": 2022,
+  "ensembl:ENSG00000230174": 2024,
+  "ensembl:ENSG00000231721": 2023,
+  "ensembl:ENSG00000232040": 2022,
+  "ensembl:ENSG00000234616": 2023,
+  "ensembl:ENSG00000234753": 2025,
+  "ensembl:ENSG00000234770": 2022,
+  "ensembl:ENSG00000235040": 2022,
+  "ensembl:ENSG00000237118": 2023,
+  "ensembl:ENSG00000240498": 2022,
+  "ensembl:ENSG00000244230": 2024,
+  "ensembl:ENSG00000246228": 2023,
+  "ensembl:ENSG00000248131": 2020,
+  "ensembl:ENSG00000248457": 2020,
+  "ensembl:ENSG00000249379": 2025,
+  "ensembl:ENSG00000252064": 2023,
+  "ensembl:ENSG00000253314": 2022,
+  "ensembl:ENSG00000253438": 2023,
+  "ensembl:ENSG00000254166": 2023,
+  "ensembl:ENSG00000255152": 2023,
+  "ensembl:ENSG00000255974": 2022,
+  "ensembl:ENSG00000260785": 2023,
+  "ensembl:ENSG00000261272": 2022,
+  "ensembl:ENSG00000263670": 2023,
+  "ensembl:ENSG00000265828": 2024,
+  "ensembl:ENSG00000267452": 2022,
+  "ensembl:ENSG00000274290": 2022,
+  "ensembl:ENSG00000275410": 2023,
+  "ensembl:ENSG00000280409": 2023,
+  "ensembl:ENSG00000282961": 2023,
+  "ensembl:ENSG00000285094": 2023,
+  "ensembl:ENSG00000285551": 2023,
+  "ensembl:ENSG00000291137": 2023,
+  "ensembl:ENSG00000293508": 2023
+ },
+ "gene_first_year_direct": {
+  "ensembl:ENSG00000002016": 2026,
+  "ensembl:ENSG00000019144": 2026,
+  "ensembl:ENSG00000026297": 2024,
+  "ensembl:ENSG00000041357": 2024,
+  "ensembl:ENSG00000043143": 2024,
+  "ensembl:ENSG00000049656": 2023,
+  "ensembl:ENSG00000060237": 2024,
+  "ensembl:ENSG00000067369": 2024,
+  "ensembl:ENSG00000073282": 2023,
+  "ensembl:ENSG00000080644": 2023,
+  "ensembl:ENSG00000096696": 2023,
+  "ensembl:ENSG00000099810": 2024,
+  "ensembl:ENSG00000101204": 2024,
+  "ensembl:ENSG00000101342": 2026,
+  "ensembl:ENSG00000110799": 2025,
+  "ensembl:ENSG00000117971": 2023,
+  "ensembl:ENSG00000120903": 2024,
+  "ensembl:ENSG00000120915": 2024,
+  "ensembl:ENSG00000135503": 2025,
+  "ensembl:ENSG00000138071": 2026,
+  "ensembl:ENSG00000138593": 2024,
+  "ensembl:ENSG00000139618": 2024,
+  "ensembl:ENSG00000140465": 2026,
+  "ensembl:ENSG00000140505": 2026,
+  "ensembl:ENSG00000143185": 2024,
+  "ensembl:ENSG00000146263": 2024,
+  "ensembl:ENSG00000149573": 2024,
+  "ensembl:ENSG00000151532": 2023,
+  "ensembl:ENSG00000152954": 2025,
+  "ensembl:ENSG00000154027": 2024,
+  "ensembl:ENSG00000157168": 2026,
+  "ensembl:ENSG00000164362": 2023,
+  "ensembl:ENSG00000164465": 2023,
+  "ensembl:ENSG00000164741": 2020,
+  "ensembl:ENSG00000166200": 2024,
+  "ensembl:ENSG00000169684": 2024,
+  "ensembl:ENSG00000170385": 2020,
+  "ensembl:ENSG00000171634": 2026,
+  "ensembl:ENSG00000171757": 2026,
+  "ensembl:ENSG00000179344": 2023,
+  "ensembl:ENSG00000183765": 2024,
+  "ensembl:ENSG00000185565": 2024,
+  "ensembl:ENSG00000188001": 2023,
+  "ensembl:ENSG00000188266": 2020,
+  "ensembl:ENSG00000196735": 2023,
+  "ensembl:ENSG00000198369": 2026,
+  "ensembl:ENSG00000198570": 2020,
+  "ensembl:ENSG00000198604": 2026,
+  "ensembl:ENSG00000204301": 2025,
+  "ensembl:ENSG00000204655": 2024,
+  "ensembl:ENSG00000206337": 2024,
+  "ensembl:ENSG00000213066": 2024,
+  "ensembl:ENSG00000225914": 2023,
+  "ensembl:ENSG00000226577": 2025,
+  "ensembl:ENSG00000228688": 2025,
+  "ensembl:ENSG00000230174": 2024,
+  "ensembl:ENSG00000234753": 2025,
+  "ensembl:ENSG00000234770": 2024,
+  "ensembl:ENSG00000235040": 2023,
+  "ensembl:ENSG00000237118": 2023,
+  "ensembl:ENSG00000244230": 2024,
+  "ensembl:ENSG00000248131": 2020,
+  "ensembl:ENSG00000248457": 2020,
+  "ensembl:ENSG00000249379": 2025,
+  "ensembl:ENSG00000255974": 2023,
+  "ensembl:ENSG00000263670": 2024,
+  "ensembl:ENSG00000265828": 2024
+ },
+ "gene_universe": "full_exports vocab (NOT pinned 17448)",
+ "generated_at": "2026-09-12T07:08:47Z",
+ "loci": [
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000278139": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [],
+   "id": "mondo__0008903_locus000",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000278139": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 46135245,
+     "pubmed": "36819030",
+     "pvalue": 7e-09,
+     "snps": "rs1707302",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 7e-09,
+   "pos_max": 46135245,
+   "pos_min": 46135245,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000154027": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000154027"
+   ],
+   "id": "mondo__0008903_locus001",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000154027": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 77501822,
+     "pubmed": "35511172",
+     "pvalue": 2e-12,
+     "snps": "rs71658797",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "1",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000154027": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 77501822,
+     "pubmed": "39366959",
+     "pvalue": 2e-16,
+     "snps": "rs71658797",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "1",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000154027": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 77501822,
+     "pubmed": "42152146",
+     "pvalue": 5e-10,
+     "snps": "rs71658797",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 3,
+   "p_min": 2e-16,
+   "pos_max": 77501822,
+   "pos_min": 77501822,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000198890": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000237460": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000198890"
+   ],
+   "id": "mondo__0008903_locus002",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000198890": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000237460": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 107024067,
+     "pubmed": "37340002",
+     "pvalue": 2e-08,
+     "snps": "rs56111229",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-08,
+   "pos_max": 107024067,
+   "pos_min": 107024067,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000160710": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000160710"
+   ],
+   "id": "mondo__0008903_locus003",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000160710": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 154593749,
+     "pubmed": "35511172",
+     "pvalue": 4e-08,
+     "snps": "rs78062588",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-08,
+   "pos_max": 154593749,
+   "pos_min": 154593749,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000160766": [
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000163462": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000291137": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000160766",
+    "ensembl:ENSG00000163462",
+    "ensembl:ENSG00000291137"
+   ],
+   "id": "mondo__0008903_locus004",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000163462": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 155176305,
+     "pubmed": "36819030",
+     "pvalue": 4e-11,
+     "snps": "rs4971059",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000163462": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 155183132,
+     "pubmed": "37340002",
+     "pvalue": 4e-08,
+     "snps": "rs4971099",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000160766": [
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000291137": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 155215184,
+     "pubmed": "37340002",
+     "pvalue": 1e-10,
+     "snps": "rs2990223",
+     "study_acc": "GCST90651069",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 3,
+   "p_min": 4e-11,
+   "pos_max": 155215184,
+   "pos_min": 155176305,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000143185": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000215833": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000143185"
+   ],
+   "id": "mondo__0008903_locus005",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000143185": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000215833": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 168535779,
+     "pubmed": "39366959",
+     "pvalue": 3e-11,
+     "snps": "rs77045810",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-11,
+   "pos_max": 168535779,
+   "pos_min": 168535779,
+   "year_max": 2024,
+   "year_min": 2024
+  },
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000134369": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000231871": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000134369"
+   ],
+   "id": "mondo__0008903_locus006",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000134369": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000231871": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 201766602,
+     "pubmed": "40155373",
+     "pvalue": 7e-09,
+     "snps": "rs507068",
+     "study_acc": "GCST90570627",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 7e-09,
+   "pos_max": 201766602,
+   "pos_min": 201766602,
+   "year_max": 2025,
+   "year_min": 2025
+  },
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000198625": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000198625"
+   ],
+   "id": "mondo__0008903_locus007",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000198625": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 204539019,
+     "pubmed": "35511172",
+     "pvalue": 9e-10,
+     "snps": "rs4252707",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 9e-10,
+   "pos_max": 204539019,
+   "pos_min": 204539019,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "1",
+   "genes": {
+    "ensembl:ENSG00000170385": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000198570": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000170385",
+    "ensembl:ENSG00000198570"
+   ],
+   "id": "mondo__0008903_locus008",
+   "members": [
+    {
+     "chr": "1",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000170385": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000198570": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 211492876,
+     "pubmed": "32887889",
+     "pvalue": 2e-08,
+     "snps": "rs10863899",
+     "study_acc": "GCST90011812",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2020
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-08,
+   "pos_max": 211492876,
+   "pos_min": 211492876,
+   "year_max": 2020,
+   "year_min": 2020
+  },
+  {
+   "chr": "10",
+   "genes": {
+    "ensembl:ENSG00000280012": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [],
+   "id": "mondo__0008903_locus009",
+   "members": [
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000280012": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 46063294,
+     "pubmed": "37340002",
+     "pvalue": 7e-10,
+     "snps": "rs4630240",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000280012": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 46063294,
+     "pubmed": "37340002",
+     "pvalue": 2e-10,
+     "snps": "rs4630240",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 2e-10,
+   "pos_max": 46063294,
+   "pos_min": 46063294,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "10",
+   "genes": {
+    "ensembl:ENSG00000234489": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000285551": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000285551"
+   ],
+   "id": "mondo__0008903_locus010",
+   "members": [
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000234489": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000285551": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 62687592,
+     "pubmed": "36819030",
+     "pvalue": 2e-08,
+     "snps": "rs224121",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-08,
+   "pos_max": 62687592,
+   "pos_min": 62687592,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "10",
+   "genes": {
+    "ensembl:ENSG00000108175": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000108175"
+   ],
+   "id": "mondo__0008903_locus011",
+   "members": [
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000108175": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 79129101,
+     "pubmed": "36819030",
+     "pvalue": 7e-22,
+     "snps": "rs7097066",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 7e-22,
+   "pos_max": 79129101,
+   "pos_min": 79129101,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "10",
+   "genes": {
+    "ensembl:ENSG00000138182": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000283578": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000138182"
+   ],
+   "id": "mondo__0008903_locus012",
+   "members": [
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000138182": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000283578": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 89778781,
+     "pubmed": "37340002",
+     "pvalue": 3e-08,
+     "snps": "rs1590566",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-08,
+   "pos_max": 89778781,
+   "pos_min": 89778781,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "10",
+   "genes": {
+    "ensembl:ENSG00000065613": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000107960": [
+     "mapped",
+     "snp_gene",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000065613",
+    "ensembl:ENSG00000107960"
+   ],
+   "id": "mondo__0008903_locus013",
+   "members": [
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000107960": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 103884565,
+     "pubmed": "37340002",
+     "pvalue": 1e-10,
+     "snps": "rs10786774",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000065613": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000107960": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 103922538,
+     "pubmed": "37340002",
+     "pvalue": 8e-10,
+     "snps": "rs11813268",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 1e-10,
+   "pos_max": 103922538,
+   "pos_min": 103884565,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "10",
+   "genes": {
+    "ensembl:ENSG00000151532": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000151532"
+   ],
+   "id": "mondo__0008903_locus014",
+   "members": [
+    {
+     "chr": "10",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000151532": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 112713466,
+     "pubmed": "37340002",
+     "pvalue": 5e-10,
+     "snps": "rs146945846",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "10",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000151532": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 112728166,
+     "pubmed": "37340002",
+     "pvalue": 2e-10,
+     "snps": "rs12265047",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "10",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000151532": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 112745339,
+     "pubmed": "40783572",
+     "pvalue": 4e-12,
+     "snps": "rs11196086",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "10",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000151532": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 112747974,
+     "pubmed": "42152146",
+     "pvalue": 3e-26,
+     "snps": "rs11196088",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "10",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000151532": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 112755571,
+     "pubmed": "37340002",
+     "pvalue": 4e-10,
+     "snps": "rs17130045",
+     "study_acc": "GCST90308758",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 5,
+   "p_min": 3e-26,
+   "pos_max": 112755571,
+   "pos_min": 112713466,
+   "year_max": 2026,
+   "year_min": 2023
+  },
+  {
+   "chr": "10",
+   "genes": {
+    "ensembl:ENSG00000066468": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000066468"
+   ],
+   "id": "mondo__0008903_locus015",
+   "members": [
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000066468": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 121584987,
+     "pubmed": "37340002",
+     "pvalue": 1e-25,
+     "snps": "rs1219651",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "10",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000066468": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 121590702,
+     "pubmed": "37340002",
+     "pvalue": 1e-21,
+     "snps": "rs2981584",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 1e-25,
+   "pos_max": 121590702,
+   "pos_min": 121584987,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "11",
+   "genes": {
+    "ensembl:ENSG00000130600": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000130600"
+   ],
+   "id": "mondo__0008903_locus016",
+   "members": [
+    {
+     "chr": "11",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000130600": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 2003314,
+     "pubmed": "36819030",
+     "pvalue": 2e-09,
+     "snps": "rs4930103",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-09,
+   "pos_max": 2003314,
+   "pos_min": 2003314,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "11",
+   "genes": {
+    "ensembl:ENSG00000053918": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000053918"
+   ],
+   "id": "mondo__0008903_locus017",
+   "members": [
+    {
+     "chr": "11",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000053918": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 2837210,
+     "pubmed": "37340002",
+     "pvalue": 5e-09,
+     "snps": "rs2237896",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 5e-09,
+   "pos_max": 2837210,
+   "pos_min": 2837210,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "11",
+   "genes": {
+    "ensembl:ENSG00000149177": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000175619": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000149177",
+    "ensembl:ENSG00000175619"
+   ],
+   "id": "mondo__0008903_locus018",
+   "members": [
+    {
+     "chr": "11",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000149177": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000175619": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 48180091,
+     "pubmed": "35511172",
+     "pvalue": 2e-09,
+     "snps": "rs72905558",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-09,
+   "pos_max": 48180091,
+   "pos_min": 48180091,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "11",
+   "genes": {
+    "ensembl:ENSG00000134824": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000134824"
+   ],
+   "id": "mondo__0008903_locus019",
+   "members": [
+    {
+     "chr": "11",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000134824": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 61829740,
+     "pubmed": "40155373",
+     "pvalue": 2e-12,
+     "snps": "rs174570",
+     "study_acc": "GCST90570627",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-12,
+   "pos_max": 61829740,
+   "pos_min": 61829740,
+   "year_max": 2025,
+   "year_min": 2025
+  },
+  {
+   "chr": "11",
+   "genes": {
+    "ensembl:ENSG00000285094": [
+     "mapped",
+     "snp_gene",
+     "upstream"
+    ],
+    "ensembl:ENSG00000298300": [
+     "downstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000285094"
+   ],
+   "id": "mondo__0008903_locus020",
+   "members": [
+    {
+     "chr": "11",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000285094": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 69492939,
+     "pubmed": "37340002",
+     "pvalue": 8e-14,
+     "snps": "rs1485995",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "11",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000285094": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000298300": [
+       "downstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 69516650,
+     "pubmed": "37340002",
+     "pvalue": 1e-15,
+     "snps": "rs78540526",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 1e-15,
+   "pos_max": 69516650,
+   "pos_min": 69492939,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "11",
+   "genes": {
+    "ensembl:ENSG00000196167": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000214290": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000196167",
+    "ensembl:ENSG00000214290"
+   ],
+   "id": "mondo__0008903_locus021",
+   "members": [
+    {
+     "chr": "11",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000196167": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000214290": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 111299815,
+     "pubmed": "37340002",
+     "pvalue": 2e-09,
+     "snps": "rs10891246",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-09,
+   "pos_max": 111299815,
+   "pos_min": 111299815,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "11",
+   "genes": {
+    "ensembl:ENSG00000019144": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000149573": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000019144",
+    "ensembl:ENSG00000149573"
+   ],
+   "id": "mondo__0008903_locus022",
+   "members": [
+    {
+     "chr": "11",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000149573": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 118254910,
+     "pubmed": "39366959",
+     "pvalue": 1e-13,
+     "snps": "rs1056562",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "11",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000149573": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 118255861,
+     "pubmed": "39366959",
+     "pvalue": 8e-12,
+     "snps": "rs1629083",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "11",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000149573": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 118255861,
+     "pubmed": "42152146",
+     "pvalue": 6e-15,
+     "snps": "rs1629083",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "11",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000019144": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 118607689,
+     "pubmed": "42152146",
+     "pvalue": 2e-09,
+     "snps": "rs4938515",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 4,
+   "p_min": 6e-15,
+   "pos_max": 118607689,
+   "pos_min": 118254910,
+   "year_max": 2026,
+   "year_min": 2024
+  },
+  {
+   "chr": "11",
+   "genes": {
+    "ensembl:ENSG00000134910": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000134910"
+   ],
+   "id": "mondo__0008903_locus023",
+   "members": [
+    {
+     "chr": "11",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000134910": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 125625149,
+     "pubmed": "35511172",
+     "pvalue": 3e-08,
+     "snps": "rs61612408",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-08,
+   "pos_max": 125625149,
+   "pos_min": 125625149,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "12",
+   "genes": {
+    "ensembl:ENSG00000002016": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000060237": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000002016",
+    "ensembl:ENSG00000060237"
+   ],
+   "id": "mondo__0008903_locus024",
+   "members": [
+    {
+     "chr": "12",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000060237": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 879103,
+     "pubmed": "40155373",
+     "pvalue": 6e-09,
+     "snps": "rs12312603",
+     "study_acc": "GCST90570627",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "12",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000060237": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 889653,
+     "pubmed": "35511172",
+     "pvalue": 1e-18,
+     "snps": "rs7953330",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "12",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000060237": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 889653,
+     "pubmed": "39366959",
+     "pvalue": 3e-12,
+     "snps": "rs7953330",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "12",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000060237": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 889653,
+     "pubmed": "39366959",
+     "pvalue": 1e-15,
+     "snps": "rs7953330",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "12",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000002016": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 949522,
+     "pubmed": "42152146",
+     "pvalue": 4e-09,
+     "snps": "rs3748522",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 5,
+   "p_min": 1e-18,
+   "pos_max": 949522,
+   "pos_min": 879103,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "12",
+   "genes": {
+    "ensembl:ENSG00000008323": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000110799": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000256103": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000008323",
+    "ensembl:ENSG00000110799"
+   ],
+   "id": "mondo__0008903_locus025",
+   "members": [
+    {
+     "chr": "12",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000110799": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 5978365,
+     "pubmed": "40341939",
+     "pvalue": 3e-09,
+     "snps": "rs216859",
+     "study_acc": "GCST90652533",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "12",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000008323": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000256103": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 6281247,
+     "pubmed": "40155373",
+     "pvalue": 2e-13,
+     "snps": "rs11610322",
+     "study_acc": "GCST90570627",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 2e-13,
+   "pos_max": 6281247,
+   "pos_min": 5978365,
+   "year_max": 2025,
+   "year_min": 2025
+  },
+  {
+   "chr": "12",
+   "genes": {
+    "ensembl:ENSG00000257807": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000258369": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [],
+   "id": "mondo__0008903_locus026",
+   "members": [
+    {
+     "chr": "12",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000257807": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000258369": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 47464043,
+     "pubmed": "39366959",
+     "pvalue": 6e-10,
+     "snps": "rs7300571",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 6e-10,
+   "pos_max": 47464043,
+   "pos_min": 47464043,
+   "year_max": 2024,
+   "year_min": 2024
+  },
+  {
+   "chr": "12",
+   "genes": {
+    "ensembl:ENSG00000135503": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000135503"
+   ],
+   "id": "mondo__0008903_locus027",
+   "members": [
+    {
+     "chr": "12",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000135503": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 51954475,
+     "pubmed": "40783572",
+     "pvalue": 4e-08,
+     "snps": "rs7962469",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "12",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000135503": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 51955304,
+     "pubmed": "42152146",
+     "pvalue": 8e-09,
+     "snps": "rs11612312",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 8e-09,
+   "pos_max": 51955304,
+   "pos_min": 51954475,
+   "year_max": 2026,
+   "year_min": 2025
+  },
+  {
+   "chr": "13",
+   "genes": {
+    "ensembl:ENSG00000139618": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000139618"
+   ],
+   "id": "mondo__0008903_locus028",
+   "members": [
+    {
+     "chr": "13",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000139618": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 32394413,
+     "pubmed": "35511172",
+     "pvalue": 7e-32,
+     "snps": "rs11571815",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "13",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000139618": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 32394413,
+     "pubmed": "39366959",
+     "pvalue": 1e-21,
+     "snps": "rs11571815",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "13",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000139618": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 32394673,
+     "pubmed": "42152146",
+     "pvalue": 3e-15,
+     "snps": "rs11571818",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "13",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000139618": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 32398489,
+     "pubmed": "39366959",
+     "pvalue": 1e-20,
+     "snps": "rs11571833",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 4,
+   "p_min": 7e-32,
+   "pos_max": 32398489,
+   "pos_min": 32394413,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "14",
+   "genes": {
+    "ensembl:ENSG00000198604": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000243824": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000198604"
+   ],
+   "id": "mondo__0008903_locus029",
+   "members": [
+    {
+     "chr": "14",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000198604": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000243824": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 34747293,
+     "pubmed": "42152146",
+     "pvalue": 7e-09,
+     "snps": "rs55980174",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 7e-09,
+   "pos_max": 34747293,
+   "pos_min": 34747293,
+   "year_max": 2026,
+   "year_min": 2026
+  },
+  {
+   "chr": "14",
+   "genes": {
+    "ensembl:ENSG00000100599": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000100599"
+   ],
+   "id": "mondo__0008903_locus030",
+   "members": [
+    {
+     "chr": "14",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000100599": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 92636964,
+     "pubmed": "36819030",
+     "pvalue": 5e-12,
+     "snps": "rs10498635",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 5e-12,
+   "pos_max": 92636964,
+   "pos_min": 92636964,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "15",
+   "genes": {
+    "ensembl:ENSG00000067369": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000067369"
+   ],
+   "id": "mondo__0008903_locus031",
+   "members": [
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000067369": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 43468310,
+     "pubmed": "39366959",
+     "pvalue": 7e-10,
+     "snps": "rs9920763",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "15",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000067369": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 43509826,
+     "pubmed": "35511172",
+     "pvalue": 6e-11,
+     "snps": "rs506120",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 6e-11,
+   "pos_max": 43509826,
+   "pos_min": 43468310,
+   "year_max": 2024,
+   "year_min": 2022
+  },
+  {
+   "chr": "15",
+   "genes": {
+    "ensembl:ENSG00000137872": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000137872"
+   ],
+   "id": "mondo__0008903_locus032",
+   "members": [
+    {
+     "chr": "15",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000137872": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 47285254,
+     "pubmed": "35511172",
+     "pvalue": 4e-10,
+     "snps": "rs66759488",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-10,
+   "pos_max": 47285254,
+   "pos_min": 47285254,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "15",
+   "genes": {
+    "ensembl:ENSG00000138593": [
+     "mapped",
+     "snp_gene",
+     "upstream"
+    ],
+    "ensembl:ENSG00000166200": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000138593",
+    "ensembl:ENSG00000166200"
+   ],
+   "id": "mondo__0008903_locus033",
+   "members": [
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000138593": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 49043021,
+     "pubmed": "39366959",
+     "pvalue": 1e-14,
+     "snps": "rs11634901",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "15",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000138593": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000166200": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 49084427,
+     "pubmed": "35511172",
+     "pvalue": 3e-08,
+     "snps": "rs77468143",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000138593": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000166200": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 49084427,
+     "pubmed": "39366959",
+     "pvalue": 9e-18,
+     "snps": "rs77468143",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000138593": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000166200": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 49084427,
+     "pubmed": "42152146",
+     "pvalue": 6e-14,
+     "snps": "rs77468143",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 4,
+   "p_min": 9e-18,
+   "pos_max": 49084427,
+   "pos_min": 49043021,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "15",
+   "genes": {
+    "ensembl:ENSG00000140465": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000140505": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000140465",
+    "ensembl:ENSG00000140505"
+   ],
+   "id": "mondo__0008903_locus034",
+   "members": [
+    {
+     "chr": "15",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000140465": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000140505": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 74733473,
+     "pubmed": "35511172",
+     "pvalue": 5e-08,
+     "snps": "rs12441817",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000140465": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000140505": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 74737066,
+     "pubmed": "42152146",
+     "pvalue": 3e-08,
+     "snps": "rs8029744",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 3e-08,
+   "pos_max": 74737066,
+   "pos_min": 74733473,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "15",
+   "genes": {
+    "ensembl:ENSG00000041357": [
+     "mapped",
+     "snp_gene",
+     "upstream"
+    ],
+    "ensembl:ENSG00000080644": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000117971": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000136378": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000169684": [
+     "downstream",
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000188266": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000041357",
+    "ensembl:ENSG00000080644",
+    "ensembl:ENSG00000117971",
+    "ensembl:ENSG00000136378",
+    "ensembl:ENSG00000169684",
+    "ensembl:ENSG00000188266"
+   ],
+   "id": "mondo__0008903_locus035",
+   "members": [
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000188266": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 78509052,
+     "pubmed": "37340002",
+     "pvalue": 5e-08,
+     "snps": "rs11852372",
+     "study_acc": "GCST90651048",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000188266": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 78525587,
+     "pubmed": "32887889",
+     "pvalue": 8e-10,
+     "snps": "rs8042849",
+     "study_acc": "GCST90011812",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2020
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000188266": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 78525587,
+     "pubmed": "39024449",
+     "pvalue": 4e-15,
+     "snps": "rs8042849",
+     "study_acc": "GCST90479533",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000041357": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 78544377,
+     "pubmed": "42152146",
+     "pvalue": 7e-10,
+     "snps": "rs76712448",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000041357": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000169684": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 78559273,
+     "pubmed": "39366959",
+     "pvalue": 8e-179,
+     "snps": "rs2036527",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "15",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000169684": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 78565644,
+     "pubmed": "35511172",
+     "pvalue": 5e-115,
+     "snps": "rs55781567",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000169684": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 78565644,
+     "pubmed": "42152146",
+     "pvalue": 2e-106,
+     "snps": "rs55781567",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000169684": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 78575140,
+     "pubmed": "39366959",
+     "pvalue": 2e-17,
+     "snps": "rs17486278",
+     "study_acc": "GCST90455524",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000169684": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 78575140,
+     "pubmed": "40341939",
+     "pvalue": 1e-12,
+     "snps": "rs17486278",
+     "study_acc": "GCST90652533",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000080644": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 78604205,
+     "pubmed": "42152146",
+     "pvalue": 6e-42,
+     "snps": "rs938682",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000080644": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 78606381,
+     "pubmed": "37340002",
+     "pvalue": 6e-17,
+     "snps": "rs12914385",
+     "study_acc": "GCST90308758",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000080644": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 78606381,
+     "pubmed": "38970920",
+     "pvalue": 1e-18,
+     "snps": "rs12914385",
+     "study_acc": "GCST90711137",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "15",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000117971": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 78674313,
+     "pubmed": "37340002",
+     "pvalue": 3e-08,
+     "snps": "rs11639372",
+     "study_acc": "GCST90651048",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "15",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000136378": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 78773038,
+     "pubmed": "35511172",
+     "pvalue": 4e-24,
+     "snps": "rs7177201",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 14,
+   "p_min": 8e-179,
+   "pos_max": 78773038,
+   "pos_min": 78509052,
+   "year_max": 2026,
+   "year_min": 2020
+  },
+  {
+   "chr": "15",
+   "genes": {
+    "ensembl:ENSG00000166965": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000166965"
+   ],
+   "id": "mondo__0008903_locus036",
+   "members": [
+    {
+     "chr": "15",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000166965": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 90959153,
+     "pubmed": "37340002",
+     "pvalue": 1e-08,
+     "snps": "rs1105291",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 1e-08,
+   "pos_max": 90959153,
+   "pos_min": 90959153,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "16",
+   "genes": {
+    "ensembl:ENSG00000103342": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000263307": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000103342"
+   ],
+   "id": "mondo__0008903_locus037",
+   "members": [
+    {
+     "chr": "16",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000103342": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000263307": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 11887630,
+     "pubmed": "35138370",
+     "pvalue": 5e-08,
+     "snps": "rs3752426",
+     "study_acc": "GCST90239710",
+     "trait_uris": [
+      "http://www.ebi.ac.uk/efo/EFO_0008343",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 5e-08,
+   "pos_max": 11887630,
+   "pos_min": 11887630,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "16",
+   "genes": {
+    "ensembl:ENSG00000103460": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000103460"
+   ],
+   "id": "mondo__0008903_locus038",
+   "members": [
+    {
+     "chr": "16",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000103460": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 52547333,
+     "pubmed": "37340002",
+     "pvalue": 2e-17,
+     "snps": "rs112149573",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "16",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000103460": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 52547333,
+     "pubmed": "37340002",
+     "pvalue": 7e-17,
+     "snps": "rs112149573",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 2e-17,
+   "pos_max": 52547333,
+   "pos_min": 52547333,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "17",
+   "genes": {
+    "ensembl:ENSG00000275410": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000275410"
+   ],
+   "id": "mondo__0008903_locus039",
+   "members": [
+    {
+     "chr": "17",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000275410": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 37739849,
+     "pubmed": "37340002",
+     "pvalue": 1e-14,
+     "snps": "rs11651755",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "17",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000275410": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 37739961,
+     "pubmed": "37340002",
+     "pvalue": 3e-21,
+     "snps": "rs10908278",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "17",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000275410": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 37743574,
+     "pubmed": "37340002",
+     "pvalue": 2e-08,
+     "snps": "rs11263763",
+     "study_acc": "GCST90651069",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 3,
+   "p_min": 3e-21,
+   "pos_max": 37743574,
+   "pos_min": 37739849,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "17",
+   "genes": {
+    "ensembl:ENSG00000154975": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000267452": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000154975",
+    "ensembl:ENSG00000267452"
+   ],
+   "id": "mondo__0008903_locus040",
+   "members": [
+    {
+     "chr": "17",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000154975": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000267452": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 51561778,
+     "pubmed": "35138370",
+     "pvalue": 4e-08,
+     "snps": "rs17662871",
+     "study_acc": "GCST90239710",
+     "trait_uris": [
+      "http://www.ebi.ac.uk/efo/EFO_0008343",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-08,
+   "pos_max": 51561778,
+   "pos_min": 51561778,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "17",
+   "genes": {
+    "ensembl:ENSG00000171634": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000171634"
+   ],
+   "id": "mondo__0008903_locus041",
+   "members": [
+    {
+     "chr": "17",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000171634": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 67834462,
+     "pubmed": "42152146",
+     "pvalue": 2e-14,
+     "snps": "rs1976052",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-14,
+   "pos_max": 67834462,
+   "pos_min": 67834462,
+   "year_max": 2026,
+   "year_min": 2026
+  },
+  {
+   "chr": "17",
+   "genes": {
+    "ensembl:ENSG00000260785": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000260785"
+   ],
+   "id": "mondo__0008903_locus042",
+   "members": [
+    {
+     "chr": "17",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000260785": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 71116966,
+     "pubmed": "37340002",
+     "pvalue": 8e-10,
+     "snps": "rs1859963",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 8e-10,
+   "pos_max": 71116966,
+   "pos_min": 71116966,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "17",
+   "genes": {
+    "ensembl:ENSG00000183010": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000183010"
+   ],
+   "id": "mondo__0008903_locus043",
+   "members": [
+    {
+     "chr": "17",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000183010": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 81939077,
+     "pubmed": "39024449",
+     "pvalue": 2e-11,
+     "snps": "rs572975911",
+     "study_acc": "GCST90479532",
+     "trait_uris": [
+      "http://www.ebi.ac.uk/efo/EFO_0007010",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-11,
+   "pos_max": 81939077,
+   "pos_min": 81939077,
+   "year_max": 2024,
+   "year_min": 2024
+  },
+  {
+   "chr": "18",
+   "genes": {
+    "ensembl:ENSG00000101577": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000101577"
+   ],
+   "id": "mondo__0008903_locus044",
+   "members": [
+    {
+     "chr": "18",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000101577": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 2923765,
+     "pubmed": "39024449",
+     "pvalue": 3e-12,
+     "snps": "rs201227858",
+     "study_acc": "GCST90479532",
+     "trait_uris": [
+      "http://www.ebi.ac.uk/efo/EFO_0007010",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-12,
+   "pos_max": 2923765,
+   "pos_min": 2923765,
+   "year_max": 2024,
+   "year_min": 2024
+  },
+  {
+   "chr": "18",
+   "genes": {
+    "ensembl:ENSG00000101665": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000101665"
+   ],
+   "id": "mondo__0008903_locus045",
+   "members": [
+    {
+     "chr": "18",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000101665": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 48922508,
+     "pubmed": "37340002",
+     "pvalue": 2e-08,
+     "snps": "rs10640406",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-08,
+   "pos_max": 48922508,
+   "pos_min": 48922508,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "19",
+   "genes": {
+    "ensembl:ENSG00000127220": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000127220"
+   ],
+   "id": "mondo__0008903_locus046",
+   "members": [
+    {
+     "chr": "19",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000127220": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 17292224,
+     "pubmed": "36819030",
+     "pvalue": 4e-08,
+     "snps": "rs4808616",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-08,
+   "pos_max": 17292224,
+   "pos_min": 17292224,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "19",
+   "genes": {
+    "ensembl:ENSG00000237118": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000255974": [
+     "downstream",
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000237118",
+    "ensembl:ENSG00000255974"
+   ],
+   "id": "mondo__0008903_locus047",
+   "members": [
+    {
+     "chr": "19",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000237118": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000255974": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 40827379,
+     "pubmed": "37340002",
+     "pvalue": 3e-10,
+     "snps": "rs11878604",
+     "study_acc": "GCST90308758",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "19",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000237118": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000255974": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 40827379,
+     "pubmed": "37340002",
+     "pvalue": 2e-08,
+     "snps": "rs11878604",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "19",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000237118": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000255974": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 40827379,
+     "pubmed": "40783572",
+     "pvalue": 6e-11,
+     "snps": "rs11878604",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "19",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000237118": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000255974": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 40839291,
+     "pubmed": "37340002",
+     "pvalue": 2e-09,
+     "snps": "rs771418658",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "19",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000255974": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 40845658,
+     "pubmed": "40341939",
+     "pvalue": 5e-09,
+     "snps": "rs144437384",
+     "study_acc": "GCST90652533",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "19",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000255974": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 40847202,
+     "pubmed": "35511172",
+     "pvalue": 2e-20,
+     "snps": "rs56113850",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "19",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000255974": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 40847202,
+     "pubmed": "39366959",
+     "pvalue": 1e-43,
+     "snps": "rs56113850",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "19",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000255974": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 40847202,
+     "pubmed": "42152146",
+     "pvalue": 5e-16,
+     "snps": "rs56113850",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 8,
+   "p_min": 1e-43,
+   "pos_max": 40847202,
+   "pos_min": 40827379,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "2",
+   "genes": {
+    "ensembl:ENSG00000138071": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000198369": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000138071",
+    "ensembl:ENSG00000198369"
+   ],
+   "id": "mondo__0008903_locus048",
+   "members": [
+    {
+     "chr": "2",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000138071": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000198369": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 65294682,
+     "pubmed": "42152146",
+     "pvalue": 2e-10,
+     "snps": "rs72822431",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-10,
+   "pos_max": 65294682,
+   "pos_min": 65294682,
+   "year_max": 2026,
+   "year_min": 2026
+  },
+  {
+   "chr": "2",
+   "genes": {
+    "ensembl:ENSG00000200344": [
+     "mapped"
+    ],
+    "ensembl:ENSG00000252064": [
+     "downstream"
+    ],
+    "ensembl:ENSG00000280409": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000200344",
+    "ensembl:ENSG00000252064",
+    "ensembl:ENSG00000280409"
+   ],
+   "id": "mondo__0008903_locus049",
+   "members": [
+    {
+     "chr": "2",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000200344": [
+       "mapped"
+      ],
+      "ensembl:ENSG00000252064": [
+       "downstream"
+      ],
+      "ensembl:ENSG00000280409": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 120481784,
+     "pubmed": "37340002",
+     "pvalue": 9e-09,
+     "snps": "rs4848599",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 9e-09,
+   "pos_max": 120481784,
+   "pos_min": 120481784,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "2",
+   "genes": {
+    "ensembl:ENSG00000226383": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000226383"
+   ],
+   "id": "mondo__0008903_locus050",
+   "members": [
+    {
+     "chr": "2",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000226383": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 156094161,
+     "pubmed": "39024449",
+     "pvalue": 4e-11,
+     "snps": "rs186536803",
+     "study_acc": "GCST90479532",
+     "trait_uris": [
+      "http://www.ebi.ac.uk/efo/EFO_0007010",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-11,
+   "pos_max": 156094161,
+   "pos_min": 156094161,
+   "year_max": 2024,
+   "year_min": 2024
+  },
+  {
+   "chr": "2",
+   "genes": {
+    "ensembl:ENSG00000144354": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000231735": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000144354"
+   ],
+   "id": "mondo__0008903_locus051",
+   "members": [
+    {
+     "chr": "2",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000144354": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000231735": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 173348166,
+     "pubmed": "36819030",
+     "pvalue": 7e-10,
+     "snps": "rs1550623",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 7e-10,
+   "pos_max": 173348166,
+   "pos_min": 173348166,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "2",
+   "genes": {
+    "ensembl:ENSG00000115896": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000238698": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000115896"
+   ],
+   "id": "mondo__0008903_locus052",
+   "members": [
+    {
+     "chr": "2",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000115896": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000238698": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 198705994,
+     "pubmed": "40155373",
+     "pvalue": 7e-13,
+     "snps": "rs6434979",
+     "study_acc": "GCST90570627",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 7e-13,
+   "pos_max": 198705994,
+   "pos_min": 198705994,
+   "year_max": 2025,
+   "year_min": 2025
+  },
+  {
+   "chr": "2",
+   "genes": {
+    "ensembl:ENSG00000223874": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000223874"
+   ],
+   "id": "mondo__0008903_locus053",
+   "members": [
+    {
+     "chr": "2",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000223874": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 217056046,
+     "pubmed": "37340002",
+     "pvalue": 6e-10,
+     "snps": "rs4442975",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "2",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000223874": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 217056046,
+     "pubmed": "37340002",
+     "pvalue": 2e-10,
+     "snps": "rs4442975",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 2e-10,
+   "pos_max": 217056046,
+   "pos_min": 217056046,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "20",
+   "genes": {
+    "ensembl:ENSG00000125780": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000226644": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000125780",
+    "ensembl:ENSG00000226644"
+   ],
+   "id": "mondo__0008903_locus054",
+   "members": [
+    {
+     "chr": "20",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000125780": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000226644": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 2254765,
+     "pubmed": "37340002",
+     "pvalue": 4e-08,
+     "snps": "rs71329345",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-08,
+   "pos_max": 2254765,
+   "pos_min": 2254765,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "20",
+   "genes": {
+    "ensembl:ENSG00000132670": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000132670"
+   ],
+   "id": "mondo__0008903_locus055",
+   "members": [
+    {
+     "chr": "20",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000132670": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 2904836,
+     "pubmed": "40155373",
+     "pvalue": 1e-08,
+     "snps": "rs79127996",
+     "study_acc": "GCST90570627",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 1e-08,
+   "pos_max": 2904836,
+   "pos_min": 2904836,
+   "year_max": 2025,
+   "year_min": 2025
+  },
+  {
+   "chr": "20",
+   "genes": {
+    "ensembl:ENSG00000172264": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000172264"
+   ],
+   "id": "mondo__0008903_locus056",
+   "members": [
+    {
+     "chr": "20",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000172264": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 15663573,
+     "pubmed": "35138370",
+     "pvalue": 3e-08,
+     "snps": "rs79942605",
+     "study_acc": "GCST90239710",
+     "trait_uris": [
+      "http://www.ebi.ac.uk/efo/EFO_0008343",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-08,
+   "pos_max": 15663573,
+   "pos_min": 15663573,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "20",
+   "genes": {
+    "ensembl:ENSG00000101342": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000101342"
+   ],
+   "id": "mondo__0008903_locus057",
+   "members": [
+    {
+     "chr": "20",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000101342": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 36890036,
+     "pubmed": "42152146",
+     "pvalue": 2e-08,
+     "snps": "rs1291141",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-08,
+   "pos_max": 36890036,
+   "pos_min": 36890036,
+   "year_max": 2026,
+   "year_min": 2026
+  },
+  {
+   "chr": "20",
+   "genes": {
+    "ensembl:ENSG00000101204": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000130584": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000229299": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000101204",
+    "ensembl:ENSG00000130584"
+   ],
+   "id": "mondo__0008903_locus058",
+   "members": [
+    {
+     "chr": "20",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000101204": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 63352965,
+     "pubmed": "42152146",
+     "pvalue": 5e-11,
+     "snps": "rs6011779",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "20",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000101204": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 63357030,
+     "pubmed": "39366959",
+     "pvalue": 9e-16,
+     "snps": "rs13036436",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "20",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000101204": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 63360653,
+     "pubmed": "35511172",
+     "pvalue": 1e-08,
+     "snps": "rs11697662",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "20",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000130584": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000229299": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 63745150,
+     "pubmed": "35511172",
+     "pvalue": 3e-09,
+     "snps": "rs2281925",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 4,
+   "p_min": 9e-16,
+   "pos_max": 63745150,
+   "pos_min": 63352965,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "21",
+   "genes": {
+    "ensembl:ENSG00000225735": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000252462": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [],
+   "id": "mondo__0008903_locus059",
+   "members": [
+    {
+     "chr": "21",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000225735": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000252462": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 17413499,
+     "pubmed": "35138370",
+     "pvalue": 4e-08,
+     "snps": "rs208908",
+     "study_acc": "GCST90239710",
+     "trait_uris": [
+      "http://www.ebi.ac.uk/efo/EFO_0008343",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-08,
+   "pos_max": 17413499,
+   "pos_min": 17413499,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "22",
+   "genes": {
+    "ensembl:ENSG00000183765": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000183765"
+   ],
+   "id": "mondo__0008903_locus060",
+   "members": [
+    {
+     "chr": "22",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000183765": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 28725099,
+     "pubmed": "39366959",
+     "pvalue": 5e-11,
+     "snps": "rs17879961",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "22",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000183765": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 28725099,
+     "pubmed": "39366959",
+     "pvalue": 6e-13,
+     "snps": "rs17879961",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "22",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000183765": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 28725099,
+     "pubmed": "42152146",
+     "pvalue": 3e-10,
+     "snps": "rs17879961",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 3,
+   "p_min": 6e-13,
+   "pos_max": 28725099,
+   "pos_min": 28725099,
+   "year_max": 2026,
+   "year_min": 2024
+  },
+  {
+   "chr": "22",
+   "genes": {
+    "ensembl:ENSG00000196588": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000196588"
+   ],
+   "id": "mondo__0008903_locus061",
+   "members": [
+    {
+     "chr": "22",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000196588": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 40539619,
+     "pubmed": "37340002",
+     "pvalue": 3e-08,
+     "snps": "rs147759720",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-08,
+   "pos_max": 40539619,
+   "pos_min": 40539619,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "3",
+   "genes": {
+    "ensembl:ENSG00000185565": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000185565"
+   ],
+   "id": "mondo__0008903_locus062",
+   "members": [
+    {
+     "chr": "3",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000185565": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 117428479,
+     "pubmed": "39366959",
+     "pvalue": 4e-08,
+     "snps": "rs144840030",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-08,
+   "pos_max": 117428479,
+   "pos_min": 117428479,
+   "year_max": 2024,
+   "year_min": 2024
+  },
+  {
+   "chr": "3",
+   "genes": {
+    "ensembl:ENSG00000171757": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000171757"
+   ],
+   "id": "mondo__0008903_locus063",
+   "members": [
+    {
+     "chr": "3",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000171757": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 169794357,
+     "pubmed": "42152146",
+     "pvalue": 1e-12,
+     "snps": "rs7621631",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 1e-12,
+   "pos_max": 169794357,
+   "pos_min": 169794357,
+   "year_max": 2026,
+   "year_min": 2026
+  },
+  {
+   "chr": "3",
+   "genes": {
+    "ensembl:ENSG00000073792": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000073792"
+   ],
+   "id": "mondo__0008903_locus064",
+   "members": [
+    {
+     "chr": "3",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000073792": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 185790803,
+     "pubmed": "37340002",
+     "pvalue": 2e-08,
+     "snps": "rs11927381",
+     "study_acc": "GCST90651069",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-08,
+   "pos_max": 185790803,
+   "pos_min": 185790803,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "3",
+   "genes": {
+    "ensembl:ENSG00000073282": [
+     "downstream",
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000188001": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000073282",
+    "ensembl:ENSG00000188001"
+   ],
+   "id": "mondo__0008903_locus065",
+   "members": [
+    {
+     "chr": "3",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000073282": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000188001": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 189624850,
+     "pubmed": "40783572",
+     "pvalue": 4e-21,
+     "snps": "rs7643161",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "3",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000073282": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000188001": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 189625454,
+     "pubmed": "37340002",
+     "pvalue": 4e-10,
+     "snps": "rs11375254",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "3",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000073282": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000188001": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 189630622,
+     "pubmed": "37340002",
+     "pvalue": 2e-11,
+     "snps": "rs7631358",
+     "study_acc": "GCST90308758",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "3",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000073282": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000188001": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 189630622,
+     "pubmed": "42152146",
+     "pvalue": 2e-33,
+     "snps": "rs7631358",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "3",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000073282": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 189638472,
+     "pubmed": "37340002",
+     "pvalue": 4e-09,
+     "snps": "rs4488809",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 5,
+   "p_min": 2e-33,
+   "pos_max": 189638472,
+   "pos_min": 189624850,
+   "year_max": 2026,
+   "year_min": 2023
+  },
+  {
+   "chr": "4",
+   "genes": {
+    "ensembl:ENSG00000206629": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000252890": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [],
+   "id": "mondo__0008903_locus066",
+   "members": [
+    {
+     "chr": "4",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000206629": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000252890": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 66968056,
+     "pubmed": "35511172",
+     "pvalue": 6e-09,
+     "snps": "rs185666783",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "4",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000206629": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000252890": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 66968056,
+     "pubmed": "39366959",
+     "pvalue": 8e-10,
+     "snps": "rs75675343",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 8e-10,
+   "pos_max": 66968056,
+   "pos_min": 66968056,
+   "year_max": 2024,
+   "year_min": 2022
+  },
+  {
+   "chr": "5",
+   "genes": {
+    "ensembl:ENSG00000049656": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000164362": [
+     "mapped",
+     "snp_gene",
+     "upstream"
+    ],
+    "ensembl:ENSG00000263670": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000049656",
+    "ensembl:ENSG00000164362",
+    "ensembl:ENSG00000263670"
+   ],
+   "id": "mondo__0008903_locus067",
+   "members": [
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 1280362,
+     "pubmed": "42152146",
+     "pvalue": 4e-37,
+     "snps": "rs13167280",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 1282204,
+     "pubmed": "40783572",
+     "pvalue": 6e-26,
+     "snps": "rs7726159",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 1282204,
+     "pubmed": "40465716",
+     "pvalue": 7e-18,
+     "snps": "rs7726159",
+     "study_acc": "GCST90651191",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0001672"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 1285859,
+     "pubmed": "37340002",
+     "pvalue": 3e-11,
+     "snps": "rs7705526",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 1285859,
+     "pubmed": "39366959",
+     "pvalue": 2e-23,
+     "snps": "rs7705526",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 1285859,
+     "pubmed": "42152146",
+     "pvalue": 4e-68,
+     "snps": "rs7705526",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 1286401,
+     "pubmed": "36819030",
+     "pvalue": 1e-09,
+     "snps": "rs2736100",
+     "study_acc": "GCST90270344",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0002038",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 1287079,
+     "pubmed": "37340002",
+     "pvalue": 8e-24,
+     "snps": "rs2853677",
+     "study_acc": "GCST90308758",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 1287079,
+     "pubmed": "37340002",
+     "pvalue": 3e-11,
+     "snps": "rs2853677",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 1287079,
+     "pubmed": "38970920",
+     "pvalue": 5e-15,
+     "snps": "rs2853677",
+     "study_acc": "GCST90711137",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 1287079,
+     "pubmed": "42152146",
+     "pvalue": 1e-75,
+     "snps": "rs2853677",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000263670": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 1296644,
+     "pubmed": "42152146",
+     "pvalue": 5e-36,
+     "snps": "rs2736109",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000263670": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 1297373,
+     "pubmed": "36819030",
+     "pvalue": 5e-24,
+     "snps": "rs2736108",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000263670": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 1300154,
+     "pubmed": "39366959",
+     "pvalue": 9e-17,
+     "snps": "rs112401627",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000164362": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000263670": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 1308437,
+     "pubmed": "36819030",
+     "pvalue": 2e-09,
+     "snps": "rs4635969",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000049656": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 1320132,
+     "pubmed": "35511172",
+     "pvalue": 5e-42,
+     "snps": "rs380286",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000049656": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 1320132,
+     "pubmed": "36819030",
+     "pvalue": 3e-12,
+     "snps": "rs380286",
+     "study_acc": "GCST90270344",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0002038",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000049656": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 1321972,
+     "pubmed": "42152146",
+     "pvalue": 8e-49,
+     "snps": "rs401681",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000049656": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 1325475,
+     "pubmed": "39366959",
+     "pvalue": 2e-58,
+     "snps": "rs421284",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000049656": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 1339775,
+     "pubmed": "37340002",
+     "pvalue": 1e-16,
+     "snps": "rs36019446",
+     "study_acc": "GCST90651048",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000049656": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 1343679,
+     "pubmed": "40155373",
+     "pvalue": 1e-12,
+     "snps": "rs10462706",
+     "study_acc": "GCST90570627",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000049656": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 1344343,
+     "pubmed": "39366959",
+     "pvalue": 8e-40,
+     "snps": "rs31490",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 22,
+   "p_min": 1e-75,
+   "pos_max": 1344343,
+   "pos_min": 1280362,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "5",
+   "genes": {
+    "ensembl:ENSG00000248131": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000248457": [
+     "downstream",
+     "mapped"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000248131",
+    "ensembl:ENSG00000248457"
+   ],
+   "id": "mondo__0008903_locus068",
+   "members": [
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000248131": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000248457": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 12883480,
+     "pubmed": "32887889",
+     "pvalue": 3e-08,
+     "snps": "rs146099759",
+     "study_acc": "GCST90011812",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2020
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-08,
+   "pos_max": 12883480,
+   "pos_min": 12883480,
+   "year_max": 2020,
+   "year_min": 2020
+  },
+  {
+   "chr": "5",
+   "genes": {
+    "ensembl:ENSG00000113638": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000113638"
+   ],
+   "id": "mondo__0008903_locus069",
+   "members": [
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000113638": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 40729872,
+     "pubmed": "37340002",
+     "pvalue": 2e-08,
+     "snps": "rs6860328",
+     "study_acc": "GCST90651069",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-08,
+   "pos_max": 40729872,
+   "pos_min": 40729872,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "5",
+   "genes": {
+    "ensembl:ENSG00000248898": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [],
+   "id": "mondo__0008903_locus070",
+   "members": [
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000248898": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 52727882,
+     "pubmed": "37340002",
+     "pvalue": 1e-08,
+     "snps": "rs830888",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000248898": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 52735802,
+     "pubmed": "37340002",
+     "pvalue": 2e-08,
+     "snps": "rs244477",
+     "study_acc": "GCST90651069",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 1e-08,
+   "pos_max": 52735802,
+   "pos_min": 52727882,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "5",
+   "genes": {
+    "ensembl:ENSG00000095015": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000225940": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000095015",
+    "ensembl:ENSG00000225940"
+   ],
+   "id": "mondo__0008903_locus071",
+   "members": [
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000095015": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000225940": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 56733416,
+     "pubmed": "36819030",
+     "pvalue": 5e-122,
+     "snps": "rs16886181",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000095015": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000225940": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 56757919,
+     "pubmed": "37340002",
+     "pvalue": 7e-09,
+     "snps": "rs778188682",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 5e-122,
+   "pos_max": 56757919,
+   "pos_min": 56733416,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "5",
+   "genes": {
+    "ensembl:ENSG00000170606": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000170606"
+   ],
+   "id": "mondo__0008903_locus072",
+   "members": [
+    {
+     "chr": "5",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000170606": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 133105610,
+     "pubmed": "36819030",
+     "pvalue": 9e-09,
+     "snps": "rs13718",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 9e-09,
+   "pos_max": 133105610,
+   "pos_min": 133105610,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "5",
+   "genes": {
+    "ensembl:ENSG00000043143": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000043143"
+   ],
+   "id": "mondo__0008903_locus073",
+   "members": [
+    {
+     "chr": "5",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000043143": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 134528909,
+     "pubmed": "39366959",
+     "pvalue": 4e-09,
+     "snps": "rs329122",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-09,
+   "pos_max": 134528909,
+   "pos_min": 134528909,
+   "year_max": 2024,
+   "year_min": 2024
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000096696": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000096696"
+   ],
+   "id": "mondo__0008903_locus074",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000096696": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 7562999,
+     "pubmed": "37340002",
+     "pvalue": 3e-08,
+     "snps": "rs2076295",
+     "study_acc": "GCST90308758",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-08,
+   "pos_max": 7562999,
+   "pos_min": 7562999,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000152954": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000152954"
+   ],
+   "id": "mondo__0008903_locus075",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000152954": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 24146444,
+     "pubmed": "40783572",
+     "pvalue": 3e-08,
+     "snps": "rs3829810",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-08,
+   "pos_max": 24146444,
+   "pos_min": 24146444,
+   "year_max": 2025,
+   "year_min": 2025
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000112343": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000182952": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000274290": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000112343",
+    "ensembl:ENSG00000182952",
+    "ensembl:ENSG00000274290"
+   ],
+   "id": "mondo__0008903_locus076",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000112343": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 25982782,
+     "pubmed": "36819030",
+     "pvalue": 6e-09,
+     "snps": "rs13212534",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000274290": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 26183874,
+     "pubmed": "35511172",
+     "pvalue": 7e-14,
+     "snps": "rs7766641",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000182952": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 26540455,
+     "pubmed": "35511172",
+     "pvalue": 5e-14,
+     "snps": "rs6913550",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 3,
+   "p_min": 5e-14,
+   "pos_max": 26540455,
+   "pos_min": 25982782,
+   "year_max": 2023,
+   "year_min": 2022
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000158553": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000216915": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000218069": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000270935": [
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000158553"
+   ],
+   "id": "mondo__0008903_locus077",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000158553": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000270935": [
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 27283600,
+     "pubmed": "36819030",
+     "pvalue": 5e-11,
+     "snps": "rs13207082",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000216915": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000218069": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 27761927,
+     "pubmed": "35511172",
+     "pvalue": 1e-11,
+     "snps": "rs192804591",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 1e-11,
+   "pos_max": 27761927,
+   "pos_min": 27283600,
+   "year_max": 2023,
+   "year_min": 2022
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000189298": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000198704": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000219262": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000232040": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000189298",
+    "ensembl:ENSG00000198704",
+    "ensembl:ENSG00000232040"
+   ],
+   "id": "mondo__0008903_locus078",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000189298": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 28364364,
+     "pubmed": "36819030",
+     "pvalue": 8e-13,
+     "snps": "rs13214023",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000198704": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000219262": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 28457978,
+     "pubmed": "35511172",
+     "pvalue": 2e-08,
+     "snps": "rs2531814",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000232040": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 28615615,
+     "pubmed": "35511172",
+     "pvalue": 7e-11,
+     "snps": "rs116591906",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 3,
+   "p_min": 8e-13,
+   "pos_max": 28615615,
+   "pos_min": 28364364,
+   "year_max": 2023,
+   "year_min": 2022
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000204655": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000214922": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000226577": [
+     "downstream",
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000229068": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000235238": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000236405": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000293508": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000204655",
+    "ensembl:ENSG00000214922",
+    "ensembl:ENSG00000226577",
+    "ensembl:ENSG00000293508"
+   ],
+   "id": "mondo__0008903_locus079",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000204655": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000235238": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 29639324,
+     "pubmed": "39366959",
+     "pvalue": 2e-27,
+     "snps": "rs3131856",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000204655": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000235238": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 29639324,
+     "pubmed": "42152146",
+     "pvalue": 4e-17,
+     "snps": "rs3131856",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000214922": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 29785571,
+     "pubmed": "35511172",
+     "pvalue": 3e-20,
+     "snps": "rs9258381",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000293508": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 29931900,
+     "pubmed": "36819030",
+     "pvalue": 4e-08,
+     "snps": "rs2524005",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000226577": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000236405": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 30370470,
+     "pubmed": "35511172",
+     "pvalue": 3e-08,
+     "snps": "rs3129813",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000226577": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000229068": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 30423814,
+     "pubmed": "40783572",
+     "pvalue": 3e-09,
+     "snps": "rs76241157",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 6,
+   "p_min": 2e-27,
+   "pos_max": 30423814,
+   "pos_min": 29639324,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000179344": [
+     "downstream",
+     "mapped",
+     "snp_gene",
+     "upstream"
+    ],
+    "ensembl:ENSG00000196735": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000204301": [
+     "mapped",
+     "snp_gene",
+     "upstream"
+    ],
+    "ensembl:ENSG00000204410": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000206337": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000223702": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000225914": [
+     "downstream",
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000228688": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000228789": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000230174": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000235040": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000255152": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000261272": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000179344",
+    "ensembl:ENSG00000196735",
+    "ensembl:ENSG00000204301",
+    "ensembl:ENSG00000204410",
+    "ensembl:ENSG00000206337",
+    "ensembl:ENSG00000225914",
+    "ensembl:ENSG00000228688",
+    "ensembl:ENSG00000228789",
+    "ensembl:ENSG00000230174",
+    "ensembl:ENSG00000235040",
+    "ensembl:ENSG00000255152",
+    "ensembl:ENSG00000261272"
+   ],
+   "id": "mondo__0008903_locus080",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000228789": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000261272": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 31045164,
+     "pubmed": "35511172",
+     "pvalue": 3e-13,
+     "snps": "rs6457312",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000223702": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 31380742,
+     "pubmed": "35511172",
+     "pvalue": 6e-25,
+     "snps": "rs4143333",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000206337": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000230174": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 31459618,
+     "pubmed": "39366959",
+     "pvalue": 3e-23,
+     "snps": "rs9267123",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000204410": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000255152": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 31757453,
+     "pubmed": "36819030",
+     "pvalue": 4e-10,
+     "snps": "rs3117574",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000204410": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000255152": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 31758476,
+     "pubmed": "36819030",
+     "pvalue": 8e-12,
+     "snps": "rs3117575",
+     "study_acc": "GCST90270344",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0002038",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000204301": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 32207554,
+     "pubmed": "40783572",
+     "pvalue": 2e-10,
+     "snps": "rs3130291",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000204301": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000225914": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 32236865,
+     "pubmed": "35511172",
+     "pvalue": 4e-09,
+     "snps": "rs3130302",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000225914": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 32276304,
+     "pubmed": "37340002",
+     "pvalue": 8e-11,
+     "snps": "rs200663261",
+     "study_acc": "GCST90308758",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000179344": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000196735": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 32651351,
+     "pubmed": "37340002",
+     "pvalue": 1e-17,
+     "snps": "rs28667353",
+     "study_acc": "GCST90651048",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000179344": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 32661126,
+     "pubmed": "37340002",
+     "pvalue": 2e-15,
+     "snps": "rs35409710",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000179344": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 32661595,
+     "pubmed": "37340002",
+     "pvalue": 2e-13,
+     "snps": "rs9273736",
+     "study_acc": "GCST90651069",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000179344": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000235040": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 32674706,
+     "pubmed": "37340002",
+     "pvalue": 7e-11,
+     "snps": "rs1794484",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000179344": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000235040": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 32689478,
+     "pubmed": "40783572",
+     "pvalue": 8e-17,
+     "snps": "rs3129713",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000179344": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000235040": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 32699696,
+     "pubmed": "35511172",
+     "pvalue": 8e-33,
+     "snps": "rs1794514",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000228688": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 33106835,
+     "pubmed": "40783572",
+     "pvalue": 1e-08,
+     "snps": "rs3128928",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 15,
+   "p_min": 8e-33,
+   "pos_max": 33106835,
+   "pos_min": 31045164,
+   "year_max": 2025,
+   "year_min": 2022
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000234753": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000234753"
+   ],
+   "id": "mondo__0008903_locus081",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000234753": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 41522116,
+     "pubmed": "42152146",
+     "pvalue": 2e-15,
+     "snps": "rs1977358",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000234753": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 41522314,
+     "pubmed": "40783572",
+     "pvalue": 4e-10,
+     "snps": "rs1977357",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 2e-15,
+   "pos_max": 41522314,
+   "pos_min": 41522116,
+   "year_max": 2026,
+   "year_min": 2025
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000249379": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000249379"
+   ],
+   "id": "mondo__0008903_locus082",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000249379": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 53495393,
+     "pubmed": "40783572",
+     "pvalue": 3e-08,
+     "snps": "rs742528",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-08,
+   "pos_max": 53495393,
+   "pos_min": 53495393,
+   "year_max": 2025,
+   "year_min": 2025
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000146263": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000146263"
+   ],
+   "id": "mondo__0008903_locus083",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000146263": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 97274577,
+     "pubmed": "39366959",
+     "pvalue": 3e-10,
+     "snps": "rs1124241",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-10,
+   "pos_max": 97274577,
+   "pos_min": 97274577,
+   "year_max": 2024,
+   "year_min": 2024
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000164465": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000164465"
+   ],
+   "id": "mondo__0008903_locus084",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164465": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 117456641,
+     "pubmed": "37340002",
+     "pvalue": 8e-09,
+     "snps": "rs9374662",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164465": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 117458995,
+     "pubmed": "40783572",
+     "pvalue": 7e-16,
+     "snps": "rs2180811",
+     "study_acc": "GCST90672022",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164465": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 117460113,
+     "pubmed": "37340002",
+     "pvalue": 3e-11,
+     "snps": "rs4946256",
+     "study_acc": "GCST90651063",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164465": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 117470588,
+     "pubmed": "42152146",
+     "pvalue": 5e-16,
+     "snps": "rs2883418",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 4,
+   "p_min": 5e-16,
+   "pos_max": 117470588,
+   "pos_min": 117456641,
+   "year_max": 2026,
+   "year_min": 2023
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000091831": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000120262": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000091831",
+    "ensembl:ENSG00000120262"
+   ],
+   "id": "mondo__0008903_locus085",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000091831": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000120262": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 151628671,
+     "pubmed": "37340002",
+     "pvalue": 3e-09,
+     "snps": "rs6913578",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-09,
+   "pos_max": 151628671,
+   "pos_min": 151628671,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "6",
+   "genes": {
+    "ensembl:ENSG00000026297": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000213066": [
+     "downstream",
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000265828": [
+     "downstream",
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000026297",
+    "ensembl:ENSG00000213066",
+    "ensembl:ENSG00000265828"
+   ],
+   "id": "mondo__0008903_locus086",
+   "members": [
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000026297": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000265828": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 166962978,
+     "pubmed": "42152146",
+     "pvalue": 3e-10,
+     "snps": "rs6920364",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000026297": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000265828": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 166974681,
+     "pubmed": "39366959",
+     "pvalue": 1e-13,
+     "snps": "rs398278",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "6",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000213066": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000265828": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 166998300,
+     "pubmed": "39366959",
+     "pvalue": 4e-11,
+     "snps": "rs239935",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "6",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000213066": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 166999742,
+     "pubmed": "35511172",
+     "pvalue": 7e-12,
+     "snps": "rs239933",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 4,
+   "p_min": 1e-13,
+   "pos_max": 166999742,
+   "pos_min": 166962978,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "7",
+   "genes": {
+    "ensembl:ENSG00000160862": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000200344": [
+     "mapped"
+    ],
+    "ensembl:ENSG00000252064": [
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000160862",
+    "ensembl:ENSG00000200344",
+    "ensembl:ENSG00000252064"
+   ],
+   "id": "mondo__0008903_locus087",
+   "members": [
+    {
+     "chr": "7",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000160862": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000200344": [
+       "mapped"
+      ],
+      "ensembl:ENSG00000252064": [
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 99955544,
+     "pubmed": "37340002",
+     "pvalue": 3e-09,
+     "snps": "rs2525548",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-09,
+   "pos_max": 99955544,
+   "pos_min": 99955544,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "7",
+   "genes": {
+    "ensembl:ENSG00000231721": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000231721"
+   ],
+   "id": "mondo__0008903_locus088",
+   "members": [
+    {
+     "chr": "7",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000231721": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 130966100,
+     "pubmed": "37340002",
+     "pvalue": 3e-09,
+     "snps": "rs205780",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 3e-09,
+   "pos_max": 130966100,
+   "pos_min": 130966100,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "8",
+   "genes": {
+    "ensembl:ENSG00000164741": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000164741"
+   ],
+   "id": "mondo__0008903_locus089",
+   "members": [
+    {
+     "chr": "8",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000164741": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 13154867,
+     "pubmed": "32887889",
+     "pvalue": 4e-08,
+     "snps": "rs12543486",
+     "study_acc": "GCST90011812",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2020
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 4e-08,
+   "pos_max": 13154867,
+   "pos_min": 13154867,
+   "year_max": 2020,
+   "year_min": 2020
+  },
+  {
+   "chr": "8",
+   "genes": {
+    "ensembl:ENSG00000120903": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000120915": [
+     "mapped",
+     "upstream"
+    ],
+    "ensembl:ENSG00000234770": [
+     "downstream",
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000120903",
+    "ensembl:ENSG00000120915",
+    "ensembl:ENSG00000234770"
+   ],
+   "id": "mondo__0008903_locus090",
+   "members": [
+    {
+     "chr": "8",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000120903": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 27462388,
+     "pubmed": "35511172",
+     "pvalue": 4e-10,
+     "snps": "rs11778371",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    },
+    {
+     "chr": "8",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000120903": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 27462388,
+     "pubmed": "39366959",
+     "pvalue": 3e-15,
+     "snps": "rs11778371",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "8",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000120915": [
+       "mapped",
+       "upstream"
+      ],
+      "ensembl:ENSG00000234770": [
+       "downstream",
+       "mapped"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 27555088,
+     "pubmed": "39366959",
+     "pvalue": 3e-19,
+     "snps": "rs113623975",
+     "study_acc": "GCST90455521",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "8",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000234770": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 27580789,
+     "pubmed": "35511172",
+     "pvalue": 8e-12,
+     "snps": "rs6558008",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 4,
+   "p_min": 3e-19,
+   "pos_max": 27580789,
+   "pos_min": 27462388,
+   "year_max": 2024,
+   "year_min": 2022
+  },
+  {
+   "chr": "8",
+   "genes": {
+    "ensembl:ENSG00000157168": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000157168"
+   ],
+   "id": "mondo__0008903_locus091",
+   "members": [
+    {
+     "chr": "8",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000157168": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 32548461,
+     "pubmed": "42152146",
+     "pvalue": 1e-11,
+     "snps": "rs7820838",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 1e-11,
+   "pos_max": 32548461,
+   "pos_min": 32548461,
+   "year_max": 2026,
+   "year_min": 2026
+  },
+  {
+   "chr": "8",
+   "genes": {
+    "ensembl:ENSG00000253314": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000253314"
+   ],
+   "id": "mondo__0008903_locus092",
+   "members": [
+    {
+     "chr": "8",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000253314": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 46888865,
+     "pubmed": "35138370",
+     "pvalue": 2e-09,
+     "snps": "rs75989684",
+     "study_acc": "GCST90239710",
+     "trait_uris": [
+      "http://www.ebi.ac.uk/efo/EFO_0008343",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 1,
+   "p_min": 2e-09,
+   "pos_max": 46888865,
+   "pos_min": 46888865,
+   "year_max": 2022,
+   "year_min": 2022
+  },
+  {
+   "chr": "8",
+   "genes": {
+    "ensembl:ENSG00000212993": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000246228": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000253438": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000254166": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000282961": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000212993",
+    "ensembl:ENSG00000246228",
+    "ensembl:ENSG00000253438",
+    "ensembl:ENSG00000254166",
+    "ensembl:ENSG00000282961"
+   ],
+   "id": "mondo__0008903_locus093",
+   "members": [
+    {
+     "chr": "8",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000253438": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000254166": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000282961": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 127091810,
+     "pubmed": "37340002",
+     "pvalue": 2e-15,
+     "snps": "rs7463708",
+     "study_acc": "GCST90651069",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "8",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000212993": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000246228": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000253438": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 127398703,
+     "pubmed": "37340002",
+     "pvalue": 6e-22,
+     "snps": "rs12682374",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "8",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000212993": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000246228": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000253438": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 127398703,
+     "pubmed": "37340002",
+     "pvalue": 9e-29,
+     "snps": "rs12682374",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 3,
+   "p_min": 9e-29,
+   "pos_max": 127398703,
+   "pos_min": 127091810,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "8",
+   "genes": {
+    "ensembl:ENSG00000160886": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000167653": [
+     "mapped",
+     "snp_gene",
+     "upstream"
+    ],
+    "ensembl:ENSG00000234616": [
+     "mapped",
+     "snp_gene"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000160886",
+    "ensembl:ENSG00000167653",
+    "ensembl:ENSG00000234616"
+   ],
+   "id": "mondo__0008903_locus094",
+   "members": [
+    {
+     "chr": "8",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000167653": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000234616": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 142671576,
+     "pubmed": "37340002",
+     "pvalue": 3e-13,
+     "snps": "rs2976384",
+     "study_acc": "GCST90651069",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "8",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000160886": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000167653": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 142690296,
+     "pubmed": "37340002",
+     "pvalue": 3e-12,
+     "snps": "rs2585181",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 3e-13,
+   "pos_max": 142690296,
+   "pos_min": 142671576,
+   "year_max": 2023,
+   "year_min": 2023
+  },
+  {
+   "chr": "9",
+   "genes": {
+    "ensembl:ENSG00000099810": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000147883": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000240498": [
+     "mapped",
+     "snp_gene"
+    ],
+    "ensembl:ENSG00000244230": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000099810",
+    "ensembl:ENSG00000147883",
+    "ensembl:ENSG00000240498",
+    "ensembl:ENSG00000244230"
+   ],
+   "id": "mondo__0008903_locus095",
+   "members": [
+    {
+     "chr": "9",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000099810": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000244230": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2026",
+     "pos": 21746359,
+     "pubmed": "42152146",
+     "pvalue": 7e-12,
+     "snps": "rs10811609",
+     "study_acc": "GCST90482691",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2026
+    },
+    {
+     "chr": "9",
+     "direct_trait": true,
+     "genes": {
+      "ensembl:ENSG00000099810": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000244230": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2024",
+     "pos": 21776715,
+     "pubmed": "39366959",
+     "pvalue": 1e-14,
+     "snps": "rs7868253",
+     "study_acc": "GCST90455518",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2024
+    },
+    {
+     "chr": "9",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000147883": [
+       "mapped",
+       "snp_gene"
+      ],
+      "ensembl:ENSG00000240498": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 22003224,
+     "pubmed": "36819030",
+     "pvalue": 2e-21,
+     "snps": "rs3217992",
+     "study_acc": "GCST90270343",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0007254",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "9",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000240498": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 22093300,
+     "pubmed": "37340002",
+     "pvalue": 6e-11,
+     "snps": "rs4007642",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "9",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000240498": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "2025",
+     "pos": 22103184,
+     "pubmed": "40155373",
+     "pvalue": 2e-17,
+     "snps": "rs1537372",
+     "study_acc": "GCST90570627",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0008903"
+     ],
+     "year": 2025
+    },
+    {
+     "chr": "9",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000240498": [
+       "mapped",
+       "snp_gene"
+      ]
+     },
+     "genomewide": true,
+     "part": "pre2023",
+     "pos": 22124505,
+     "pubmed": "35511172",
+     "pvalue": 1e-08,
+     "snps": "rs1333047",
+     "study_acc": "GCST90243964",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://www.ebi.ac.uk/efo/EFO_0006953"
+     ],
+     "year": 2022
+    }
+   ],
+   "n_assoc": 6,
+   "p_min": 2e-21,
+   "pos_max": 22124505,
+   "pos_min": 21746359,
+   "year_max": 2026,
+   "year_min": 2022
+  },
+  {
+   "chr": "9",
+   "genes": {
+    "ensembl:ENSG00000169253": [
+     "downstream",
+     "mapped"
+    ],
+    "ensembl:ENSG00000237360": [
+     "mapped",
+     "upstream"
+    ]
+   },
+   "genes_universe": [
+    "ensembl:ENSG00000169253"
+   ],
+   "id": "mondo__0008903_locus096",
+   "members": [
+    {
+     "chr": "9",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000169253": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000237360": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 108131440,
+     "pubmed": "37340002",
+     "pvalue": 2e-09,
+     "snps": "rs1827336845",
+     "study_acc": "GCST90651054",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    },
+    {
+     "chr": "9",
+     "direct_trait": false,
+     "genes": {
+      "ensembl:ENSG00000169253": [
+       "downstream",
+       "mapped"
+      ],
+      "ensembl:ENSG00000237360": [
+       "mapped",
+       "upstream"
+      ]
+     },
+     "genomewide": true,
+     "part": "2023",
+     "pos": 108131440,
+     "pubmed": "37340002",
+     "pvalue": 6e-09,
+     "snps": "rs1827336845",
+     "study_acc": "GCST90308764",
+     "trait_uris": [
+      "http://purl.obolibrary.org/obo/MONDO_0005131",
+      "http://purl.obolibrary.org/obo/MONDO_0005192",
+      "http://purl.obolibrary.org/obo/MONDO_0005159",
+      "http://purl.obolibrary.org/obo/MONDO_0007256",
+      "http://purl.obolibrary.org/obo/MONDO_0018908",
+      "http://purl.obolibrary.org/obo/MONDO_0003060",
+      "http://purl.obolibrary.org/obo/MONDO_0008170",
+      "http://purl.obolibrary.org/obo/MONDO_0008903",
+      "http://purl.obolibrary.org/obo/MONDO_0004989",
+      "http://purl.obolibrary.org/obo/MONDO_0005575",
+      "http://purl.obolibrary.org/obo/MONDO_0007576",
+      "http://purl.obolibrary.org/obo/MONDO_0011962",
+      "http://purl.obolibrary.org/obo/MONDO_0001056"
+     ],
+     "year": 2023
+    }
+   ],
+   "n_assoc": 2,
+   "p_min": 2e-09,
+   "pos_max": 108131440,
+   "pos_min": 108131440,
+   "year_max": 2023,
+   "year_min": 2023
+  }
+ ],
+ "locus_window": 500000,
+ "n_genomewide": 242,
+ "n_loci": 97,
+ "n_trait_rows": 442,
+ "n_unresolved_symbols": 4,
+ "p_thresh": 5e-08,
+ "source": "EBI GWAS Catalog bulk gwas-catalog-associations_ontology-annotated-split.zip",
+ "unit": "mondo__0008903",
+ "unresolved_top": [
+  [
+   "LOC102723824",
+   1
+  ],
+  [
+   "LINC02056",
+   1
+  ],
+  [
+   "PNCRNA-D",
+   1
+  ],
+  [
+   "CDCA7P1",
+   1
+  ]
+ ]
+}

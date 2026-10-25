@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.568240225315094,
+    "target": {
+     "approvedSymbol": "MAML3",
+     "id": "ENSG00000196782"
+    }
+   },
+   {
+    "score": 0.1855376809835434,
+    "target": {
+     "approvedSymbol": "MGST2",
+     "id": "ENSG00000085871"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "6ab7b2890baf231d7cf9039b4cc11231",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_139842970_G_T",
+  "position": 139842970
+ }
+}

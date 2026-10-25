@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.3735255300998688,
+    "target": {
+     "approvedSymbol": "PRELID2",
+     "id": "ENSG00000186314"
+    }
+   },
+   {
+    "score": 0.11025769263505936,
+    "target": {
+     "approvedSymbol": "SH3RF2",
+     "id": "ENSG00000156463"
+    }
+   },
+   {
+    "score": 0.10766030102968216,
+    "target": {
+     "approvedSymbol": "GRXCR2",
+     "id": "ENSG00000204928"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "daaf9227fa22dc4dac9febfa56271cf8",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_145504453_A_T",
+  "position": 145504453
+ }
+}

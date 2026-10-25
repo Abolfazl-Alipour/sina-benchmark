@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7086963653564453,
+    "target": {
+     "approvedSymbol": "NPHP4",
+     "id": "ENSG00000131697"
+    }
+   },
+   {
+    "score": 0.08915488421916962,
+    "target": {
+     "approvedSymbol": "KCNAB2",
+     "id": "ENSG00000069424"
+    }
+   },
+   {
+    "score": 0.0673513188958168,
+    "target": {
+     "approvedSymbol": "ACOT7",
+     "id": "ENSG00000097021"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "f235b94ced12528010f9f68dfa2af083",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_5884482_G_A",
+  "position": 5884482
+ }
+}

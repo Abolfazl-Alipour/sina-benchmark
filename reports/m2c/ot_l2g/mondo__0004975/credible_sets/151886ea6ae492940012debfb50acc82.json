@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.4993196427822113,
+    "target": {
+     "approvedSymbol": "NKAIN3",
+     "id": "ENSG00000185942"
+    }
+   },
+   {
+    "score": 0.37485644221305847,
+    "target": {
+     "approvedSymbol": "TTPA",
+     "id": "ENSG00000137561"
+    }
+   },
+   {
+    "score": 0.22606147825717926,
+    "target": {
+     "approvedSymbol": "GGH",
+     "id": "ENSG00000137563"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "151886ea6ae492940012debfb50acc82",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_62931072_G_A",
+  "position": 62931072
+ }
+}

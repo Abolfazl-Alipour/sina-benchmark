@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.9064366221427917,
+    "target": {
+     "approvedSymbol": "TREM2",
+     "id": "ENSG00000095970"
+    }
+   },
+   {
+    "score": 0.14389443397521973,
+    "target": {
+     "approvedSymbol": "TREML1",
+     "id": "ENSG00000161911"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90027158",
+ "studyLocusId": "5f7f5b6a77d46bc0e16cd54e44ae539a",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_41161469_C_T",
+  "position": 41161469
+ }
+}

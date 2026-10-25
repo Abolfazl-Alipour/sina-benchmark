@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.9160075783729553,
+    "target": {
+     "approvedSymbol": "PLCG2",
+     "id": "ENSG00000197943"
+    }
+   },
+   {
+    "score": 0.0522686131298542,
+    "target": {
+     "approvedSymbol": "SDR42E1",
+     "id": "ENSG00000184860"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90027158",
+ "studyLocusId": "0872f090a7909dc4012dfb7eb04c3559",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_81908423_C_G",
+  "position": 81908423
+ }
+}

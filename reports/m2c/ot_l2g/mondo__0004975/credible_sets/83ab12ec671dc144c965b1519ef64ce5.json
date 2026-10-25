@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7287447452545166,
+    "target": {
+     "approvedSymbol": "INPP5D",
+     "id": "ENSG00000168918"
+    }
+   },
+   {
+    "score": 0.06983093917369843,
+    "target": {
+     "approvedSymbol": "ATG16L1",
+     "id": "ENSG00000085978"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134604",
+ "studyLocusId": "83ab12ec671dc144c965b1519ef64ce5",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_233159238_G_A",
+  "position": 233159238
+ }
+}

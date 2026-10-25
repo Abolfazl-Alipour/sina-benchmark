@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7278503179550171,
+    "target": {
+     "approvedSymbol": "KHDRBS2",
+     "id": "ENSG00000112232"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "c7014aea76460129c9d621974b64d794",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_61868346_C_A",
+  "position": 61868346
+ }
+}

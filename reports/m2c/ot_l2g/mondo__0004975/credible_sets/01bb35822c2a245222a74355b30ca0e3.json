@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7993012070655823,
+    "target": {
+     "approvedSymbol": "FBXO11",
+     "id": "ENSG00000138081"
+    }
+   },
+   {
+    "score": 0.054277658462524414,
+    "target": {
+     "approvedSymbol": "MSH6",
+     "id": "ENSG00000116062"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "01bb35822c2a245222a74355b30ca0e3",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_47879940_C_T",
+  "position": 47879940
+ }
+}

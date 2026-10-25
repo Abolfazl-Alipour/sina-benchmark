@@ -1,0 +1,18 @@
+# Phase 2 — CPU baselines on completion exports (degree, PPR, DWPC) — 1 seed only
+completion_exports_dir: data/processed/m2c/completion_exports
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+output_dir: data/processed/m2c/completion_baselines
+report_path: reports/m2c/completion_baselines.md
+manifest_path: data/raw/manifests/m2c_completion_baselines.json
+null_resamples: 100
+ppr_alpha: 0.5
+ppr_max_iter: 100
+ppr_tol: 1e-6
+seed: 1337
+# DWPC metapaths (pre-registered)
+metapaths:
+  - ["DIS-PHE", "PHE-GEN"]
+  - ["DIS-DIS", "DIS-GEN"]
+  - ["DIS-GEN", "GEN-GEN"]
+damping: 0.5
+damping_sensitivity: [0.3, 0.5, 0.7]

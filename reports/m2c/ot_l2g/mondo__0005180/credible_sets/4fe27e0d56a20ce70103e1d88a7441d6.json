@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.5747663378715515,
+    "target": {
+     "approvedSymbol": "ITGA8",
+     "id": "ENSG00000077943"
+    }
+   },
+   {
+    "score": 0.316009521484375,
+    "target": {
+     "approvedSymbol": "FAM171A1",
+     "id": "ENSG00000148468"
+    }
+   },
+   {
+    "score": 0.07339315861463547,
+    "target": {
+     "approvedSymbol": "ACBD7",
+     "id": "ENSG00000176244"
+    }
+   },
+   {
+    "score": 0.07153570652008057,
+    "target": {
+     "approvedSymbol": "OLAH",
+     "id": "ENSG00000152463"
+    }
+   },
+   {
+    "score": 0.07096105068922043,
+    "target": {
+     "approvedSymbol": "RPP38",
+     "id": "ENSG00000152464"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "4fe27e0d56a20ce70103e1d88a7441d6",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_15514323_G_T",
+  "position": 15514323
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6868045330047607,
+    "target": {
+     "approvedSymbol": "ALG10B",
+     "id": "ENSG00000175548"
+    }
+   },
+   {
+    "score": 0.05049360170960426,
+    "target": {
+     "approvedSymbol": "CPNE8",
+     "id": "ENSG00000139117"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "cf337b60c3b80ce347d51d4b355abf87",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_38272211_A_T",
+  "position": 38272211
+ }
+}

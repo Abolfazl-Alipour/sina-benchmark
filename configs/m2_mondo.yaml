@@ -1,0 +1,12 @@
+# M2A — MONDO ontology download (crosswalk + disease families, spec §6.2.2)
+track: shared
+registry_path: data/raw/REGISTRY.json
+dest_dir: data/raw/mondo
+manifest_path: data/raw/manifests/m2_download_mondo.json
+assets:
+  - name: mondo_obo
+    version: "2026-07-24"  # download date; MONDO releases monthly, pin by sha256
+    url: http://purl.obolibrary.org/obo/mondo.obo
+    filename: mondo.obo
+    license_verbatim: "CC-BY 4.0 (https://github.com/monarch-initiative/mondo#license)"
+    notes: "used for: EFO/DOID/Orphanet→MONDO crosswalk (CHANGES/0008) and AD/PD family is_a closure (configs/disease_families.yaml)"

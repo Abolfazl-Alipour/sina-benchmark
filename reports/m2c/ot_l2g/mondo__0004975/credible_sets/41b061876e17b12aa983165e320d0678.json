@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7586259245872498,
+    "target": {
+     "approvedSymbol": "ARHGAP15",
+     "id": "ENSG00000075884"
+    }
+   },
+   {
+    "score": 0.08656106889247894,
+    "target": {
+     "approvedSymbol": "KYNU",
+     "id": "ENSG00000115919"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "41b061876e17b12aa983165e320d0678",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_143394970_T_C",
+  "position": 143394970
+ }
+}

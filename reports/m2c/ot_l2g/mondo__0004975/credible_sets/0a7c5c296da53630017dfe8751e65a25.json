@@ -1,0 +1,77 @@
+{
+ "l2GPredictions": {
+  "count": 9,
+  "rows": [
+   {
+    "score": 0.37839412689208984,
+    "target": {
+     "approvedSymbol": "PTPRS",
+     "id": "ENSG00000105426"
+    }
+   },
+   {
+    "score": 0.10014696419239044,
+    "target": {
+     "approvedSymbol": "SAFB",
+     "id": "ENSG00000160633"
+    }
+   },
+   {
+    "score": 0.09793385118246078,
+    "target": {
+     "approvedSymbol": "KDM4B",
+     "id": "ENSG00000127663"
+    }
+   },
+   {
+    "score": 0.08518313616514206,
+    "target": {
+     "approvedSymbol": "ZNRF4",
+     "id": "ENSG00000105428"
+    }
+   },
+   {
+    "score": 0.074159637093544,
+    "target": {
+     "approvedSymbol": "SAFB2",
+     "id": "ENSG00000130254"
+    }
+   },
+   {
+    "score": 0.07149013131856918,
+    "target": {
+     "approvedSymbol": "ARRDC5",
+     "id": "ENSG00000205784"
+    }
+   },
+   {
+    "score": 0.05615448206663132,
+    "target": {
+     "approvedSymbol": "HSD11B1L",
+     "id": "ENSG00000167733"
+    }
+   },
+   {
+    "score": 0.054747920483350754,
+    "target": {
+     "approvedSymbol": "DPP9",
+     "id": "ENSG00000142002"
+    }
+   },
+   {
+    "score": 0.052616387605667114,
+    "target": {
+     "approvedSymbol": "UHRF1",
+     "id": "ENSG00000276043"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "0a7c5c296da53630017dfe8751e65a25",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_5192343_G_C",
+  "position": 5192343
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5959166288375854,
+    "target": {
+     "approvedSymbol": "CSNK1G3",
+     "id": "ENSG00000151292"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90449055",
+ "studyLocusId": "14f361603c47634af30f7fbe7f3cc8e3",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_123667307_A_G",
+  "position": 123667307
+ }
+}

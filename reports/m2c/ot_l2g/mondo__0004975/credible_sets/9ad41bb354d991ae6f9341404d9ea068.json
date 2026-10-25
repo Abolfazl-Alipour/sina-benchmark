@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.30098462104797363,
+    "target": {
+     "approvedSymbol": "KCNN2",
+     "id": "ENSG00000080709"
+    }
+   },
+   {
+    "score": 0.06110970303416252,
+    "target": {
+     "approvedSymbol": "TRIM36",
+     "id": "ENSG00000152503"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "9ad41bb354d991ae6f9341404d9ea068",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_114653196_T_C",
+  "position": 114653196
+ }
+}

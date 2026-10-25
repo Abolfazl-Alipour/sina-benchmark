@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5945085883140564,
+    "target": {
+     "approvedSymbol": "AFF3",
+     "id": "ENSG00000144218"
+    }
+   },
+   {
+    "score": 0.11092472821474075,
+    "target": {
+     "approvedSymbol": "LONRF2",
+     "id": "ENSG00000170500"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "4ad97d3ee26418e8d79ada5c72267270",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_100205086_C_A",
+  "position": 100205086
+ }
+}

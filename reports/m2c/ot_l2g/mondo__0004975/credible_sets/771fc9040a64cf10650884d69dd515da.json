@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.758285403251648,
+    "target": {
+     "approvedSymbol": "CLINT1",
+     "id": "ENSG00000113282"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "771fc9040a64cf10650884d69dd515da",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_157864857_G_A",
+  "position": 157864857
+ }
+}

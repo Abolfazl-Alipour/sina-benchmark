@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6736440062522888,
+    "target": {
+     "approvedSymbol": "RAP1GAP2",
+     "id": "ENSG00000132359"
+    }
+   },
+   {
+    "score": 0.06113497167825699,
+    "target": {
+     "approvedSymbol": "CCDC92B",
+     "id": "ENSG00000277200"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "594913f519b5cdb71d66e465c23b1c7c",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_2846563_A_G",
+  "position": 2846563
+ }
+}

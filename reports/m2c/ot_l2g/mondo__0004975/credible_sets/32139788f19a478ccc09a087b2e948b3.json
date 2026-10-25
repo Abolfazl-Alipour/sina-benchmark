@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.46312156319618225,
+    "target": {
+     "approvedSymbol": "REXO1",
+     "id": "ENSG00000079313"
+    }
+   },
+   {
+    "score": 0.10032396018505096,
+    "target": {
+     "approvedSymbol": "ABHD17A",
+     "id": "ENSG00000129968"
+    }
+   },
+   {
+    "score": 0.07528446614742279,
+    "target": {
+     "approvedSymbol": "ATP8B3",
+     "id": "ENSG00000130270"
+    }
+   },
+   {
+    "score": 0.061701323837041855,
+    "target": {
+     "approvedSymbol": "KLF16",
+     "id": "ENSG00000129911"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "32139788f19a478ccc09a087b2e948b3",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_1833339_G_T",
+  "position": 1833339
+ }
+}

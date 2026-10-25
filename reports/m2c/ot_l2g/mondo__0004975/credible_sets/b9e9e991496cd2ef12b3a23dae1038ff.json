@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.511472761631012,
+    "target": {
+     "approvedSymbol": "PRKD3",
+     "id": "ENSG00000115825"
+    }
+   },
+   {
+    "score": 0.06483974307775497,
+    "target": {
+     "approvedSymbol": "QPCT",
+     "id": "ENSG00000115828"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST012182",
+ "studyLocusId": "b9e9e991496cd2ef12b3a23dae1038ff",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_37288815_G_A",
+  "position": 37288815
+ }
+}

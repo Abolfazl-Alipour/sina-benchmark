@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.09890792518854141,
+    "target": {
+     "approvedSymbol": "ANXA2R",
+     "id": "ENSG00000177721"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "148051002ef8f13d8a2dfaa7602c1f9f",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_42954730_C_G",
+  "position": 42954730
+ }
+}

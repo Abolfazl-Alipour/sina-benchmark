@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.529586136341095,
+    "target": {
+     "approvedSymbol": "IDUA",
+     "id": "ENSG00000127415"
+    }
+   },
+   {
+    "score": 0.28338339924812317,
+    "target": {
+     "approvedSymbol": "SLC26A1",
+     "id": "ENSG00000145217"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90027158",
+ "studyLocusId": "7f7e5cc22e42ba6793032488b7fe8c3f",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_993555_G_T",
+  "position": 993555
+ }
+}

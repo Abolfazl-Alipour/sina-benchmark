@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.2661101818084717,
+    "target": {
+     "approvedSymbol": "C17orf107",
+     "id": "ENSG00000205710"
+    }
+   },
+   {
+    "score": 0.2559129297733307,
+    "target": {
+     "approvedSymbol": "CHRNE",
+     "id": "ENSG00000108556"
+    }
+   },
+   {
+    "score": 0.07539589703083038,
+    "target": {
+     "approvedSymbol": "ENO3",
+     "id": "ENSG00000108515"
+    }
+   },
+   {
+    "score": 0.06137332320213318,
+    "target": {
+     "approvedSymbol": "MINK1",
+     "id": "ENSG00000141503"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST012182",
+ "studyLocusId": "b21c0627e2c1d817cc0dabd76c3b9e2f",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_4902142_C_A",
+  "position": 4902142
+ }
+}

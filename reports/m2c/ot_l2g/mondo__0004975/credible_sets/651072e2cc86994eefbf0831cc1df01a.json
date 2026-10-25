@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.5782756805419922,
+    "target": {
+     "approvedSymbol": "SLC28A3",
+     "id": "ENSG00000197506"
+    }
+   },
+   {
+    "score": 0.1323344111442566,
+    "target": {
+     "approvedSymbol": "NTRK2",
+     "id": "ENSG00000148053"
+    }
+   },
+   {
+    "score": 0.06867337226867676,
+    "target": {
+     "approvedSymbol": "RMI1",
+     "id": "ENSG00000178966"
+    }
+   },
+   {
+    "score": 0.054747920483350754,
+    "target": {
+     "approvedSymbol": "HNRNPK",
+     "id": "ENSG00000165119"
+    }
+   },
+   {
+    "score": 0.05000466853380203,
+    "target": {
+     "approvedSymbol": "QNG1",
+     "id": "ENSG00000165118"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "651072e2cc86994eefbf0831cc1df01a",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_84449299_C_A",
+  "position": 84449299
+ }
+}

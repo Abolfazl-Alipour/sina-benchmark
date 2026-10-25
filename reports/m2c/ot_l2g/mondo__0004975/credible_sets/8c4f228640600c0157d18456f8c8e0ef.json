@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5481786727905273,
+    "target": {
+     "approvedSymbol": "TFAP2B",
+     "id": "ENSG00000008196"
+    }
+   },
+   {
+    "score": 0.3290722072124481,
+    "target": {
+     "approvedSymbol": "PKHD1",
+     "id": "ENSG00000170927"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "8c4f228640600c0157d18456f8c8e0ef",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_51313607_C_T",
+  "position": 51313607
+ }
+}

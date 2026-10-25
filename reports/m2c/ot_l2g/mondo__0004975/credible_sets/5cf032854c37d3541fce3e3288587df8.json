@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5624293088912964,
+    "target": {
+     "approvedSymbol": "LRRC38",
+     "id": "ENSG00000162494"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "5cf032854c37d3541fce3e3288587df8",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_13530355_G_A",
+  "position": 13530355
+ }
+}

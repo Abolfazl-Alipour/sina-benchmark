@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.7878698110580444,
+    "target": {
+     "approvedSymbol": "C12orf42",
+     "id": "ENSG00000179088"
+    }
+   },
+   {
+    "score": 0.0631013959646225,
+    "target": {
+     "approvedSymbol": "PAH",
+     "id": "ENSG00000171759"
+    }
+   },
+   {
+    "score": 0.06066156178712845,
+    "target": {
+     "approvedSymbol": "STAB2",
+     "id": "ENSG00000136011"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "603f078873473ae3441bce1bf58a5382",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_103321503_C_T",
+  "position": 103321503
+ }
+}

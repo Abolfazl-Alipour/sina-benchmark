@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7254408001899719,
+    "target": {
+     "approvedSymbol": "CUL3",
+     "id": "ENSG00000036257"
+    }
+   },
+   {
+    "score": 0.06832849234342575,
+    "target": {
+     "approvedSymbol": "FAM124B",
+     "id": "ENSG00000124019"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "98c178469442abef499c0ff796961f5f",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_224529423_C_A",
+  "position": 224529423
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.811247706413269,
+    "target": {
+     "approvedSymbol": "SORL1",
+     "id": "ENSG00000137642"
+    }
+   },
+   {
+    "score": 0.057268522679805756,
+    "target": {
+     "approvedSymbol": "TECTA",
+     "id": "ENSG00000109927"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST002245",
+ "studyLocusId": "ef2dbb19e7253c1c6bcc1f9f2f1102f4",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_121564878_T_C",
+  "position": 121564878
+ }
+}

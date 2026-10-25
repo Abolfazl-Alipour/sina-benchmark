@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.7372602820396423,
+    "target": {
+     "approvedSymbol": "PIK3R6",
+     "id": "ENSG00000276231"
+    }
+   },
+   {
+    "score": 0.12689530849456787,
+    "target": {
+     "approvedSymbol": "MFSD6L",
+     "id": "ENSG00000185156"
+    }
+   },
+   {
+    "score": 0.07919707149267197,
+    "target": {
+     "approvedSymbol": "PIK3R5",
+     "id": "ENSG00000141506"
+    }
+   },
+   {
+    "score": 0.055281199514865875,
+    "target": {
+     "approvedSymbol": "SPDYE4",
+     "id": "ENSG00000183318"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "53811a60f8bfc10f1607f26386adafe5",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_8853714_G_A",
+  "position": 8853714
+ }
+}

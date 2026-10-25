@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7599483728408813,
+    "target": {
+     "approvedSymbol": "GLIS3",
+     "id": "ENSG00000107249"
+    }
+   },
+   {
+    "score": 0.08372804522514343,
+    "target": {
+     "approvedSymbol": "RFX3",
+     "id": "ENSG00000080298"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001951",
+ "studyLocusId": "a4e391a65f046c7482130fe2252dd2dd",
+ "variant": {
+  "chromosome": "9",
+  "id": "9_3929424_C_T",
+  "position": 3929424
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.49030324816703796,
+    "target": {
+     "approvedSymbol": "ZNF703",
+     "id": "ENSG00000183779"
+    }
+   },
+   {
+    "score": 0.16008223593235016,
+    "target": {
+     "approvedSymbol": "KCNU1",
+     "id": "ENSG00000215262"
+    }
+   },
+   {
+    "score": 0.05456658825278282,
+    "target": {
+     "approvedSymbol": "ERLIN2",
+     "id": "ENSG00000147475"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "c4f0816688c6d945fe1cf55e61fcf622",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_37276671_C_T",
+  "position": 37276671
+ }
+}

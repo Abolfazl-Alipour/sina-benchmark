@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6384512186050415,
+    "target": {
+     "approvedSymbol": "MACF1",
+     "id": "ENSG00000127603"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "64aae030888ebbaf820d677c344a1384",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_39179844_G_A",
+  "position": 39179844
+ }
+}

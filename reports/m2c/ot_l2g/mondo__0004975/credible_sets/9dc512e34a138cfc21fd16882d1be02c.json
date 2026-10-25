@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6392375230789185,
+    "target": {
+     "approvedSymbol": "ECHDC2",
+     "id": "ENSG00000121310"
+    }
+   },
+   {
+    "score": 0.05268392339348793,
+    "target": {
+     "approvedSymbol": "SCP2",
+     "id": "ENSG00000116171"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9dc512e34a138cfc21fd16882d1be02c",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_52910506_T_C",
+  "position": 52910506
+ }
+}

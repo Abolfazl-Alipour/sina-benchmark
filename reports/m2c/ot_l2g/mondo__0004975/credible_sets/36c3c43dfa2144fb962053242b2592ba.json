@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5451340675354004,
+    "target": {
+     "approvedSymbol": "FAM20B",
+     "id": "ENSG00000116199"
+    }
+   },
+   {
+    "score": 0.09544215351343155,
+    "target": {
+     "approvedSymbol": "TOR3A",
+     "id": "ENSG00000186283"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "36c3c43dfa2144fb962053242b2592ba",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_179070132_G_A",
+  "position": 179070132
+ }
+}

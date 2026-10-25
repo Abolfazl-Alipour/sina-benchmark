@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5846818685531616,
+    "target": {
+     "approvedSymbol": "RAP2B",
+     "id": "ENSG00000181467"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "8f2679db0831d865c503f65660954ab9",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_153489406_A_C",
+  "position": 153489406
+ }
+}

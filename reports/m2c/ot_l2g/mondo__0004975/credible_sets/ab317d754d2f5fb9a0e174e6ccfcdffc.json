@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6301440000534058,
+    "target": {
+     "approvedSymbol": "TAFA5",
+     "id": "ENSG00000219438"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "ab317d754d2f5fb9a0e174e6ccfcdffc",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_48399528_T_C",
+  "position": 48399528
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6643985509872437,
+    "target": {
+     "approvedSymbol": "MUC19",
+     "id": "ENSG00000205592"
+    }
+   },
+   {
+    "score": 0.11880908906459808,
+    "target": {
+     "approvedSymbol": "LRRK2",
+     "id": "ENSG00000188906"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST009512",
+ "studyLocusId": "af597a57c8c22eb080066a56da0bfd4a",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_40379882_A_G",
+  "position": 40379882
+ }
+}

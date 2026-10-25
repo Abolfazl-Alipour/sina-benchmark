@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.572462260723114,
+    "target": {
+     "approvedSymbol": "MRPS27",
+     "id": "ENSG00000113048"
+    }
+   },
+   {
+    "score": 0.2789663076400757,
+    "target": {
+     "approvedSymbol": "PTCD2",
+     "id": "ENSG00000049883"
+    }
+   },
+   {
+    "score": 0.13034141063690186,
+    "target": {
+     "approvedSymbol": "MAP1B",
+     "id": "ENSG00000131711"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "fa8e78e3a5065c2e20acf702fd3d6955",
+ "variant": {
+  "chromosome": "5",
+  "id": "5_72361587_G_A",
+  "position": 72361587
+ }
+}

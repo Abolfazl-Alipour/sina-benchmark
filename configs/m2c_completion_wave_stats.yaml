@@ -1,0 +1,20 @@
+# Phase 5 — Completion-track stats (pre-registered BEFORE Arm A, CPU, 1 seed only per owner)
+# Gates: primary = Arm C vs best Phase-2 baseline (incl. DWPC); secondary = Arm A vs baseline, Arm C vs Arm A
+# Owner directive: 1 seed only (1337), not 3
+stats:
+  method: exact_wilcoxon_plus_bca
+  wilcoxon: exact_enumeration
+  bca_n: 1000
+  cluster_permutation: true
+  seeds: [1337]  # 1 seed only per owner 2026-08-31
+comparisons:
+  primary: ["armC_vs_best_baseline"]
+  secondary: ["armA_vs_best_baseline", "armC_vs_armA"]
+baselines:
+  source: reports/m2c/completion_baselines.md
+  best_baseline: max_degree_ppr_dwpc  # per-disease max of degree/PPR/DWPC MRR
+gates:
+  primary_success: "armC_mrr > best_baseline_mrr and p < 0.05"
+  secondary_success: "armA_mrr > best_baseline_mrr"
+manifest: data/raw/manifests/m2c_completion_wave_stats.json
+report: reports/m2c/completion_wave_stats.md

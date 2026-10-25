@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.33774593472480774,
+    "target": {
+     "approvedSymbol": "RUNX2",
+     "id": "ENSG00000124813"
+    }
+   },
+   {
+    "score": 0.19877569377422333,
+    "target": {
+     "approvedSymbol": "CLIC5",
+     "id": "ENSG00000112782"
+    }
+   },
+   {
+    "score": 0.05892756208777428,
+    "target": {
+     "approvedSymbol": "ENPP4",
+     "id": "ENSG00000001561"
+    }
+   },
+   {
+    "score": 0.053466614335775375,
+    "target": {
+     "approvedSymbol": "SUPT3H",
+     "id": "ENSG00000196284"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "137e6938da5dec5fd4a749d66c33153e",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_45738452_G_A",
+  "position": 45738452
+ }
+}

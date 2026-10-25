@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8132585883140564,
+    "target": {
+     "approvedSymbol": "SIPA1L2",
+     "id": "ENSG00000116991"
+    }
+   },
+   {
+    "score": 0.057228002697229385,
+    "target": {
+     "approvedSymbol": "NTPCR",
+     "id": "ENSG00000135778"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST004902",
+ "studyLocusId": "c8d938c3785994669b7b339da4077708",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_232528865_C_T",
+  "position": 232528865
+ }
+}

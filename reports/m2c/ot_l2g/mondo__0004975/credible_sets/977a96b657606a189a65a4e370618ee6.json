@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7883500456809998,
+    "target": {
+     "approvedSymbol": "PDE7B",
+     "id": "ENSG00000171408"
+    }
+   },
+   {
+    "score": 0.1278860867023468,
+    "target": {
+     "approvedSymbol": "MTFR2",
+     "id": "ENSG00000146410"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001915",
+ "studyLocusId": "977a96b657606a189a65a4e370618ee6",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_136046867_C_T",
+  "position": 136046867
+ }
+}

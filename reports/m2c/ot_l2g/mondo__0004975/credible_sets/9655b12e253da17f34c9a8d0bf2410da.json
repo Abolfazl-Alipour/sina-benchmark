@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7427837252616882,
+    "target": {
+     "approvedSymbol": "TINAGL1",
+     "id": "ENSG00000142910"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "9655b12e253da17f34c9a8d0bf2410da",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_31578988_T_C",
+  "position": 31578988
+ }
+}

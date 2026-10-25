@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.6290379762649536,
+    "target": {
+     "approvedSymbol": "DOCK4",
+     "id": "ENSG00000128512"
+    }
+   },
+   {
+    "score": 0.2528810501098633,
+    "target": {
+     "approvedSymbol": "ZNF277",
+     "id": "ENSG00000198839"
+    }
+   },
+   {
+    "score": 0.06640979647636414,
+    "target": {
+     "approvedSymbol": "IMMP2L",
+     "id": "ENSG00000184903"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "29802447253c3c4dc99c626c667ff48a",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_111925913_C_A",
+  "position": 111925913
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7981571555137634,
+    "target": {
+     "approvedSymbol": "GRN",
+     "id": "ENSG00000030582"
+    }
+   },
+   {
+    "score": 0.15055958926677704,
+    "target": {
+     "approvedSymbol": "FAM171A2",
+     "id": "ENSG00000161682"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "731835f6387047af8cfa4eed4dc553b6",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_44352876_C_T",
+  "position": 44352876
+ }
+}

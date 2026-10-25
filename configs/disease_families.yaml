@@ -1,0 +1,65 @@
+status: "APPROVED by owner 2026-07-25 (chat) — PD parkinsonism-plus terms (Kufor-Rakeb, ATP13A2-deficiency parkinsonism, parkinsonian-pyramidal syndrome) excluded per owner directive; see CHANGES/0011"
+generated_by: scripts/m2_build_crosswalk.py
+mondo_release: releases/2026-07-06
+families:
+  alzheimer:
+    root: mondo:0004975
+    root_name: Alzheimer disease
+    n_members: 22
+    members:
+    - mondo:0004975
+    - mondo:0007088
+    - mondo:0007089
+    - mondo:0010422
+    - mondo:0011194
+    - mondo:0011401
+    - mondo:0011513
+    - mondo:0011561
+    - mondo:0011647
+    - mondo:0011743
+    - mondo:0011777
+    - mondo:0011913
+    - mondo:0012321
+    - mondo:0012344
+    - mondo:0012609
+    - mondo:0012630
+    - mondo:0012631
+    - mondo:0014036
+    - mondo:0014265
+    - mondo:0014316
+    - mondo:0015140
+    - mondo:0100087
+  parkinson:
+    root: mondo:0005180
+    root_name: Parkinson disease
+    n_members: 25
+    members:
+    - mondo:0000828
+    - mondo:0005180
+    - mondo:0008193
+    - mondo:0008199
+    - mondo:0008200
+    - mondo:0010360
+    - mondo:0010796
+    - mondo:0010820
+    - mondo:0011220
+    - mondo:0011562
+    - mondo:0011613
+    - mondo:0011658
+    - mondo:0011737
+    - mondo:0011764
+    - mondo:0013060
+    - mondo:0013167
+    - mondo:0013625
+    - mondo:0014231
+    - mondo:0014233
+    - mondo:0014604
+    - mondo:0014742
+    - mondo:0014796
+    - mondo:0017279
+    - mondo:0800369
+    - mondo:0957576
+    excluded_by_owner:
+    - {id: mondo:0009830, name: parkinsonian-pyramidal syndrome, reason: "parkinsonism-plus syndrome, not classic PD"}
+    - {id: mondo:0011706, name: Kufor-Rakeb syndrome, reason: "parkinsonism-plus syndrome, not classic PD"}
+    - {id: mondo:0017809, name: parkinsonism due to ATP13A2 deficiency, reason: "parkinsonism-plus syndrome, not classic PD"}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.05815941467881203,
+    "target": {
+     "approvedSymbol": "MAPKAPK5",
+     "id": "ENSG00000089022"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "2fa24f0bd1f1ba478a75ec3c481fe5c3",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_111903809_T_C",
+  "position": 111903809
+ }
+}

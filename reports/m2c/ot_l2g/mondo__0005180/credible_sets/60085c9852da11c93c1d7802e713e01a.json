@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.7606772780418396,
+    "target": {
+     "approvedSymbol": "CNTN1",
+     "id": "ENSG00000018236"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "60085c9852da11c93c1d7802e713e01a",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_40861076_A_T",
+  "position": 40861076
+ }
+}

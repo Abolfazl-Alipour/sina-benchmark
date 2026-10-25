@@ -1,0 +1,16 @@
+{
+  "unit": "mondo__0004975",
+  "seed": 1337,
+  "batch_size": 100,
+  "best_epoch": 1,
+  "best_val_loss": 0.07845378321507405,
+  "patience": 5,
+  "min_delta": 0.03,
+  "max_epochs": 1,
+  "finished_at": "2026-09-06T03:53:01Z",
+  "checkpoints": {
+    "best": "reports/m2c/checkpoints_completion_noana/mondo__0004975/best.pth",
+    "last": "reports/m2c/checkpoints_completion_noana/mondo__0004975/last.pth",
+    "log": "reports/m2c/checkpoints_completion_noana/mondo__0004975/train_log_mondo__0004975.jsonl"
+  }
+}

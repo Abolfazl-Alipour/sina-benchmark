@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.4531620740890503,
+    "target": {
+     "approvedSymbol": "RNF152",
+     "id": "ENSG00000176641"
+    }
+   },
+   {
+    "score": 0.06793075799942017,
+    "target": {
+     "approvedSymbol": "PIGN",
+     "id": "ENSG00000197563"
+    }
+   },
+   {
+    "score": 0.05615448206663132,
+    "target": {
+     "approvedSymbol": "RELCH",
+     "id": "ENSG00000134444"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "5af28fc154d253bbdc284fd2f8f5ce3e",
+ "variant": {
+  "chromosome": "18",
+  "id": "18_61699837_C_T",
+  "position": 61699837
+ }
+}

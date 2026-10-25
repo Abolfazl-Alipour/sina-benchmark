@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.4387260973453522,
+    "target": {
+     "approvedSymbol": "SATB1",
+     "id": "ENSG00000182568"
+    }
+   },
+   {
+    "score": 0.0980001762509346,
+    "target": {
+     "approvedSymbol": "TBC1D5",
+     "id": "ENSG00000131374"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST010991",
+ "studyLocusId": "f70e98bf5cf35a8d4c20da849c7a9e3e",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_18181950_G_A",
+  "position": 18181950
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.5219974517822266,
+    "target": {
+     "approvedSymbol": "AVL9",
+     "id": "ENSG00000105778"
+    }
+   },
+   {
+    "score": 0.09312319755554199,
+    "target": {
+     "approvedSymbol": "LSM5",
+     "id": "ENSG00000106355"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "6c557df42447244c010465443e791399",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_32546589_A_G",
+  "position": 32546589
+ }
+}

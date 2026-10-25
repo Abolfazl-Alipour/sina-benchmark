@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.22549378871917725,
+    "target": {
+     "approvedSymbol": "CRY2",
+     "id": "ENSG00000121671"
+    }
+   },
+   {
+    "score": 0.2197500467300415,
+    "target": {
+     "approvedSymbol": "MAPK8IP1",
+     "id": "ENSG00000121653"
+    }
+   },
+   {
+    "score": 0.08141909539699554,
+    "target": {
+     "approvedSymbol": "SLC35C1",
+     "id": "ENSG00000181830"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST007825",
+ "studyLocusId": "ad36da3c8a7126d397bebff86283a5f2",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_45818338_G_A",
+  "position": 45818338
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7324021458625793,
+    "target": {
+     "approvedSymbol": "ME3",
+     "id": "ENSG00000151376"
+    }
+   },
+   {
+    "score": 0.10687745362520218,
+    "target": {
+     "approvedSymbol": "PRSS23",
+     "id": "ENSG00000150687"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "6e9d3f94ac6c0cde4569b96a87dd2f3d",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_86690239_G_A",
+  "position": 86690239
+ }
+}

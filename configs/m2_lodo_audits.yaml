@@ -1,0 +1,63 @@
+# LODO freeze-prep audits (v5.1 Step 2, plan Phase C / CHANGES/0019).
+# CPU-only audits feeding the CHANGES/0020 freeze package: overlap audit,
+# BFS separation diagnostic (theta input), connectivity census + attrition,
+# key-size ceiling, coherence control, PPR +/- DIS-PHE ablation, noise-floor
+# simulation, EFO/OBA resolution pinning.
+
+supervision: data/processed/m2/trimmed/supervision.parquet
+brg: data/processed/m2/trimmed/brg.parquet
+trackd_nodes: data/processed/m1/trackd/nodes.parquet
+trackd_edges: data/processed/m1/trackd/edges.parquet   # coherence null only (scan, label-filtered)
+mondo_obo: data/raw/mondo/mondo.obo
+families_config: configs/disease_families.yaml
+trimmed_config: configs/m2_trimmed_taskg.yaml          # roster lists (aging_traits/progeria/trap_terms)
+
+seed: 1337                    # all simulations (coherence null, noise floor)
+n_coherence_nulls: 100        # seeded random same-size disease subsets
+
+# Candidate strata seeds (v5.1 §6.2; counts re-measured at freeze, not asserted).
+strata_a_primary:             # monogenic progerias, clean ground truth
+  - mondo:0010196   # Werner syndrome
+  - mondo:0008310   # Hutchinson-Gilford progeria syndrome
+  - mondo:0012853   # Fontaine progeroid syndrome
+  - mondo:0014157   # mandibular hypoplasia-deafness-progeroid syndrome
+strata_a_secondary:           # rarer progerias (secondary panel candidates, 20–49 edges)
+  - orphanet:75496  # Ehlers-Danlos syndrome, progeroid type
+  - mondo:0018203   # LMNA-related cardiocutaneous progeria syndrome
+  - mondo:0013523   # Nestor-Guillermo progeria syndrome
+  - mondo:0019321   # atypical Werner syndrome
+  - mondo:0030880   # mandibuloacral dysplasia progeroid syndrome
+  - mondo:0012590   # XFE progeroid syndrome
+  - mondo:0957266   # RECON progeroid syndrome
+  - mondo:0957953   # Garg-Mishra progeroid syndrome
+  - orphanet:2963   # Progeroid syndrome, Petty type
+  - mondo:0014527   # progeroid features-hepatocellular carcinoma predisposition syndrome
+  - mondo:0008311   # progeria-short stature-pigmented nevi syndrome
+  - mondo:0008694   # pseudoprogeria syndrome
+  - mondo:0011149   # premature aging syndrome, Okamoto type
+  - mondo:0011150   # acroosteolysis-keloid-like lesions-premature aging syndrome
+strata_b:                     # aging traits (population-genetics arm)
+  - efo:0005422     # skin aging
+  - oba:0005494     # aging rate
+  - efo:0007796     # parental longevity
+  - efo:0022597     # aging (key-size ceiling reference)
+  - efo:0009885     # frailty measurement
+  - oba:VT0005372   # life span trait
+strata_c:                     # familial neuro (AD seeds; PD members >=50 edges enumerated at runtime)
+  - mondo:0100087   # familial Alzheimer disease
+  - mondo:0015140   # early-onset autosomal dominant Alzheimer disease
+  - mondo:0011913   # Alzheimer disease 3
+  - mondo:0007088   # Alzheimer disease type 1
+  - mondo:0014265   # Alzheimer disease 18
+  - mondo:0004975   # generic Alzheimer disease (trap reference, never graded)
+strata_d_root: MONDO:0005015  # diabetes mellitus; descendants in cluster with >=50 edges enumerated at runtime
+
+ppr_restart: 0.5              # pinned (v5.1 §7 baselines)
+ppr_sensitivity: [0.15, 0.85] # sensitivity rows
+
+noise_floor_key_sizes: [20, 30, 50, 75, 100, 200, 500, 1000, 2000]
+noise_floor_resamples: 1000
+
+output_dir: data/processed/m2/lodo_audits
+report_path: reports/m2b/lodo_freeze_audits.md
+manifest_path: data/raw/manifests/m2_lodo_audits.json

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2553068995475769,
+    "target": {
+     "approvedSymbol": "CTCF",
+     "id": "ENSG00000102974"
+    }
+   },
+   {
+    "score": 0.11447326093912125,
+    "target": {
+     "approvedSymbol": "RIPOR1",
+     "id": "ENSG00000039523"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "4d4d18e3fe417c1e93db568209431ad2",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_67606533_G_A",
+  "position": 67606533
+ }
+}

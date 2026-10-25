@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.26660996675491333,
+    "target": {
+     "approvedSymbol": "PHB1",
+     "id": "ENSG00000167085"
+    }
+   },
+   {
+    "score": 0.15751317143440247,
+    "target": {
+     "approvedSymbol": "ZNF652",
+     "id": "ENSG00000198740"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90134605",
+ "studyLocusId": "c457fd1f7d17d538ef1ced1629cc85f6",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_49393125_A_C",
+  "position": 49393125
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.7541582584381104,
+    "target": {
+     "approvedSymbol": "RNF141",
+     "id": "ENSG00000110315"
+    }
+   },
+   {
+    "score": 0.14573143422603607,
+    "target": {
+     "approvedSymbol": "AMPD3",
+     "id": "ENSG00000133805"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "3e13e700e702859efc1893b1447cbe74",
+ "variant": {
+  "chromosome": "11",
+  "id": "11_10511626_C_T",
+  "position": 10511626
+ }
+}

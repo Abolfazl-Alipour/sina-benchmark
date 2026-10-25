@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.698335587978363,
+    "target": {
+     "approvedSymbol": "SLC6A1",
+     "id": "ENSG00000157103"
+    }
+   },
+   {
+    "score": 0.06587095558643341,
+    "target": {
+     "approvedSymbol": "HRH1",
+     "id": "ENSG00000196639"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90480731",
+ "studyLocusId": "a770ed54b76227058510118a7f80e55f",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_11032991_A_G",
+  "position": 11032991
+ }
+}

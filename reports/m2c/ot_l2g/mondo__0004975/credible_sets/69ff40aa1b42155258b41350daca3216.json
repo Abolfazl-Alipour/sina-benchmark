@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.581989586353302,
+    "target": {
+     "approvedSymbol": "SEMA6D",
+     "id": "ENSG00000137872"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90095190",
+ "studyLocusId": "69ff40aa1b42155258b41350daca3216",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_47286807_T_C",
+  "position": 47286807
+ }
+}

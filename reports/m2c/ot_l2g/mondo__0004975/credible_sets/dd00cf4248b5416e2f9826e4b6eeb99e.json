@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.399804949760437,
+    "target": {
+     "approvedSymbol": "TMEM132B",
+     "id": "ENSG00000139364"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "dd00cf4248b5416e2f9826e4b6eeb99e",
+ "variant": {
+  "chromosome": "12",
+  "id": "12_125803495_G_C",
+  "position": 125803495
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.702358067035675,
+    "target": {
+     "approvedSymbol": "SLC18B1",
+     "id": "ENSG00000146409"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "1dbafcbc9c4d6dcfbff2f84b031d9bfb",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_132797077_A_G",
+  "position": 132797077
+ }
+}

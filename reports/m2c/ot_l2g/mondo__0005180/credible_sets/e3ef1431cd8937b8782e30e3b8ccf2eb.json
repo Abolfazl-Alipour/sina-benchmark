@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8530110716819763,
+    "target": {
+     "approvedSymbol": "SNCA",
+     "id": "ENSG00000145335"
+    }
+   },
+   {
+    "score": 0.05194152519106865,
+    "target": {
+     "approvedSymbol": "MMRN1",
+     "id": "ENSG00000138722"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST000959",
+ "studyLocusId": "e3ef1431cd8937b8782e30e3b8ccf2eb",
+ "variant": {
+  "chromosome": "4",
+  "id": "4_89716450_G_A",
+  "position": 89716450
+ }
+}

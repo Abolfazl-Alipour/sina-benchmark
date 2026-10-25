@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.20800374448299408,
+    "target": {
+     "approvedSymbol": "TOMM40",
+     "id": "ENSG00000130204"
+    }
+   },
+   {
+    "score": 0.060044799000024796,
+    "target": {
+     "approvedSymbol": "NECTIN2",
+     "id": "ENSG00000130202"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST004246",
+ "studyLocusId": "0793aa2bf768a915ee003e7b54ea0956",
+ "variant": {
+  "chromosome": "19",
+  "id": "19_44888997_C_T",
+  "position": 44888997
+ }
+}

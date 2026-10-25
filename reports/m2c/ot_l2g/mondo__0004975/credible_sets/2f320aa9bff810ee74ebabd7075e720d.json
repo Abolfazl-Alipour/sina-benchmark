@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.22669333219528198,
+    "target": {
+     "approvedSymbol": "MTMR3",
+     "id": "ENSG00000100330"
+    }
+   },
+   {
+    "score": 0.1689644455909729,
+    "target": {
+     "approvedSymbol": "ASCC2",
+     "id": "ENSG00000100325"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "2f320aa9bff810ee74ebabd7075e720d",
+ "variant": {
+  "chromosome": "22",
+  "id": "22_29840406_A_G",
+  "position": 29840406
+ }
+}

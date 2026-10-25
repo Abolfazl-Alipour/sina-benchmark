@@ -1,0 +1,56 @@
+{
+ "l2GPredictions": {
+  "count": 6,
+  "rows": [
+   {
+    "score": 0.27447983622550964,
+    "target": {
+     "approvedSymbol": "COX5A",
+     "id": "ENSG00000178741"
+    }
+   },
+   {
+    "score": 0.27165156602859497,
+    "target": {
+     "approvedSymbol": "FAM219B",
+     "id": "ENSG00000178761"
+    }
+   },
+   {
+    "score": 0.18577605485916138,
+    "target": {
+     "approvedSymbol": "MPI",
+     "id": "ENSG00000178802"
+    }
+   },
+   {
+    "score": 0.06721196323633194,
+    "target": {
+     "approvedSymbol": "RPP25",
+     "id": "ENSG00000178718"
+    }
+   },
+   {
+    "score": 0.0626266822218895,
+    "target": {
+     "approvedSymbol": "SCAMP2",
+     "id": "ENSG00000140497"
+    }
+   },
+   {
+    "score": 0.052805233746767044,
+    "target": {
+     "approvedSymbol": "ULK3",
+     "id": "ENSG00000140474"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "305c5e16907a03cac9d981cd1a42dba4",
+ "variant": {
+  "chromosome": "15",
+  "id": "15_74928627_C_T",
+  "position": 74928627
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "script": "run_wave1_benchmark.py",
+  "unit_set": "primary",
+  "started_at": "2026-08-22T17:37:20Z",
+  "finished_at": "2026-08-23T17:59:53Z",
+  "status": "done",
+  "outputs": {
+    "/home/ubuntu/sina-platform/reports/m2b/wave1_benchmark_results_seed1339.json": "5cde982e8cae5b5ed6259759ad6e4d3d01a509070648b2930de379051aeee4c1"
+  }
+}

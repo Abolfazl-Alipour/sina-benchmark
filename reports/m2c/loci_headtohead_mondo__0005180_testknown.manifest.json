@@ -1,0 +1,40 @@
+{
+  "run_id": "20260925T073440Z",
+  "script": "scripts/pod/m2c_loci_headtohead.py",
+  "config": {},
+  "git_ref": "564ee07be986e4835e7d1088ca1488b02344fdfe",
+  "started_at": "2026-09-25T07:34:40.024251Z",
+  "finished_at": null,
+  "stages": [
+    {
+      "name": "gate",
+      "started_at": "2026-09-25T07:34:40.071636Z",
+      "finished_at": "2026-09-25T07:34:40.725098Z",
+      "status": "done",
+      "outputs": {},
+      "detail": ""
+    },
+    {
+      "name": "metrics",
+      "started_at": "2026-09-25T07:34:40.725526Z",
+      "finished_at": "2026-09-25T07:34:41.531198Z",
+      "status": "done",
+      "outputs": {
+        "reports/m2c/loci_headtohead_mondo__0005180_testknown.json": "969a289d2d7b14a8c470816b24669cdee083d101c92d42d62f64a90808354b1f"
+      },
+      "detail": ""
+    },
+    {
+      "name": "report",
+      "started_at": "2026-09-25T07:34:41.531802Z",
+      "finished_at": "2026-09-25T07:34:41.533386Z",
+      "status": "done",
+      "outputs": {
+        "reports/m2c/loci_headtohead_mondo__0005180_testknown.md": "4fda6ae9d46ee301fc4e6fde8d4553875b323a0dcb644866b13d4ce5e93f1c42"
+      },
+      "detail": ""
+    }
+  ],
+  "peak_rss_gb": 0.0,
+  "status": "running"
+}

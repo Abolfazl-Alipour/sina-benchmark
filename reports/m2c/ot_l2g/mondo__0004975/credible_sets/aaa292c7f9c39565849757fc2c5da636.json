@@ -1,0 +1,42 @@
+{
+ "l2GPredictions": {
+  "count": 4,
+  "rows": [
+   {
+    "score": 0.2996535301208496,
+    "target": {
+     "approvedSymbol": "ICA1L",
+     "id": "ENSG00000163596"
+    }
+   },
+   {
+    "score": 0.2946878671646118,
+    "target": {
+     "approvedSymbol": "CARF",
+     "id": "ENSG00000138380"
+    }
+   },
+   {
+    "score": 0.2761082351207733,
+    "target": {
+     "approvedSymbol": "WDR12",
+     "id": "ENSG00000138442"
+    }
+   },
+   {
+    "score": 0.2501407563686371,
+    "target": {
+     "approvedSymbol": "NBEAL1",
+     "id": "ENSG00000144426"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90449055",
+ "studyLocusId": "aaa292c7f9c39565849757fc2c5da636",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_203028044_T_C",
+  "position": 203028044
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.3629928529262543,
+    "target": {
+     "approvedSymbol": "ZNF92",
+     "id": "ENSG00000146757"
+    }
+   },
+   {
+    "score": 0.20963367819786072,
+    "target": {
+     "approvedSymbol": "VKORC1L1",
+     "id": "ENSG00000196715"
+    }
+   },
+   {
+    "score": 0.10551264137029648,
+    "target": {
+     "approvedSymbol": "GUSB",
+     "id": "ENSG00000169919"
+    }
+   },
+   {
+    "score": 0.10492078214883804,
+    "target": {
+     "approvedSymbol": "TPST1",
+     "id": "ENSG00000169902"
+    }
+   },
+   {
+    "score": 0.08910565823316574,
+    "target": {
+     "approvedSymbol": "CRCP",
+     "id": "ENSG00000241258"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "3113cffaaec401fd637960ef50ac31c6",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_65551285_A_G",
+  "position": 65551285
+ }
+}

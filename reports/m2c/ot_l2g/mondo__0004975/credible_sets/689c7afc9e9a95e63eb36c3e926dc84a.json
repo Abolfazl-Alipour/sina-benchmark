@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6067686676979065,
+    "target": {
+     "approvedSymbol": "ADGRB3",
+     "id": "ENSG00000135298"
+    }
+   },
+   {
+    "score": 0.5997807383537292,
+    "target": {
+     "approvedSymbol": "ENSG00000288712",
+     "id": "ENSG00000288712"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "689c7afc9e9a95e63eb36c3e926dc84a",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_68164550_A_G",
+  "position": 68164550
+ }
+}

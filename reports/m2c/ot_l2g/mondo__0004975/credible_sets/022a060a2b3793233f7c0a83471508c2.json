@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8188398480415344,
+    "target": {
+     "approvedSymbol": "PTK2B",
+     "id": "ENSG00000120899"
+    }
+   },
+   {
+    "score": 0.12700429558753967,
+    "target": {
+     "approvedSymbol": "TRIM35",
+     "id": "ENSG00000104228"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST007320",
+ "studyLocusId": "022a060a2b3793233f7c0a83471508c2",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_27337604_T_C",
+  "position": 27337604
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6578559279441833,
+    "target": {
+     "approvedSymbol": "SEMA3F",
+     "id": "ENSG00000001617"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "22be8bebc2379da400e42e2082bb4e51",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_50167312_C_T",
+  "position": 50167312
+ }
+}

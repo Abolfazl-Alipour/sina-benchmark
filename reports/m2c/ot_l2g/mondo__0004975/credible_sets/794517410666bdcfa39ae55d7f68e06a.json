@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6729546189308167,
+    "target": {
+     "approvedSymbol": "BRINP3",
+     "id": "ENSG00000162670"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "794517410666bdcfa39ae55d7f68e06a",
+ "variant": {
+  "chromosome": "1",
+  "id": "1_190634178_T_A",
+  "position": 190634178
+ }
+}

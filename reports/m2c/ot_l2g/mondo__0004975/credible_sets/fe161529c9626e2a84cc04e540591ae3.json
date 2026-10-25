@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.8322569131851196,
+    "target": {
+     "approvedSymbol": "JAZF1",
+     "id": "ENSG00000153814"
+    }
+   },
+   {
+    "score": 0.05252363160252571,
+    "target": {
+     "approvedSymbol": "TAX1BP1",
+     "id": "ENSG00000106052"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "fe161529c9626e2a84cc04e540591ae3",
+ "variant": {
+  "chromosome": "7",
+  "id": "7_28135367_T_C",
+  "position": 28135367
+ }
+}

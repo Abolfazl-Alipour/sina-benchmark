@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.2546223998069763,
+    "target": {
+     "approvedSymbol": "SPATC1",
+     "id": "ENSG00000186583"
+    }
+   },
+   {
+    "score": 0.09129130095243454,
+    "target": {
+     "approvedSymbol": "SHARPIN",
+     "id": "ENSG00000179526"
+    }
+   },
+   {
+    "score": 0.05219661816954613,
+    "target": {
+     "approvedSymbol": "OPLAH",
+     "id": "ENSG00000178814"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST012182",
+ "studyLocusId": "09126a551e709c83f59d57359c89784b",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_144042819_T_C",
+  "position": 144042819
+ }
+}

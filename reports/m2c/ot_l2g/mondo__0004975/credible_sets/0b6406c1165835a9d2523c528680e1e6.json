@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.6404380798339844,
+    "target": {
+     "approvedSymbol": "CTNNA2",
+     "id": "ENSG00000066032"
+    }
+   },
+   {
+    "score": 0.13257774710655212,
+    "target": {
+     "approvedSymbol": "LRRTM1",
+     "id": "ENSG00000162951"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST001915",
+ "studyLocusId": "0b6406c1165835a9d2523c528680e1e6",
+ "variant": {
+  "chromosome": "2",
+  "id": "2_80054047_A_G",
+  "position": 80054047
+ }
+}

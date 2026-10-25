@@ -1,0 +1,56 @@
+{
+ "l2GPredictions": {
+  "count": 6,
+  "rows": [
+   {
+    "score": 0.5564497709274292,
+    "target": {
+     "approvedSymbol": "FGF20",
+     "id": "ENSG00000078579"
+    }
+   },
+   {
+    "score": 0.2358701527118683,
+    "target": {
+     "approvedSymbol": "MICU3",
+     "id": "ENSG00000155970"
+    }
+   },
+   {
+    "score": 0.09324187785387039,
+    "target": {
+     "approvedSymbol": "CNOT7",
+     "id": "ENSG00000198791"
+    }
+   },
+   {
+    "score": 0.08436383306980133,
+    "target": {
+     "approvedSymbol": "VPS37A",
+     "id": "ENSG00000155975"
+    }
+   },
+   {
+    "score": 0.07436753809452057,
+    "target": {
+     "approvedSymbol": "MTMR7",
+     "id": "ENSG00000003987"
+    }
+   },
+   {
+    "score": 0.05587989091873169,
+    "target": {
+     "approvedSymbol": "ZDHHC2",
+     "id": "ENSG00000104219"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90308590",
+ "studyLocusId": "3f5a3b8f2b1da9113670d0bb3a3bd2b6",
+ "variant": {
+  "chromosome": "8",
+  "id": "8_16843772_T_G",
+  "position": 16843772
+ }
+}

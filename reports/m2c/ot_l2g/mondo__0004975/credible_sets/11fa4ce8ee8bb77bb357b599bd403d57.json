@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.07564354687929153,
+    "target": {
+     "approvedSymbol": "CELSR3",
+     "id": "ENSG00000008300"
+    }
+   },
+   {
+    "score": 0.07530272752046585,
+    "target": {
+     "approvedSymbol": "NCKIPSD",
+     "id": "ENSG00000213672"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "11fa4ce8ee8bb77bb357b599bd403d57",
+ "variant": {
+  "chromosome": "3",
+  "id": "3_48673306_C_T",
+  "position": 48673306
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "l2GPredictions": {
+  "count": 5,
+  "rows": [
+   {
+    "score": 0.42389219999313354,
+    "target": {
+     "approvedSymbol": "CENPQ",
+     "id": "ENSG00000031691"
+    }
+   },
+   {
+    "score": 0.23406477272510529,
+    "target": {
+     "approvedSymbol": "MMUT",
+     "id": "ENSG00000146085"
+    }
+   },
+   {
+    "score": 0.12490976601839066,
+    "target": {
+     "approvedSymbol": "RHAG",
+     "id": "ENSG00000112077"
+    }
+   },
+   {
+    "score": 0.10304585099220276,
+    "target": {
+     "approvedSymbol": "GLYATL3",
+     "id": "ENSG00000203972"
+    }
+   },
+   {
+    "score": 0.0750776007771492,
+    "target": {
+     "approvedSymbol": "C6orf141",
+     "id": "ENSG00000197261"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90132260",
+ "studyLocusId": "38e65a15912d9052096039c788c0c9ce",
+ "variant": {
+  "chromosome": "6",
+  "id": "6_49190906_G_A",
+  "position": 49190906
+ }
+}

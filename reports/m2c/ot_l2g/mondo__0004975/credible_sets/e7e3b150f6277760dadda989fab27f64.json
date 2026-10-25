@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.5513250827789307,
+    "target": {
+     "approvedSymbol": "PFKP",
+     "id": "ENSG00000067057"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "e7e3b150f6277760dadda989fab27f64",
+ "variant": {
+  "chromosome": "10",
+  "id": "10_2983692_T_A",
+  "position": 2983692
+ }
+}

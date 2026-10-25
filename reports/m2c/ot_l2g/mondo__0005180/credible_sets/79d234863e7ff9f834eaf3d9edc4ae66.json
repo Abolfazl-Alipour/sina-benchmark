@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.39488744735717773,
+    "target": {
+     "approvedSymbol": "P2RX5",
+     "id": "ENSG00000083454"
+    }
+   },
+   {
+    "score": 0.05177198350429535,
+    "target": {
+     "approvedSymbol": "HASPIN",
+     "id": "ENSG00000177602"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST012431",
+ "studyLocusId": "79d234863e7ff9f834eaf3d9edc4ae66",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_3702823_T_C",
+  "position": 3702823
+ }
+}

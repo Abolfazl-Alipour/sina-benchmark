@@ -1,0 +1,21 @@
+{
+ "l2GPredictions": {
+  "count": 1,
+  "rows": [
+   {
+    "score": 0.6248286962509155,
+    "target": {
+     "approvedSymbol": "TMC5",
+     "id": "ENSG00000103534"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST003427",
+ "studyLocusId": "2727444e8f8661894bd443eb9f4a4b59",
+ "variant": {
+  "chromosome": "16",
+  "id": "16_19423707_C_T",
+  "position": 19423707
+ }
+}

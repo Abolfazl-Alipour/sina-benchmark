@@ -1,0 +1,35 @@
+{
+ "l2GPredictions": {
+  "count": 3,
+  "rows": [
+   {
+    "score": 0.3434296250343323,
+    "target": {
+     "approvedSymbol": "LASP1",
+     "id": "ENSG00000002834"
+    }
+   },
+   {
+    "score": 0.3434296250343323,
+    "target": {
+     "approvedSymbol": "RPL23",
+     "id": "ENSG00000125691"
+    }
+   },
+   {
+    "score": 0.08400330692529678,
+    "target": {
+     "approvedSymbol": "SPMAP1",
+     "id": "ENSG00000275489"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90624094",
+ "studyLocusId": "87048b2ecf194dc30e755248fae0b7a4",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_38862181_C_T",
+  "position": 38862181
+ }
+}

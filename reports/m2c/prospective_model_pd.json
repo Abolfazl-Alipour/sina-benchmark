@@ -1,0 +1,1070 @@
+{
+  "bootstrap": 1000,
+  "ckpt": "reports/m2c/checkpoints_completion_noana/mondo__0005180/epoch_001.pth",
+  "cutoff": 2020,
+  "generated_at": "2026-09-05T23:25:54Z",
+  "probe_a_prospective_model": {
+    "clean_genes": [
+      "ensembl:ENSG00000048342",
+      "ensembl:ENSG00000059377",
+      "ensembl:ENSG00000070669",
+      "ensembl:ENSG00000090975",
+      "ensembl:ENSG00000101746",
+      "ensembl:ENSG00000107651",
+      "ensembl:ENSG00000115216",
+      "ensembl:ENSG00000116128",
+      "ensembl:ENSG00000116151",
+      "ensembl:ENSG00000116539",
+      "ensembl:ENSG00000116584",
+      "ensembl:ENSG00000138767",
+      "ensembl:ENSG00000141956",
+      "ensembl:ENSG00000143622",
+      "ensembl:ENSG00000154556",
+      "ensembl:ENSG00000163346",
+      "ensembl:ENSG00000163462",
+      "ensembl:ENSG00000164253",
+      "ensembl:ENSG00000169288",
+      "ensembl:ENSG00000177602",
+      "ensembl:ENSG00000181315",
+      "ensembl:ENSG00000182636",
+      "ensembl:ENSG00000184445",
+      "ensembl:ENSG00000185619",
+      "ensembl:ENSG00000200170",
+      "ensembl:ENSG00000224524",
+      "ensembl:ENSG00000241549",
+      "ensembl:ENSG00000250772",
+      "ensembl:ENSG00000260238"
+    ],
+    "h10": 0.0,
+    "h10_ci": [
+      0.0,
+      0.0
+    ],
+    "median_rank": 5594.0,
+    "mrr": 0.0037257398861461994,
+    "mrr_ci": [
+      0.0004959844920428587,
+      0.009766199773158086
+    ],
+    "n_clean": 29,
+    "n_seen_post": 53
+  },
+  "probe_b_per_locus": {
+    "chance_top1_known_rate": 0.6768315018315018,
+    "degree_top1_known_rate": 0.6153846153846154,
+    "model_degree_agreement": 0.46153846153846156,
+    "model_nearest_agreement": 0.2857142857142857,
+    "model_top1_known_rate": 0.9038461538461539,
+    "mrr_known_in_locus": 0.6126014992540417,
+    "n_loci_eval": 52,
+    "n_loci_nearest": 42,
+    "nearest_top1_known_rate": 0.5952380952380952,
+    "rows": [
+      {
+        "agree": false,
+        "chance_top1": 0.5,
+        "chr": "1",
+        "degree_top1": "ensembl:ENSG00000265107",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus004",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000265107",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000116128",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6,
+        "chr": "1",
+        "degree_top1": "ensembl:ENSG00000160789",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "locus": "mondo__0005180_locus005",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000177628",
+        "model_top1_known": true,
+        "n_genes": 20,
+        "n_known": 12,
+        "nearest_top1": "ensembl:ENSG00000116539",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": null,
+        "chance_top1": 1.0,
+        "chr": "1",
+        "degree_top1": "ensembl:ENSG00000162747",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2,
+          3
+        ],
+        "locus": "mondo__0005180_locus006",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000143226",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 3,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": false,
+        "chance_top1": 1.0,
+        "chr": "1",
+        "degree_top1": "ensembl:ENSG00000117533",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus007",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000010165",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000117533",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6,
+        "chr": "1",
+        "degree_top1": "ensembl:ENSG00000069275",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1,
+          2,
+          3
+        ],
+        "locus": "mondo__0005180_locus008",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000158715",
+        "model_top1_known": true,
+        "n_genes": 5,
+        "n_known": 3,
+        "nearest_top1": "ensembl:ENSG00000069275",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": true,
+        "chance_top1": 1.0,
+        "chr": "10",
+        "degree_top1": "ensembl:ENSG00000077943",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus011",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000077943",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000077943",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.5,
+        "chr": "10",
+        "degree_top1": "ensembl:ENSG00000151929",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus013",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000151923",
+        "model_top1_known": true,
+        "n_genes": 4,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000151929",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": null,
+        "chance_top1": 0.5,
+        "chr": "11",
+        "degree_top1": "ensembl:ENSG00000198561",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus017",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000186509",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": true,
+        "chance_top1": 0.6666666666666666,
+        "chr": "11",
+        "degree_top1": "ensembl:ENSG00000166118",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus019",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000080854",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000080854",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.2,
+        "chr": "12",
+        "degree_top1": "ensembl:ENSG00000057294",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus021",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000087470",
+        "model_top1_known": true,
+        "n_genes": 5,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000057294",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.5,
+        "chr": "12",
+        "degree_top1": "ensembl:ENSG00000188906",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          2,
+          3
+        ],
+        "locus": "mondo__0005180_locus022",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000188906",
+        "model_top1_known": false,
+        "n_genes": 4,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000018236",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": null,
+        "chance_top1": 0.5,
+        "chr": "12",
+        "degree_top1": "ensembl:ENSG00000139174",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus024",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000139174",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.5714285714285714,
+        "chr": "12",
+        "degree_top1": "ensembl:ENSG00000130787",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "locus": "mondo__0005180_locus026",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000182782",
+        "model_top1_known": true,
+        "n_genes": 7,
+        "n_known": 4,
+        "nearest_top1": "ensembl:ENSG00000090975",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": null,
+        "chance_top1": 1.0,
+        "chr": "12",
+        "degree_top1": "ensembl:ENSG00000112787",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus027",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000112787",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.5,
+        "chr": "13",
+        "degree_top1": "ensembl:ENSG00000102753",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus029",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000102753",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000102547",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 1.0,
+        "chr": "14",
+        "degree_top1": "ensembl:ENSG00000131979",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus035",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000198554",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000131979",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 1.0,
+        "chr": "14",
+        "degree_top1": "ensembl:ENSG00000054983",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus039",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000054983",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000140030",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": null,
+        "chance_top1": 0.5,
+        "chr": "15",
+        "degree_top1": "ensembl:ENSG00000069667",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          2
+        ],
+        "locus": "mondo__0005180_locus043",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000129003",
+        "model_top1_known": false,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": true,
+        "chance_top1": 0.5,
+        "chr": "16",
+        "degree_top1": "ensembl:ENSG00000103528",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          2
+        ],
+        "locus": "mondo__0005180_locus045",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000103528",
+        "model_top1_known": false,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000103528",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6666666666666666,
+        "chr": "16",
+        "degree_top1": "ensembl:ENSG00000177455",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus046",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000177548",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000177455",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6,
+        "chr": "16",
+        "degree_top1": "ensembl:ENSG00000103510",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2,
+          3
+        ],
+        "locus": "mondo__0005180_locus047",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000103510",
+        "model_top1_known": true,
+        "n_genes": 5,
+        "n_known": 3,
+        "nearest_top1": "ensembl:ENSG00000099365",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.3333333333333333,
+        "chr": "17",
+        "degree_top1": "ensembl:ENSG00000005961",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus053",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000161682",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000005961",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6666666666666666,
+        "chr": "17",
+        "degree_top1": "ensembl:ENSG00000186868",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "locus": "mondo__0005180_locus054",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000186868",
+        "model_top1_known": false,
+        "n_genes": 15,
+        "n_known": 10,
+        "nearest_top1": "ensembl:ENSG00000073969",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6666666666666666,
+        "chr": "17",
+        "degree_top1": "ensembl:ENSG00000136492",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus056",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000136492",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000108510",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": true,
+        "chance_top1": 0.5,
+        "chr": "18",
+        "degree_top1": "ensembl:ENSG00000141431",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus060",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000141431",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000141431",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 1.0,
+        "chr": "18",
+        "degree_top1": "ensembl:ENSG00000132872",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus061",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000132872",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000152214",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": true,
+        "chance_top1": 0.5,
+        "chr": "19",
+        "degree_top1": "ensembl:ENSG00000130203",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus064",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000130202",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000130202",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.5,
+        "chr": "2",
+        "degree_top1": "ensembl:ENSG00000163060",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus070",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000163060",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000115041",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": true,
+        "chance_top1": 1.0,
+        "chr": "2",
+        "degree_top1": "ensembl:ENSG00000071054",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus071",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000071054",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000071054",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6666666666666666,
+        "chr": "2",
+        "degree_top1": "ensembl:ENSG00000082258",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus073",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000153086",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000152128",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.5,
+        "chr": "2",
+        "degree_top1": "ensembl:ENSG00000136531",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus075",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000153253",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000136531",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": null,
+        "chance_top1": 0.5,
+        "chr": "2",
+        "degree_top1": "ensembl:ENSG00000198648",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus076",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000172292",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": null,
+        "chance_top1": 0.5,
+        "chr": "20",
+        "degree_top1": "ensembl:ENSG00000198171",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus078",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000088899",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": false,
+        "chance_top1": 1.0,
+        "chr": "3",
+        "degree_top1": "ensembl:ENSG00000182568",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus084",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000182568",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000131374",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": true,
+        "chance_top1": 1.0,
+        "chr": "3",
+        "degree_top1": "ensembl:ENSG00000213672",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus086",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000068745",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000068745",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6,
+        "chr": "3",
+        "degree_top1": "ensembl:ENSG00000239732",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8
+        ],
+        "locus": "mondo__0005180_locus087",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000239732",
+        "model_top1_known": true,
+        "n_genes": 10,
+        "n_known": 6,
+        "nearest_top1": "ensembl:ENSG00000055957",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": true,
+        "chance_top1": 1.0,
+        "chr": "3",
+        "degree_top1": "ensembl:ENSG00000114030",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus088",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000114030",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000114030",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6666666666666666,
+        "chr": "3",
+        "degree_top1": "ensembl:ENSG00000078081",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus093",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000043093",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000078070",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.25,
+        "chr": "4",
+        "degree_top1": "ensembl:ENSG00000178950",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus094",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000145214",
+        "model_top1_known": true,
+        "n_genes": 4,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000127419",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.6666666666666666,
+        "chr": "4",
+        "degree_top1": "ensembl:ENSG00000004468",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus095",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000109743",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000048342",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": true,
+        "chance_top1": 1.0,
+        "chr": "4",
+        "degree_top1": "ensembl:ENSG00000138760",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus097",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000138760",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000138760",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.75,
+        "chr": "4",
+        "degree_top1": "ensembl:ENSG00000145335",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          2,
+          3,
+          4
+        ],
+        "locus": "mondo__0005180_locus099",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000145335",
+        "model_top1_known": false,
+        "n_genes": 4,
+        "n_known": 3,
+        "nearest_top1": "ensembl:ENSG00000138722",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 1.0,
+        "chr": "4",
+        "degree_top1": "ensembl:ENSG00000145349",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus101",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000145362",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000145349",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": null,
+        "chance_top1": 0.5,
+        "chr": "4",
+        "degree_top1": "ensembl:ENSG00000138735",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus102",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000138735",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": false,
+        "chance_top1": 1.0,
+        "chr": "5",
+        "degree_top1": "ensembl:ENSG00000164182",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus106",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000164182",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000164181",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": true,
+        "chance_top1": 0.8571428571428571,
+        "chr": "6",
+        "degree_top1": "ensembl:ENSG00000196126",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "locus": "mondo__0005180_locus117",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000204287",
+        "model_top1_known": true,
+        "n_genes": 7,
+        "n_known": 6,
+        "nearest_top1": "ensembl:ENSG00000204287",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": false,
+        "chance_top1": 0.5,
+        "chr": "6",
+        "degree_top1": "ensembl:ENSG00000112306",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus120",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000112306",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000146409",
+        "nearest_top1_known": false
+      },
+      {
+        "agree": false,
+        "chance_top1": 1.0,
+        "chr": "7",
+        "degree_top1": "ensembl:ENSG00000136235",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1,
+          2,
+          3
+        ],
+        "locus": "mondo__0005180_locus122",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000122591",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 3,
+        "nearest_top1": "ensembl:ENSG00000122550",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": null,
+        "chance_top1": 0.5,
+        "chr": "7",
+        "degree_top1": "ensembl:ENSG00000006128",
+        "degree_top1_known": true,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus125",
+        "model_degree_agree": true,
+        "model_top1": "ensembl:ENSG00000006128",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": null,
+        "chance_top1": 0.6666666666666666,
+        "chr": "8",
+        "degree_top1": "ensembl:ENSG00000038945",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus129",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000155970",
+        "model_top1_known": true,
+        "n_genes": 3,
+        "n_known": 2,
+        "nearest_top1": null,
+        "nearest_top1_known": null
+      },
+      {
+        "agree": true,
+        "chance_top1": 0.5,
+        "chr": "8",
+        "degree_top1": "ensembl:ENSG00000120896",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1,
+          2
+        ],
+        "locus": "mondo__0005180_locus130",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000120913",
+        "model_top1_known": true,
+        "n_genes": 4,
+        "n_known": 2,
+        "nearest_top1": "ensembl:ENSG00000120913",
+        "nearest_top1_known": true
+      },
+      {
+        "agree": true,
+        "chance_top1": 0.5,
+        "chr": "X",
+        "degree_top1": "ensembl:ENSG00000147403",
+        "degree_top1_known": false,
+        "known_ranks_model": [
+          1
+        ],
+        "locus": "mondo__0005180_locus136",
+        "model_degree_agree": false,
+        "model_top1": "ensembl:ENSG00000013563",
+        "model_top1_known": true,
+        "n_genes": 2,
+        "n_known": 1,
+        "nearest_top1": "ensembl:ENSG00000013563",
+        "nearest_top1_known": true
+      }
+    ]
+  },
+  "scores": "/tmp/pd_scores/mondo__0005180__epoch_001.scores.json",
+  "seed": 1337,
+  "unit": "mondo__0005180"
+}

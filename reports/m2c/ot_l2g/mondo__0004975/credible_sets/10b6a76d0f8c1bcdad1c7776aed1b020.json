@@ -1,0 +1,28 @@
+{
+ "l2GPredictions": {
+  "count": 2,
+  "rows": [
+   {
+    "score": 0.2619774341583252,
+    "target": {
+     "approvedSymbol": "RABEP1",
+     "id": "ENSG00000029725"
+    }
+   },
+   {
+    "score": 0.20494642853736877,
+    "target": {
+     "approvedSymbol": "SCIMP",
+     "id": "ENSG00000161929"
+    }
+   }
+  ]
+ },
+ "studyId": "GCST90301303",
+ "studyLocusId": "10b6a76d0f8c1bcdad1c7776aed1b020",
+ "variant": {
+  "chromosome": "17",
+  "id": "17_5236512_G_A",
+  "position": 5236512
+ }
+}
