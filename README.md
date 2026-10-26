@@ -31,6 +31,16 @@ Code: MIT (see LICENSE). Data is NOT redistributed here: OptimusKG
 carry per-source licenses, some non-commercial. Download them from their DOIs;
 `data/raw/REGISTRY.json` pins the exact assets by SHA-256.
 
+## Frozen artifacts (rev4)
+
+Release `data-rev4-2026-10-25`
+([tarball](https://github.com/Abolfazl-Alipour/sina-benchmark/releases/download/data-rev4-2026-10-25/sina-benchmark-data-rev4-2026-10-25.tar.gz),
+[MANIFEST.json](https://github.com/Abolfazl-Alipour/sina-benchmark/releases/download/data-rev4-2026-10-25/MANIFEST.json),
+60,742,782 bytes): KEEP background graph (1,431,945 edges), LODO roster plus
+per-unit splits for all 29 units, and completion-track splits for
+Parkinson disease and Alzheimer disease. Derived splits and edge list only;
+no raw source content. Every file is SHA-256 pinned in the manifest.
+
 ## Citation
 
 Alipour, A. SINA: A Leakage-Certified, Pathway-Aware Benchmark for
