@@ -43,5 +43,5 @@ no raw source content. Every file is SHA-256 pinned in the manifest.
 
 ## Citation
 
-Alipour, A. SINA: A Leakage-Certified, Pathway-Aware Benchmark for
+Alipour, A. SINA: A Disease-Held-Out Benchmark for
 Disease-Associated Gene Recovery on OptimusKG. Preprint, 2026.

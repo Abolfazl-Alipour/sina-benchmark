@@ -1,0 +1,481 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\emergencystretch=3em
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}X}
+\newcolumntype{R}{>{\RaggedLeft\arraybackslash}X}
+\newcolumntype{C}{>{\Centering\arraybackslash}X}
+
+\title{SINA: A Disease-Held-Out Benchmark for Disease-Associated Gene Recovery on OptimusKG}
+\author{Abolfazl Alipour\thanks{Correspondence: reza@kavoxlabs.com. ORCID: 0000-0002-9757-8823.}}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Biomedical knowledge graphs are widely used to rank candidate genes for diseases, but common evaluation designs can overstate what a model has learned. Random edge splits leave most associations of a test disease in the training data, and per-locus recovery scores can reflect memorization of genes that were present in training supervision. We built SINA, a pre-registered benchmark for disease-associated gene recovery on OptimusKG, around two stricter evaluations. The first is a leave-one-disease-out benchmark in which every disease-gene association of the held-out disease cluster is removed before training. The second is a seen-disease completion benchmark for Parkinson disease and Alzheimer disease, followed by a locus-level comparison against Open Targets L2G in which known genes are separated into those present in training supervision and those absent from it. On a frozen background graph of 1,431,945 edges, a six-layer BioPathNet model reached a mean reciprocal rank (MRR) of 0.00775 across 13 primary diseases (three seeds; bias-corrected and accelerated bootstrap 95\% confidence interval 0.00548 to 0.01101), which was not significantly different from the best same-graph null (exact Wilcoxon signed-rank $p = 0.340$); the mean of the per-unit best nulls was 0.00862, so the point estimate of the paired difference favored the nulls. Sixteen secondary units gave a mean MRR of 0.00917 and likewise showed no significant advantage over the best null. Degree-preserving label shuffles reduced performance by 58.1\% to 88.9\%, confirming that the measured signal depended on the disease-gene pairing. A pre-registered pathway-level analysis returned Recall at 10 of 0.0. In the completion benchmark, test MRR was 0.01887 for Parkinson disease and 0.01061 for Alzheimer disease, while the Hits at 10 counts were identical to a supervision-only counting null in both diseases. The locus-level comparison inverted the apparent per-locus result: the model recovered training-supervised known genes at top-1 rates of 0.904 and 0.954, but on known genes absent from training it scored 0.300 against 0.600 for Open Targets L2G in Parkinson disease and 0.161 against 0.226 in Alzheimer disease. Recovery in a retrospective temporal holdout of post-2020 associations was near zero, a tabular control showed no statistically resolved difference from Open Targets on covered loci, and five functional-evidence tracks all scored below Open Targets. Under the graph construction, supervision, and one-pass training regime evaluated here, BioPathNet did not demonstrate improved recovery over the specified baselines; these experiments do not distinguish limitations of supervision from limitations of model optimization, architecture, or graph construction.
+
+\medskip
+\noindent\textbf{Keywords:} knowledge graph; graph neural network; leave-one-disease-out; benchmark; gene prioritization; negative results; Open Targets; data leakage
+\end{abstract}
+
+\section{Introduction}
+
+Biomedical knowledge graphs integrate genes, diseases, phenotypes, pathways, drugs, and anatomy into a single relational structure, and they have become a standard substrate for computational gene prioritization and drug discovery \cite{vittor2026,chandak2023}. The OptimusKG resource alone assembles 190,531 nodes and 21,813,816 edges from structured biomedical sources \cite{vittor2026}, extending the design of earlier precision-medicine graphs such as PrimeKG \cite{chandak2023}. Network medicine gives these graphs a biological rationale: disease-associated genes are not scattered uniformly through molecular networks but concentrate in connected modules, so graph proximity carries information about disease biology \cite{menche2015,himmelstein2017}.
+
+Graph neural networks exploit that structure directly. BioPathNet, a path-based framework built on the Neural Bellman-Ford Network, reported strong link-prediction performance across biomedical tasks, including gene function annotation, drug-disease indication, synthetic lethality, and long non-coding RNA interaction prediction \cite{hu2026,zhu2021}. TxGNN similarly reported strong zero-shot drug repurposing for diseases with few known treatments \cite{huang2024}. Many of these results are obtained under random edge splits, in which a fraction of edges is hidden and the remainder, including most associations of every test disease, stays in training. BioPathNet also reported zero-shot drug prediction for unseen diseases, following the disease-area splits of TxGNN \cite{huang2024}; that is a disease-drug task, and it does not estimate disease-held-out recovery of disease-associated genes, which is the transfer problem evaluated here. A random split measures interpolation within a partially observed disease profile. It does not measure the harder and clinically distinct problem of ranking genes for a disease whose associations were never observed.
+
+Three further problems compound the first. Popularity bias means that a ranking based on node degree alone recovers many known associations, so a model can look accurate while adding nothing over the graph's degree distribution. Locus-level evaluations can credit a model for ranking a known gene first when that gene was itself a training positive for the same disease, which is recovery of supervision rather than prediction. Finally, curated association resources and external comparators such as Open Targets share upstream evidence, so an external comparison is not automatically an independent one \cite{ochoa2021,ghoussaini2021}. Locus-to-gene methods such as the Open Targets L2G model \cite{mountjoy2021}, FLAMES \cite{schipper2025}, and PoPS \cite{weeks2023} operate on the locus-level version of this problem and provide the natural comparators for it.
+
+SINA (a leakage-controlled benchmark for disease-associated gene recovery) was designed to test how much of the apparent performance of a graph neural network survives when these problems are removed one at a time. The benchmark has four components. First, a leave-one-disease-out (LODO) evaluation hides the entire disease cluster, including ontology ancestors and siblings, and compares the model with degree and personalized PageRank nulls computed on the identical graph. Second, degree-preserving shuffles of the disease-gene labels test whether any residual performance depends on the true pairing of diseases and genes. Third, a pre-registered pathway-level analysis asks whether individually weak gene rankings aggregate into pathway signal. Fourth, a seen-disease completion benchmark on Parkinson disease and Alzheimer disease, the setting closest to the published random-split evaluations, is followed by prospective tests and by an external locus-level comparison in which known genes are split into those the model was trained on and those it never saw. Two non-graph controls, a tabular model and a set of functional-evidence tracks, bound what the graph contributes over conventional features.
+
+The result is negative, and the negative is the finding. Under LODO the model did not significantly outperform the best same-graph null. In the completion setting it exceeded a degree floor but tied a counting null on Hits at 10. Its one large margin, per-locus recovery of known genes, was confined to genes present in its own training supervision and reversed on unseen known genes. The benchmark, its controls, and its reproduction log are released so that future claims on this task can be graded against the same standard.
+
+\section{Methods}
+
+\subsection{Study design}
+
+All primary analyses were specified before the corresponding runs in a dated decision record, including the disease roster, the statistical tests, the null models, the shuffle controls, and the stopping rules. Two deviations from a strictly confirmatory design are disclosed here rather than in the repository record alone. First, the frozen model configuration (phenotype-edge retention, one training pass, unweighted loss) was selected in a design ablation on three probe diseases using those probes' test outcomes, and the three probes (Werner syndrome, Hutchinson-Gilford progeria syndrome, and renal cysts and diabetes syndrome) are also members of the primary roster; the primary analysis is therefore partly development-informed, and a sensitivity analysis excluding the probes is reported with the primary results. Second, the pre-registered triviality audit flagged every primary unit, leaving too few unflagged units for the planned filtered analysis, so the all-unit analysis is reported as primary; that substitution is an amendment to the original design, and the audit is treated as a bound on interpretation. The decision record and its amendments are released with the benchmark code. Two evaluation designs were used. The LODO design measures transfer to an unseen disease: for each evaluation unit, all disease-gene associations of the target disease cluster were withheld, and the model ranked the 17,448 candidate genes for that disease from the remaining graph. The completion design measures recovery for a seen disease: a fraction of one disease's associations was withheld while the rest of its profile remained in training. Results from the two designs are reported separately throughout, because they answer different questions.
+
+\subsection{Data sources and background graph}
+
+The source graph was OptimusKG version 2.0, which contains 190,531 nodes and 21,813,816 edges across molecular, anatomical, clinical, and environmental entity types \cite{vittor2026}. Disease identifiers were harmonized with the Mondo Disease Ontology \cite{vasilevsky2022}. Disease-gene supervision was drawn from the graph's disease-gene relation, which aggregates curated resources including DisGeNET \cite{pineiro2020}; gene context was provided by gene-gene relations, phenotype-gene relations, Gene Ontology annotations \cite{ashburner2000}, and Reactome pathways \cite{jassal2020}. PrimeKG was used only as a reproduction anchor during model onboarding and contributed no result reported here \cite{chandak2023}.
+
+From the source graph we constructed a frozen background graph of 1,431,945 edges over 678 diseases, 17,448 genes, and 1,270 drugs, holding 191,953 disease-gene supervision associations (Table~\ref{tab:data}). The background graph contained phenotype-gene edges (768,844), gene-gene edges (275,220), biological-process annotations (147,477), cellular-component annotations (94,150), molecular-function annotations (82,362), pathway memberships (43,754), disease-phenotype edges (11,850), drug-gene edges (5,310), drug-disease edges (1,853), and disease-disease edges (1,125). Anatomy-gene expression edges, which number about 8.8 million in the source graph and are derived from Bgee \cite{bastian2021}, were excluded from training because they form a high-degree co-occurrence hub; they were retained as annotation only. The reduction from 21.8 million source edges to the 1.43 million-edge background graph was a feasibility decision for full-graph message passing in the reference implementation under a 48 GB memory budget, not a claim that the excluded relations carry no signal; neighborhood or subgraph sampling was not implemented, and every result in this paper is conditional on this graph. The one excluded family that was measured directly behaved as a near-constant feature: in a completion-track probe, 99.1\% of candidate genes carried an anatomy edge at similar strength, and adding the anatomy edges back did not move the degree or personalized PageRank floors on that track. That measurement bounds the anatomy exclusion only; it does not bound the value of source relations that were not tested in either form.
+
+An earlier graph build contained a filtering error and was discarded in full; no result obtained on it is reported. Every number in this paper comes from the corrected graph of 1,431,945 edges, in which the retained disease-phenotype variant (the KEEP configuration) was selected by the ablation described in Section~\ref{sec:results-feasibility}.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Data and evaluation design summary.}
+\label{tab:data}
+\begin{tabularx}{\textwidth}{@{}L r L@{}}
+\toprule
+\textbf{Item} & \textbf{Count} & \textbf{Note} \\
+\midrule
+Source graph (OptimusKG) & 190,531 nodes; 21,813,816 edges & Version 2.0 \\
+Background graph & 1,431,945 edges & Frozen for all reported runs \\
+Disease-gene supervision pool & 191,953 associations & 678 diseases \\
+Candidate gene universe & 17,448 genes & Fixed across all evaluations \\
+LODO roster & 29 units & 13 primary, 5 secondary-evidence, 11 secondary low-context \\
+Completion diseases & 2 & Parkinson disease; Alzheimer disease \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Leave-one-disease-out benchmark}
+
+The evaluation roster was frozen before training and comprised 29 disease units: 13 primary diseases, 5 secondary-evidence units, and 11 secondary low-context units. Disease families were defined in advance so that clusters of closely related diseases were treated as single units. For each unit, the withheld cluster included the target disease, its ontology ancestors (9 to 45 nodes), and its sibling diseases (5 to 185 nodes); every disease-gene association touching the cluster was removed from supervision. For primary units, the remaining training supervision ranged from 39,274 to 85,648 associations, and the held-out test sets ranged from 52 to 730 associations (Supplementary Table~S1). Each unit was graded only on its own node's withheld associations; the associations of cluster mates were removed from training but were not part of that unit's test set. Test positives are association records as aggregated in the supervision source, which combines curated, text-mined, and inferred gene-disease links \cite{pineiro2020}; they are not validated causal genes. A monogenic disease can therefore contribute hundreds of test records (730 for Werner syndrome, whose causal gene is \textit{WRN}), most of which are not causal assignments. The endpoint throughout is recovery of recorded disease-associated genes, and no claim in this paper grades causal mediation of a specific locus or variant. Held-out associations were divided into validation (15\%) and test (85\%) sets by evidence group, with reciprocal duplicate associations assigned to the same partition, and disjointness between training, validation, and test associations was asserted programmatically.
+
+Two features of this design require explicit statement. First, withholding removes direct disease-gene labels for the cluster; it does not remove indirect structure. The target disease retains its phenotype edges, each phenotype retains its gene edges, and a substantial fraction of test positives (41.7\% to 94.2\% across primary units) lie within two background-graph hops of the target disease. The benchmark therefore does not test prediction in the absence of graph shortcuts; it tests whether learned path-based transfer adds signal beyond degree and diffusion baselines on the same shortcut-rich graph. Second, the model issues a ranking for a disease node it has never seen associated with any gene, which is the LODO estimand; performance here is expected to be far below random-split performance and the two are not comparable.
+
+\subsection{Model and training}
+
+The model was BioPathNet \cite{hu2026}, a path-based graph neural network built on the Neural Bellman-Ford Network formulation \cite{zhu2021}. Node representations are query-conditioned: at the first layer, the source disease node receives the learned embedding of the association relation and all other nodes start at zero, after which relation-specific messages propagate through six layers. Messages use the DistMult operator \cite{yang2015}; aggregation uses principal neighbourhood aggregation, combining mean, maximum, minimum, and standard deviation \cite{corso2020}. The configuration used throughout had input and hidden dimensions of 32 in all six layers, layer normalization, residual shortcuts, a two-layer scoring network, binary cross-entropy loss for the LODO benchmark with the upstream configuration's loss margin of 6, and 64 negatives per positive with strict negative filtering, in which candidate negatives are drawn only from genes that are not positives for the same disease and relation in the training graph, so withheld associations, which are absent from that graph, neither enter training as positives nor are excluded from the candidate pool by the filter. Optimization used Adam \cite{kingma2015} at a learning rate of $10^{-3}$. Filtered ranking was used for evaluation, with all known positives other than the target association removed from the candidate list before ranking.
+
+The message-passing graph for each unit was the union of the background graph (which contains no disease-gene edges) and that unit's training supervision, following the BioPathNet training procedure \cite{hu2026}; withheld cluster associations appear in neither component. Training for each LODO unit was a single full pass over that unit's supervision. Batch size 32 (with gradient accumulation to an effective batch of 128 or 256 where required) was selected by the feasibility measurements of Section~\ref{sec:results-feasibility}: larger batches exceeded the 48 GB memory of the accelerator used. The one-pass choice requires an explicit caveat. A second pass was evaluated in the design ablation only on the DROP graph configuration, never on the KEEP configuration used for all reported results, and its effects were mixed across probes: flat for Werner syndrome, worse on test and better on validation for renal cysts and diabetes syndrome, and better on both for Hutchinson-Gilford progeria syndrome. One pass was frozen as a compute and generalization decision after those probe results were seen. Whether additional passes on the KEEP graph would change the benchmark outcome is therefore an open question, and all LODO conclusions are stated for the one-pass regime. Primary LODO results are reported for three seeds (1337, 1339, 5027); secondary units were run with one seed and are interpreted accordingly.
+
+\subsection{Baselines and negative controls}
+
+Three baselines were computed on the identical training graph (background plus training supervision) for each unit. The degree baseline scores each candidate gene by its total degree in that graph, counting all relations. The personalized PageRank baseline \cite{page1999} runs power iteration on the undirected, unweighted, symmetric-normalized adjacency of the same graph, with restart probability 0.15 at the target disease, 100 iterations, and tolerance $10^{-6}$. Degree captures popularity and PageRank captures local diffusion, which are the two signal classes a method must exceed to claim learned transfer on this graph. A degree-matched resampling null (100 resamples) estimates the score distribution obtainable from degree structure alone. The primary comparison for each unit is against the best of the degree and PageRank nulls. That best null is an oracle: it is selected per unit using that unit's test outcomes, so it is a conservative reference rather than a single deployable comparator; the degree and PageRank values are reported separately for every unit in the supplementary tables and the released baseline files.
+
+The negative control was a label shuffle. Disease-gene associations were permuted in two ways: across diseases, preserving each gene's supervision degree exactly (and not the disease degrees), and within diseases, preserving each disease's supervision degree exactly (and not the gene degrees). Neither shuffle preserves both margins. Shuffles were applied to three probe diseases (Werner syndrome, Hutchinson-Gilford progeria syndrome, and renal cysts and diabetes syndrome), were constructed to be disjoint from validation and test associations, and were evaluated with the identical pipeline. The pre-registered acceptance criterion was that shuffled performance must collapse toward the null band (a reduction of 58\% to 89\% was observed, Section~\ref{sec:results-shuffle}); had it not, the benchmark would have been halted and the leakage investigated before any result was reported.
+
+\subsection{Statistical analysis}
+
+The primary endpoint was filtered mean reciprocal rank (MRR) on the test partition; Hits at $k$ for $k \in \{1, 3, 10, 20, 50, 100\}$ and mean rank were secondary. Exact ranking was verified against a streaming implementation to nine decimal places on a probe unit. Model and best-null MRRs were compared across units with an exact Wilcoxon signed-rank test \cite{wilcoxon1945}, enumerating all $2^{13}$ sign assignments for the 13 primary units. Uncertainty in the mean was estimated with a hierarchical bias-corrected and accelerated bootstrap \cite{efron1987} over disease clusters (1,000 resamples). A cluster-label permutation test, reported in the reproduction log, permutes unit results across the six disease clusters and tests whether cluster assignment explains the differences; it tests a different null hypothesis from the paired Wilcoxon test and is not a second test of the mean difference, so it is not quoted alongside the Wilcoxon result in the Results. Because units within a cluster share withheld sets and training data, a cluster-level sensitivity analysis (per-cluster mean differences, $n = 6$) is also reported. One-seed results are reported as directional only; inferential statements rest on the three-seed primary analysis.
+
+For the secondary units we report the Wilcoxon value recomputed from the archived full-precision per-unit results under the same per-unit best-null comparison as the primary analysis, $p = 0.065$; recomputing from the rounded values printed in Supplementary Table~S2 gives the same value. An earlier project-record value for this statistic could not be reproduced from the archived inputs and is not used; the discrepancy is documented in the released reproduction log.
+
+\subsection{Pathway-level analysis}
+
+The pathway analysis asked whether weak gene-level rankings aggregate into pathway-level signal. For each of two probe diseases, gradient-weighted reasoning paths were extracted for the model's top 100 genes (10 paths per gene, at most 6 hops), following the path-interpretation procedure distributed with BioPathNet \cite{hu2026}, which descends from explanation methods for graph networks \cite{ying2019,sundararajan2017}; we note the standard caution that attention-like weights are not, by themselves, explanations \cite{jain2019}. Paths were mapped to Gene Ontology terms and Reactome pathways, scored by summed path weight divided by the logarithm of the pathway node's background-graph degree (a degree-penalized aggregation in the spirit of the Hetionet degree-weighted path count \cite{himmelstein2017}), and filtered to pathways supported by at least five paths. The endpoint was pathway Recall at 10 against pathways enriched among held-out test genes, compared with a degree null and with a hypergeometric over-representation baseline in the style of gene set enrichment analysis \cite{subramanian2005}. Gene sets were taken from the Molecular Signatures Database \cite{liberzon2015}; the hallmarks of aging collection \cite{lopezotin2013,lopezotin2023} was scored and reported separately from the primary endpoint. Sensitivity analyses at 50, 100, and 200 input genes and a faithfulness control (masking the top paths) were pre-registered.
+
+An exploratory anchored variant, which restricted candidate pathways to those directly annotated to the top-ranked genes, was evaluated against a topology null (support divided by log degree over the identical candidate set). Because the anchored variant does not use the model's learned weights in the same way, it is reported as exploratory and non-confirmatory throughout.
+
+\subsection{Seen-disease completion benchmark}
+
+The completion benchmark used the same model and background graph on two diseases, Parkinson disease (MONDO:0005180) and Alzheimer disease (MONDO:0004975). For each disease, a fraction of its disease-gene associations was withheld as a hidden test set (339 associations for Parkinson disease; 621 for Alzheimer disease), and the remainder of its profile, together with all other diseases' supervision, was available in training. Training used a listwise softmax loss over the filtered candidate set: for each training query, the loss is the negative log probability of the held-out positive under a softmax over the scores of all candidate genes in the 17,448-gene universe, with known positives other than the target masked out, $\mathcal{L} = -\log \exp(s_{+}) / \sum_{j} \exp(s_{j})$. A controlled comparison on identical batches had shown this objective to dominate the multi-hot binary cross-entropy objective on training-window MRR and step time. One epoch was trained per disease (batch size 100); hourly validation MRR during the Parkinson epoch fluctuated within a narrow band (0.0146 to 0.0202) with no monotone trend, which was taken as a plateau, although a single epoch cannot establish convergence. The supervision-only counting null used for comparison scores a candidate gene $g$ for target disease $d^{*}$ by $\mathrm{Score}(d^{*}, g) = \sum_{d' \in D(g)} |G_{d^{*}} \cap \mathrm{genes}(d')|$, where $D(g)$ is the set of diseases with a training association to $g$, $\mathrm{genes}(d')$ is the training gene set of $d'$, and $G_{d^{*}}$ is the training gene set of the target disease; it uses training supervision only, with no background graph and no learned weights. The degree floor is the degree baseline of Section 2.5 applied to the completion training graph. The hidden test set was scored exactly once per checkpoint, on CPU, under the same filtered protocol. One seed was run per disease; the limits this imposes are addressed in the Discussion.
+
+Two add-on analyses were pre-registered. A two-stage re-ranking analysis asked whether restricting candidates to Open Targets association panels at depths of 100, 200, and 500 improved Hits at 10 over the counting null. A retrospective temporal holdout used GWAS Catalog associations \cite{sollis2023} stamped by year, with a 2020 cutoff: associations first reported after 2020 (first report of the gene for any trait in the Catalog extract) formed the holdout set. This is a temporal label holdout, not a fully prospective evaluation, because the background graph and annotations are the current frozen versions and were not restricted to information available by 2020. The counting null was scored under pre-cutoff counting on all post-cutoff genes (82 for Parkinson disease; 1,086 for Alzheimer disease), while the model was scored on the subset of post-cutoff genes that were absent from its training and validation supervision (29 genes for Parkinson disease; 239 for Alzheimer disease). The two populations differ, so the null and model numbers in this analysis are reported side by side as descriptive near-zero recovery, not as a paired comparison.
+
+\subsection{Locus-level comparison with Open Targets L2G}
+
+The locus-level comparison graded the completion model against the Open Targets L2G model \cite{mountjoy2021} on genome-wide association study (GWAS) loci, using the Open Targets Genetics resource \cite{ghoussaini2021,ochoa2021}. For each locus with at least two candidate genes and at least one known associated gene, each method was scored on whether a known gene was ranked first (top-1) or in the top five. Candidate sets were identical for both methods at every locus, ties were broken pessimistically in every arm, and loci that Open Targets does not cover were counted as L2G misses in the primary view (in the Parkinson test-knowns panel, L2G covered 9 of the 10 loci). The graded label requires a precise statement. A ``known gene'' here is a gene with a recorded association to the disease in the supervision resource that happens to lie inside the locus candidate window. The label supports gene-disease association; it does not, by itself, assign that gene to the specific GWAS signal or establish that the gene mediates the signal. This analysis therefore measures recovery of known disease-associated genes within GWAS candidate sets. It does not grade causal locus-to-gene resolution, which is the quantity L2G was built to estimate \cite{mountjoy2021} and which the unrun functional-gold test below was designed to approach. The comparison is also asymmetric by design: L2G uses variant-level inputs, including distance and fine-mapping evidence, that the graph model does not receive. The comparison is used here to expose dependence on training supervision, not as a like-for-like contest of locus resolution. The decisive design feature is the split of known genes into two panels. In the train-knowns panel, the graded known genes were present in the model's training supervision for that disease, so a high score is compatible with memorization. In the test-knowns panel, the graded known genes were the disease's own hidden-test associations: absent from the model's training and validation supervision for that disease, though a gene could still appear in supervision for other diseases. The panel therefore measures generalization to genes unseen for the target disease. The two panels were constructed independently over the same locus set, so a locus containing both classes of known gene contributes to both panels, graded in each on the genes of that class. A uniform gene-pick chance control (100 draws per locus) accompanied both panels. Differences between the model and L2G were estimated with a locus-blocked bootstrap (1,000 resamples); a difference was called a win or a loss when its magnitude exceeded 0.05 with a 95\% confidence interval excluding zero, and a tie otherwise.
+
+A functional-gold test was pre-registered as the final arbiter of per-locus discovery: loci whose only support was a strict protein-altering variant consequence predicted by the Ensembl Variant Effect Predictor \cite{mclaren2016}, pooled across both diseases, with a power rule requiring at least 15 qualifying novel loci before the test would be run at all.
+
+\subsection{Tabular and functional-evidence controls}
+
+The tabular control asked whether conventional features, with no graph, match the graph model's external comparator. Gradient-boosted trees (LightGBM \cite{ke2017} and XGBoost \cite{chen2016}) were trained on per-gene locus features over the Open Targets gold-standard loci and the FLAMES loci \cite{schipper2025}, under cross-validation, a temporal view, and a covered-subset view restricted to the 491 loci that Open Targets scores (the fair comparison, since Open Targets by construction misses loci outside its coverage). The reported tabular result uses the final leakage-controlled feature set, in which features were restricted to information available without the test loci's outcomes. Its seven features are: distance from the lead variant to the gene transcription start site (kb), total graph degree of the gene, disease-gene degree of the gene, predicted variant-effect severity, phenotype degree, Gene Ontology degree, and the gene's personalized PageRank score. The internal version label for this set is not used in this paper; earlier feature iterations performed differently (the first iteration lost to Open Targets), and the distinction is material, so the features are listed in full. The FLAMES replication re-ran the shipped FLAMES model on its own loci and compared it with Open Targets on the top-1 metric.
+
+The functional-evidence control asked whether adding public functional data to a fresh tabular model closes the gap to Open Targets. The base model was rebuilt with fresh features, excluding all features derived from the current graph and all Open Targets scores, and evaluated with chromosome-blocked and gene-blocked folds. Five pre-registered evidence tracks were then added one at a time and jointly: fine-mapping posterior overlaps, ClinVar annotations \cite{landrum2018}, candidate cis-regulatory elements from ENCODE \cite{encode2020}, expression quantitative trait locus overlaps from GTEx \cite{gtex2020}, and phenotype-ontology features under a pre-registered model-selection rule. The deciding metric was the covered precision-recall area under the curve (PR AUC) difference against Open Targets L2G, with locus-blocked bootstrap intervals.
+
+\section{Results}
+
+\subsection{Feasibility and design ablation}
+\label{sec:results-feasibility}
+
+A full pass over the 1,431,945-edge background graph was computationally feasible but memory-bound. On a 48 GB accelerator, batch sizes from 64 to 300 exhausted memory; batch size 32 fit in 29.28 GB and processed one pass in 97.8 minutes. A pre-registered ablation on the three probe diseases selected the remaining design choices (Table~\ref{tab:ablation}). Retaining disease-phenotype edges in the background graph (the KEEP configuration) improved test MRR relative to the dropping variants by a mean of 73.2\% across the three probes (the mean of the per-unit relative gains: +88.7\%, +82.9\%, and +47.9\%); this selection used probe test outcomes, as disclosed in the study design. The ablation's test values were produced on the design-stage data exports and differ from the main benchmark's re-exported runs for the same diseases and the same nominal configuration (for example, Werner syndrome 0.00653 in the ablation against 0.00788 in Supplementary Table~S1); the ablation was used only to select the configuration, and all reported benchmark results come from the frozen exports. A second training pass, evaluated only on the DROP configuration, was mixed (flat for Werner syndrome on test and validation; better on both for Hutchinson-Gilford progeria syndrome; better on validation and worse on test for renal cysts and diabetes syndrome), and the unweighted loss was retained as primary. No second-pass run on the KEEP configuration exists, so the one-pass regime is a disclosed limitation of the benchmark rather than a validated optimum. Two in-study checks show that the implementation does fit supervision when supervision is present: in the completion track the same model exceeded the degree floor by about 2.3 times on MRR, and in the locus comparison it recovered training-supervised known genes at top-1 rates of 0.904 and 0.954. The negative results below are therefore not explained by a pipeline that cannot learn supervised associations at all, although they remain conditional on the training regime used. No random-split control on this graph was run: the published BioPathNet results come from different tasks, graphs, and splits, and the in-study checks above bound the implementation explanation without substituting for that control, which remains the most direct test that the pipeline reproduces conventional interpolation-regime performance on this graph.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Design ablation on three probe diseases (one seed). Values are test MRR.}
+\label{tab:ablation}
+\begin{tabularx}{\textwidth}{@{}L r r r r@{}}
+\toprule
+\textbf{Probe disease} & \textbf{Drop, pass 1} & \textbf{Drop, pass 2} & \textbf{Keep, pass 1} & \textbf{Drop, capped} \\
+\midrule
+Werner syndrome & 0.00346 & 0.00347 & \textbf{0.00653} & 0.00444 \\
+Hutchinson-Gilford progeria & 0.00555 & 0.01230 & \textbf{0.01015} & 0.00621 \\
+Renal cysts and diabetes & 0.00629 & 0.00425 & \textbf{0.00930} & 0.01056 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Leave-one-disease-out: primary diseases}
+
+Across the 13 primary diseases, the model's three-seed mean test MRR was 0.00775 (per-seed means from 0.00754 to 0.00796; hierarchical BCa 95\% confidence interval for the mean, 0.00548 to 0.01101). For scale, a uniformly random ranking of 17,448 genes has an expected reciprocal rank of about 0.00059, so the model's mean was roughly 13 times the random-ranking expectation while remaining low in absolute terms. The model beat the best same-graph null in 6 of 13 units. The exact Wilcoxon signed-rank comparison against the per-unit best null was not significant ($p = 0.340$). The comparison should be read in the nulls' favor on the point estimate: the mean of the per-unit best nulls was 0.00862 against the model's 0.00775, a mean paired difference of $-$0.00087 (unit-level bootstrap 95\% confidence interval $-$0.00241 to +0.00060; cluster-level bootstrap $-$0.00225 to +0.00006). Any true advantage of the model over the per-unit best null is therefore smaller than about +0.0006 MRR at 95\% confidence, roughly 8\% of the model's own mean; the result is a bounded absence of advantage, not merely a failure to reject. Two sensitivity analyses, computed from the archived per-unit results, agreed. Excluding the three development probes gave $p = 0.375$ ($n = 10$). Aggregating to the six independent disease clusters (per-cluster mean model-minus-null differences, negative in five of six clusters) gave an exact Wilcoxon $p = 0.094$ ($n = 6$). The one-seed analysis was consistent (mean MRR 0.00781; $p = 0.376$). Per-unit results are given in Supplementary Table~S1.
+
+A pre-registered triviality audit qualifies this result. Between 41.7\% and 94.2\% of each primary unit's test positives lie within two background-graph hops of the target disease, through phenotype and annotation paths that the design deliberately retains. Under the audit's literal decision rule, every primary unit is flagged as shortcut-rich, leaving too few unflagged units for a filtered primary analysis. We therefore report the all-unit analysis as primary and treat the audit as a bound on interpretation: the benchmark measures whether learned transfer beats popularity and diffusion on a graph where short indirect paths exist, and on that question the answer is negative.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Primary leave-one-disease-out results (13 diseases). The paired difference is the per-unit model MRR minus the per-unit best-null MRR, averaged over units, with a unit-level bootstrap 95\% confidence interval (20,000 resamples). The point estimate favors the null in both rows.}
+\label{tab:lodo}
+\begin{tabularx}{\textwidth}{@{}L r r r r r@{}}
+\toprule
+\textbf{Analysis} & \textbf{Model} & \textbf{Best null} & \textbf{Mean paired diff.} & \textbf{Units beating null} & \textbf{Wilcoxon $p$} \\
+\midrule
+One seed (1337) & 0.00781 & 0.00862 & $-$0.00081 [$-$0.00243, +0.00075] & 6 of 13 & 0.376 \\
+Three seeds & 0.00775 & 0.00862 & $-$0.00087 [$-$0.00241, +0.00060] & 6 of 13 & 0.340 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{SINA_fig1.pdf}
+\caption{Benchmark design and the train-known versus test-known contrast. (A) In the leave-one-disease-out design, the target disease cluster is withheld from supervision while the background graph, including short disease-phenotype-gene paths, is retained; the model is compared with degree and diffusion nulls on the identical graph. (B) Per-locus top-1 recovery of known genes, split by whether the graded genes were present in the model's training supervision (train-knowns) or absent from it (test-knowns).}
+\label{fig:summary}
+\end{figure}
+
+\subsection{Leave-one-disease-out: secondary units}
+
+The 16 secondary units (one seed) gave a mean test MRR of 0.00917 and a median of 0.00506. Four of the 16 units beat their best null. The highest-scoring unit, maturity-onset diabetes of the young (MRR 0.04142), still scored below its own personalized PageRank null (0.0799). The exact Wilcoxon comparison against the per-unit best null, recomputed from the archived per-unit results as described in the statistical methods, was not significant ($p = 0.065$, borderline and uncorrected). The secondary units therefore support the primary conclusion: no reliable advantage over same-graph nulls. Per-unit results are given in Supplementary Table~S2.
+
+\subsection{Shuffle controls}
+\label{sec:results-shuffle}
+
+Both degree-preserving shuffles collapsed performance on all three probe diseases (Table~\ref{tab:shuffle}). Across-disease shuffling reduced MRR by 58.1\% to 83.8\%, and within-disease shuffling reduced it by 69.8\% to 88.9\%. Hits at 10 fell to between 0.00\% and 0.27\% of test associations. The residual signal in the unshuffled runs therefore depends on the true disease-gene pairing and is not an artifact of degree structure or of the evaluation pipeline. This control validates the pairing dependence of the measurement; it does not, by itself, exclude the indirect-path shortcuts discussed above.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Degree-preserving label shuffles on three probe diseases.}
+\label{tab:shuffle}
+\begin{tabularx}{\textwidth}{@{}L L r r r@{}}
+\toprule
+\textbf{Probe disease} & \textbf{Shuffle} & \textbf{Shuffled MRR} & \textbf{True MRR} & \textbf{Change} \\
+\midrule
+Werner syndrome & Across diseases & 0.00157 & 0.00788 & $-$80.1\% \\
+Werner syndrome & Within disease & 0.00238 & 0.00788 & $-$69.8\% \\
+Hutchinson-Gilford progeria & Across diseases & 0.00149 & 0.00918 & $-$83.8\% \\
+Hutchinson-Gilford progeria & Within disease & 0.00192 & 0.00918 & $-$79.1\% \\
+Renal cysts and diabetes & Across diseases & 0.00340 & 0.00811 & $-$58.1\% \\
+Renal cysts and diabetes & Within disease & 0.00090 & 0.00811 & $-$88.9\% \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Pathway-level analysis}
+
+The frozen pathway endpoint was zero, and the correct description of that result is an extraction failure, not a measurement of pathway ranking quality. The funnel was as follows. The reference sets contained 2,085 pathways with at least three test genes (Werner syndrome) and 1,459 (Hutchinson-Gilford progeria syndrome). The prespecified gradient-weighted extraction returned no qualifying pathway above the support threshold for either probe, so the scored candidate list was empty and Pathway Recall at 10 was 0.0 at every pre-registered input size (50, 100, and 200 genes), against 0.0069 for the degree null and 0.0027 for the over-representation baseline. The faithfulness control could not be applied to an empty extraction. An empty extraction does not distinguish absent pathway signal in the model from an extraction procedure whose unconstrained top paths bypass ontology nodes, which is what the released funnel reports document. The exploratory anchored variant tied its topology null (Werner syndrome, 0.0043 against 0.0043, top-10 Jaccard 0.82; Hutchinson-Gilford progeria, 0.0069 against 0.0062, Jaccard 0.54), and its scores barely moved under the within-disease shuffle (0.0069 to 0.0062) that collapsed gene-level performance, which identifies the anchored ranking as a product of graph topology rather than learned signal. No pathway-recovery claim is made.
+
+\subsection{Seen-disease completion}
+
+In the completion benchmark (Table~\ref{tab:completion}), the model's test MRR exceeded the degree floor in both diseases and exceeded the supervision-only counting null in point estimate (by 27\% in Parkinson disease and 9\% in Alzheimer disease). On Hits at 10, however, the model and the counting null recovered exactly the same number of test associations in both diseases (10 of 339 and 10 of 621), and in Alzheimer disease the confidence intervals for the model overlapped both the floor and the null. Ablations of the training configuration (expression-edge inclusion, loss function, hidden width 32 or 64, batch size 32 or 100) all converged to the same disease-specific plateau, and two-stage re-ranking against Open Targets panels did not improve Hits at 10 at any panel depth. On Hits at 10 the completion result is an exact tie with counting (identical recovered counts in both diseases); on MRR the model's point estimates were higher, with intervals that overlap the null, so no statistically resolved MRR advantage is claimed. The ablations varied the configuration of one model family, and the plateau statement applies to that family as configured here.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Seen-disease completion results (one seed, one epoch). Intervals are bootstrap 95\% confidence intervals.}
+\label{tab:completion}
+\begin{tabularx}{\textwidth}{@{}L r >{\Centering\arraybackslash}p{3.1cm} r r r@{}}
+\toprule
+\textbf{Disease} & \textbf{Test $n$} & \textbf{Model MRR [95\% CI]} & \textbf{Hits at 10} & \textbf{Degree floor MRR} & \textbf{Counting null MRR} \\
+\midrule
+Parkinson disease & 339 & 0.01887\newline [0.01297, 0.02704] & 0.02950 & 0.00818 & 0.01484 \\
+Alzheimer disease & 621 & 0.01061\newline [0.00735, 0.01506] & 0.01610 & 0.00909 & 0.00975 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Locus-level comparison with Open Targets L2G}
+
+The two panels of the locus-level comparison gave opposite verdicts (Table~\ref{tab:h2h}). On known genes that were present in the model's training supervision, the model's top-1 recovery was 0.904 in Parkinson disease and 0.954 in Alzheimer disease, exceeding Open Targets L2G by 0.289 and 0.418 respectively, with confidence intervals excluding zero. On known genes absent from training supervision for the target disease, the model scored 0.300 against 0.600 for L2G in Parkinson disease and 0.161 against 0.226 in Alzheimer disease. The Parkinson panel has only 10 loci: for margins of 3 of 10 against 6 of 10, an exact McNemar test cannot reach significance under any possible overlap of the two methods' successes (two-sided $p$ between 0.25 and 0.51), so despite the pre-registered bootstrap rule the Parkinson test-knowns panel is reported as descriptive, with a lower point estimate for the model. The Alzheimer panel showed no statistically resolved difference, with an interval wide enough to include a substantial loss. Both test-knowns scores also fell below their own chance-draw means (0.330 and 0.328). One alternative explanation was tested directly. If test-known genes scored poorly merely because they are low-degree, weakly connected nodes, the inversion would be a connectivity artifact rather than a supervision effect. A rescore of both panels from the committed checkpoints, retaining per-gene model scores and training-graph degrees, reproduced all four committed top-1 rates exactly (0.904, 0.954, 0.300, 0.161) and rejects that explanation: test-known genes are not low-degree. Their median training-graph degree was 131 in Parkinson disease (candidate-universe median 76; train-known median 110.5), with no graded gene in the bottom degree decile and none lacking disease supervision for some disease; in Alzheimer disease the median was 96.5 (universe median 75; train-known median 103.0), with 15.8\% of graded genes in the bottom decile and 18.4\% lacking disease supervision for any disease. Splitting loci at the median locus degree, the Alzheimer test-knowns rate remained below its chance-draw mean in the high-degree stratum (0.250 against 0.328, 16 loci), while the Parkinson strata are too small to resolve (five loci per half). The remaining qualification is asymmetry: the unseen-ness condition binds the two methods differently, because L2G was developed and validated against Open Targets gold standards that plausibly include loci of the kind graded here, whereas the graph model is graded on genes withheld from its own supervision. Read together, the model's per-locus advantage exists only over genes it was trained on; on unseen known genes its ranking carried no detectable signal in this comparison. The train-knowns numbers are recovery of supervision and are reported only with that qualifier.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Locus-level head-to-head against Open Targets L2G. Intervals are locus-blocked bootstrap 95\% confidence intervals for the paired difference.}
+\label{tab:h2h}
+\begin{tabularx}{\textwidth}{@{}L L r r r r@{}}
+\toprule
+\textbf{Panel} & \textbf{Disease} & \textbf{$n$ loci} & \textbf{Model top-1} & \textbf{L2G top-1} & \textbf{Difference [95\% CI]} \\
+\midrule
+Train-knowns & Parkinson & 52 & 0.9038 & 0.6154 & $+$0.2885 [0.1731, 0.4231] \\
+Train-knowns & Alzheimer & 239 & 0.9540 & 0.5356 & $+$0.4184 [0.3515, 0.4896] \\
+Test-knowns & Parkinson & 10 & 0.300 & 0.600 & $-$0.300 [$-$0.600, $-$0.100] \\
+Test-knowns & Alzheimer & 31 & 0.1613 & 0.2258 & $-$0.0645 [$-$0.2581, 0.1290] \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Temporal holdout and functional-gold tests}
+
+Recovery in the retrospective temporal holdout was near zero by every measure, and the analysis is exploratory. The counting null, scored under pre-cutoff counting on all post-2020 genes, recovered none of them (0 of 82 genes in Parkinson disease; 0 of 1,086 in Alzheimer disease), which is expected structurally, because a counting score built from pre-cutoff supervision is zero or near zero for genes with no pre-cutoff links. The model, scored on the different and smaller subset of post-cutoff genes that were clean of its training and validation supervision, reached MRR 0.00373 with Hits at 10 of 0 of 29 in Parkinson disease, and MRR 0.00300 with Hits at 10 of 2 of 239 in Alzheimer disease. Because the two evaluations cover different gene populations and the background graph was not restricted to pre-2021 information, no paired claim is made from this comparison; the descriptive finding is that absolute recovery of post-2020 associations was near zero in both.
+
+The pre-registered functional-gold test was not run. Pooling both diseases, only 2 novel loci met the strict variant-consequence criteria, against the 15 required by the power rule. The per-locus causal question is therefore indeterminate in this study, not answered negatively; individual loci below the power threshold were recorded but are not interpreted as evidence.
+
+\subsection{Tabular control and FLAMES replication}
+
+On the 491 Open Targets-covered loci, the tabular model using the v3 feature set reached a top-1 rate of 0.5927 (95\% CI 0.5540 to 0.6314) against 0.5866 (0.5397 to 0.6273) for Open Targets, a paired difference of $+$0.006 (95\% CI $-$0.039 to $+$0.053): no statistically resolved difference, within the pre-registered $\pm$0.05 equivalence band, achieved with no graph information, on a panel where Open Targets additionally benefits from having been developed against these gold-standard loci. Against the nearest-gene distance baseline (0.5356), the tabular model won by $+$0.057 (95\% CI $+$0.014 to $+$0.104), the one significant margin over a floor in the control experiments. The full-set comparison was not interpreted, because Open Targets does not score 1,326 of the loci and the resulting difference is a coverage artifact. A pre-registered temporal view could not be evaluated: the gold-standard positives contain no post-2020 loci.
+
+In the FLAMES replication, the shipped model's raw gradient-boosting component scored below Open Targets on top-1 (0.602 against 0.689; difference $-$0.087, 95\% CI $-$0.165 to $-$0.010; $n = 103$), and the full FLAMES pipeline showed no significant top-1 advantage (differences of $+$0.058, 95\% CI $-$0.019 to $+$0.136 at $n = 103$, and $+$0.064, 95\% CI 0.000 to $+$0.129 at $n = 140$). This reanalysis addresses the top-1 metric only; it does not evaluate FLAMES on the metrics emphasized in its original report \cite{schipper2025}.
+
+\subsection{Functional-evidence tracks}
+
+No functional-evidence track approached Open Targets (Table~\ref{tab:m5b}). The best arm, all five tracks combined, reached a covered PR AUC of 0.300 against 0.4767 for Open Targets L2G, a difference of $-$0.174 (95\% CI $-$0.225 to $-$0.126). ClinVar was the only track with a measurable gain over the base model ($+$0.024 PR AUC); fine-mapping, regulatory-element, and expression quantitative trait locus tracks each added approximately nothing, the last with only 1.4\% row coverage under exact variant matching. The phenotype-ontology arm was discarded under its pre-registered selection rule. Adding public functional evidence to a fresh tabular model did not close the gap to Open Targets on this task. This is a finding about the five implemented feature tracks, not about functional evidence in principle: the expression quantitative trait locus track, for example, used exact variant matching with only 1.4\% row coverage, which differs materially from the fine-mapping and colocalization-weighted evidence integrated by L2G.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Functional-evidence tracks against Open Targets L2G (covered PR AUC 0.4767, $n = 491$).}
+\label{tab:m5b}
+\begin{tabularx}{\textwidth}{@{}L r r@{}}
+\toprule
+\textbf{Arm} & \textbf{PR AUC} & \textbf{Difference vs L2G [95\% CI]} \\
+\midrule
+Base model (fresh features) & 0.253 & $-$0.222 [$-$0.271, $-$0.176] \\
+Plus fine-mapping overlaps & 0.253 & $-$0.222 \\
+Plus ClinVar & 0.276 & $-$0.198 \\
+Plus regulatory elements & 0.250 & $-$0.225 \\
+Plus eQTL overlaps & 0.253 & $-$0.221 \\
+All five tracks & 0.300 & $-$0.174 [$-$0.225, $-$0.126] \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Discussion}
+
+The central finding is a bounded negative. A path-based graph neural network, evaluated under a leave-one-disease-out design with same-graph nulls and degree-preserving shuffle controls, did not recover disease-associated genes for unseen diseases better than degree and diffusion baselines. The same model family, evaluated in the easier seen-disease completion setting, beat a degree floor but tied a counting null on recovered associations, showed near-zero prospective recovery, and lost or tied an external comparison exactly where that comparison was leakage-controlled. Four evaluation designs point the same way, which is what makes the negative informative rather than merely null; they are not fully independent, because they share the graph, the supervision resource, and the model family.
+
+The contrast with the published record is a contrast of estimands, not of implementations. BioPathNet reported MRR 0.547 for its gene function annotation task, a KEGG annotation reconstruction evaluated under random splits with a regulatory background graph, and it also reported zero-shot disease-drug prediction under disease-area splits \cite{hu2026}; neither design evaluates disease-held-out recovery of disease-associated genes on OptimusKG. The model configuration here follows that work, including its query-conditioned encoding and aggregation, and applies it to the harder split. Hiding 10\% of edges leaves 90\% of a disease's profile available to memorize; hiding the disease tests whether anything transfers. Random-split and disease-held-out benchmarks estimate different quantities, and neither invalidates the other; the error this paper targets is quoting one as if it were the other. Benchmarks for graph learning in biomedicine should state which of these quantities they estimate, and claims about unseen-disease or unseen-gene performance should be required to use splits that withhold the relevant entity, as the test-knowns panel does here.
+
+The train-knowns and test-knowns contrast is, in our view, the result most likely to outlast this particular benchmark. A top-1 recovery rate above 0.90 looks like a solved problem until the graded genes are restricted to those absent from training, at which point the same model falls below a chance-draw mean. Any per-locus or per-association evaluation in which the graded positives can appear in training supervision is exposed to the same inversion, whether the model is a graph network, a tabular model, or a literature-based ranker. Splitting knowns by their presence in training is cheap, and we suggest it should be a reporting standard for recovery claims.
+
+Three explanations of the negative result deserve separating. The first is a supervision ceiling: the curated disease-gene associations available as labels may simply not contain, in transferable form, the information needed to rank genes for a new disease, and every control that varied the learner while holding the supervision fixed (graph network, counting, tabular features, added functional tracks) landed at or below the same external bar. The second is model class: all graph results here come from one architecture family at one capacity, trained for one pass under a memory constraint; a different architecture, or full-graph training on all 21.8 million source edges, might do better, and the stack-invariance observed in the completion ablations is evidence about this configuration family rather than about graph learning in general. The third is graph construction: excluding the 8.8 million anatomy co-expression edges and trimming the source graph to a 1.43 million-edge background removed information that a fuller graph would carry, and the ablation shows the result is sensitive to such choices (retaining phenotype edges changed MRR by 73.2\%). The data assembled here discriminate against the first explanation least and against a naive capacity explanation most, but they do not decide among the three, and we do not claim otherwise.
+
+The graph reduction deserves separate emphasis, because it is the limitation a reader can most reasonably hold against the headline result. The gene-gene edges in the background graph (275,220) are the PrimeKG-derived interaction subset of OptimusKG, pinned to the candidate gene universe. The background graph retains ten relation families and excludes, among other source content, the 8.8 million anatomy-gene expression edges. Those edges are broad expression annotations rather than disease-specific co-expression modules, and the direct measurements available (near-constant coverage across candidate genes; unchanged degree and diffusion floors when they were added back on the completion track) suggest they were not the missing signal. But the fuller point stands: this study evaluates one reduced graph, built for feasibility, and a method that exploited the full source graph, or a sampled version of it, could in principle do better. The same applies to training length: the one-pass regime was never tested against a second pass on the KEEP graph, and the completion track ran one seed per disease. We regard rerunning the benchmark with graph sampling and multi-epoch, multi-seed training as the most valuable extension of this work, and the released benchmark is designed to make that extension a drop-in replacement of the model side.
+
+The study has limitations that qualify every conclusion. The LODO training used one pass per unit under a fixed memory budget, and the completion track used one seed and one epoch for each of two diseases, so seed-level variability for the completion claims is unmeasured. The secondary LODO units were run with one seed. The disease roster is enriched for Mendelian, progeroid, and diabetes and Alzheimer family clusters, chosen because their association counts support a powered test; transfer to common complex diseases with different association structure is not established. For the Mendelian end of the roster, dedicated clinical phenotype-prioritization tools are the established comparators in practice; they were not evaluated here, and the phenotype-diffusion null should not be read as a substitute for them. Only one architecture family was evaluated, so the benchmark has so far graded a single model, and claims about model classes in general are out of scope. The comparison against Open Targets is not fully independent, because the supervision in OptimusKG and the evidence integrated by Open Targets share upstream sources, and per-edge provenance is not annotated in the source graph, so residual circularity cannot be excluded in either direction. The Parkinson test-knowns panel is small ($n = 10$) and its interval is correspondingly wide, although the Alzheimer panel ($n = 31$) and the below-chance point estimates in both diseases support the same reading. Finally, the functional-gold test was underpowered by its own pre-registered rule and its question remains open.
+
+For future work, the benchmark suggests three priorities. Provenance-annotated knowledge graphs would let evaluators exclude shared-evidence circularity rather than disclose it. Prospective evaluation, in which predictions are frozen before the associations they predict are curated, should replace retrospective splits wherever the claim is discovery. And pathway-level methods need endpoints that cannot be satisfied by topology alone; the anchored variant's immunity to the label shuffle is a useful diagnostic for that failure mode in any aggregation method.
+
+\section{Conclusions}
+
+Across 13 primary disease units, under the graph construction, supervision, and one-pass training regime evaluated here, BioPathNet did not demonstrate a statistically significant improvement over a per-unit oracle combining degree and PageRank baselines. In two seen-disease analyses, high recovery of training-supervised genes did not extend to withheld known genes. These findings show the importance of distinguishing recovery of existing supervision from generalization, while leaving unresolved the relative contributions of supervision quality, model optimization, architecture, and graph construction. SINA's contribution is the evaluation that makes those statements checkable: frozen rosters, same-graph nulls, shuffle controls, a train-known versus test-known split, and a reproduction log in which every headline number in this paper was independently recomputed.
+
+\section*{Data availability}
+The source resources are public: OptimusKG (doi:10.7910/DVN/IYNGEV), PrimeKG (doi:10.7910/DVN/IXA7BM), and the Mondo Disease Ontology (doi:10.1101/2022.04.13.22273750). Reuse of the underlying data is governed by the terms of each source resource. No new primary data were generated. The frozen background graph (1,431,945 edges), the LODO roster and per-unit split files for all 29 units, and the completion-track split files are released with SHA-256 checksums in the benchmark repository (release data-rev4-2026-10-25); derived splits and edge lists only, with no raw source content.
+
+\section*{Code availability}
+The benchmark code, frozen configurations, per-unit result files, and the clean-machine reproduction log are available at \url{https://github.com/Abolfazl-Alipour/sina-benchmark}.
+
+\section*{Author contributions}
+A.A. conceived and designed the study, constructed the benchmark, performed the analyses, and wrote the manuscript.
+
+\section*{Competing interests}
+The author declares no competing interests.
+
+\begin{thebibliography}{99}
+\small
+
+\bibitem{vittor2026} Vittor L, Noori A, Arango I, Polonuer J, Rodriques S, White A, Clifton DA, Zitnik M. OptimusKG: unifying biomedical knowledge in a modern multimodal graph. \textit{Scientific Data}, 2026. Dataset doi:10.7910/DVN/IYNGEV.
+
+\bibitem{chandak2023} Chandak P, Huang K, Zitnik M. Building a knowledge graph to enable precision medicine. \textit{Scientific Data} 10:67, 2023. doi:10.1038/s41597-023-01960-3.
+
+\bibitem{menche2015} Menche J, Sharma A, Kitsak M, Ghiassian SD, Vidal M, Loscalzo J, Barab\'{a}si AL. Uncovering disease-disease relationships through the incomplete interactome. \textit{Science} 347:aaa9355, 2015. doi:10.1126/science.aaa9355.
+
+\bibitem{himmelstein2017} Himmelstein DS, Lizee A, Hessler C, Brueffer L, Chen SL, Baranzini SE, Greene CS. Systematic integration of biomedical knowledge prioritizes drugs for repurposing. \textit{eLife} 6:e26726, 2017. doi:10.7554/eLife.26726.
+
+\bibitem{hu2026} Hu EY, Oleshko S, Firmani S, Cheng H, Zhu Z, Ulmer M, Arnold M, Colom\'{e}-Tatch\'{e} M, Tang J, Xhonneux S, Marsico A. Enhancing link prediction in biomedical knowledge graphs with BioPathNet. \textit{Nature Biomedical Engineering} 10, 2026. doi:10.1038/s41551-025-01598-z.
+
+\bibitem{zhu2021} Zhu Z, Zhang Z, Xhonneux LP, Tang J. Neural Bellman-Ford networks: a general graph neural network framework for link prediction. \textit{Advances in Neural Information Processing Systems} 34, 2021.
+
+\bibitem{huang2024} Huang K, Chandak P, Wang Q, Havaldar S, Vaid A, Leskovec J, Nadkarni GN, Glicksberg BS, Gehlenborg N, Zitnik M. A foundation model for clinician-centered drug repurposing. \textit{Nature Medicine} 30, 2024. doi:10.1038/s41591-024-03233-x.
+
+\bibitem{ochoa2021} Ochoa D, Hercules A, Carmona M, et al. Open Targets Platform: supporting systematic drug-target identification and prioritisation. \textit{Nucleic Acids Research} 49, 2021. doi:10.1093/nar/gkaa1027.
+
+\bibitem{ghoussaini2021} Ghoussaini M, Mountjoy E, Carmona M, et al. Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics. \textit{Nucleic Acids Research} 49, 2021. doi:10.1093/nar/gkaa840.
+
+\bibitem{mountjoy2021} Mountjoy E, Schmidt EM, Carmona M, et al. An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci. \textit{Nature Genetics} 53, 2021.
+
+\bibitem{schipper2025} Schipper M, de Leeuw CA, Maciel BAPC, et al. Prioritizing effector genes at trait-associated loci using multimodal evidence. \textit{Nature Genetics} 57, 2025. doi:10.1038/s41588-025-02084-7.
+
+\bibitem{weeks2023} Weeks EM, Ulirsch JC, Cheng NY, et al. Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases. \textit{Nature Genetics} 55, 2023. doi:10.1038/s41588-023-01443-6.
+
+\bibitem{vasilevsky2022} Vasilevsky NA, Matentzoglu NA, Toro S, et al. Mondo: unifying diseases for the world, by the world. \textit{medRxiv}, 2022. doi:10.1101/2022.04.13.22273750.
+
+\bibitem{pineiro2020} Pi\~{n}ero J, Ram\'{i}rez-Anguita JM, Sa\"{u}ch-Pitarch J, et al. The DisGeNET knowledge platform for disease genomics: 2019 update. \textit{Nucleic Acids Research} 48, 2020.
+
+\bibitem{ashburner2000} Ashburner M, Ball CA, Blake JA, et al. Gene Ontology: tool for the unification of biology. \textit{Nature Genetics} 25, 2000.
+
+\bibitem{jassal2020} Jassal B, Matthews L, Viteri G, et al. The Reactome pathway knowledgebase. \textit{Nucleic Acids Research} 48, 2020.
+
+\bibitem{bastian2021} Bastian FB, Roux J, Niknejad A, et al. The Bgee suite: integrated curated expression atlas and comparative transcriptomics in animals. \textit{Nucleic Acids Research} 49, 2021.
+
+\bibitem{yang2015} Yang B, Yih WT, He X, Gao J, Deng L. Embedding entities and relations for learning and inference in knowledge bases. \textit{International Conference on Learning Representations}, 2015.
+
+\bibitem{corso2020} Corso G, Cavalleri L, Beaini D, Li\`{o} P, Velickovi\'{c} P. Principal neighbourhood aggregation for graph nets. \textit{Advances in Neural Information Processing Systems} 33, 2020.
+
+\bibitem{kingma2015} Kingma DP, Ba J. Adam: a method for stochastic optimization. \textit{International Conference on Learning Representations}, 2015.
+
+\bibitem{page1999} Page L, Brin S, Motwani R, Winograd T. The PageRank citation ranking: bringing order to the web. Stanford InfoLab Technical Report 1999-66, 1999.
+
+\bibitem{wilcoxon1945} Wilcoxon F. Individual comparisons by ranking methods. \textit{Biometrics Bulletin} 1, 1945.
+
+\bibitem{efron1987} Efron B. Better bootstrap confidence intervals. \textit{Journal of the American Statistical Association} 82, 1987.
+
+\bibitem{ying2019} Ying Z, Bourgeois D, You J, Zitnik M, Leskovec J. GNNExplainer: generating explanations for graph neural networks. \textit{Advances in Neural Information Processing Systems} 32, 2019.
+
+\bibitem{sundararajan2017} Sundararajan M, Taly A, Yan Q. Axiomatic attribution for deep networks. \textit{Proceedings of the 34th International Conference on Machine Learning}, 2017.
+
+\bibitem{jain2019} Jain S, Wallace BC. Attention is not explanation. \textit{Proceedings of NAACL-HLT}, 2019.
+
+\bibitem{subramanian2005} Subramanian A, Tamayo P, Mootha VK, et al. Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles. \textit{Proceedings of the National Academy of Sciences} 102, 2005. doi:10.1073/pnas.0506580102.
+
+\bibitem{liberzon2015} Liberzon A, Birger C, Thorvaldsd\'{o}ttir H, Ghandi M, Mesirov JP, Tamayo P. The Molecular Signatures Database hallmark gene set collection. \textit{Cell Systems} 1, 2015.
+
+\bibitem{lopezotin2013} L\'{o}pez-Ot\'{i}n C, Blasco MA, Partridge L, Serrano M, Kroemer G. The hallmarks of aging. \textit{Cell} 153, 2013.
+
+\bibitem{lopezotin2023} L\'{o}pez-Ot\'{i}n C, Blasco MA, Partridge L, Serrano M, Kroemer G. Hallmarks of aging: an expanding universe. \textit{Cell} 186, 2023.
+
+\bibitem{sollis2023} Sollis E, Mosaku A, Abid A, et al. The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource. \textit{Nucleic Acids Research} 51, 2023. doi:10.1093/nar/gkac1010.
+
+\bibitem{mclaren2016} McLaren W, Gil L, Hunt SE, et al. The Ensembl Variant Effect Predictor. \textit{Genome Biology} 17, 2016.
+
+\bibitem{ke2017} Ke G, Meng Q, Finley T, et al. LightGBM: a highly efficient gradient boosting decision tree. \textit{Advances in Neural Information Processing Systems} 30, 2017.
+
+\bibitem{chen2016} Chen T, Guestrin C. XGBoost: a scalable tree boosting system. \textit{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}, 2016.
+
+\bibitem{landrum2018} Landrum MJ, Lee JM, Benson M, et al. ClinVar: improving access to variant interpretations and supporting evidence. \textit{Nucleic Acids Research} 46, 2018.
+
+\bibitem{encode2020} ENCODE Project Consortium. Expanded encyclopaedias of DNA elements in the human and mouse genomes. \textit{Nature} 583, 2020.
+
+\bibitem{gtex2020} GTEx Consortium. The GTEx Consortium atlas of genetic regulatory effects across human tissues. \textit{Science} 369, 2020.
+
+\end{thebibliography}
+
+\clearpage
+\section*{Supplementary Tables}
+
+\small
+\begin{longtable}{@{}p{4.6cm} r r r r r@{}}
+\caption{Supplementary Table S1. Per-unit primary LODO results (one seed, 1337). The final column is the percentage of test positives within two background-graph hops of the target disease.}\\
+\toprule
+\textbf{Unit} & \textbf{Test} & \textbf{Model MRR} & \textbf{Degree} & \textbf{PPR} & \textbf{$\leq$2-hop \%} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Unit} & \textbf{Test} & \textbf{Model MRR} & \textbf{Degree} & \textbf{PPR} & \textbf{$\leq$2-hop \%} \\
+\midrule
+\endhead
+Permanent neonatal diabetes mellitus (MONDO:0100164) & 459 & 0.01662 & 0.0007 & 0.0144 & 47.9 \\
+Late-onset Parkinson disease (MONDO:0008199) & 57 & 0.01425 & 0.0016 & 0.0170 & 73.7 \\
+Alzheimer disease 3 (MONDO:0011913) & 68 & 0.01292 & 0.0057 & 0.0157 & 64.7 \\
+Hutchinson-Gilford progeria (MONDO:0008310) & 394 & 0.00918 & 0.0070 & 0.0022 & 64.0 \\
+Renal cysts and diabetes (MONDO:0007669) & 258 & 0.00811 & 0.0015 & 0.0137 & 90.7 \\
+Werner syndrome (MONDO:0010196) & 730 & 0.00788 & 0.0062 & 0.0031 & 83.8 \\
+Fontaine progeroid syndrome (MONDO:0012853) & 201 & 0.00681 & 0.0128 & 0.0017 & 91.0 \\
+Permanent neonatal diabetes mellitus with pancreatic and cerebellar agenesis (MONDO:0012192) & 281 & 0.00582 & 0.0075 & 0.0009 & 78.6 \\
+Maternally-inherited diabetes and deafness (MONDO:0010785) & 96 & 0.00511 & 0.0014 & 0.0082 & 77.1 \\
+Mandibular hypoplasia-deafness-progeroid syndrome (MONDO:0014157) & 52 & 0.00470 & 0.0018 & 0.0018 & 94.2 \\
+Diabetes mellitus transient neonatal 3 (MONDO:0012522) & 251 & 0.00455 & 0.0013 & 0.0019 & 45.0 \\
+Permanent neonatal diabetes mellitus 1 (MONDO:0100165) & 329 & 0.00313 & 0.0007 & 0.0028 & 49.2 \\
+Parkinson disease 25, autosomal recessive (MONDO:0957576) & 127 & 0.00243 & 0.0006 & 0.0031 & 41.7 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{@{}p{5.2cm} r r r p{2.2cm}@{}}
+\caption{Supplementary Table S2. Per-unit secondary LODO results (one seed, 1337).}\\
+\toprule
+\textbf{Unit} & \textbf{Test MRR} & \textbf{Hits at 10} & \textbf{Best null} & \textbf{Outcome} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Unit} & \textbf{Test MRR} & \textbf{Hits at 10} & \textbf{Best null} & \textbf{Outcome} \\
+\midrule
+\endhead
+Maturity-onset diabetes of the young (MONDO:0018911) & 0.04142 & 0.042 & 0.0799 (PPR) & Below null \\
+Acroosteolysis keloid-like syndrome (MONDO:0011150) & 0.02230 & 0.062 & 0.0068 (PPR) & Beat null \\
+Nestor-Guillermo progeria syndrome (MONDO:0013523) & 0.01780 & 0.031 & 0.0358 (PPR) & Below null \\
+LMNA-related cardiocutaneous progeria (MONDO:0018203) & 0.01015 & 0.015 & 0.0062 (degree) & Beat null \\
+Young-onset Parkinson disease (MONDO:0017279) & 0.00885 & 0.005 & 0.0092 (PPR) & Below null \\
+Ehlers-Danlos syndrome, progeroid type (Orphanet:75496) & 0.00651 & 0.000 & 0.0079 (PPR) & Below null \\
+Juvenile Parkinson disease (MONDO:0000828) & 0.00632 & 0.006 & 0.0087 (PPR) & Below null \\
+Diabetes mellitus permanent neonatal 4 (MONDO:0030089) & 0.00524 & 0.010 & 0.0024 (PPR) & Beat null \\
+Early-onset autosomal dominant Alzheimer disease (MONDO:0015140) & 0.00487 & 0.010 & 0.0057 (PPR) & Below null \\
+Skin aging (EFO:0005422) & 0.00466 & 0.005 & 0.0157 (degree) & Below null \\
+Familial Alzheimer disease (MONDO:0100087) & 0.00417 & 0.009 & 0.0052 (degree) & Below null \\
+Alzheimer disease type 1 (MONDO:0007088) & 0.00366 & 0.000 & 0.0090 (PPR) & Below null \\
+Atypical Werner syndrome (MONDO:0019321) & 0.00352 & 0.000 & 0.0027 (degree) & Beat null \\
+Progeroid features-hepatocellular carcinoma predisposition (MONDO:0014527) & 0.00296 & 0.000 & 0.0100 (degree) & Below null \\
+Diabetes mellitus transient neonatal 2 (MONDO:0012480) & 0.00294 & 0.003 & 0.0189 (PPR) & Below null \\
+Transient neonatal diabetes mellitus (MONDO:0020525) & 0.00132 & 0.001 & 0.0035 (degree) & Below null \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{@{}p{3.4cm} p{11.6cm}@{}}
+\caption{Supplementary Table S3. Withheld disease clusters. Units in the same cluster share the withheld set and are not independent evaluation units.}\\
+\toprule
+\textbf{Cluster} & \textbf{Member diseases} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Cluster} & \textbf{Member diseases} \\
+\midrule
+\endhead
+Progeria & Werner syndrome; atypical Werner syndrome; Hutchinson-Gilford progeria syndrome; LMNA-related cardiocutaneous progeria syndrome; Fontaine progeroid syndrome; skin aging \\
+Familial Alzheimer & Familial Alzheimer disease; early-onset autosomal dominant Alzheimer disease; Alzheimer disease 3; Alzheimer disease type 1 \\
+Parkinson & Juvenile Parkinson disease; young-onset Parkinson disease; late-onset Parkinson disease; Parkinson disease 25, autosomal recessive \\
+MODY & Maturity-onset diabetes of the young; renal cysts and diabetes syndrome \\
+Neonatal diabetes & Permanent neonatal diabetes mellitus with pancreatic and cerebellar agenesis; diabetes mellitus transient neonatal 3; transient neonatal diabetes mellitus; diabetes mellitus transient neonatal 2; diabetes mellitus permanent neonatal 4; permanent neonatal diabetes mellitus; permanent neonatal diabetes mellitus 1 \\
+Singletons & Mandibular hypoplasia-deafness-progeroid syndrome; maternally-inherited diabetes and deafness; Nestor-Guillermo progeria syndrome; acroosteolysis keloid-like syndrome; Ehlers-Danlos syndrome, progeroid type; progeroid features-hepatocellular carcinoma predisposition \\
+\bottomrule
+\end{longtable}
+
+\end{document}
